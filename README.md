@@ -85,7 +85,7 @@ pip install akshare
 
 ## 找到本项目
 
-搜索引擎搜 **A股日历 / 中国股市事件 / 股票大事件 / stock calendar china**，或在 GitHub 搜索 **a-share / A股 / 股市 / 股票事件 日历**，都能直达本仓库。国内访问 GitHub 仓库页有困难时，README 图片经 jsDelivr 渲染，正文即为完整介绍。
+搜索引擎搜 **A股日历 / 股市日历 / 股市事件日历 / 中国股市事件 / 股票大事件 / stock calendar china**，或在 GitHub 搜索 **a-share / A股 / 股市 / 股票事件 日历**，都能直达本仓库。国内访问 GitHub 仓库页有困难时，README 图片经 jsDelivr 渲染，正文即为完整介绍。
 
 ## License
 
