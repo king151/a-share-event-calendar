@@ -83,6 +83,7 @@ CREATE TABLE IF NOT EXISTS events(
   signal_date TEXT,                  -- 发生日（首次公开）
   land_date  TEXT,                   -- 落地日（施行/执行）
   status     TEXT,                   -- 待落地 / 已落地 / 关注中
+  scope      TEXT DEFAULT 'watch',   -- watch=正式日历 / archive=存档（不进日历）
   market     TEXT DEFAULT 'A股',     -- 市场视野：A股 / 港股 / 外资（默认A股）
   amount_yi  REAL,                   -- 金额（亿元，数值化，供水位图）
   amount     TEXT,                   -- 金额描述
@@ -117,6 +118,15 @@ def dbconn():
 def init_db():
     conn = dbconn()
     conn.executescript(SCHEMA)
+    # 旧库列补齐（schema 漂移防护：随版本演进给存量库 ALTER 补列）
+    cols_t = {r[1] for r in conn.execute("PRAGMA table_info(telegrams)")}
+    if "fclass" not in cols_t:
+        conn.execute("ALTER TABLE telegrams ADD COLUMN fclass TEXT DEFAULT 'mid'")
+    cols_e = {r[1] for r in conn.execute("PRAGMA table_info(events)")}
+    if "scope" not in cols_e:
+        conn.execute("ALTER TABLE events ADD COLUMN scope TEXT DEFAULT 'watch'")
+    if "market" not in cols_e:
+        conn.execute("ALTER TABLE events ADD COLUMN market TEXT DEFAULT 'A股'")
     conn.commit()
     conn.close()
 
