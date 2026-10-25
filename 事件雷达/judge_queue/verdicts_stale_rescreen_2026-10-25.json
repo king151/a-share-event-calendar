@@ -1,0 +1,4868 @@
+[
+ {
+  "id": 15,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 65,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 75,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 93,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 140,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 333,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 444,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 588,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 650,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 701,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 795,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 885,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 900,
+  "is_event": true,
+  "event": {
+   "key": "Meta-未来支出承诺-20261022",
+   "name": "Meta未来支出承诺总额达8250亿美元，涉AI算力/数据中心/能源基建",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "资本开支"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-22",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 59400,
+   "amount_yi_raw": null,
+   "amount": "未来支出承诺总额达8250亿美元（约合5.94万亿元）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Meta%E6%9C%AA%E6%9D%A5%E6%94%AF%E5%87%BA%E6%89%BF%E8%AF%BA%E6%80%BB%E9%A2%9D",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "Meta未来支出承诺总额达8250亿美元，涉及AI算力、数据中心及能源基础设施；同日披露拟发行新类别股票"
+    }
+   ],
+   "watch": [],
+   "notes": "AI资本开支周期总量级锚点（与微软1750亿美元capex互为参照）。"
+  }
+ },
+ {
+  "id": 962,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1053,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1116,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1135,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1259,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1342,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1374,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1382,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1417,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1432,
+  "is_event": true,
+  "event": {
+   "key": "Meta-隐私内容审核罚款-20261022",
+   "name": "Meta因隐私及内容审核问题被判支付250亿美元罚款",
+   "category": "监管处罚",
+   "tags": [
+    "监管处罚",
+    "隐私合规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-22",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 1800,
+   "amount_yi_raw": null,
+   "amount": "被判支付250亿美元（约合1800亿元人民币）",
+   "sector": "海外监管",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Meta%E5%9B%A0%E9%9A%90%E7%A7%81%E5%8F%8A%E5%86%85%E5%AE%B9%E5%AE%A1%E6%A0%B8",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "Meta因隐私及内容审核问题被判支付250亿美元罚款"
+    }
+   ],
+   "watch": [],
+   "notes": "与9-26新墨西哥州案并列的Meta诉讼金序列（金额以判决文书为准）。"
+  }
+ },
+ {
+  "id": 1434,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1561,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1696,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1761,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1842,
+  "is_event": true,
+  "event": {
+   "key": "陇电入川-核准批复-20261021",
+   "name": "陇电入川特高压外送工程获核准批复",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "特高压",
+    "核准"
+   ],
+   "importance": "中",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-21",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": null,
+   "amount_yi_raw": null,
+   "amount": "无直接金额（项目总投资以后续公告为准）",
+   "sector": "电力设备",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E9%99%87%E7%94%B5%E5%85%A5%E5%B7%9D%E7%89%B9%E9%AB%98%E5%8E%8B%E5%A4%96%E9%80%81%E5%B7%A5%E7%A8%8B%E8%8E%B7",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "label": "陇电入川工程获核准批复，甘肃再添清洁能源外送大动脉"
+    }
+   ],
+   "watch": [],
+   "notes": "特高压核准序列（与「蒙电入皖约218亿元征集投资」同主题，电网设备链跟踪锚点）。"
+  }
+ },
+ {
+  "id": 1880,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1900,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1981,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 1992,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2098,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2203,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2246,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2256,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2268,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2302,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2334,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2547,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2548,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2596,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2607,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2702,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2719,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2742,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2811,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2833,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2872,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2915,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 2953,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3240,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3273,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3323,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3340,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3485,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3526,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3558,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3636,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3638,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3713,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3739,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3808,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3900,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 3990,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4000,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4100,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4180,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4228,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4279,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4562,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4628,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4670,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 4706,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5123,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5158,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5196,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5201,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5272,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5279,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5307,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5321,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5361,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5414,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5416,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5455,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5480,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5559,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5622,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5623,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5706,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5718,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5761,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5762,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5813,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 5948,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6107,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6218,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6236,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6238,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6259,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6314,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6342,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6377,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6490,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6504,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6505,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6631,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6648,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6662,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6823,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6871,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6882,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6889,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 6900,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7063,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7122,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7173,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7194,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7218,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7245,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7359,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7373,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7404,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7433,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7500,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7506,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7601,
+  "is_event": true,
+  "event": {
+   "key": "华虹宏力-无锡三期增资-20261008",
+   "name": "华虹宏力旗下无锡三期增资约41.6亿美元，大基金三期旗下基金等入股",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体",
+    "大基金三期"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-08",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 298,
+   "amount_yi_raw": null,
+   "amount": "增资约41.6亿美元（约合298亿元人民币）",
+   "sector": "半导体",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%8D%8E%E8%99%B9%E5%AE%8F%E5%8A%9B%E6%97%97%E4%B8%8B%E6%97%A0%E9%94%A1%E4%B8%89%E6%9C%9F%E5%A2%9E%E8%B5%84",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-08",
+     "label": "华虹宏力旗下无锡三期半导体公司增资约41.6亿美元，国家大基金三期旗下基金等入股"
+    }
+   ],
+   "watch": [],
+   "notes": "大基金三期首批标志性出资（此前9-1披露拟增资建月产能5.5万片/月12英寸产线）。"
+  }
+ },
+ {
+  "id": 7696,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7709,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7713,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7781,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7819,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7844,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7876,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 7937,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8036,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8196,
+  "is_event": true,
+  "event": {
+   "key": "派拉蒙-完成收购华纳-20261006",
+   "name": "派拉蒙天舞完成收购华纳兄弟探索，好莱坞历史性交易落定",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "并购",
+    "传媒"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-06",
+   "land_date": "2026-10-06",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount_yi_raw": null,
+   "amount": "交易对价以官方披露为准（好莱坞史上最大并购之一）",
+   "sector": "海外传媒",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E6%B4%BE%E6%8B%89%E8%92%99%E5%A4%A9%E8%88%9E%E5%AE%8C%E6%88%90%E6%94%B6%E8%B4%AD%E5%8D%8E%E7%BA%B3%E5%85%84",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-22",
+     "label": "就收购华纳兄弟案与多个州达成和解"
+    },
+    {
+     "date": "2026-10-06",
+     "label": "完成收购华纳兄弟探索，好莱坞历史性交易落定"
+    }
+   ],
+   "watch": [],
+   "notes": "传媒产业整合里程碑；对价金额待官方查证后回补。"
+  }
+ },
+ {
+  "id": 8208,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8310,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8348,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8360,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8376,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8399,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8403,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8597,
+  "is_event": true,
+  "event": {
+   "key": "施耐德电气-收购PTC-20261005",
+   "name": "施耐德电气接近以约200亿美元收购工业软件企业PTC",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "工业软件",
+    "并购"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-05",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 1440,
+   "amount_yi_raw": null,
+   "amount": "约200亿美元（约合1440亿元人民币）",
+   "sector": "工业软件",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E6%96%BD%E8%80%90%E5%BE%B7%E7%94%B5%E6%B0%94%E6%8E%A5%E8%BF%91%E4%BB%A5%E7%BA%A6200",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-05",
+     "label": "据报道：接近达成收购PTC交易，最早可能于周内官宣"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "已启动约60亿欧元增资计划，用于为收购PTC的交割提供资金"
+    }
+   ],
+   "watch": [],
+   "notes": "全球工业软件格局重整大单；官宣与对价待查证。"
+  }
+ },
+ {
+  "id": 8729,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8830,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8972,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 8998,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9000,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9081,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9083,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9154,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9194,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9267,
+  "is_event": true,
+  "event": {
+   "key": "软银-OpenAI累计投资-20261001",
+   "name": "软银完成对OpenAI追加投资最后一笔100亿美元，累计投资达646亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-01",
+   "land_date": "2026-10-01",
+   "status": "已落地",
+   "amount_yi": 4650,
+   "amount_yi_raw": null,
+   "amount": "累计投资达646亿美元（约合4650亿元人民币）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%BD%AF%E9%93%B6%E5%AE%8C%E6%88%90%E5%AF%B9OpenAI%E8%BF%BD",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-01",
+     "label": "软银完成对OpenAI追加投资的最后一笔100亿美元，累计投资达646亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "软银全力押注OpenAI的资金链锚点（8-6曾签订100亿美元以OpenAI股份为担保的贷款；后续110亿美元高收益债多为该投资融资）。"
+  }
+ },
+ {
+  "id": 9276,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9316,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9323,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9350,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9395,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9408,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9432,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9441,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9458,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9470,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9536,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9551,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9570,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9607,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9613,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9614,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9628,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9640,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9687,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9690,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9755,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9839,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9854,
+  "is_event": true,
+  "event": {
+   "key": "注资特别国债-一期发行-20260930",
+   "name": "财政部拟发行1500亿元中央金融机构注资特别国债（一期）",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "特别国债",
+    "银行资本"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-09-30",
+   "land_date": "2026-10-08",
+   "status": "已落地",
+   "amount_yi": 1500,
+   "amount_yi_raw": null,
+   "amount": "一期规模1500亿元（用于中央金融机构注资）",
+   "sector": "银行/财政",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%B4%A2%E6%94%BF%E9%83%A8%E6%8B%9F%E5%8F%91%E8%A1%8C1500%E4%BA%BF%E5%85%83",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-30",
+     "label": "财政部公告：拟于10月8日发行2026年中央金融机构注资特别国债（一期），规模1500亿元"
+    },
+    {
+     "date": "2026-10-08",
+     "label": "财政部发行中央金融机构注资特别国债"
+    }
+   ],
+   "watch": [],
+   "notes": "大行注资落地通道（另见工行9-6披露拟募资不超1000亿元补充资本等个案）。"
+  }
+ },
+ {
+  "id": 9883,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9904,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9937,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9944,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 9963,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10042,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10063,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10125,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10165,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10182,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10192,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10195,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10422,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10457,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10478,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10480,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10586,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10588,
+  "is_event": true,
+  "event": {
+   "key": "长鑫科技-研发及测试基地投资-20260928",
+   "name": "长鑫科技拟241亿元+108亿元投建技术研发项目及存储器晶圆后道测试基地二期",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体存储"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-09-28",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 349,
+   "amount_yi_raw": null,
+   "amount": "合计约349亿元（241亿元技术研发项目+108亿元后道测试基地二期）",
+   "sector": "半导体存储",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E6%8B%9F241%E4%BA%BF%E5%85%83%2B1",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-28",
+     "label": "长鑫科技公告：拟241亿元、108亿元分别投建技术研发项目、存储器晶圆后道测试基地二期项目"
+    }
+   ],
+   "watch": [],
+   "notes": "存储国产化产能二阶投资；上市后再融资式capex信号。"
+  }
+ },
+ {
+  "id": 10608,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10631,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10649,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10667,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10671,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 10810,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11017,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11023,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11294,
+  "is_event": true,
+  "event": {
+   "key": "Meta-新墨西哥州罚款案-20260926",
+   "name": "Meta在美国新墨西哥州败诉，或面临最高2190亿美元罚款",
+   "category": "监管处罚",
+   "tags": [
+    "监管处罚",
+    "隐私合规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-09-26",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": null,
+   "amount_yi_raw": null,
+   "amount": "或面临高达2190亿美元罚款（约合1.57万亿元，金额未最终确定，待官方核实）",
+   "sector": "海外监管",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Meta%E5%9C%A8%E7%BE%8E%E5%9B%BD%E6%96%B0%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%B7%9E",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-26",
+     "label": "Meta在美国新墨西哥州败诉，或面临高达2190亿美元罚款"
+    }
+   ],
+   "watch": [],
+   "notes": "金额夸张待核实；另案：10-22因隐私及内容审核问题被判支付250亿美元（见同名事件）。"
+  }
+ },
+ {
+  "id": 11297,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11357,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11436,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11499,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11527,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11555,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11559,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11561,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11564,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11578,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11580,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11581,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11671,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11774,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11807,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11810,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11814,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11909,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11914,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11922,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 11930,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12074,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12112,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12189,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12219,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12367,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12368,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12405,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12541,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12564,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12604,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12641,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12821,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 12959,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13047,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13084,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13214,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13286,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13293,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13299,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13376,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13435,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13538,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13595,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13668,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13741,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13755,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13756,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13793,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13799,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13801,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13828,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13866,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13907,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13945,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 13992,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 14047,
+  "is_event": true,
+  "event": {
+   "key": "广西-金融业十五五规划-20260919",
+   "name": "广西印发金融业“十五五”规划：构建不低于500亿元AI基金集群",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "产业基金",
+    "AI"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-09-19",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 500,
+   "amount_yi_raw": null,
+   "amount": "规划构建总规模不低于500亿元的人工智能领域基金集群",
+   "sector": "广西/金融",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%B9%BF%E8%A5%BF%E5%8D%B0%E5%8F%91%E9%87%91%E8%9E%8D%E4%B8%9A%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-19",
+     "label": "《广西金融业发展“十五五”规划》印发，加快构建总规模不低于500亿元的人工智能领域基金集群"
+    }
+   ],
+   "watch": [],
+   "notes": "省级“十五五”金融规划政策锚点。"
+  }
+ },
+ {
+  "id": 14125,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 14146,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 14373,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 14515,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 14651,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 14672,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 14727,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 14919,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15020,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15047,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15061,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15076,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15089,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15189,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15246,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15280,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15353,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15496,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15504,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15542,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15615,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15630,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15631,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15658,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15665,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15809,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15963,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 15989,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16052,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16078,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16081,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16084,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16122,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16150,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16189,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16239,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16243,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16356,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16382,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16457,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16465,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16476,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16592,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16595,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16621,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16656,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16676,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16692,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16956,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 16963,
+  "is_event": true,
+  "event": {
+   "key": "Anthropic-Rum算力协议-20260914",
+   "name": "Anthropic与Rum Group达成137亿美元AI算力协议",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-09-14",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 985,
+   "amount_yi_raw": null,
+   "amount": "137亿美元（约合985亿元人民币）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Anthropic%E4%B8%8ERu",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-14",
+     "label": "Anthropic与Rum Group达成137亿美元算力协议"
+    }
+   ],
+   "watch": [],
+   "notes": "Anthropic算力大单序列锚点（后有Akamai 116亿美元、1吉瓦数据中心400亿美元投资洽谈等）。"
+  }
+ },
+ {
+  "id": 17167,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17268,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17310,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17325,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17444,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17562,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17569,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17602,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17852,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17906,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17913,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17940,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 17950,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18106,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18315,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18336,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18344,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18386,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18401,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18491,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18493,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18538,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18590,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18594,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18639,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18641,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18663,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18742,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18754,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18758,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18766,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18844,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18854,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18911,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 18999,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19205,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19246,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19248,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19264,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19282,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19284,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19395,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19431,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19620,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19730,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 19751,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20012,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20088,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20126,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20218,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20254,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20265,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20297,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20312,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20430,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20448,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20487,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20539,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20709,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20759,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20765,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20850,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20921,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20968,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 20996,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21308,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21376,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21422,
+  "is_event": true,
+  "event": {
+   "key": "字节跳动-银团贷款-20260903",
+   "name": "字节跳动将获得约296亿美元银团贷款",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "融资"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-09-03",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 2100,
+   "amount_yi_raw": null,
+   "amount": "约296亿美元（约合2100亿元人民币）银团贷款",
+   "sector": "字节/AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%B0%86%E8%8E%B7%E5%BE%97%E7%BA%A6296%E4%BA%BF",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-03",
+     "label": "据报道：字节跳动将获得约296亿美元银团贷款"
+    }
+   ],
+   "watch": [],
+   "notes": "中国AI巨头最大规模外币融资；用途/结构待查证。"
+  }
+ },
+ {
+  "id": 21636,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21653,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21657,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21803,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21898,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21932,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 21954,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22035,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22205,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22260,
+  "is_event": true,
+  "event": {
+   "key": "英伟达-收购HuggingFace-20260902",
+   "name": "英伟达据悉即将达成以近140亿美元收购Hugging Face",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "并购"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-09-02",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 1008,
+   "amount_yi_raw": null,
+   "amount": "接近140亿美元（约合1008亿元人民币）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%8D%AE%E6%82%89%E5%8D%B3%E5%B0%86%E8%BE%BE%E6%88%90%E4%BB%A5%E8%BF%911",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-27",
+     "label": "据悉洽谈以超130亿美元收购Hugging Face"
+    },
+    {
+     "date": "2026-09-02",
+     "label": "据悉即将达成近140亿美元收购协议"
+    }
+   ],
+   "watch": [],
+   "notes": "AI开源社区头部标的并购主题；协议官宣与否待查证，落地日后补。"
+  }
+ },
+ {
+  "id": 22359,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22395,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22528,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22589,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22854,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22884,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22912,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22951,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22952,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 22996,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23012,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23040,
+  "is_event": true,
+  "event": {
+   "key": "英伟达-投资联发科-20260831",
+   "name": "英伟达宣布将向联发科投资35亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-31",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 252,
+   "amount_yi_raw": null,
+   "amount": "35亿美元（约合252亿元人民币）",
+   "sector": "海外半导体",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%AE%A3%E5%B8%83%E5%B0%86%E5%90%91%E8%81%94%E5%8F%91%E7%A7%91%E6%8A%95%E8%B5%84",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-31",
+     "label": "联发科同日完成39亿美元可转债定价（Alphabet参与），英伟达宣布将向其投资35亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "英伟达AI生态横向绑定；联发科年内另有50亿美元无担保债券发行（7-31）。"
+  }
+ },
+ {
+  "id": 23105,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23114,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23126,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23167,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23190,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23303,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23338,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23372,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23431,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23448,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23465,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23481,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23498,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23517,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23523,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23551,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23679,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23732,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23733,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23905,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 23975,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24058,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24092,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24350,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24396,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24607,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24615,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24620,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24696,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24750,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24793,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24800,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24850,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 24875,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25028,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25050,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25103,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25145,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25293,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25327,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25514,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25527,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25535,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25650,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25746,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25868,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 25925,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26061,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26112,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26114,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26150,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26173,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26201,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26261,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26294,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26325,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26383,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26428,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26443,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26465,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26554,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26559,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26568,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26581,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26594,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26669,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26686,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26748,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26807,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26815,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26883,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26909,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26958,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 26968,
+  "is_event": true,
+  "event": {
+   "key": "阿里巴巴-800亿港元配售-20260823",
+   "name": "阿里巴巴拟配售800亿港元新股，全部投入AI建设",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "再融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-08-23",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 735,
+   "amount_yi_raw": null,
+   "amount": "拟配售800亿港元（约合735亿元人民币）新股",
+   "sector": "互联网/AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%8B%9F%E9%85%8D%E5%94%AE800%E4%BA%BF%E6%B8%AF",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-23",
+     "label": "拟配售800亿港元新股，全部投入AI建设；CEO称AI基建投入已达1900亿元、CapEx预计三年内回本"
+    },
+    {
+     "date": "2026-08-24",
+     "label": "配售获近3倍超额认购，主权及长线基金最终认购比例超40%"
+    }
+   ],
+   "watch": [],
+   "notes": "中概AI资本开支周期最强募资锚点；其后10月腾讯等亦有大额发债用于AI。"
+  }
+ },
+ {
+  "id": 26979,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27025,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27028,
+  "is_event": true,
+  "event": {
+   "key": "绿色算力大会-签约项目-20260822",
+   "name": "2026绿色算力大会现场签约13个项目、总投资1361亿元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "算力",
+    "绿色低碳"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-22",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 1361,
+   "amount_yi_raw": null,
+   "amount": "签约13个项目、总投资1361亿元",
+   "sector": "算力",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=2026%E7%BB%BF%E8%89%B2%E7%AE%97%E5%8A%9B%E5%A4%A7%E4%BC%9A%E7%8E%B0%E5%9C%BA",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-22",
+     "label": "2026绿色算力大会签约13个项目，总投资1361亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "国内算力基建投资热度锚点。"
+  }
+ },
+ {
+  "id": 27043,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27146,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27181,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27191,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27292,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27664,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27676,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27687,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27692,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27697,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27702,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27757,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 27859,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28044,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28124,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28271,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28279,
+  "is_event": true,
+  "event": {
+   "key": "Stripe-收购OpenRouter-20260820",
+   "name": "Stripe宣布与AI模型聚合平台OpenRouter达成收购协议",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "并购"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-08-20",
+   "land_date": "2026-08-20",
+   "status": "已落地",
+   "amount_yi": 504,
+   "amount_yi_raw": null,
+   "amount": "逾70亿美元（约合504亿元，报道口径）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Stripe%E5%AE%A3%E5%B8%83%E4%B8%8EAI%E6%A8%A1",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-17",
+     "label": "据悉即将达成，金额超过70亿美元"
+    },
+    {
+     "date": "2026-08-20",
+     "label": "宣布已达成收购协议（此前经独家谈判，估值约逾70亿美元）"
+    }
+   ],
+   "watch": [],
+   "notes": "支付巨头对AI模型入口层的整合；官方交易金额待查证。"
+  }
+ },
+ {
+  "id": 28286,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28364,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28489,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28509,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28651,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28856,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28864,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28882,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28897,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28905,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28936,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 28990,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29008,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29017,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29125,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29163,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29175,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29184,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29272,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29275,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29276,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29351,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29398,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29471,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29508,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29566,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29587,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29602,
+  "is_event": true,
+  "event": {
+   "key": "英伟达-OpenAI俄亥俄担保-20260817",
+   "name": "英伟达为OpenAI俄亥俄州AI数据中心提供最高1050亿美元融资担保",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-08-17",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 7560,
+   "amount_yi_raw": null,
+   "amount": "最高1050亿美元（约合7560亿元人民币）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%BAOpenAI%E4%BF%84%E4%BA%A5",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "label": "早前报道：洽谈为OpenAI俄亥俄数据中心项目提供约2500亿美元财务担保（传闻级）"
+    },
+    {
+     "date": "2026-08-17",
+     "label": "宣布：为OpenAI俄亥俄州AI数据中心提供最高1050亿美元担保"
+    }
+   ],
+   "watch": [],
+   "notes": "AI「循环融资」风险的标志性事件（新债王冈拉克：预示市场或见顶），后有Anthropic签约合同总值超1800亿美元等跟进。"
+  }
+ },
+ {
+  "id": 29617,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29641,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29658,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29710,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 29831,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30023,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30094,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30123,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30130,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30191,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30200,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30375,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30406,
+  "is_event": true,
+  "event": {
+   "key": "SpaceX-收购Cursor-20260814",
+   "name": "SpaceX完成对AI编程公司Cursor的600亿美元收购",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "并购"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-08-14",
+   "land_date": "2026-08-14",
+   "status": "已落地",
+   "amount_yi": 4270,
+   "amount_yi_raw": null,
+   "amount": "约600亿美元（约合4270亿元人民币）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=SpaceX%E5%AE%8C%E6%88%90%E5%AF%B9AI%E7%BC%96",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "label": "报道：马斯克加码AI竞赛，SpaceX完成对Cursor的600亿美元收购"
+    }
+   ],
+   "watch": [],
+   "notes": "AI编程/AI应用层史诗级并购（以报道口径记录，官方文件待查证）。"
+  }
+ },
+ {
+  "id": 30445,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30529,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30532,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30536,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30537,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30555,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30564,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30732,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30745,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30753,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30796,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30854,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30863,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30871,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30896,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30936,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30946,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31071,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31093,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31115,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31125,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31136,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31164,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31207,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31345,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31404,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31424,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31447,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31449,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31469,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31488,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31509,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31553,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31576,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31657,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31663,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31677,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31720,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31726,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31809,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31835,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31869,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31874,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32005,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32013,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32026,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32045,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32119,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32132,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32205,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32223,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32288,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32375,
+  "is_event": true,
+  "event": {
+   "key": "英特尔-200亿美元增发-20260811",
+   "name": "英特尔上调并定价200亿美元普通股发行（每股95美元）",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体",
+    "再融资"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-08-11",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 1440,
+   "amount_yi_raw": null,
+   "amount": "上调并定价200亿美元（约合1440亿元人民币，2.105亿股@95美元）",
+   "sector": "海外半导体",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8A%E8%B0%83%E5%B9%B6%E5%AE%9A%E4%BB%B7200%E4%BA%BF",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-10",
+     "label": "宣布拟议150亿美元普通股发行计划"
+    },
+    {
+     "date": "2026-08-11",
+     "label": "宣布扩大并定价200亿美元普通股发行（每股95美元）"
+    }
+   ],
+   "watch": [],
+   "notes": "芯片巨头罕见的股权摊薄型大规模融资。"
+  }
+ },
+ {
+  "id": 32462,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32537,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32558,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32582,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32587,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32623,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32632,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32684,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32694,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32698,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32711,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32758,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32762,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32766,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32771,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32788,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32812,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32860,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32895,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32907,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33146,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33194,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33392,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33449,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33466,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33488,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33518,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33696,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33948,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34039,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34049,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34056,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34194,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34220,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34267,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34323,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34349,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34404,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34424,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34447,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34484,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34537,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34546,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34556,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34561,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34581,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34589,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34705,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34865,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35005,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35127,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35130,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35137,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35202,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35282,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35315,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35325,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35336,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35343,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35380,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35451,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35497,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35520,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35599,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35691,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35692,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35717,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35778,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35795,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35888,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35909,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35966,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36008,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36128,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36180,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36181,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36229,
+  "is_event": true,
+  "event": {
+   "key": "恒力重工-新造船订单-20260802",
+   "name": "恒力重工7月承接46艘新造船订单、总金额超300亿元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "造船"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-02",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 300,
+   "amount_yi_raw": null,
+   "amount": "7月单月承接46艘，总金额超300亿元",
+   "sector": "造船",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E6%81%92%E5%8A%9B%E9%87%8D%E5%B7%A57%E6%9C%88%E6%89%BF%E6%8E%A546%E8%89%98%E6%96%B0",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-02",
+     "label": "恒力重工7月承接46艘新造船订单，总金额超300亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "新造船周期景气锚点（隔日：旗下大连造船增资至190亿元）。"
+  }
+ },
+ {
+  "id": 36517,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36523,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36596,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36661,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36707,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36715,
+  "is_event": true,
+  "event": {
+   "key": "亚马逊-投资OpenAI-20260731",
+   "name": "亚马逊披露Q2向OpenAI投资137亿美元、上半年累计287亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-07-31",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 2070,
+   "amount_yi_raw": null,
+   "amount": "Q2投资137亿美元，上半年累计287亿美元（约2070亿元）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%8A%AB%E9%9C%B2Q2%E5%90%91Open",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "季报披露：Q2向OpenAI的C轮优先股投资137亿美元，上半年累计287亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "云巨头绑定OpenAI的资金流向锚点；同日CEO称订单积压达4960亿美元。"
+  }
+ },
+ {
+  "id": 36840,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36855,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36904,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37008,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37018,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37050,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37082,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37143,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37147,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37168,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37176,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37178,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37180,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37183,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37403,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37553,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37577,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37653,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37658,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37779,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37799,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37800,
+  "is_event": true,
+  "event": {
+   "key": "微软-2027财年资本开支-20260730",
+   "name": "微软预计2027财年资本支出将达1750亿美元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "AI算力",
+    "资本开支"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-07-30",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 12600,
+   "amount_yi_raw": null,
+   "amount": "2027财年资本支出预计达1750亿美元（约合1.26万亿元人民币）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%BE%AE%E8%BD%AF%E9%A2%84%E8%AE%A12027%E8%B4%A2%E5%B9%B4%E8%B5%84%E6%9C%AC",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "label": "财报电话会：预计2027财年资本支出将达1750亿美元；Azure云业务同比增长43%"
+    }
+   ],
+   "watch": [],
+   "notes": "全球AI资本开支超级周期最大单一公司锚点（另有Meta支出承诺8250亿美元等）。"
+  }
+ },
+ {
+  "id": 37806,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37808,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37810,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37844,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37900,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37909,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37967,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38033,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38042,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38047,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38097,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38106,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38162,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38184,
+  "is_event": true,
+  "event": {
+   "key": "山西-制造业振兴升级基金-20260729",
+   "name": "山西省制造业振兴升级股权投资基金登记成立，出资额100.1亿元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "产业基金",
+    "制造业"
+   ],
+   "importance": "中",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-07-29",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 100.1,
+   "amount_yi_raw": null,
+   "amount": "出资额100.1亿元",
+   "sector": "山西/制造业",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%B1%B1%E8%A5%BF%E7%9C%81%E5%88%B6%E9%80%A0%E4%B8%9A%E6%8C%AF%E5%85%B4%E5%8D%87%E7%BA%A7%E8%82%A1%E6%9D%83",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-29",
+     "label": "山西省制造业振兴升级股权投资基金登记成立，出资额100.1亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "省级制造业引导基金；政府性产业基金按口径建记。"
+  }
+ },
+ {
+  "id": 38254,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38255,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38380,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38397,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38599,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38642,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38681,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38729,
+  "is_event": true,
+  "event": {
+   "key": "Meta贝莱德-ElPaso数据中心-20260728",
+   "name": "Meta与贝莱德拟在得州El Paso开发140亿美元级数据中心园区",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "AI算力",
+    "海外基建"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-28",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 1008,
+   "amount_yi_raw": null,
+   "amount": "总开发成本约140亿美元（约合1008亿元人民币）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Meta%E4%B8%8E%E8%B4%9D%E8%8E%B1%E5%BE%B7%E6%8B%9F%E5%9C%A8%E5%BE%97%E5%B7%9E",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "label": "报道：META和贝莱德将在得州El Paso开发数据中心园区，总开发成本约140亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "全球AI资本开支潮的园区级样本之一。"
+  }
+ },
+ {
+  "id": 38731,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38843,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38921,
+  "is_event": true,
+  "event": {
+   "key": "上海杨浦-八埭头地块-20260728",
+   "name": "保利发展与华润置地联合体161.2亿元拍下上海杨浦八埭头地块",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "土拍",
+    "上海"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-28",
+   "land_date": "2026-07-28",
+   "status": "已落地",
+   "amount_yi": 161.2,
+   "amount_yi_raw": null,
+   "amount": "161.2亿元成交（联合体竞得）",
+   "sector": "房地产",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E4%BF%9D%E5%88%A9%E5%8F%91%E5%B1%95%E4%B8%8E%E5%8D%8E%E6%B6%A6%E7%BD%AE%E5%9C%B0%E8%81%94%E5%90%88%E4%BD%93",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "label": "保利发展、华润置地联合体161.2亿元拍下上海杨浦八埭头地块"
+    }
+   ],
+   "watch": [],
+   "notes": "沪市中心大体量宅地高价成交，土拍热度锚点（同类：8-31中海150亿普陀真如等）。"
+  }
+ },
+ {
+  "id": 38984,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39029,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39137,
+  "is_event": true,
+  "event": {
+   "key": "英伟达-投资SSI-20260728",
+   "name": "英伟达据悉将向Sutskever创办的SSI投资50亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-28",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 360,
+   "amount_yi_raw": null,
+   "amount": "约50亿美元（约合360亿元人民币）",
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%8D%AE%E6%82%89%E5%B0%86%E5%90%91Sutsk",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "label": "据报道：英伟达将向Sutskever的人工智能初创公司投资50亿美元（前日已称进行“重大”投资）"
+    }
+   ],
+   "watch": [],
+   "notes": "英伟达广撒网AI初创股权投资序列之一（后有联发科35亿美元、Perplexity/Mercor等传闻）。"
+  }
+ },
+ {
+  "id": 39171,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39177,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39230,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39241,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39256,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39270,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39320,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39337,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39353,
+  "is_event": true,
+  "event": {
+   "key": "长鑫科技-科创板IPO-20260727",
+   "name": "长鑫科技科创板IPO上市（存储国产化巨头登陆A股，首日大涨）",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体存储",
+    "IPO"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-07-27",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": null,
+   "amount_yi_raw": null,
+   "amount": "募资额/发行价待官方查证（8-26超额配售选择权已全额行使）",
+   "sector": "半导体存储",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E7%A7%91%E5%88%9B%E6%9D%BFIPO%E4%B8%8A%E5%B8%82",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "label": "上市首日：公募账面浮盈近500亿元、私募约65亿元；比亚迪曾以198亿元参与其Pre-IPO轮"
+    },
+    {
+     "date": "2026-08-26",
+     "label": "公司披露首次公开发行超额配售选择权（绿鞋）全额行使"
+    }
+   ],
+   "watch": [],
+   "notes": "与已建「长江存储330亿募资」互补的另一存储主线；上市日/募资额待查证后回补落地日与金额。"
+  }
+ },
+ {
+  "id": 39370,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39583,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39595,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39632,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39636,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39916,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39977,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40050,
+  "is_event": true,
+  "event": {
+   "key": "宁德时代-回购股份并注销-20260724",
+   "name": "宁德时代拟以200亿至400亿元回购股份并注销（A股史上最大规模回购）",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "锂电",
+    "回购"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-07-24",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 400,
+   "amount_yi_raw": null,
+   "amount": "拟以200亿至400亿元回购股份并用于注销",
+   "sector": "新能源电池",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E6%8B%9F%E4%BB%A5200%E4%BA%BF%E8%87%B34",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-24",
+     "label": "盘后公告：拟最高400亿元回购并注销，为A股史上最大规模股票回购方案"
+    }
+   ],
+   "watch": [],
+   "notes": "回购规模史无前例，兼具市值管理与股东回报信号；后续落地进度以公司公告为准（截至9-30已耗资33.03亿元）。"
+  }
+ },
+ {
+  "id": 40166,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40178,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40429,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40436,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40482,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40510,
+  "is_event": true,
+  "event": {
+   "key": "甲骨文-美国防部软件合同-20260724",
+   "name": "甲骨文与美国五角大楼签10年期、最高70亿美元软件订阅合同",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI软件",
+    "军政信息化"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-07-24",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 504,
+   "amount_yi_raw": null,
+   "amount": "10年期、最高70亿美元（约合504亿元人民币）",
+   "sector": "海外科技/软件",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E7%94%B2%E9%AA%A8%E6%96%87%E4%B8%8E%E7%BE%8E%E5%9B%BD%E4%BA%94%E8%A7%92%E5%A4%A7%E6%A5%BC%E7%AD%BE1",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-24",
+     "label": "据报道：与美国五角大楼签订10年期软件承包合同，价值高达70亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "联邦AI云大单，映射甲骨文云收入弹性；金额为报道口径。"
+  }
+ },
+ {
+  "id": 40512,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40513,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40517,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40542,
+  "is_event": false,
+  "event": null
+ }
+]

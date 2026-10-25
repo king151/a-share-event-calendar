@@ -127,7 +127,8 @@ POLICY_GLOBAL = re.compile(r"全国|全市场|全体|存量|万亿级|千亿级|
 STRONG_INDUSTRY_RE = re.compile(
     r"(?:行业|产业|全国|全球|欧盟|美国|日本|韩国).{0,20}(?:基金|投资|规划|产能|价格|补贴|关税|禁令|制裁|标准|政策|采购|招标|并购|重组|整合)"
     r"|(?:设立|成立|发起).{0,20}(?:产业基金|行业基金|母基金|引导基金|联盟|平台).{0,20}(?:亿|百亿|万亿|亿级)"
-    r"|产能.{0,10}(?:过剩|去化|扩张|新建)|价格战|涨价潮|扩产潮|补贴退坡|以旧换新|汽车下乡|家电下乡")
+    r"|产能.{0,10}(?:过剩|去化|扩张|新建)|价格战|涨价潮|扩产潮|补贴退坡|以旧换新|汽车下乡|家电下乡"
+    r"|(?:市场|交易中心|交易所).{0,14}(?:正式运行|转入正式运行|开市|启动交易)")
 
 # 资金信号（T_MEGA 判定：金额>=100亿 且 命中其一）
 MONEY_SIGNALS = [
@@ -192,7 +193,9 @@ def apply_db_filter(conn, rows, unfilter=False):
 
 
 def classify(text, amount_yi):
-    """返回 tier（供 LLM 参考，非最终裁决）"""
+    """返回 tier（供 LLM 参考，非最终裁决）。
+    NOISE 在 T_MEGA 之前拦截个股行情/业绩公告噪音——但 ≥1000 亿元级的全球大额资金
+    （如微软 1750 亿美元 capex）强制放行进 T_MEGA，交给 LLM 层裁决（宁可误进判读，不许漏大额）。"""
     if DIGEST_RE.search(text):
         return "DIGEST"
     if APPOINT_RE.search(text):
@@ -206,7 +209,8 @@ def classify(text, amount_yi):
     if STRONG_INDUSTRY_RE.search(text):
         return "T_INDUSTRY"
     if amount_yi and amount_yi >= 100 and any(s in text for s in MONEY_SIGNALS):
-        return "T_MEGA"
+        if amount_yi >= 1000 or not NOISE_RE.search(text):
+            return "T_MEGA"
     return "P4"
 
 
