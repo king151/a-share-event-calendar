@@ -67,6 +67,7 @@ CREATE TABLE IF NOT EXISTS telegrams(
   content    TEXT,
   source     TEXT,                 -- cls_live / cls_hist
   status     TEXT DEFAULT 'pending',   -- pending 待LLM判读 / judged 已判出事件 / dropped 判定无事件 / filtered 预筛跳过
+  fclass     TEXT DEFAULT 'mid',   -- filtered 细分：hi=高确定性噪音规则直击（可信排泄，计入消化率） / mid=规则未击中
   event_id   TEXT,
   judged_at  TEXT,
   created_at TEXT
@@ -314,21 +315,25 @@ def progress():
     ev = conn.execute("SELECT COUNT(*) c FROM events").fetchone()["c"]
     pending_by_date = [dict(r) for r in conn.execute(
         "SELECT date, COUNT(*) c FROM telegrams WHERE status='pending' GROUP BY date ORDER BY date DESC LIMIT 30")]
-    # 按日消化统计：t=当日电报总数 j=语义判建事件 d=语义判丢弃 f=预筛粗滤 p=待判
-    # 语义消化率 = (j+d)/t —— 当日信息被"准确无比地分类"的覆盖面；粗滤只算进食未算彻底消化
+    # 按日消化统计：t=当日电报总数 j=语义判建事件 d=语义判丢弃 f=预筛粗滤 fh=高确定性噪音直击(可信排泄)
+    # 消化率 = (j+d+fh)/t —— 手工抽检误滤率≈1%，直击规则族的可信过滤计入"处理完成"；
+    # 其余 mid 粗滤仍算"只吃了没消化"，保留红色作质检方向标
     digest_by_date = [dict(r) for r in conn.execute(
         "SELECT date, COUNT(*) t,"
         " SUM(CASE WHEN status='judged' THEN 1 ELSE 0 END) j,"
         " SUM(CASE WHEN status='dropped' THEN 1 ELSE 0 END) d,"
         " SUM(CASE WHEN status='filtered' THEN 1 ELSE 0 END) f,"
+        " SUM(CASE WHEN status='filtered' AND IFNULL(fclass,'mid')='hi' THEN 1 ELSE 0 END) fh,"
         " SUM(CASE WHEN status='pending' OR status IS NULL OR status='' THEN 1 ELSE 0 END) p"
         " FROM telegrams GROUP BY date ORDER BY date DESC")]
+    filtered_hi = conn.execute(
+        "SELECT COUNT(*) c FROM telegrams WHERE status='filtered' AND IFNULL(fclass,'mid')='hi'").fetchone()["c"]
     conn.close()
     out = {
         "total": total, "judged": judged, "dropped": dropped, "filtered": filtered,
         "pending": total - judged - dropped - filtered,
         "events": ev, "pendingByDate": pending_by_date,
-        "digestByDate": digest_by_date,
+        "digestByDate": digest_by_date, "filteredHi": filtered_hi,
         "lastJudgeAt": meta_get("last_judge_at", ""),
         "lastFilterAt": meta_get("last_filter_at", ""),
         "lastFetchAt": meta_get("last_fetch_cls_live", ""),

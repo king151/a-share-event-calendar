@@ -583,7 +583,7 @@ function initFilters(){
     + '<span><i style="background:var(--policy)"></i>⚠=截止/关注日</span>'
     + '<span><i style="background:var(--plan)"></i>⇢=自查观察点(推算)</span>'
     + '<span>💧水位=当日最大金额</span>'
-    + '<span style="text-decoration:underline dotted">% = 日消化率（右上角：语义判读覆盖 = 判+丢 / 当日电报数，粗滤不计）</span>'
+    + '<span style="text-decoration:underline dotted">% = 日消化率（判+丢+高确定性粗滤 / 当日电报数；hover 看细目）</span>'
     + Object.keys(CATS).map(k => `<span><i style="background:${CATS[k]}"></i>${k}</span>`).join("")
     + '<span>级别：★&lt;10亿 ★★10~100亿 ★★★100~1000亿 ★★★★&gt;1000亿/全局</span>';
 }
@@ -782,16 +782,17 @@ function fetchProgress(){
   return fetch("http://127.0.0.1:7610/api/progress").then(r => r.json()).then(p => { PROG = p; renderProgress(); if (view === "cal") renderCal(); })
     .catch(() => { PROG = null; renderProgress(); });
 }
-/* 日消化角标：当日电报 N 条中经语义判读（判 j + 丢 d）的比例。
-   粗筛过滤 f 只算"进食未消化"（规则引擎粗滤，非逐条语义确认）；待判 p 尚未处理。
-   分级：0%（纯粗筛·灰）<30%（低·红）30~69%（中·橙）≥70%（佳·绿） */
+/* 日消化角标：当日电报 N 条中"处理完成"的比例 = 语义判读(j+d) + 高确定性粗滤close(fh)。
+   手工抽检误滤率≈1%，直击噪音规则族的可信过滤视同"排泄完成"计入；其余 mid 粗滤只算进食未消化。
+   分级：0%（灰）<30%（低·红）30~69%（中·橙）≥70%（佳·绿） */
 function digestBadge(ds){
   const x = DIGEST[ds];
   if (!x || !x.t) return "";
   const sem = (x.j || 0) + (x.d || 0);
-  const pct = Math.round(sem / x.t * 100);
+  const hi = x.fh || 0;
+  const pct = Math.round((sem + hi) / x.t * 100);
   const cls = pct >= 70 ? "good" : pct >= 30 ? "mid" : pct > 0 ? "low" : "zero";
-  const tip = `${ds} 消化率 ${pct}% —— 语义判读 ${sem}/${x.t} 条（判 ${x.j || 0} + 丢 ${x.d || 0}）· 粗筛过滤 ${x.f || 0} · 待判 ${x.p || 0}`;
+  const tip = `${ds} 消化率 ${pct}% —— 语义判读 ${sem}/${x.t}（判 ${x.j || 0} + 丢 ${x.d || 0}）· 高确定性粗滤${hi}（直击噪音族，可信排泄）· 普通粗滤 ${(x.f || 0) - hi}（未直击，待质检）· 待判 ${x.p || 0}`;
   return `<span class="dg ${cls}" title="${esc(tip)}">${pct}%</span>`;
 }
 function renderProgress(){
@@ -802,7 +803,8 @@ function renderProgress(){
   const pct = total ? Math.round(done / total * 100) : 0;
   const dm = Math.max(done, 1);
   const allDone = pending === 0 && total > 0;
-  const cover = total ? Math.round((judged + dropped) / total * 100) : 0;
+  const filteredHi = PROG && PROG.filteredHi || 0;
+  const cover = total ? Math.round((judged + dropped + filteredHi) / total * 100) : 0;
   // 待判为 0 时默认折叠为一行胶囊，点「详情 ▾」展开完整面板；有积压时始终展开
   const open = allDone ? (panelOpen === true) : true;
   const maxP = Math.max(...pendingByDate.map(x => x.c), 1);
@@ -812,7 +814,7 @@ function renderProgress(){
   }).join("");
   const stats =
      allDone && !open
-     ? `<span class="seg">✅ 电报已全部处理 <b>${total}</b> 条（判 ${judged} / 丢 ${dropped} / 滤 ${filtered}）· 事件 <b>${evN}</b></span><span class="seg" title="语义判读覆盖=${judged}+${dropped} / ${total}，粗滤不计入彻底消化">🧠 语义消化 <b style="color:${cover >= 70 ? "#1f9e77" : cover >= 30 ? "#d78b2f" : "#d5444a"}">${cover}%</b></span>`
+     ? `<span class="seg">✅ 电报已全部处理 <b>${total}</b> 条（判 ${judged} / 丢 ${dropped} / 滤 ${filtered}）· 事件 <b>${evN}</b></span><span class="seg" title="消化率 =(语义判读 ${judged}+${dropped} + 高确定性粗滤close ${filteredHi}) / ${total}；普通粗滤 ${filtered - filteredHi} 条未直击规则族，不计入">🧠 整体消化 <b style="color:${cover >= 70 ? "#1f9e77" : cover >= 30 ? "#d78b2f" : "#d5444a"}">${cover}%</b></span>`
      : `<span class="seg">已过滤 <b style="color:#1f9e77">${filtered}</b></span>
       <span class="seg">待判硬候选 <b style="color:#d5444a">${pending}</b></span>
       <span class="seg">已判 <b>${judged}</b></span>

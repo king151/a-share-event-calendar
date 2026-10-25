@@ -171,14 +171,45 @@ APPOINT_RE = re.compile(
 FILTER_OUT_TIERS = {"P4", "DIGEST"}        # 关键词预筛直接排除：无需LLM判读
 KEEP_TIERS = {"T_IPO", "T_MEGA", "T_POLICY", "T_INDUSTRY"}  # 硬候选：保留待判读
 
+# ---------------- 高确定性噪音规则族（fclass='hi'，计入"消化率"的排泄通道） ----------------
+# 来源：2026-10-25 陈旧误滤 751 条人工逐日裁决（720 条丢弃全是这些族群），抽检误滤率≈1%。
+# 纪律：宁窄勿宽——只有"直击 Nan 族=当天 LLM 反复丢弃的唯一形态"才可信；族群只在 P4/DIGEST
+# 粗滤时打 hi 标，硬候选（政策/行业/IPO/大额）永远不受它影响。
+HIGH_CERT_FAMILIES = [
+    ("例行资金操作", r"逆回购(操作|协议)|（RRP）使用规模|公开市场(今日)?净(投放|回笼)|MLF操作|买断式逆回购|国库现金管理|固定利率逆回购|再投资购买|准备金管理"),
+    ("国债招标发行", r"记账式(贴现|附息)|凭证式国债|招标面值总额"),
+    ("中标利率行情", r"中标(收益率|利率)|发行利率"),
+    ("市场资金流向", r"南向资金|北向资金|净流入超?|净买入超?|资金借道|两融余额|主力资金"),
+    ("产品规模统计", r"ETF.{0,8}(吸金|净流入|新发|天量)|新成立基金|新发基金|新发规模|公募.{0,4}(分红|规模)|FOF.{0,6}(首募|新发|规模)|分红(突破|超|逾|贡献)|年内.{0,10}(新发|募集|新受理|分红)|再融资.{0,4}(改革|成效|变奏)"),
+    ("个股行情波动", r"盘前|盘后|盘中|低开|高开|拉升|涨停|连板|异动|走强|震荡|涨超|跌超|跌幅|收跌|收涨|涨幅收窄|涨幅扩大|涨势|跌势|股价|板块"),
+    ("研报评级观点", r"目标价|维持.{0,8}评级|予.{0,10}评级|买入.{0,4}评级|跑赢大市|看多|看空"),
+    ("业绩披露", r"第?一?二?三?四季度(营收|净利|业绩)|净利(润)?\d?.{0,12}(同比|环比)|营收\d?.{0,10}(同比|环比)|每股(收益|派现)|归属于?股东净利润|半年报业绩|财报(速览|显示)"),
+    ("回购进度公告", r"累计回购|已耗资|回购进度|回购计划规模|回购股份(并|用于)|扩大.{0,4}回购"),
+    ("加密持仓动态", r"(增持|买入|清仓|减持)(了?)?(\d|约|近).{0,8}(枚|万枚|美元|亿元).{0,4}(比特币|以太坊|BTC|ETH|黄金)|持仓.{0,8}(突破|升至|降至|缩水)|合约爆仓|储备(减少|增)"),
+    ("存量数据披露", r"(余额|存量|覆盖率|参保人数|总资产|存款|受托).{0,8}(为?|达到?|超|突破)"),
+    ("要闻综述聚合", r"要闻一览|盘前要闻|投资舆情热点|热点一览|情报平台显示|雾里看花"),
+]
+
+_FAM_RE = None
+def noise_family(text):
+    """高确定性噪音直击检测：返回 (族名, 优先级最高者) 或 None。"""
+    global _FAM_RE
+    if _FAM_RE is None:
+        _FAM_RE = [(n, re.compile(p)) for n, p in HIGH_CERT_FAMILIES]
+    for name, rx in _FAM_RE:
+        if rx.search(text):
+            return name
+    return None
+
 
 def apply_db_filter(conn, rows, unfilter=False):
     """把关键词预筛结论落到数据库：
     · 噪音(P4/DIGEST，如个股行情/业绩/会见外交/新闻聚合) → status='filtered'，跳过不判读
+      同时打 fclass 标：hi=高确定性噪音规则直击（日常反复验证的可信排泄） / mid=规则未击中的粗滤
     · 硬候选(T_IPO/T_MEGA/T_POLICY/T_INDUSTRY) → 保持 pending，留给 LLM 判读
     unfilter=True 反向恢复：filtered → pending（可整体重来）。返回受影响条数。"""
     if unfilter:
-        cur = conn.execute("UPDATE telegrams SET status='pending' WHERE status='filtered'")
+        cur = conn.execute("UPDATE telegrams SET status='pending', fclass='' WHERE status='filtered'")
         return cur.rowcount
     n = 0
     for tel_id, _date, title, content in rows:
@@ -186,8 +217,11 @@ def apply_db_filter(conn, rows, unfilter=False):
         amount_yi, _raw = extract_amount(text)
         tier = classify(text, amount_yi)
         if tier in FILTER_OUT_TIERS:
+            fam = noise_family(text)
+            fcls = "hi" if fam else "mid"
             cur = conn.execute(
-                "UPDATE telegrams SET status='filtered' WHERE id=? AND status='pending'", (tel_id,))
+                "UPDATE telegrams SET status='filtered', fclass=? WHERE id=? AND status='pending'",
+                (fcls, tel_id))
             n += cur.rowcount
     return n
 
