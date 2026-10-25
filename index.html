@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A股大事件日历｜中国股市事件日历（开源 + 双击即用）</title>
 <meta name="description" content="开源的中国股市(A股/沪深北)大事件日历：单 HTML 文件日历页 + 本地 Python 事件雷达，财联社电报自动粗滤 → LLM 语义判读 → 月历可视化；A股/港股/外资三视野，全部数据停留本地 127.0.0.1。">
-<meta name="keywords" content="A股日历, 中国股市, 股票事件, 事件日历, 财经电报, LLM判读, 量化台账, 沪深, 港股, a-share calendar, china stock calendar, event radar">
+<meta name="keywords" content="A股日历, 中国股市, 股票事件, 事件日历, 财经电报, LLM判读, 量化台账, 沪深, 港股, 放假安排, 股市休市, 2026放假, a-share calendar, china stock calendar, event radar">
 <link rel="canonical" href="https://github.com/king151/a-share-event-calendar">
 <meta property="og:type" content="website">
 <meta property="og:title" content="A股大事件日历——开源 · 双击即用 · 全本地数据">
-<meta property="og:description" content="把每天几百条财经电报压缩成一页能看的中国股市事件日历；电报粗滤→LLM判读→月历可视化，消化率 60.5%。">
+<meta property="og:description" content="把每天几百条财经电报压缩成一页能看的中国股市事件日历；电报粗滤→LLM判读→月历可视化，含2026法定假日/股市休市层，消化率 60.5%。">
 <meta property="og:image" content="https://testingcf.jsdelivr.net/gh/king151/a-share-event-calendar@master/docs/screenshots/calendar.png">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"A股大事件日历","alternateName":"a-share-event-calendar",
@@ -55,6 +55,7 @@ kbd{background:#eef1f6;border:1px solid var(--bd);border-radius:4px;padding:1px 
     <div class="card"><b>三级压缩管道</b><br>财联社电报流 → 入库即预筛（关键词+高确定性噪音规则族）→ 硬候选 LLM 语义判读 → 4 万+ 条电报压成 140+ 条"值得上日历"的事件</div>
     <div class="card"><b>消化率漏斗</b><br>每格右上角显示当日"判+丢+粗滤直击"比例，雷达是否健康一眼可见；当前 <b>60.5%</b></div>
     <div class="card"><b>台账纪律：宁缺毋滥</b><br>金额必须可查证、落地日必须有官方原文，查不到就留空，不编造</div>
+    <div class="card"><b>法定假日/休市层</b><br>2026 放假调休直接标在格上：<b>🏮 放假日</b>（休市）与「调」调休上班日，数据逐字对齐国办文件与沪深交易所公告</div>
     <div class="card"><b>单文件 + 全本地</b><br>无账号无后台依赖，数据全在 <kbd>127.0.0.1</kbd>；<kbd>data.json</kbd> 即权威数据源，可直接放进同步盘</div>
   </div>
 

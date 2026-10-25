@@ -40,6 +40,10 @@
   .cell.other{opacity:.45;}
   .cell .d{font-size:12px; color:var(--muted); font-weight:600; margin-bottom:3px;}
   .cell.festival .d{color:#d5444a;}
+  .cell.festival{background:#fff8f6;}
+  .hol-badge{display:inline-block; font-family:inherit; font-size:9px; font-weight:700; line-height:14px; padding:0 4px; margin-left:4px; border-radius:4px; vertical-align:1.5px; cursor:help; color:#b8434a; background:#ffe9e6; border:1px solid #f3c9c4; white-space:nowrap;}
+  .hol-badge.work{color:#7a6534; background:#fbf3dc; border-color:#e6d5a6;}
+  @media (max-width:900px){ .hol-badge{font-size:8.5px; padding:0 3px; margin-left:2px;} }
   /* ===== 屏幕适配：≤900px（平板窄屏）/ ≤560px（手机），桌面压留白+JS格行自适应 ===== */
   @media (max-width:900px){
     .legseg, .cal-head .nav > span[style]{display:none !important;}
@@ -292,6 +296,39 @@ const SEED = [];  // 全部由事件雷达(📡)与人工添加补充
 
 const CATS = { "政策法规":"#6f4bd8", "公司大事件":"#e07a1f", "行业事件":"#1f9e77", "监管处罚":"#d5444a" };
 const LVS  = { 1:"★", 2:"★★", 3:"★★★", 4:"★★★★" };
+
+/* ============ 法定假日/休市层（固定日程层第一砖） ============
+   数据全部来自官方原文，逐条可溯源（更新年份：每年末国办+两大交易所发布后补录）：
+   · 放假：国务院办公厅《关于2026年部分节假日安排的通知》国办发明电〔2025〕7号（www.gov.cn）
+   · 休市：上证公告〔2025〕45号 / 深证会〔2025〕481号（2025-12-22）——休市日=放假日，
+     调休上班的周六日为"周末休市"（A股不交易）。格式：h=放假日数组区间, w=调休上班日 */
+const HOLIDAYS = {
+  2026: [
+    { n:"元旦",   s:"2026-01-01", e:"2026-01-03", w:["2026-01-04"] },
+    { n:"春节",   s:"2026-02-15", e:"2026-02-23", w:["2026-02-14","2026-02-28"] },
+    { n:"清明",   s:"2026-04-04", e:"2026-04-06", w:[] },
+    { n:"劳动节", s:"2026-05-01", e:"2026-05-05", w:["2026-05-09"] },
+    { n:"端午",   s:"2026-06-19", e:"2026-06-21", w:[] },
+    { n:"中秋",   s:"2026-09-25", e:"2026-09-27", w:[] },
+    { n:"国庆",   s:"2026-10-01", e:"2026-10-07", w:["2026-09-20","2026-10-10"] },
+  ]
+};
+/* 预计算：ds → {n, first, range, work} */
+const HOLMAP = (() => {
+  const m = new Map();
+  for (const [y, arr] of Object.entries(HOLIDAYS)) for (const h of arr) {
+    let ts = new Date(h.s), te = new Date(h.e), days = 0;
+    for (let t = ts; t <= te; t = new Date(t.getTime() + 864e5)) {
+      const ds = `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")}`;
+      m.set(ds, { n: h.n, first: t.getTime() === ts.getTime(), work: false, tail: false,
+                  tip: `${h.n} 放假·股市休市 ${h.s.slice(5)}~${h.e.slice(5)}（官方口径：国办放假+上证公告〔2025〕45号/深证会〔2025〕481号）` });
+      days++;
+    }
+    for (const w of (h.w || [])) m.set(w, { n: h.n, first: false, work: true,
+                  tip: `${w} 调休上班：国家机关上班，但A股不交易（周末休市）` });
+  }
+  return m;
+})();
 const LS   = { 1:"<10亿", 2:"10亿~100亿", 3:"100亿~1000亿", 4:">1000亿/全局性" };
 
 let _allEvents = load();   // 全量事件（市场过滤前），写回/导出必须用全量，避免视野过滤丢事件
@@ -734,6 +771,13 @@ function renderCal(){
     const ds = `${y}-${String(m+1).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
     const cls = ["cell"]; if (new Date(y, m, d).toDateString() === today) cls.push("today");
     if (new Date(y, m, d).getDay() === 0 || new Date(y, m, d).getDay() === 6) cls.push("wknd");
+    const hg = HOLMAP.get(ds);
+    if (hg && !hg.work) cls.push("festival");
+    const holHTML = hg
+      ? (hg.work
+          ? `<span class="hol-badge work" title="${esc(hg.tip)}">调</span>`
+          : `<span class="hol-badge ${hg.first ? "first" : "rest"}" title="${esc(hg.tip)}">🏮${hg.n}</span>`)
+      : "";
     // 格子水位：当天金额量级最大的事件
     let water = null;
     (map[ds] || []).forEach(it => {
@@ -758,7 +802,7 @@ function renderCal(){
         <span class="k">${it.ev.cand ? "?" : kindTxt}</span>${LVS[it.ev.level]} ${shown.length>8?shown.slice(0,8)+"…":shown}${cd}${dup}</div>`;
     });
     if (items.length > 9) inner += `<div style="font-size:10px;color:var(--muted);padding-left:5px;cursor:pointer;text-decoration:underline dotted" onclick="showDayEvents('${ds}')">还有 ${items.length-9} 条…（点击查看）</div>`;
-    html += `<div class="${cls.join(" ")}">${waterHTML}<div class="d">${d}</div>${digestBadge(ds)}${inner}</div>`;
+    html += `<div class="${cls.join(" ")}">${waterHTML}<div class="d">${d}${holHTML}</div>${digestBadge(ds)}${inner}</div>`;
   }
   const total = firstDow + days;
   const rest = (7 - (total % 7)) % 7;
