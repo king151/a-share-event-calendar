@@ -140,6 +140,7 @@ def _tel_hash(title, content, ts):
 
 def ingest_telegrams(items, source):
     """items: [{t, ti, c, id}] → 按hash去重入库。返回新增条数。"""
+    global _TEL_TS_CACHE
     conn = dbconn()
     n_new = 0
     try:
@@ -165,6 +166,8 @@ def ingest_telegrams(items, source):
         raise
     finally:
         conn.close()
+    if n_new:
+        _TEL_TS_CACHE = None   # 新电报入库 → sigTime 缓存失效，事件"具体时间"即时可见
     return n_new
 
 
@@ -297,7 +300,12 @@ def _event_row_to_api(r):
     }
 
 
+_PROG_CACHE = {"at": 0.0, "val": None}
 def progress():
+    """判读进度（3 秒内存缓存：一次 snapshot 渲染会连查多次）。"""
+    now = dt.datetime.now().timestamp()
+    if _PROG_CACHE["val"] is not None and now - _PROG_CACHE["at"] < 3:
+        return _PROG_CACHE["val"]
     conn = dbconn()
     total = conn.execute("SELECT COUNT(*) c FROM telegrams").fetchone()["c"]
     judged = conn.execute("SELECT COUNT(*) c FROM telegrams WHERE status='judged'").fetchone()["c"]
@@ -307,7 +315,7 @@ def progress():
     pending_by_date = [dict(r) for r in conn.execute(
         "SELECT date, COUNT(*) c FROM telegrams WHERE status='pending' GROUP BY date ORDER BY date DESC LIMIT 30")]
     conn.close()
-    return {
+    out = {
         "total": total, "judged": judged, "dropped": dropped, "filtered": filtered,
         "pending": total - judged - dropped - filtered,
         "events": ev, "pendingByDate": pending_by_date,
@@ -315,6 +323,9 @@ def progress():
         "lastFilterAt": meta_get("last_filter_at", ""),
         "lastFetchAt": meta_get("last_fetch_cls_live", ""),
     }
+    _PROG_CACHE["at"] = now
+    _PROG_CACHE["val"] = out
+    return out
 
 
 def all_events(tag=None, status=None, scope="watch"):
@@ -347,6 +358,39 @@ def all_events(tag=None, status=None, scope="watch"):
 # 数据流：db(扫描/判读) -> 后端写 data.json -> 网页 fetch /api/snapshot 渲染
 # 后端负责更新文件；网页只读。localStorage 已降级为离线缓存，不再是权威源。
 DATA_FILE = HERE / "data.json"
+JUDGE_DIR = HERE / "judge_queue"
+
+
+def pending_count():
+    conn = dbconn()
+    n = conn.execute("SELECT COUNT(*) c FROM telegrams WHERE status='pending'").fetchone()["c"]
+    conn.close()
+    return n
+
+
+def dump_judge_batch():
+    """把当前 pending 电报导出为判读批次文件（与 annotate.py dump 相同格式）。
+    半自动闭环：断点更新发现新增待判时自动出包，AI 会话直接照包判读 → apply 落库。"""
+    try:
+        if not JUDGE_DIR.exists():
+            JUDGE_DIR.mkdir()
+        out = JUDGE_DIR / f"batch_auto_{dt.date.today().isoformat()}.jsonl"
+        conn = dbconn()
+        rows = conn.execute(
+            "SELECT id,date,title,content FROM telegrams WHERE status='pending' ORDER BY id").fetchall()
+        conn.close()
+        if not rows:
+            return None
+        with out.open("w", encoding="utf-8") as f:
+            for r in rows:
+                content = (r["content"] or "")[:300] + ("…[截断]" if len(r["content"] or "") > 300 else "")
+                f.write(json.dumps({"id": r["id"], "date": r["date"], "title": r["title"],
+                                    "content": content}, ensure_ascii=False) + "\n")
+        _LOG("[judge] 自动出判读包 %d 条 → %s", len(rows), out.name)
+        return out
+    except Exception:
+        _ERR("[judge] 判读包导出失败: %s", traceback.format_exc())
+        return None
 
 
 def today_iso():
@@ -446,6 +490,13 @@ def mutate_state(payload):
         info["fresh"] = len(fresh)
         info["newEvents"] = new_ev
         info["newCands"] = new_cand
+        # 判读半自动闭环：有待判电报时自动出包，页面提示包名
+        pend_now = pending_count()
+        if pend_now > 0:
+            jp = dump_judge_batch()
+            if jp:
+                info["judgeBatch"] = jp.name
+                info["pending"] = pend_now
 
     snap["progress"] = progress()
     snap["updated"] = dt.datetime.now().isoformat(timespec="seconds")

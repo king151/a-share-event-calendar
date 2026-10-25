@@ -387,7 +387,8 @@ async function pullRadar(silent){
       + "· 日历事件：" + (info.fresh || 0) + " 条（本次新增 " + (info.newEvents || 0) + " 条，候选 " + (info.newCands || 0) + "）\n"
       + "· 当前待判硬候选：" + pend + " 条（另有 " + (p.filtered || 0) + " 条已按关键词预筛过滤，无需判读）";
     if (pend > 0) {
-      alert(msg + "\n\n有新增电报待判读 → 对我说「继续判读」，我会从断点继续（只判 pending，不重判已处理过的）；判完入库后再点本按钮即可同步进日历。");
+      const jb = info.judgeBatch ? "\n\n判读包已自动导出：judge_queue\\" + info.judgeBatch + "\n对我说「继续判读」即可只判未处理过的待判电报，判完入库后再点本按钮同步进日历。" : "";
+      alert(msg + jb);
     } else {
       alert(msg);
     }
