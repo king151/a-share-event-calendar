@@ -27,13 +27,28 @@ import sqlite3
 import datetime as dt
 import traceback
 import threading
+import logging
+import logging.handlers
+import shutil
+import re
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-import akshare as ak
-
 # ============ 配置 ============
 HERE = Path(__file__).resolve().parent
+
+# ============ 日志：落盘轮转（pythonw 运行时 print 不可见，所有异常必须留痕） ============
+LOG_FILE = HERE / "radar.log"
+logger = logging.getLogger("radar")
+logger.setLevel(logging.INFO)
+_rot = logging.handlers.RotatingFileHandler(LOG_FILE, maxBytes=2 * 1024 * 1024, backupCount=3, encoding="utf-8")
+_rot.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
+logger.addHandler(_rot)
+_LOG = logger.info
+_ERR = logger.error
+
+import akshare as ak
+
 DB = HERE / "radar.db"
 PORT = 7610
 TTL_HOURS = {"cls_live": 1, "cls_hist": 24}   # 抓取节制：源站友好，与判读无关
@@ -145,6 +160,9 @@ def ingest_telegrams(items, source):
             rows)
         conn.commit()
         n_new = conn.total_changes
+    except Exception:
+        _ERR("[ingest] %s 入库异常: %s", source, traceback.format_exc())
+        raise
     finally:
         conn.close()
     return n_new
@@ -167,7 +185,7 @@ def scan_cls_live():
             items.append({"t": t, "ti": ti, "c": c, "id": ""})
         return ingest_telegrams(items, "cls_live")
     except Exception:
-        print("[cls_live] 抓取失败:", traceback.format_exc())
+        _ERR("[cls_live] 抓取失败: %s", traceback.format_exc())
         return 0
 
 
@@ -194,7 +212,7 @@ def scan_cls_hist():
         meta_set("hist_size", size)
         return n
     except Exception:
-        print("[cls_hist] 入库失败:", traceback.format_exc())
+        _ERR("[cls_hist] 入库失败: %s", traceback.format_exc())
         return 0
 
 
@@ -218,6 +236,8 @@ def ensure_fetch():
         if not _within_ttl("cls_hist"):
             added["cls_hist"] = scan_cls_hist()
             meta_set("last_fetch_cls_hist", dt.datetime.now().isoformat(timespec="seconds"))
+    for k, v in added.items():
+        _LOG("[fetch] %s 新增 %d 条", k, v)
     return added
 
 
@@ -349,6 +369,7 @@ def load_snapshot():
                 d["updated"] = dt.datetime.now().isoformat(timespec="seconds")
                 return d
     except Exception:
+        _ERR("[snapshot] data.json 读取失败/损坏，将从 db 重建: %s", traceback.format_exc())
         traceback.print_exc()
     snap = {
         "events": all_events(scope="watch"),
@@ -362,9 +383,21 @@ def load_snapshot():
 
 
 def save_snapshot(snap):
-    """加锁原子写 data.json（写临时文件再替换，避免半写）。"""
+    """加锁原子写 data.json（写临时文件再替换，避免半写）。
+    落盘前按日留档：每天第一笔写盘前先把当前 data.json 备为 data.json.bak-YYYY-MM-DD，保留最近 5 代。"""
     tmp = DATA_FILE.with_suffix(".tmp")
     with LOCK:
+        try:
+            today = dt.date.today().isoformat()
+            bak = DATA_FILE.with_name(f"data.json.bak-{today}")
+            if DATA_FILE.exists() and not bak.exists():
+                shutil.copy2(DATA_FILE, bak)
+            dated = sorted(p for p in DATA_FILE.parent.glob("data.json.bak-*")
+                           if re.fullmatch(r"data\.json\.bak-\d{4}-\d{2}-\d{2}", p.name))
+            for old in dated[:-5]:
+                old.unlink()
+        except Exception:
+            _ERR("[backup] data.json 备份轮转失败: %s", traceback.format_exc())
         with tmp.open("w", encoding="utf-8") as f:
             json.dump(snap, f, ensure_ascii=False, indent=2)
         tmp.replace(DATA_FILE)
@@ -479,6 +512,7 @@ class Handler(BaseHTTPRequestHandler):
                        "GET /api/ping       存活检测").encode("utf-8")
                 self._send(200, msg, "text/plain; charset=utf-8")
         except Exception:
+            _ERR("[GET] %s 处理异常: %s", self.path, traceback.format_exc())
             traceback.print_exc()
             self._send(500, json.dumps({"ok": False, "error": "server error"}, ensure_ascii=False).encode("utf-8"))
 
@@ -494,6 +528,7 @@ class Handler(BaseHTTPRequestHandler):
             info = mutate_state(payload)
             self._send(200, json.dumps(info, ensure_ascii=False).encode("utf-8"))
         except Exception:
+            _ERR("[POST] %s 处理异常: %s", self.path, traceback.format_exc())
             traceback.print_exc()
             self._send(500, json.dumps({"ok": False, "error": "server error"}, ensure_ascii=False).encode("utf-8"))
 
@@ -503,6 +538,7 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     init_db()
+    _LOG("事件雷达 v3（语义引擎）启动：http://127.0.0.1:%d", PORT)
     print(f"事件雷达 v3（语义引擎）启动：http://127.0.0.1:{PORT}")
     print("抓取层：财联社电报实时+历史存档 → telegrams 表（hash去重，无文字规则）")
     print("判读层：LLM 逐批语义判读（annotate.py dump/apply），进度见 /api/progress")
