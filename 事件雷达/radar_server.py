@@ -31,11 +31,20 @@ import logging
 import logging.handlers
 import shutil
 import re
+import sys
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 # ============ 配置 ============
 HERE = Path(__file__).resolve().parent
+if str(HERE) not in sys.path:
+    sys.path.insert(0, str(HERE))
+
+# 预筛规则引擎（入库瞬间分流：HIGH_CERT 噪音族直进 filtered，硬候选留 pending）
+try:
+    import radar_prescreen
+except Exception:                                   # 规则模块缺位时降级为全量 pending，不影响可用性
+    radar_prescreen = None
 
 # ============ 日志：落盘轮转（pythonw 运行时 print 不可见，所有异常必须留痕） ============
 LOG_FILE = HERE / "radar.log"
@@ -166,10 +175,24 @@ def ingest_telegrams(items, source):
             if not title and not content:
                 continue
             d = dt.datetime.fromtimestamp(ts).strftime("%Y-%m-%d")
+            # 入库即预筛：噪音（P4/DIGEST）→ filtered（hi=高确定性噪音族 / mid=规则未击中），
+            # 硬候选保持 pending 留给 LLM 判读。与离线 prescreen/回补脚本同一套规则。
+            status, fclass = "pending", "mid"
+            if radar_prescreen is not None:
+                try:
+                    text = f"{title} {content}"
+                    amount_yi, _raw = radar_prescreen.extract_amount(text)
+                    tier = radar_prescreen.classify(text, amount_yi)
+                    if tier in radar_prescreen.FILTER_OUT_TIERS:
+                        fam = radar_prescreen.noise_family(text)
+                        status, fclass = "filtered", ("hi" if fam else "mid")
+                except Exception:
+                    pass          # 预筛异常不阻断入库，该条按 pending 走 LLM 兜底
             rows.append((_tel_hash(title, content, ts), ts, d, title, content[:2000], source,
-                         dt.datetime.now().isoformat(timespec="seconds")))
+                         status, fclass, dt.datetime.now().isoformat(timespec="seconds")))
         conn.executemany(
-            "INSERT OR IGNORE INTO telegrams(hash,ts,date,title,content,source,created_at) VALUES(?,?,?,?,?,?,?)",
+            "INSERT OR IGNORE INTO telegrams(hash,ts,date,title,content,source,status,fclass,created_at)"
+            " VALUES(?,?,?,?,?,?,?,?,?)",
             rows)
         conn.commit()
         n_new = conn.total_changes
