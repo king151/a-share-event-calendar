@@ -25,3 +25,4 @@ _inspect_db.py
 !docs/
 !docs/screenshots/
 !docs/screenshots/*.png
+事件雷达/cls_state.json

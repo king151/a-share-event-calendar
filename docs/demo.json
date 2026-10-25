@@ -1,0 +1,8159 @@
+{
+ "exportedAt": "demo-seed 2026-10-25",
+ "note": "演示数据：仅示例展示用（约185条事件，来自本项目雷达实例）；正式使用请删除并重新扫描",
+ "events": [
+  {
+   "id": "E8ADD138D5AEC",
+   "key": "生态环境部-地下水污染防治重点区环境管理-征求意见-20261025",
+   "name": "生态环境部就地下水污染防治重点区环境管理指导意见征求意见",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-10-25",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "不适用（机制性·环保分区管控政策）",
+   "amountYi": null,
+   "sector": "环保/水务",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%9C%B0%E4%B8%8B%E6%B0%B4%E6%B1%A1%E6%9F%93%E9%98%B2%E6%B2%BB",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "label": "【发生】《关于加强地下水污染防治重点区环境管理的指导意见（征求意见稿）》向社会公开征求意见"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-31",
+     "label": "意见反馈截止（官方期限）"
+    }
+   ],
+   "notes": "机制性环境政策征求意见，分区管控+源头防控保障地下水饮用安全。金额不适用。",
+   "evidence": [
+    40626
+   ],
+   "sigTime": "2026-10-25 08:40",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E51E0D02C761F",
+   "key": "南方区域电力市场-转入正式运行-20261024",
+   "name": "南方区域电力市场转入正式运行（电力市场化关键节点）",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-10-24",
+   "landDate": "2026-10-24",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "不适用（机制性·电力市场化制度建设）",
+   "amountYi": null,
+   "sector": "电力/全国统一电力大市场",
+   "sources": [
+    {
+     "name": "财联社电报（引国家能源局网站）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%8D%97%E6%96%B9%E5%8C%BA%E5%9F%9F%E7%94%B5%E5%8A%9B%E5%B8%82%E5%9C%BA",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "label": "【发生】南方区域电力市场转入正式运行暨高质量发展推进会在广州召开，国家能源局局长王宏志出席"
+    }
+   ],
+   "watch": [],
+   "notes": "南方区域（广东/广西/云南/贵州/海南）电力市场从试点转入正式运行，落实全国统一大市场'五统一、一开放'，是电力市场化改革的关键制度节点，影响全电力行业。金额不适用。",
+   "evidence": [
+    40618
+   ],
+   "sigTime": "2026-10-25 07:06",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E784CB5BA9BBD",
+   "key": "羲禾科技-科创板IPO注册-20261023",
+   "name": "证监会同意上海羲禾科技科创板IPO注册",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-10-23",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "募资额待调查",
+   "amountYi": null,
+   "sector": "半导体",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2513529",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】证监会同意上海羲禾科技科创板IPO注册"
+    }
+   ],
+   "watch": [],
+   "notes": "科创板IPO注册生效,进入发行申购关键阶段",
+   "evidence": [
+    394
+   ],
+   "sigTime": "2026-10-23 16:07",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "ED0FE265EA6F5",
+   "key": "河北省-2027新能源机制电价竞价-20261023",
+   "name": "河北启动2027年度新能源机制电价竞价(约600亿千瓦时)",
+   "category": "行业事件",
+   "tags": [
+    "电价政策",
+    "新能源"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-23",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "河北南网+冀北机制电量约600亿千瓦时,竞价0.2-0.36元/度",
+   "amountYi": null,
+   "sector": "新能源电力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2513578",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】河北启动2027年度新能源机制电价竞价(约600亿千瓦时)"
+    }
+   ],
+   "watch": [],
+   "notes": "年度新能源保障性电价竞价,规模约600亿千瓦时,影响风光运营商收益预期",
+   "evidence": [
+    369
+   ],
+   "sigTime": "2026-10-23 16:36",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EFBEBCAC7CA64",
+   "key": "发改委-能源保供中长期合同管理办法-20261023",
+   "name": "发改委发布《能源保供中长期合同管理办法(试行)》",
+   "category": "政策法规",
+   "tags": [
+    "监管政策",
+    "能源"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-23",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "电力天然气保供中长期合同价格机制改革",
+   "amountYi": null,
+   "sector": "电力/天然气",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2513726",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】发改委发布《能源保供中长期合同管理办法(试行)》"
+    }
+   ],
+   "watch": [],
+   "notes": "规范全国能源保供中长期合同定价与管输服务,禁止强制固定价格,影响电气体制全局",
+   "evidence": [
+    302
+   ],
+   "sigTime": "2026-10-23 18:09",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE7B847B77726",
+   "key": "羲禾科技-科创板IPO注册生效-20261023",
+   "name": "证监会同意上海羲禾科技首次公开发行并在科创板上市的注册申请",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-23",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "募资规模待发行定价确认（注册生效）",
+   "amountYi": null,
+   "sector": "半导体/羲禾科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-14",
+     "label": "【前序】科创板IPO获上市委会议通过"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【发生】科创板IPO注册申请获证监会同意"
+    }
+   ],
+   "watch": [],
+   "notes": "科创板上市关键阶段（注册生效，距发行一步）；募资额待确认。",
+   "evidence": [
+    225,
+    4727
+   ],
+   "sigTime": "2026-10-14 21:46",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E8F7C8450FBAE",
+   "key": "昆仑新能源-港股IPO备案-20261023",
+   "name": "昆仑新能源港股IPO获得中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-23",
+   "landDate": null,
+   "market": "港股",
+   "status": "待落地",
+   "amount": "募资规模待上市定价确认（备案阶段）",
+   "amountYi": null,
+   "sector": "新能源/昆仑新能源",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】港股IPO获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "新能源公司港股上市关键阶段（证监会备案）；募资额待发行确认。",
+   "evidence": [
+    141
+   ],
+   "sigTime": "2026-10-23 23:21",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E9552E2E50292",
+   "key": "晶存科技-港股IPO备案-20261023",
+   "name": "晶存科技港股IPO获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-23",
+   "landDate": null,
+   "market": "港股",
+   "status": "待落地",
+   "amount": "募资规模待上市定价确认（备案阶段）",
+   "amountYi": null,
+   "sector": "存储芯片/晶存科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】港股IPO获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "存储芯片公司港股上市关键阶段（证监会备案）；募资额待发行确认。",
+   "evidence": [
+    123
+   ],
+   "sigTime": "2026-10-24 02:14",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDB0529FC2D44",
+   "key": "深圳-腾飞贷科技企业获贷超300亿-20261023",
+   "name": "深圳“腾飞贷”助力近1.2万家科技企业获贷超300亿元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "贷款"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-23",
+   "landDate": "2026-10-23",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "超300亿元（累计获贷规模）",
+   "amountYi": 300.0,
+   "sector": "科技金融/深圳",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【落地】近1.2万家科技企业累计获贷超300亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "深圳科技企业专属信贷产品，反映地方科技金融支持力度；属行业资金动向。",
+   "evidence": [
+    192
+   ],
+   "sigTime": "2026-10-23 21:18",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E81FCE9FA1993",
+   "key": "证监会-私募投资母基金管理规定征求意见-20261023",
+   "name": "证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+   "category": "政策法规",
+   "tags": [
+    "产业基金",
+    "政策法规"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-23",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "涉及私募母基金行业（存量认缴规模约3万亿~4万亿元，影响长线资金入市通道）",
+   "amountYi": null,
+   "sector": "私募基金/资本市场",
+   "sources": [
+    {
+     "name": "中国证监会",
+     "org": "中国证监会",
+     "url": "http://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
+     "role": "ref"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniwffen5078521.shtml",
+     "role": "info"
+    },
+    {
+     "name": "证监会《私募投资母基金管理规定（征求意见稿）》征求意见通知",
+     "org": "中国证监会",
+     "url": "https://www.csrc.gov.cn/csrc/c101981/c7666360/content.shtml",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】证监会公开征求意见，明确母基金豁免计入一层投资层级"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-11-23",
+     "label": "意见反馈截止（证监会公告：公众反馈截至11月23日）"
+    }
+   ],
+   "notes": "六大核心条款：母基金豁免一层投资层级；鼓励社保、养老、年金、保险、QFII及国家级政府投资基金出资；明确分散投资与运作管理要求。; 官方查证(2026-10-25)：意见反馈截止2026年11月23日",
+   "evidence": [
+    160,
+    162
+   ],
+   "sigTime": "2026-10-23 22:15",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "ED5F8499380F5",
+   "key": "外汇局-跨境投融资便利化一揽子政策-20261023",
+   "name": "外汇局征求意见：提升直接投资便利化水平，扩大跨境融资高水平开放",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-23",
+   "landDate": null,
+   "market": "A股",
+   "status": "待落地",
+   "amount": "机制性政策，直接金额不可量化；科创/专精特新中小企业跨境融资便利额度1000万~2000万美元/家",
+   "amountYi": null,
+   "sector": "外汇/跨境投融资",
+   "sources": [
+    {
+     "name": "国家外汇管理局",
+     "org": "国家外汇管理局",
+     "url": "https://www.safe.gov.cn/internet_app/search?q=外汇",
+     "role": "ref"
+    },
+    {
+     "name": "中国新闻网",
+     "org": "中国新闻网",
+     "url": "http://m.chinanews.com/wap/detail/chs/zw/10661175.shtml",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-17",
+     "label": "【前序】外汇局预告推出一揽子跨境投融资便利化政策"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【发生】外汇局就具体措施征求意见"
+    }
+   ],
+   "watch": [],
+   "notes": "简化资本项目结汇支付、简化走出去企业资金汇出审核；拓展跨境融资便利化适用主体、全国推广绿色外债试点；涉及全国跨境企业。",
+   "evidence": [
+    65
+   ],
+   "sigTime": "2026-10-24 09:33",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E60E81F61839B",
+   "key": "财政部-提前下达2027年新增地方债限额-20261023",
+   "name": "财政部：抓紧做好提前下达2027年部分新增地方政府债务限额工作",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "专项债"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-10-23",
+   "landDate": null,
+   "market": "A股",
+   "status": "待落地",
+   "amount": "上限约3.12万亿元（2026年新增限额5.2万亿元的60%以内）",
+   "amountYi": 31200.0,
+   "sector": "财政/地方政府债务",
+   "sources": [
+    {
+     "name": "第一财经",
+     "org": "第一财经",
+     "url": "http://m.toutiao.com/group/7699775985130029596/",
+     "role": "info"
+    },
+    {
+     "name": "新华网",
+     "org": "新华网",
+     "url": "",
+     "role": "info"
+    },
+    {
+     "name": "2026年前三季度财政收支情况新闻发布会文字实录",
+     "org": "财政部",
+     "url": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202610/t20261023_4003429.htm",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】财政部发布会宣布抓紧提前下达2027年部分新增限额"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【发生】财政部新闻发布会：四季度内在当年限额60%以内提前下达，上限3.12万亿元"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2027-01-01",
+     "label": "【计划】2027年1月尽早启动债券发行"
+    },
+    {
+     "date": "2027-01-01",
+     "label": "2027年1月尽早启动债券发行（财政部发布会口径，具体日以正式下达文件为准）"
+    }
+   ],
+   "notes": "按全国人大授权，提前下达额度不超过当年新增限额的60%；2026年限额5.2万亿→提前下达上限3.12万亿；确保明年1月尽早发行，支持扩大有效投资。; 官方查证(2026-10-25)：确保2027年1月尽早启动债券发行",
+   "evidence": [
+    247
+   ],
+   "sigTime": "2026-10-23 19:26",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E137555C7E5CB",
+   "key": "国常会-建设生育友好型社会-20261023",
+   "name": "国务院常务会议：加快建设生育友好型社会，优化面向家庭的财税社保住房支持",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-23",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "直接金额未披露；可估算口径：中央财政育儿补贴补助资金约900亿元/年（2025年已实施）",
+   "amountYi": 900.0,
+   "sector": "人口/生育支持",
+   "sources": [
+    {
+     "name": "人民日报",
+     "org": "新华社",
+     "url": "http://data.people.com.cn/rmrb/20261024/1/8f0d72f3679d4243ac8af2c01257d0dc",
+     "role": "info"
+    },
+    {
+     "name": "中国政府网·政策解读",
+     "org": "中国政府网",
+     "url": "https://www.gov.cn/zhengce/202507/content_7034595.htm",
+     "role": "ref"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】李强主持国常会，研究人口发展工作"
+    }
+   ],
+   "watch": [],
+   "notes": "政策方向：持续完善婚嫁、生育、养育、教育政策，优化财税、社保、住房支持举措，努力稳定新出生人口规模；金额按育儿补贴中央财政约900亿/年估算。",
+   "evidence": [
+    87
+   ],
+   "sigTime": "2026-10-24 07:13",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E39E33117F1E3",
+   "key": "Meta-隐私内容审核罚款-20261022",
+   "name": "Meta因隐私及内容审核问题被判支付250亿美元罚款",
+   "category": "监管处罚",
+   "tags": [
+    "监管处罚",
+    "隐私合规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-22",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "被判支付250亿美元（约合1800亿元人民币）",
+   "amountYi": 1800.0,
+   "sector": "海外监管",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Meta%E5%9B%A0%E9%9A%90%E7%A7%81%E5%8F%8A%E5%86%85%E5%AE%B9%E5%AE%A1%E6%A0%B8",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "Meta因隐私及内容审核问题被判支付250亿美元罚款"
+    }
+   ],
+   "watch": [],
+   "notes": "与9-26新墨西哥州案并列的Meta诉讼金序列（金额以判决文书为准）。",
+   "evidence": [
+    1432
+   ],
+   "sigTime": "2026-10-22 02:30",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E13ECB2BD07EB",
+   "key": "Meta-未来支出承诺-20261022",
+   "name": "Meta未来支出承诺总额达8250亿美元，涉AI算力/数据中心/能源基建",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "资本开支"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-22",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "未来支出承诺总额达8250亿美元（约合5.94万亿元）",
+   "amountYi": 59400.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Meta%E6%9C%AA%E6%9D%A5%E6%94%AF%E5%87%BA%E6%89%BF%E8%AF%BA%E6%80%BB%E9%A2%9D",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "Meta未来支出承诺总额达8250亿美元，涉及AI算力、数据中心及能源基础设施；同日披露拟发行新类别股票"
+    }
+   ],
+   "watch": [],
+   "notes": "AI资本开支周期总量级锚点（与微软1750亿美元capex互为参照）。",
+   "evidence": [
+    900
+   ],
+   "sigTime": "2026-10-22 19:37",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E6498476676C7",
+   "key": "工信部等八部门-产业基础能力提升十五五规划-20261022",
+   "name": "八部门印发《产业基础能力提升十五五规划》",
+   "category": "行业事件",
+   "tags": [
+    "产业规划",
+    "科技创新"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-22",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "面向量子/生物制造/氢能/6G/具身智能等前沿布局",
+   "amountYi": null,
+   "sector": "产业基础",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2511801",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "【发生】八部门印发《产业基础能力提升十五五规划》"
+    }
+   ],
+   "watch": [],
+   "notes": "国家级产业基础再造专项规划,明确企业牵头创新联合体与前沿技术攻关方向",
+   "evidence": [
+    1304
+   ],
+   "sigTime": "2026-10-22 10:04",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E23CC04F8CF79",
+   "key": "日本制铁-美钢蒙谷工厂30亿美元投资-20261022",
+   "name": "日本制铁拟30亿美元升级美国钢铁蒙谷工厂（220万吨→350万吨产能）",
+   "category": "行业事件",
+   "tags": [
+    "大额投资",
+    "行业事件"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-22",
+   "landDate": "",
+   "market": "外资",
+   "status": "关注中",
+   "amount": "约30亿美元（≈216亿元人民币）；属美钢110亿美元投资计划一部分",
+   "amountYi": 216.0,
+   "sector": "钢铁/全球产能",
+   "sources": [
+    {
+     "name": "日本制铁",
+     "org": "Nippon Steel",
+     "url": "https://www.nipponsteel.com/en/newsroom/news/2026/20261023_100.html",
+     "role": "ref"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-10-23/doc-iniweiyt5663613.shtml",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "【发生】消息传出拟投30亿美元升级美钢蒙谷工厂"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【确认】美国钢铁董事会批准近30亿美元热轧产线投资"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2029-12-31",
+     "label": "【计划】2029年末投产（产能220→350万吨）"
+    }
+   ],
+   "notes": "日铁2028年前在美合计110亿美元投资规划的一部分；替换埃德加·汤姆森老旧产线，配备最新热轧技术。",
+   "evidence": [
+    651,
+    661
+   ],
+   "sigTime": "2026-10-23 09:01",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E38C579BEB068",
+   "key": "长电科技-2026投资计划调增至182亿-20261022",
+   "name": "长电科技：拟调增2026年投资计划至182亿元",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-22",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "182亿元（2026年投资计划）",
+   "amountYi": 182.0,
+   "sector": "半导体封测/长电科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "【发生】调增2026年投资计划至182亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "封测龙头扩产信号，投资额≥100亿属百亿级资金事件（半导体行业产能扩张）。",
+   "evidence": [
+    754
+   ],
+   "sigTime": "2026-10-23 02:10",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E10AFFC1FC733",
+   "key": "DeepSeek-千亿级融资-20261022",
+   "name": "DeepSeek完成约1000亿元融资（投前估值约5000亿元）",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "大额投资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-10-22",
+   "landDate": "2026-10-22",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "约1000亿元人民币（约合150亿美元），投前估值约5000亿元",
+   "amountYi": 1000.0,
+   "sector": "AI大模型/DeepSeek",
+   "sources": [
+    {
+     "name": "证券时报",
+     "org": "证券时报",
+     "url": "https://stcn.com/article/detail/4209093.html",
+     "role": "info"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniweuqq8121411.shtml",
+     "role": "info"
+    },
+    {
+     "name": "36氪",
+     "org": "36氪",
+     "url": "https://36kr.com/p/4036587917661064",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-06",
+     "label": "【发生】传DeepSeek接近锁定至少800亿元融资"
+    },
+    {
+     "date": "2026-10-22",
+     "label": "【落地】多家外媒确认完成约1000亿元融资，宁德时代、腾讯为主要投资方"
+    }
+   ],
+   "watch": [],
+   "notes": "中国AI史上最大私募融资之一：募资由500亿增至约1000亿，投前估值5000亿；联想系、完美世界、中芯聚源等产业资本入局；并筹备科创板上市。",
+   "evidence": [
+    440,
+    718
+   ],
+   "sigTime": "2026-10-23 06:19",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E3E2034CE9A78",
+   "key": "陇电入川-核准批复-20261021",
+   "name": "陇电入川特高压外送工程获核准批复",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "特高压",
+    "核准"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-10-21",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额（项目总投资以后续公告为准）",
+   "amountYi": null,
+   "sector": "电力设备",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E9%99%87%E7%94%B5%E5%85%A5%E5%B7%9D%E7%89%B9%E9%AB%98%E5%8E%8B%E5%A4%96%E9%80%81%E5%B7%A5%E7%A8%8B%E8%8E%B7",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "label": "陇电入川工程获核准批复，甘肃再添清洁能源外送大动脉"
+    }
+   ],
+   "watch": [],
+   "notes": "特高压核准序列（与「蒙电入皖约218亿元征集投资」同主题，电网设备链跟踪锚点）。",
+   "evidence": [
+    1842
+   ],
+   "sigTime": "2026-10-21 14:03",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E681FBBFFA977",
+   "key": "美国-对华胺类化合物双反调查-20261021",
+   "name": "美国对进口自中国的胺类化合物发起反倾销反补贴调查",
+   "category": "行业事件",
+   "tags": [
+    "关税",
+    "贸易救济"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-21",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "涉案2025年美自华进口约2.35亿美元",
+   "amountYi": 16.92,
+   "sector": "化工",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2511054",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "label": "【发生】美国对进口自中国的胺类化合物发起反倾销反补贴调查"
+    }
+   ],
+   "watch": [],
+   "notes": "美方对中国胺类化合物发起双反,涉案约17亿元,影响相关化工品出口",
+   "evidence": [
+    1741
+   ],
+   "sigTime": "2026-10-21 16:23",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E57F6FDF9CC09",
+   "key": "中办国办-推动科技创新和产业创新深度融合意见-20261021",
+   "name": "中办、国办发布《关于推动科技创新和产业创新深度融合的意见》",
+   "category": "政策法规",
+   "tags": [
+    "顶层政策",
+    "科技创新"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-10-21",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "围绕6方面部署产学研融通与全链条创新",
+   "amountYi": null,
+   "sector": "科技产业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2511227",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "label": "【发生】中办、国办发布《关于推动科技创新和产业创新深度融合的意见》"
+    }
+   ],
+   "watch": [],
+   "notes": "中办国办联合发布的全局级产业创新顶层文件,布局集成电路/工业母机/未来产业",
+   "evidence": [
+    1650
+   ],
+   "sigTime": "2026-10-21 18:02",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E2C9435C7FA0C",
+   "key": "江苏芯德半导体-港交所IPO过聆讯-20261021",
+   "name": "江苏芯德半导体港交所IPO通过聆讯",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "半导体"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-10-21",
+   "landDate": "",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "募资额待调查",
+   "amountYi": null,
+   "sector": "半导体封装基板",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2511523",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "label": "【发生】江苏芯德半导体港交所IPO通过聆讯"
+    }
+   ],
+   "watch": [],
+   "notes": "封装基板企业港交所IPO过聆讯,进入发行关键阶段",
+   "evidence": [
+    1470
+   ],
+   "sigTime": "2026-10-21 22:56",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E9F00735F0BEF",
+   "key": "国务院国资委-组建国家数据集团-20261020",
+   "name": "国务院批准组建国家数据集团有限公司",
+   "category": "政策法规",
+   "tags": [
+    "央企重组",
+    "数据要素"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-10-20",
+   "landDate": "2026-10-20",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "新设中央企业,由国资委履行出资人职责",
+   "amountYi": null,
+   "sector": "数据要素",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2510104",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "label": "【发生】国务院批准组建国家数据集团有限公司"
+    }
+   ],
+   "watch": [],
+   "notes": "组建国家级数据集团,统领数据资源开发与数据要素市场化,全局影响",
+   "evidence": [
+    2249
+   ],
+   "sigTime": "2026-10-20 18:50",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E1E4A24455D80",
+   "key": "保伦股份-沪市主板IPO上会-20261020",
+   "name": "保伦股份沪市主板IPO定于10月27日上会",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-10-20",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "募资额待调查",
+   "amountYi": null,
+   "sector": "电子(音视频)",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2510126",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "label": "【发生】保伦股份沪市主板IPO定于10月27日上会"
+    }
+   ],
+   "watch": [],
+   "notes": "沪市主板IPO上会审议关键节点",
+   "evidence": [
+    2231
+   ],
+   "sigTime": "2026-10-20 19:04",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "ED0DFA0F62773",
+   "key": "商务部等9部门-加快推进科技兴商意见-20261019",
+   "name": "商务部等9部门发布《关于加快推进科技兴商的意见》",
+   "category": "行业事件",
+   "tags": [
+    "产业政策",
+    "人工智能+"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "深入实施人工智能+制造专项行动",
+   "amountYi": null,
+   "sector": "商贸/制造",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2507941",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-19",
+     "label": "【发生】商务部等9部门发布《关于加快推进科技兴商的意见》"
+    }
+   ],
+   "watch": [],
+   "notes": "9部门联合推进科技兴商,部署AI+制造与个性化定制,影响消费电子与制造业",
+   "evidence": [
+    3198
+   ],
+   "sigTime": "2026-10-19 10:14",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E268452E798F5",
+   "key": "商务部海关总署-盾构机等物项出口管制-20261019",
+   "name": "两部门对盾构机等物项实施出口管制",
+   "category": "政策法规",
+   "tags": [
+    "出口管制",
+    "高端装备"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-19",
+   "landDate": "2026-10-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "商务部/海关总署2026年第50号公告",
+   "amountYi": null,
+   "sector": "高端装备",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2508334",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-19",
+     "label": "【发生】两部门对盾构机等物项实施出口管制"
+    }
+   ],
+   "watch": [],
+   "notes": "对盾构机等高端装备实施出口管制,影响相关物项出口格局",
+   "evidence": [
+    3065
+   ],
+   "sigTime": "2026-10-19 15:04",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E20CA0BD25BE0",
+   "key": "央行-非银机构大额赎回流动性支持工具-20261019",
+   "name": "央行将推出非银机构大额赎回流动性支持工具",
+   "category": "政策法规",
+   "tags": [
+    "货币政策",
+    "宏观审慎"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-10-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "面向理财子/公募等资管机构的债券市场稳定新工具",
+   "amountYi": null,
+   "sector": "货币市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2508535",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-19",
+     "label": "【发生】央行将推出非银机构大额赎回流动性支持工具"
+    }
+   ],
+   "watch": [],
+   "notes": "央行新设宏观审慎工具,防范债券赎回-抛售负向循环,系统性风险防控",
+   "evidence": [
+    2997
+   ],
+   "sigTime": "2026-10-19 16:26",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EF2CC9B7F4A8C",
+   "key": "央行-银行间与交易所债券市场互联互通-20261019",
+   "name": "推动银行间与交易所债券市场互联互通落地",
+   "category": "政策法规",
+   "tags": [
+    "货币政策",
+    "债市改革"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-10-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "测试后即可开通,便利债券跨市场发行交易",
+   "amountYi": null,
+   "sector": "债券市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2508616",
+     "role": "info"
+    },
+    {
+     "name": "2026金融街论坛：潘功胜宣布推动债市互联互通落地",
+     "org": "新华财经",
+     "url": "https://www.cnfin.com/gs-lb/detail/20261019/4483307_1.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-19",
+     "label": "【发生】推动银行间与交易所债券市场互联互通落地"
+    }
+   ],
+   "watch": [],
+   "notes": "债市基础设施互联互通重大改革,提升流动性与价格发现,全局影响; 官方查证(2026-10-25)：口径为'已具备落地条件，测试后即可开通'，无确切落地日",
+   "evidence": [
+    2966
+   ],
+   "sigTime": "2026-10-19 17:07",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EB335DEF07CEC",
+   "key": "央行等11部门-金融支持国际科创中心意见-20261019",
+   "name": "央行等11部门印发金融支持北京/上海/粤港澳国际科创中心指导意见",
+   "category": "政策法规",
+   "tags": [
+    "货币政策",
+    "科创金融"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-10-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "用好社保科创基金/国家创投引导基金,发展并购基金与科技板债券",
+   "amountYi": null,
+   "sector": "科创金融",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2508769",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-19",
+     "label": "【发生】央行等11部门印发金融支持北京/上海/粤港澳国际科创中心指导意见"
+    }
+   ],
+   "watch": [],
+   "notes": "11部门联合指导意见,明确耐心资本、社保科创基金、再贷款等科创金融工具",
+   "evidence": [
+    2894
+   ],
+   "sigTime": "2026-10-19 18:24",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE9EDF5792F51",
+   "key": "上海超导-三期高温超导带材基地封顶-20261018",
+   "name": "上海超导二代高温超导带材三期基地封顶(总投资25亿)",
+   "category": "行业事件",
+   "tags": [
+    "产能扩张",
+    "超导"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-18",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "总投资25亿元,达产后总产能升至2万公里/年",
+   "amountYi": 25.0,
+   "sector": "超导材料",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2507611",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-18",
+     "label": "【发生】上海超导二代高温超导带材三期基地封顶(总投资25亿)"
+    }
+   ],
+   "watch": [],
+   "notes": "全球二代高温超导带材龙头产能扩张,投资25亿,规模化量产推进",
+   "evidence": [
+    3370
+   ],
+   "sigTime": "2026-10-18 14:50",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EAFAC95159C31",
+   "key": "财政部-2026年1.3万亿超长期特别国债发行收官-20261016",
+   "name": "2026年1.3万亿元超长期特别国债全年发行收官",
+   "category": "政策法规",
+   "tags": [
+    "财政政策",
+    "特别国债"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-10-16",
+   "landDate": "2026-10-16",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "全年1.3万亿:8000亿两重/2500亿以旧换新/2000亿设备更新/500亿促内需",
+   "amountYi": 13000.0,
+   "sector": "财政",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2506759",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-16",
+     "label": "【发生】2026年1.3万亿元超长期特别国债全年发行收官"
+    }
+   ],
+   "watch": [],
+   "notes": "1.3万亿超长期特别国债全部发行,大额财政资金落地支撑两重建设与促消费",
+   "evidence": [
+    3847
+   ],
+   "sigTime": "2026-10-16 15:00",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E0A81D66054E8",
+   "key": "朗高电机-创业板IPO注册-20261016",
+   "name": "证监会同意苏州朗高电机创业板IPO注册",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-10-16",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "募资额待调查",
+   "amountYi": null,
+   "sector": "电机",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2506962",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-16",
+     "label": "【发生】证监会同意苏州朗高电机创业板IPO注册"
+    }
+   ],
+   "watch": [],
+   "notes": "创业板IPO注册生效,进入发行申购关键阶段",
+   "evidence": [
+    3741
+   ],
+   "sigTime": "2026-10-16 17:11",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "ECC537896C382",
+   "key": "季丰电子-创业板IPO过会-20261015",
+   "name": "季丰电子创业板IPO获上市委会议通过",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "半导体"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-10-15",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "募资额待调查",
+   "amountYi": null,
+   "sector": "半导体测试",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2506017",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-15",
+     "label": "【发生】季丰电子创业板IPO获上市委会议通过"
+    }
+   ],
+   "watch": [],
+   "notes": "创业板IPO过会关键节点",
+   "evidence": [
+    4211
+   ],
+   "sigTime": "2026-10-15 19:59",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E69F6B95C875D",
+   "key": "央行-批准威士Visa筹备银行卡清算机构-20261013",
+   "name": "央行批准威士信息技术(北京)筹备银行卡清算机构",
+   "category": "政策法规",
+   "tags": [
+    "金融开放",
+    "支付清算"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-10-13",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "维萨在华外商独资企业获批筹备银行卡清算牌照(一年内)",
+   "amountYi": null,
+   "sector": "支付清算",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2503121",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-13",
+     "label": "【发生】央行批准威士信息技术(北京)筹备银行卡清算机构"
+    }
+   ],
+   "watch": [],
+   "notes": "外资国际卡组织Visa获批在华筹备银行卡清算机构,支付清算市场开放实质落地",
+   "evidence": [
+    5640
+   ],
+   "sigTime": "2026-10-13 11:38",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EC5F27848EC37",
+   "key": "交通运输部等三部门-内河新能源船舶推广行动方案-20261013",
+   "name": "三部门印发《内河新能源船舶推广应用行动方案(2026-2030)》",
+   "category": "行业事件",
+   "tags": [
+    "产业规划",
+    "新能源船舶"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-13",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "2028年内河新能源船舶保有量较2025年翻倍,电动船破1000艘",
+   "amountYi": null,
+   "sector": "船舶/航运",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2503345",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-13",
+     "label": "【发生】三部门印发《内河新能源船舶推广应用行动方案(2026-2030)》"
+    }
+   ],
+   "watch": [],
+   "notes": "三部门联合行动方案,量化电动/甲醇船舶目标与加注设施建设,影响船舶与氢能产业链",
+   "evidence": [
+    5551
+   ],
+   "sigTime": "2026-10-13 15:42",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E2B45F38D8747",
+   "key": "民航局等六部门-促进国际航空货运发展意见-20261012",
+   "name": "六部门印发《关于促进国际航空货运健康有序发展的意见》",
+   "category": "行业事件",
+   "tags": [
+    "产业政策",
+    "航空货运"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-10-12",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "到2030年基本建成国际航空货运体系,支撑全球123快货物流圈",
+   "amountYi": null,
+   "sector": "航空物流",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2501980",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-12",
+     "label": "【发生】六部门印发《关于促进国际航空货运健康有序发展的意见》"
+    }
+   ],
+   "watch": [],
+   "notes": "六部门联合部署国际航空货运枢纽与航线网络建设,全局影响航空物流",
+   "evidence": [
+    6180
+   ],
+   "sigTime": "2026-10-12 12:38",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E00E181861D77",
+   "key": "中共中央国务院-关于发展新质生产力的意见-20261009",
+   "name": "中共中央、国务院印发《关于发展新质生产力的意见》",
+   "category": "政策法规",
+   "tags": [
+    "顶层政策",
+    "人工智能+"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-10-09",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "全面实施人工智能+行动,布局未来产业与原创颠覆性科技",
+   "amountYi": null,
+   "sector": "科技产业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2500675",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-09",
+     "label": "【发生】中共中央、国务院印发《关于发展新质生产力的意见》"
+    }
+   ],
+   "watch": [],
+   "notes": "党中央国务院联合发布的全局级顶层文件,明确AI+行动与未来产业风险分担机制",
+   "evidence": [
+    6848
+   ],
+   "sigTime": "2026-10-09 18:04",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDB26FA79E50E",
+   "key": "华虹宏力-无锡三期增资-20261008",
+   "name": "华虹宏力旗下无锡三期增资约41.6亿美元，大基金三期旗下基金等入股",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体",
+    "大基金三期"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-08",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "增资约41.6亿美元（约合298亿元人民币）",
+   "amountYi": 298.0,
+   "sector": "半导体",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%8D%8E%E8%99%B9%E5%AE%8F%E5%8A%9B%E6%97%97%E4%B8%8B%E6%97%A0%E9%94%A1%E4%B8%89%E6%9C%9F%E5%A2%9E%E8%B5%84",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-08",
+     "label": "华虹宏力旗下无锡三期半导体公司增资约41.6亿美元，国家大基金三期旗下基金等入股"
+    }
+   ],
+   "watch": [],
+   "notes": "大基金三期首批标志性出资（此前9-1披露拟增资建月产能5.5万片/月12英寸产线）。",
+   "evidence": [
+    7601
+   ],
+   "sigTime": "2026-10-08 14:07",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE4A66C29B253",
+   "key": "派拉蒙-完成收购华纳-20261006",
+   "name": "派拉蒙天舞完成收购华纳兄弟探索，好莱坞历史性交易落定",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "并购",
+    "传媒"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-06",
+   "landDate": "2026-10-06",
+   "market": "外资",
+   "status": "已落地",
+   "amount": "交易对价以官方披露为准（好莱坞史上最大并购之一）",
+   "amountYi": null,
+   "sector": "海外传媒",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E6%B4%BE%E6%8B%89%E8%92%99%E5%A4%A9%E8%88%9E%E5%AE%8C%E6%88%90%E6%94%B6%E8%B4%AD%E5%8D%8E%E7%BA%B3%E5%85%84",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-22",
+     "label": "就收购华纳兄弟案与多个州达成和解"
+    },
+    {
+     "date": "2026-10-06",
+     "label": "完成收购华纳兄弟探索，好莱坞历史性交易落定"
+    }
+   ],
+   "watch": [],
+   "notes": "传媒产业整合里程碑；对价金额待官方查证后回补。",
+   "evidence": [
+    8196
+   ],
+   "sigTime": "2026-10-06 20:40",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EA3D98EDCE64F",
+   "key": "施耐德电气-收购PTC-20261005",
+   "name": "施耐德电气接近以约200亿美元收购工业软件企业PTC",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "工业软件",
+    "并购"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-05",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "约200亿美元（约合1440亿元人民币）",
+   "amountYi": 1440.0,
+   "sector": "工业软件",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E6%96%BD%E8%80%90%E5%BE%B7%E7%94%B5%E6%B0%94%E6%8E%A5%E8%BF%91%E4%BB%A5%E7%BA%A6200",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-05",
+     "label": "据报道：接近达成收购PTC交易，最早可能于周内官宣"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "已启动约60亿欧元增资计划，用于为收购PTC的交割提供资金"
+    }
+   ],
+   "watch": [],
+   "notes": "全球工业软件格局重整大单；官宣与对价待查证。",
+   "evidence": [
+    8597
+   ],
+   "sigTime": "2026-10-05 03:36",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EEEFFB29B1FE2",
+   "key": "软银-OpenAI累计投资-20261001",
+   "name": "软银完成对OpenAI追加投资最后一笔100亿美元，累计投资达646亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-10-01",
+   "landDate": "2026-10-01",
+   "market": "外资",
+   "status": "已落地",
+   "amount": "累计投资达646亿美元（约合4650亿元人民币）",
+   "amountYi": 4650.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%BD%AF%E9%93%B6%E5%AE%8C%E6%88%90%E5%AF%B9OpenAI%E8%BF%BD",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-01",
+     "label": "软银完成对OpenAI追加投资的最后一笔100亿美元，累计投资达646亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "软银全力押注OpenAI的资金链锚点（8-6曾签订100亿美元以OpenAI股份为担保的贷款；后续110亿美元高收益债多为该投资融资）。",
+   "evidence": [
+    9267
+   ],
+   "sigTime": "2026-10-01 15:01",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E46C1D88AC602",
+   "key": "注资特别国债-一期发行-20260930",
+   "name": "财政部拟发行1500亿元中央金融机构注资特别国债（一期）",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "特别国债",
+    "银行资本"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-30",
+   "landDate": "2026-10-08",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "一期规模1500亿元（用于中央金融机构注资）",
+   "amountYi": 1500.0,
+   "sector": "银行/财政",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%B4%A2%E6%94%BF%E9%83%A8%E6%8B%9F%E5%8F%91%E8%A1%8C1500%E4%BA%BF%E5%85%83",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-30",
+     "label": "财政部公告：拟于10月8日发行2026年中央金融机构注资特别国债（一期），规模1500亿元"
+    },
+    {
+     "date": "2026-10-08",
+     "label": "财政部发行中央金融机构注资特别国债"
+    }
+   ],
+   "watch": [],
+   "notes": "大行注资落地通道（另见工行9-6披露拟募资不超1000亿元补充资本等个案）。",
+   "evidence": [
+    9854
+   ],
+   "sigTime": "2026-09-30 08:56",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "ED8C8548D7340",
+   "key": "工信部等七部门-新型电池产业发展十五五规划-20260930",
+   "name": "工信部等七部门印发《新型电池产业发展十五五规划》",
+   "category": "行业事件",
+   "tags": [
+    "产业规划",
+    "固态电池"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-30",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "2030年全固态电池初步规模化应用,长寿命锂电池循环达1.5万次",
+   "amountYi": null,
+   "sector": "电池",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2495882",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-30",
+     "label": "【发生】工信部等七部门印发《新型电池产业发展十五五规划》"
+    }
+   ],
+   "watch": [],
+   "notes": "七部门联合新型电池产业规划,明确全固态电池/钠电池目标,引爆固态电池板块",
+   "evidence": [
+    9833
+   ],
+   "sigTime": "2026-09-30 09:32",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E5EF40FE68342",
+   "key": "商务部-自巴西进口牛肉加征55%关税-20260930",
+   "name": "自巴西进口牛肉保障措施项下加征55%关税(10月1日起)",
+   "category": "行业事件",
+   "tags": [
+    "关税",
+    "农产品"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-30",
+   "landDate": "2026-10-01",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "巴西牛肉进口达规定数量100%,第3日起加征55%关税",
+   "amountYi": null,
+   "sector": "畜牧/牛肉进口",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2495896",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-30",
+     "label": "【发生】自巴西进口牛肉保障措施项下加征55%关税(10月1日起)"
+    }
+   ],
+   "watch": [],
+   "notes": "保障措施触发,巴西牛肉进口加征55%关税落地,影响牛肉进口产业链",
+   "evidence": [
+    9820
+   ],
+   "sigTime": "2026-09-30 09:48",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E2716379C22DA",
+   "key": "上期所郑商所广期所-QFI可交易品种扩围-20260929",
+   "name": "三大期交所扩大QFI可交易品种,新增23个期货期权合约",
+   "category": "政策法规",
+   "tags": [
+    "金融开放",
+    "期货"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-09-29",
+   "landDate": "2026-09-28",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "新增开放23个期货/期权合约,覆盖能源金属化工农产品新能源",
+   "amountYi": null,
+   "sector": "期货市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2494696",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-29",
+     "label": "【发生】三大期交所扩大QFI可交易品种,新增23个期货期权合约"
+    }
+   ],
+   "watch": [],
+   "notes": "期货市场制度型开放,QFI可交易品种再扩围,引入境外机构提升流动性",
+   "evidence": [
+    10456
+   ],
+   "sigTime": "2026-09-29 07:01",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E63AA399714CF",
+   "key": "广汽集团-收购一汽丰田50%-20260929",
+   "name": "广汽集团拟收购一汽丰田50%股权",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "汽车"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-29",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "一汽丰田50%股权（交易对价待公告）",
+   "amountYi": null,
+   "sector": "汽车/广汽集团",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2494792",
+     "role": "info"
+    },
+    {
+     "name": "广汽集团：拟通过发行股份购买一汽丰田50%股权，股票明日开市起复牌",
+     "org": "每日经济新闻",
+     "url": "https://www.nbd.com.cn/articles/2026-09-28/4593832.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-28",
+     "label": "【发生】披露重大资产重组预案：拟发行股份购买一汽股份持有一汽丰田50%股权，股票复牌"
+    },
+    {
+     "date": "2026-09-29",
+     "label": "【发生】拟收购一汽丰田50%股权 广汽集团复牌一字涨停"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-29",
+     "label": "【关注】拟收购一汽丰田50%股权 广汽集团复牌一字涨停"
+    }
+   ],
+   "notes": "广汽集团拟收购一汽丰田50%股权，金额待公告确认; 官方查证(2026-10-25)：交易完成后广汽50%/丰田体系50%；一汽仍通过销售公司FTMS持股38%；作价未定",
+   "evidence": [
+    10419
+   ],
+   "sigTime": "2026-09-29 09:30",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EC323EEAFB6FA",
+   "key": "长鑫科技-研发及测试基地投资-20260928",
+   "name": "长鑫科技拟241亿元+108亿元投建技术研发项目及存储器晶圆后道测试基地二期",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体存储"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-28",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "合计约349亿元（241亿元技术研发项目+108亿元后道测试基地二期）",
+   "amountYi": 349.0,
+   "sector": "半导体存储",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E6%8B%9F241%E4%BA%BF%E5%85%83%2B1",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-28",
+     "label": "长鑫科技公告：拟241亿元、108亿元分别投建技术研发项目、存储器晶圆后道测试基地二期项目"
+    }
+   ],
+   "watch": [],
+   "notes": "存储国产化产能二阶投资；上市后再融资式capex信号。",
+   "evidence": [
+    10588
+   ],
+   "sigTime": "2026-09-28 21:29",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E268F36DF4E1E",
+   "key": "Meta-新墨西哥州罚款案-20260926",
+   "name": "Meta在美国新墨西哥州败诉，或面临最高2190亿美元罚款",
+   "category": "监管处罚",
+   "tags": [
+    "监管处罚",
+    "隐私合规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-26",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "或面临高达2190亿美元罚款（约合1.57万亿元，金额未最终确定，待官方核实）",
+   "amountYi": null,
+   "sector": "海外监管",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Meta%E5%9C%A8%E7%BE%8E%E5%9B%BD%E6%96%B0%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%B7%9E",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-26",
+     "label": "Meta在美国新墨西哥州败诉，或面临高达2190亿美元罚款"
+    }
+   ],
+   "watch": [],
+   "notes": "金额夸张待核实；另案：10-22因隐私及内容审核问题被判支付250亿美元（见同名事件）。",
+   "evidence": [
+    11294
+   ],
+   "sigTime": "2026-09-26 05:12",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E34DD6EDCCF1B",
+   "key": "轻工纺织产业发展十五五规划-印发-20260922",
+   "name": "轻工纺织产业发展“十五五”规划印发",
+   "category": "政策法规",
+   "tags": [
+    "产业规划"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-22",
+   "landDate": "2026-09-22",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "轻工纺织",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2489947",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-22",
+     "label": "【发生】轻工纺织产业发展“十五五”规划印发"
+    }
+   ],
+   "watch": [],
+   "notes": "工信部等三部委印发，鼓励企业兼并重组、战略合作、产业链整合做大做强",
+   "evidence": [
+    13062
+   ],
+   "sigTime": "2026-09-22 14:37",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E526138C37E22",
+   "key": "福建战新领航股权投资基金-成立-20260922",
+   "name": "福建战新领航股权投资基金成立",
+   "category": "行业事件",
+   "tags": [
+    "产业基金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-22",
+   "landDate": "2026-09-22",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "出资额10亿元",
+   "amountYi": 10.0,
+   "sector": "福建省级政府投资基金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2490050",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-22",
+     "label": "【发生】福建战新领航股权投资基金成立"
+    }
+   ],
+   "watch": [],
+   "notes": "省级政府投资基金、国民养老、建信人寿等共同出资的战新产业基金成立",
+   "evidence": [
+    13011
+   ],
+   "sigTime": "2026-09-22 15:34",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E20D198D2612A",
+   "key": "粤芯半导体-科创板IPO-20260922",
+   "name": "粤芯半导体IPO发行价格确定为12.01元/股",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "半导体"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-22",
+   "landDate": "2026-10-13",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资最高70.8亿元（发行5.13亿股×12.01元，超额配售全额行使）；此前拟募资75亿",
+   "amountYi": 70.8,
+   "sector": "半导体/粤芯",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2490464",
+     "role": "info"
+    },
+    {
+     "name": "粤芯半导体：将于10月13日在创业板上市",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2501586",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-22",
+     "label": "【发生】粤芯半导体：IPO发行价格为12.01元/股"
+    },
+    {
+     "date": "2026-09-24",
+     "label": "网上/网下申购（发行价12.01元/股，代码301660）"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "【落地】创业板上市（开盘45元，市值超1200亿元）"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-22",
+     "label": "【关注】粤芯半导体：IPO发行价格为12.01元/股"
+    }
+   ],
+   "notes": "粤芯半导体IPO发行价12.01元/股; 官方查证(2026-10-25)：2026-10-13创业板上市，市值超1200亿",
+   "evidence": [
+    12802
+   ],
+   "sigTime": "2026-09-22 21:36",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E1B3B552A2D76",
+   "key": "金石湖北科技创新产业投资基金-成立-20260921",
+   "name": "金石（湖北）科技创新产业投资基金成立",
+   "category": "行业事件",
+   "tags": [
+    "产业基金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-21",
+   "landDate": "2026-09-21",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "出资额20亿元",
+   "amountYi": 20.0,
+   "sector": "新华保险/中信金石",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2488930",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-21",
+     "label": "【发生】金石（湖北）科技创新产业投资基金成立"
+    }
+   ],
+   "watch": [],
+   "notes": "新华保险等险资与中信金石共同出资设立20亿元科创产业基金",
+   "evidence": [
+    13553
+   ],
+   "sigTime": "2026-09-21 16:02",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E5F59ABC6E6E9",
+   "key": "广西-金融业十五五规划-20260919",
+   "name": "广西印发金融业“十五五”规划：构建不低于500亿元AI基金集群",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "产业基金",
+    "AI"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-19",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "规划构建总规模不低于500亿元的人工智能领域基金集群",
+   "amountYi": 500.0,
+   "sector": "广西/金融",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%B9%BF%E8%A5%BF%E5%8D%B0%E5%8F%91%E9%87%91%E8%9E%8D%E4%B8%9A%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-19",
+     "label": "《广西金融业发展“十五五”规划》印发，加快构建总规模不低于500亿元的人工智能领域基金集群"
+    }
+   ],
+   "watch": [],
+   "notes": "省级“十五五”金融规划政策锚点。",
+   "evidence": [
+    14047
+   ],
+   "sigTime": "2026-09-19 19:47",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EB703BDF9B4F0",
+   "key": "力勤资源-深市主板IPO-20260918",
+   "name": "力勤资源深市主板IPO申购",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "A+H"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-18",
+   "landDate": "2026-09-18",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资总额约36.70亿元（发行价21.23元/股）",
+   "amountYi": 36.7,
+   "sector": "镍钴新能源金属",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2486683",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-18",
+     "label": "【发生】力勤资源深市主板IPO申购"
+    }
+   ],
+   "watch": [],
+   "notes": "镍全产业链龙头先H后A回A，深市主板IPO",
+   "evidence": [
+    14686
+   ],
+   "sigTime": "2026-09-18 07:52",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EEF1A30F9F9DC",
+   "key": "全国农业机械化发展十五五规划-印发-20260918",
+   "name": "全国农业机械化发展“十五五”规划印发",
+   "category": "政策法规",
+   "tags": [
+    "产业规划"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-09-18",
+   "landDate": "2026-09-18",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "农业机械",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2487331",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-18",
+     "label": "【发生】全国农业机械化发展“十五五”规划印发"
+    }
+   ],
+   "watch": [],
+   "notes": "农业农村部、工信部印发，2030年农作物耕种收综合机械化率超80%",
+   "evidence": [
+    14382
+   ],
+   "sigTime": "2026-09-18 17:41",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EFF13B29DBB9D",
+   "key": "沈鼓集团-沪市主板IPO上市-20260917",
+   "name": "沈鼓集团沪市主板IPO上市",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 2,
+   "signalDate": "2026-09-17",
+   "landDate": "2026-09-17",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资约13.65亿元（发行价4.39元/股，发行3.11亿股）",
+   "amountYi": 13.65,
+   "sector": "重大技术装备",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2485650",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-17",
+     "label": "【发生】沈鼓集团沪市主板IPO上市"
+    }
+   ],
+   "watch": [],
+   "notes": "离心压缩机/核泵“大国重器”主板上市，发行数量年内第4、沪市主板第1",
+   "evidence": [
+    15226
+   ],
+   "sigTime": "2026-09-17 07:42",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E88CECD8869C8",
+   "key": "全国种植业发展十五五规划-印发-20260917",
+   "name": "全国种植业发展“十五五”规划印发",
+   "category": "政策法规",
+   "tags": [
+    "产业规划"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-09-17",
+   "landDate": "2026-09-17",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "种植业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2485875",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-17",
+     "label": "【发生】全国种植业发展“十五五”规划印发"
+    }
+   ],
+   "watch": [],
+   "notes": "农业农村部印发，2030年粮食综合生产能力约1.45万亿斤",
+   "evidence": [
+    15119
+   ],
+   "sigTime": "2026-09-17 11:37",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE6B8721ABB21",
+   "key": "爱科微-IPO辅导验收-20260916",
+   "name": "爱科微IPO辅导验收",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-16",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "金额待调查→已核实：辅导验收阶段，募投方案未定",
+   "amountYi": null,
+   "sector": "半导体",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2484387",
+     "role": "info"
+    },
+    {
+     "name": "爱科微IPO完成辅导验收 主业聚焦WiFi芯片开发",
+     "org": "科创板日报",
+     "url": "https://app.myzaker.com/news/article.php?pk=6aab995b8e9f09088870be82",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-16",
+     "label": "【发生】爱科微IPO辅导验收"
+    }
+   ],
+   "watch": [],
+   "notes": "半导体企业IPO辅导验收完成，进入申报关键节点（募资额待调查）; 官方查证(2026-10-25)：辅导验收阶段（中信建投三期辅导8-6完成报告），募投项目未最终确定，无公开募资规模",
+   "evidence": [
+    15800
+   ],
+   "sigTime": "2026-09-16 09:32",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E7C913B53C4BF",
+   "key": "全国种植业发展十五五规划-印发-20260915",
+   "name": "全国种植业发展“十五五”规划发布",
+   "category": "政策法规",
+   "tags": [
+    "产业规划"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-09-15",
+   "landDate": "2026-09-15",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "种植业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2483672",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-15",
+     "label": "【发生】全国种植业发展“十五五”规划发布"
+    }
+   ],
+   "watch": [],
+   "notes": "与id15119为同一规划（不同电报），农业农村部印发",
+   "evidence": [
+    16180
+   ],
+   "sigTime": "2026-09-15 15:50",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EEAF440BAD85F",
+   "key": "宁德时代-厦门时代怡远创投基金-20260915",
+   "name": "宁德时代参与设立厦门时代怡远创投基金",
+   "category": "行业事件",
+   "tags": [
+    "产业基金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-15",
+   "landDate": "2026-09-15",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "基金总认缴57.68亿元，宁德时代子公司认缴11.2亿元",
+   "amountYi": 57.68,
+   "sector": "新能源/AI/具身智能",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2484001",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-15",
+     "label": "【发生】宁德时代参与设立厦门时代怡远创投基金"
+    }
+   ],
+   "watch": [],
+   "notes": "宁德时代子公司参与设立57.68亿元新能源产业链及具身智能投资基金",
+   "evidence": [
+    16020
+   ],
+   "sigTime": "2026-09-15 20:16",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E2CEE1AF994E9",
+   "key": "Anthropic-Rum算力协议-20260914",
+   "name": "Anthropic与Rum Group达成137亿美元AI算力协议",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-14",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "137亿美元（约合985亿元人民币）",
+   "amountYi": 985.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Anthropic%E4%B8%8ERu",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-14",
+     "label": "Anthropic与Rum Group达成137亿美元算力协议"
+    }
+   ],
+   "watch": [],
+   "notes": "Anthropic算力大单序列锚点（后有Akamai 116亿美元、1吉瓦数据中心400亿美元投资洽谈等）。",
+   "evidence": [
+    16963
+   ],
+   "sigTime": "2026-09-14 09:15",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E3A0DB119D079",
+   "key": "促进智能家居消费行动方案-印发-20260914",
+   "name": "促进智能家居消费行动方案印发",
+   "category": "政策法规",
+   "tags": [
+    "消费补贴",
+    "以旧换新"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-14",
+   "landDate": "2026-09-14",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "智能家居/消费",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2482207",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-14",
+     "label": "【发生】促进智能家居消费行动方案印发"
+    }
+   ],
+   "watch": [],
+   "notes": "商务部等8部门印发，智能家居纳入以旧换新补贴，支持全屋智能购新",
+   "evidence": [
+    16821
+   ],
+   "sigTime": "2026-09-14 14:31",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E9EC84B619E71",
+   "key": "粤芯半导体-创业板IPO申购-20260924",
+   "name": "粤芯股份创业板IPO注册生效并申购",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-14",
+   "landDate": "2026-10-13",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资75亿元（发行价12.01元/股）",
+   "amountYi": 75.0,
+   "sector": "半导体晶圆代工",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2491773",
+     "role": "info"
+    },
+    {
+     "name": "粤芯半导体：将于10月13日在创业板上市",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2501586",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-14",
+     "label": "【发生】粤芯股份创业板IPO注册生效并申购"
+    },
+    {
+     "date": "2026-09-24",
+     "label": "网上/网下申购（发行价12.01元/股，代码301660）"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "【落地】创业板上市（开盘45元，市值超1200亿元）"
+    }
+   ],
+   "watch": [],
+   "notes": "广州晶圆代工龙头创业板IPO，发行5.13亿股，年内A股新股发行数量第四；与id12104为同一事件，粤芯已过会注册、9月24日申购; 官方查证(2026-10-25)：2026-10-13创业板上市，市值超1200亿",
+   "evidence": [
+    12104,
+    16507
+   ],
+   "sigTime": "2026-09-14 22:34",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E0FF8575C8647",
+   "key": "首单水利设施发电REIT-获批-20260912",
+   "name": "全国首单水利设施发电REIT获批",
+   "category": "行业事件",
+   "tags": [
+    "REITs"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-12",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "发行规模预计15.83亿元",
+   "amountYi": 15.83,
+   "sector": "基础设施REITs/水利",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2481421",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-12",
+     "label": "【发生】全国首单水利设施发电REIT获批"
+    }
+   ],
+   "watch": [],
+   "notes": "全国首单水利设施发电REIT获批，底层资产广东飞来峡、潮州供水枢纽电站",
+   "evidence": [
+    17213
+   ],
+   "sigTime": "2026-09-12 14:24",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE90FC97AA9FB",
+   "key": "燧原科技-科创板IPO上市-20260911",
+   "name": "燧原科技科创板IPO上市",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "AI芯片"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-11",
+   "landDate": "2026-09-11",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资总额61.19亿元（发行价142.18元/股）",
+   "amountYi": 61.19,
+   "sector": "AI芯片/GPU",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2480176",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-11",
+     "label": "【发生】燧原科技科创板IPO上市"
+    }
+   ],
+   "watch": [],
+   "notes": "国产GPU龙头科创板上市，首日市值约1764亿元，国产GPU四小龙全部完成资本化",
+   "evidence": [
+    17830
+   ],
+   "sigTime": "2026-09-11 07:55",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDB9D38DE1E79",
+   "key": "人工智能+软件专项行动实施方案-印发-20260911",
+   "name": "工信部《“人工智能+软件”专项行动实施方案》印发",
+   "category": "政策法规",
+   "tags": [
+    "人工智能",
+    "产业政策"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-11",
+   "landDate": "2026-09-11",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "软件/AI",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2480217",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-11",
+     "label": "【发生】工信部《“人工智能+软件”专项行动实施方案》印发"
+    }
+   ],
+   "watch": [],
+   "notes": "工信部印发，到2028年覆盖2万家规上软件企业智能化升级、打造100个智能体软件标杆",
+   "evidence": [
+    17817
+   ],
+   "sigTime": "2026-09-11 08:40",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E806AFC589686",
+   "key": "智能网联新能源汽车产业十五五规划-印发-20260911",
+   "name": "智能网联新能源汽车产业发展“十五五”规划印发",
+   "category": "政策法规",
+   "tags": [
+    "产业规划",
+    "汽车"
+   ],
+   "importance": "高",
+   "level": 2,
+   "signalDate": "2026-09-11",
+   "landDate": "2026-09-11",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "新能源汽车",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2480283",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-11",
+     "label": "【发生】智能网联新能源汽车产业发展“十五五”规划印发"
+    }
+   ],
+   "watch": [],
+   "notes": "工信部等九部门印发，严控新建独立新能源车企，推动兼并重组与落后产能退出、动力电池产能预警",
+   "evidence": [
+    17778
+   ],
+   "sigTime": "2026-09-11 09:38",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE7050C66DF73",
+   "key": "全国数据产权登记制度-推行-20260911",
+   "name": "我国正式推行数据产权登记制度",
+   "category": "政策法规",
+   "tags": [
+    "数据要素",
+    "制度建设"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-11",
+   "landDate": "2026-09-11",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "数据要素市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2481011",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-11",
+     "label": "【发生】我国正式推行数据产权登记制度"
+    }
+   ],
+   "watch": [],
+   "notes": "国家数据局正式推行统一数据产权登记，一次登记全国通用，建设全国一体化数据市场",
+   "evidence": [
+    17480
+   ],
+   "sigTime": "2026-09-11 18:12",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E8C12AAF9306A",
+   "key": "中金公司-吸收合并东兴证券信达证券-20260911",
+   "name": "中金公司吸收合并东兴证券、信达证券",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "行业整合"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-09-11",
+   "landDate": "2026-10-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "新增发行31.04亿股，东方资产/信达资产入股（合并对价待调查）",
+   "amountYi": null,
+   "sector": "证券行业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2481042",
+     "role": "info"
+    },
+    {
+     "name": "中金公司公告：东兴证券、信达证券10月19日终止上市",
+     "org": "新华财经/中国金融信息网",
+     "url": "https://www.cnfin.com/kx/detail/20261012/4479747_1.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-07",
+     "label": "【落地】证监会出具批复：同意注册并核准吸收合并"
+    },
+    {
+     "date": "2026-09-11",
+     "label": "【发生】中金公司吸收合并东兴证券、信达证券"
+    },
+    {
+     "date": "2026-10-16",
+     "label": "换股实施股权登记日（A股）"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "【落地】东兴证券、信达证券终止上市，不进入退市整理期，原股东换股为中金股份"
+    }
+   ],
+   "watch": [],
+   "notes": "头部券商重磅整合：中金吸并东兴、信达，券业供给侧改革标志性事件; 官方查证(2026-10-25)：换股登记日10月16日，东兴/信达10月19日终止上市",
+   "evidence": [
+    17462
+   ],
+   "sigTime": "2026-09-11 18:35",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EAE987B42F83E",
+   "key": "期货公司监督管理办法-发布-20260911",
+   "name": "证监会发布《期货公司监督管理办法》",
+   "category": "政策法规",
+   "tags": [
+    "监管规则"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-11",
+   "landDate": "2027-01-01",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "期货行业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2481127",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-11",
+     "label": "【发生】证监会发布《期货公司监督管理办法》"
+    }
+   ],
+   "watch": [],
+   "notes": "证监会修订发布期货公司监管办法，2027年1月1日施行",
+   "evidence": [
+    17410
+   ],
+   "sigTime": "2026-09-11 20:06",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EC4FD35C9ABC2",
+   "key": "华虹宏力-发行股份购资产-20260911",
+   "name": "华虹宏力发行股份购买资产事项完成",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "半导体"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-11",
+   "landDate": "2026-09-11",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "金额待公告",
+   "amountYi": null,
+   "sector": "半导体/华虹宏力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2480921",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-11",
+     "label": "【发生】华虹宏力发行股份购买资产事项完成"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-11",
+     "label": "【关注】华虹宏力发行股份购买资产事项完成"
+    }
+   ],
+   "notes": "华虹宏力发行股份购买资产事项完成",
+   "evidence": [
+    17518
+   ],
+   "sigTime": "2026-09-11 17:25",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E49C4AA5DA114",
+   "key": "力勤资源-深市主板IPO-20260910",
+   "name": "力勤资源披露招股书拟深市主板上市",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "A+H"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-10",
+   "landDate": "2026-09-10",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资总额约36.70亿元（发行价21.23元/股）",
+   "amountYi": 36.7,
+   "sector": "镍钴新能源金属",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2479606",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-10",
+     "label": "【发生】力勤资源披露招股书拟深市主板上市"
+    }
+   ],
+   "watch": [],
+   "notes": "与id14686为同一事件，镍全产业链龙头先H后A回A",
+   "evidence": [
+    18170
+   ],
+   "sigTime": "2026-09-10 16:55",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E69ABA1A04DBA",
+   "key": "国办-治理中小企业回款难-20260910",
+   "name": "国办加强中小企业回款难问题治理",
+   "category": "政策法规",
+   "tags": [
+    "中小企业",
+    "账款治理"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-10",
+   "landDate": "2026-09-10",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "中小企业/营商环境",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2479635",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-10",
+     "label": "【发生】国办加强中小企业回款难问题治理"
+    }
+   ],
+   "watch": [],
+   "notes": "国办发文建立大企业账款监测机制，支持以贷款发债融资置换应付账款清偿中小企业",
+   "evidence": [
+    18152
+   ],
+   "sigTime": "2026-09-10 17:07",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E27F632152AAB",
+   "key": "北京市十五五高精尖产业发展规划-印发-20260909",
+   "name": "北京市“十五五”高精尖产业发展规划印发",
+   "category": "政策法规",
+   "tags": [
+    "产业规划",
+    "半导体"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-09",
+   "landDate": "2026-09-09",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "北京/集成电路",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2478197",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-09",
+     "label": "【发生】北京市“十五五”高精尖产业发展规划印发"
+    }
+   ],
+   "watch": [],
+   "notes": "北京市印发高精尖规划，布局RISC-V、芯粒、存算一体，打造综合性集成电路制造基地",
+   "evidence": [
+    18807
+   ],
+   "sigTime": "2026-09-09 15:38",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E4DB9C08D658A",
+   "key": "湖南黄金-重大资产重组-20260909",
+   "name": "湖南黄金重大资产重组获湖南省国资委批复",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "有色金属"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-09",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "金额待公告",
+   "amountYi": null,
+   "sector": "有色金属/湖南黄金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2478372",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-09",
+     "label": "【发生】湖南黄金：重大资产重组获湖南省国资委批复"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-09",
+     "label": "【关注】湖南黄金：重大资产重组获湖南省国资委批复"
+    }
+   ],
+   "notes": "湖南黄金重大资产重组获湖南省国资委批复",
+   "evidence": [
+    18710
+   ],
+   "sigTime": "2026-09-09 17:35",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EA4E9D185B258",
+   "key": "沈鼓集团-沪市主板IPO-20260908",
+   "name": "沈鼓集团沪市主板IPO申购",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 2,
+   "signalDate": "2026-09-08",
+   "landDate": "2026-09-17",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资约13.65亿元（发行价4.39元/股）",
+   "amountYi": 13.65,
+   "sector": "重大技术装备",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2476468",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-08",
+     "label": "【发生】沈鼓集团沪市主板IPO申购"
+    }
+   ],
+   "watch": [],
+   "notes": "与id15226为同一事件，发行3.11亿股年内新股第4",
+   "evidence": [
+    19656
+   ],
+   "sigTime": "2026-09-08 07:57",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EA7D2784587EA",
+   "key": "信息通信行业发展十五五规划-印发-20260907",
+   "name": "信息通信行业发展“十五五”规划印发",
+   "category": "政策法规",
+   "tags": [
+    "产业规划",
+    "6G",
+    "卫星互联网"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-09-07",
+   "landDate": "2026-09-07",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "",
+   "amountYi": null,
+   "sector": "通信/6G",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2475842",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-07",
+     "label": "【发生】信息通信行业发展“十五五”规划印发"
+    }
+   ],
+   "watch": [],
+   "notes": "工信部印发，推进6G技术研发、卫星星座协同、eSIM备案与空芯光纤等关键技术",
+   "evidence": [
+    19942
+   ],
+   "sigTime": "2026-09-07 15:43",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EB71F8D00CAA9",
+   "key": "合肥产投促进新兴产业股权投资基金-创立-20260907",
+   "name": "合肥产投促进新兴产业股权投资基金创立",
+   "category": "行业事件",
+   "tags": [
+    "产业基金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-07",
+   "landDate": "2026-09-07",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "总规模20亿元",
+   "amountYi": 20.0,
+   "sector": "合肥/政府引导基金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2476253",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-07",
+     "label": "【发生】合肥产投促进新兴产业股权投资基金创立"
+    }
+   ],
+   "watch": [],
+   "notes": "合肥产投20亿元新兴产业股权投资基金创立",
+   "evidence": [
+    19769
+   ],
+   "sigTime": "2026-09-07 20:19",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EAC4EE5145CFC",
+   "key": "财政部-向中国太平注资-20260906",
+   "name": "财政部向中国太平注资70亿元",
+   "category": "公司大事件",
+   "tags": [
+    "国家注资",
+    "保险业"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-06",
+   "landDate": "2026-09-06",
+   "market": "港股",
+   "status": "已落地",
+   "amount": "财政部注资70亿元",
+   "amountYi": 70.0,
+   "sector": "保险/中国太平",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2475143",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-06",
+     "label": "【发生】财政部向中国太平注资70亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "财政部向中国太平保险集团注资70亿元，增强资本与偿付能力",
+   "evidence": [
+    20253
+   ],
+   "sigTime": "2026-09-06 16:16",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E83F2DF9B844C",
+   "key": "中国再保-募资30亿-20260906",
+   "name": "中国再保计划募资30亿元增加核心一级资本",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增",
+    "金融"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-06",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "30亿元（增加核心一级资本）",
+   "amountYi": 30.0,
+   "sector": "保险/中国再保",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2475195",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-06",
+     "label": "【发生】中国再保计划募资30亿元用于增加核心一级资本"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-06",
+     "label": "【关注】中国再保计划募资30亿元用于增加核心一级资本"
+    }
+   ],
+   "notes": "中国再保计划募资30亿元用于增加核心一级资本",
+   "evidence": [
+    20236
+   ],
+   "sigTime": "2026-09-06 18:14",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE66F05800C20",
+   "key": "工信部-AI中小企业创业支持计划-20260904",
+   "name": "工信部印发《人工智能中小企业创业支持计划（2026-2028年）》",
+   "category": "政策法规",
+   "tags": [
+    "AI政策",
+    "创业支持",
+    "产业基金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-04",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额（依托国家中小企业发展基金/AI产业基金等引导）",
+   "amountYi": null,
+   "sector": "人工智能/中小企业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2474182",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-04",
+     "label": "【发生】工信部印发《人工智能中小企业创业支持计划（2026-2028年）》"
+    }
+   ],
+   "watch": [],
+   "notes": "国家级AI创业扶持三年计划，引导耐心资本投向早期AI企业，影响AI创业生态。",
+   "evidence": [
+    20808
+   ],
+   "sigTime": "2026-09-04 14:36",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EEB0E013C6727",
+   "key": "字节跳动-银团贷款-20260903",
+   "name": "字节跳动将获得约296亿美元银团贷款",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "融资"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-03",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "约296亿美元（约合2100亿元人民币）银团贷款",
+   "amountYi": 2100.0,
+   "sector": "字节/AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%B0%86%E8%8E%B7%E5%BE%97%E7%BA%A6296%E4%BA%BF",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-03",
+     "label": "据报道：字节跳动将获得约296亿美元银团贷款"
+    }
+   ],
+   "watch": [],
+   "notes": "中国AI巨头最大规模外币融资；用途/结构待查证。",
+   "evidence": [
+    21422
+   ],
+   "sigTime": "2026-09-03 15:01",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E85D48975BB5A",
+   "key": "工信部等十部门-促进中小企业十五五规划-20260903",
+   "name": "十部门印发《促进中小企业发展“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "产业政策",
+    "耐心资本",
+    "未来产业"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-03",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "中小企业/未来产业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2473217",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-03",
+     "label": "【发生】十部门印发《促进中小企业发展“十五五”规划》"
+    }
+   ],
+   "watch": [],
+   "notes": "国家级中小企业发展五年规划，引导耐心资本投向种子期初创期，覆盖机器人/量子/脑机接口等。",
+   "evidence": [
+    21327
+   ],
+   "sigTime": "2026-09-03 16:45",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E9E77533454F3",
+   "key": "国家医保局-2026医保国谈-20260903",
+   "name": "2026年国家医保药品目录谈判9月5日启动",
+   "category": "政策法规",
+   "tags": [
+    "医保政策",
+    "药品定价",
+    "医药行业"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-03",
+   "landDate": "2026-09-05",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "无直接金额（涉及医保基金与全行业药品定价）",
+   "amountYi": null,
+   "sector": "医药/医保",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2473398",
+     "role": "info"
+    },
+    {
+     "name": "国家医保局重要提醒（协议签署）",
+     "org": "国家医保局",
+     "url": "https://www.nhsa.gov.cn/art/2026/10/20/art_14_23170.html",
+     "role": "ext"
+    },
+    {
+     "name": "2026年药品目录调整工作方案（公布结果阶段：2026年10—11月）",
+     "org": "国家医保局",
+     "url": "https://www.nhsa.gov.cn/art/2026/5/31/art_109_20816.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-03",
+     "label": "【发生】2026年国家医保药品目录谈判9月5日启动"
+    },
+    {
+     "date": "2026-09-05",
+     "label": "现场谈判/竞价启动（9月完成现场谈判与价格协商）"
+    },
+    {
+     "date": "2026-10-20",
+     "label": "医保局提醒：完善协议签署，结果公布临近"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-11-30",
+     "label": "谈判结果公布窗口锚点（医保局工作方案：2026年10—11月公布目录调整结果，10-31为窗口上限参考）"
+    }
+   ],
+   "notes": "年度医保目录谈判直接影响创新药放量与医药板块估值，同步商保创新药目录协商。; 官方查证(2026-10-25)：现场谈判9月完成，结果10—11月公布；按惯例新版目录自2027年1月1日起执行",
+   "evidence": [
+    21237
+   ],
+   "sigTime": "2026-09-03 19:03",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E4576D7868873",
+   "key": "生态环境部-全国碳市场配额分配方案-20260903",
+   "name": "全国碳市场2025/2026年度配额总量和分配方案印发",
+   "category": "政策法规",
+   "tags": [
+    "碳市场",
+    "环保政策",
+    "产能调控"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-03",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额（覆盖发电/钢铁/水泥/铝冶炼四行业）",
+   "amountYi": null,
+   "sector": "碳市场/高耗能行业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2473478",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-03",
+     "label": "【发生】全国碳市场2025/2026年度配额总量和分配方案印发"
+    }
+   ],
+   "watch": [],
+   "notes": "碳市场扩围至钢铁水泥铝冶炼，配额分配直接影响高耗能行业成本与供给。",
+   "evidence": [
+    21193
+   ],
+   "sigTime": "2026-09-03 20:20",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E9D3FBE1468A0",
+   "key": "长江存储-科创板IPO已问询-20260903",
+   "name": "长江存储科创板IPO审核状态变更为“已问询”",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "半导体",
+    "存储芯片"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-09-03",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "拟募资330亿元（208亿量产线技术升级+122亿研发，科创板拟募资纪录）",
+   "amountYi": 330.0,
+   "sector": "半导体/存储",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2473639",
+     "role": "info"
+    },
+    {
+     "name": "长江存储控股股份有限公司 科创板IPO 审核信息（上交所）",
+     "org": "上海证券交易所",
+     "url": "https://www.sse.com.cn/listing/renewal/ipo/index_listing_detail.shtml?auditId=2251",
+     "role": "ext"
+    },
+    {
+     "name": "长江存储科创板IPO审核状态变更为已问询",
+     "org": "IT之家",
+     "url": "https://www.ithome.com/0/998/284.htm",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-21",
+     "label": "IPO申请获上交所受理（招股书披露，受理到问询仅9个工作日）"
+    },
+    {
+     "date": "2026-09-03",
+     "label": "【发生】长江存储科创板IPO审核状态变更为“已问询”"
+    }
+   ],
+   "watch": [],
+   "notes": "国产NAND存储龙头科创板IPO进入问询关键阶段，具全局产业与资本市场意义。; 官方查证(2026-10-25)：拟公开发行19.8亿至24.3亿股，募资330亿元；2026Q1归母净利333.79亿元",
+   "evidence": [
+    21109
+   ],
+   "sigTime": "2026-09-03 22:56",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EEF41A051F8A7",
+   "key": "英伟达-收购HuggingFace-20260902",
+   "name": "英伟达据悉即将达成以近140亿美元收购Hugging Face",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "并购"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-02",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "接近140亿美元（约合1008亿元人民币）",
+   "amountYi": 1008.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%8D%AE%E6%82%89%E5%8D%B3%E5%B0%86%E8%BE%BE%E6%88%90%E4%BB%A5%E8%BF%911",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-27",
+     "label": "据悉洽谈以超130亿美元收购Hugging Face"
+    },
+    {
+     "date": "2026-09-02",
+     "label": "据悉即将达成近140亿美元收购协议"
+    }
+   ],
+   "watch": [],
+   "notes": "AI开源社区头部标的并购主题；协议官宣与否待查证，落地日后补。",
+   "evidence": [
+    22260
+   ],
+   "sigTime": "2026-09-02 08:16",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EF72B321A4098",
+   "key": "国家能源局-新型电网建设工作部署会-20260902",
+   "name": "国家能源局部署新型电网建设，加快重大电网工程核准",
+   "category": "政策法规",
+   "tags": [
+    "电网投资",
+    "新能源",
+    "新基建"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-09-02",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额（“十五五”电力需求年均约5%增长）",
+   "amountYi": null,
+   "sector": "电力设备/电网",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2471462",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-02",
+     "label": "【发生】国家能源局部署新型电网建设，加快重大电网工程核准"
+    }
+   ],
+   "watch": [],
+   "notes": "部署加快输电通道等重大电网工程核准，利好电网设备与新能源消纳产业链。",
+   "evidence": [
+    22253
+   ],
+   "sigTime": "2026-09-02 08:40",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E6D8FB09E732D",
+   "key": "华峰化学-收购华峰合成树脂-20260902",
+   "name": "华峰化学拟68.5亿元收购华峰合成树脂与华峰热塑100%股权",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-09-02",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "68.5亿元（拟购买100%股权）",
+   "amountYi": 68.5,
+   "sector": "化工/华峰化学",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2472358",
+     "role": "info"
+    },
+    {
+     "name": "华峰化学 第九届董事会第二十四次会议决议公告",
+     "org": "巨潮资讯",
+     "url": "http://static.cninfo.com.cn/finalpage/2026-09-03/1225545042.PDF",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-02",
+     "label": "【发生】华峰化学：拟68.5亿元购买华峰合成树脂与华峰热塑100%股权"
+    },
+    {
+     "date": "2026-09-02",
+     "label": "【发生】披露重组草案：发行股份及支付现金购买华峰合成树脂100%（41.5亿）+华峰热塑100%（27亿），合计68.5亿"
+    },
+    {
+     "date": "2026-09-23",
+     "label": "股东会审议通过重组相关议案"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-02",
+     "label": "【关注】华峰化学：拟68.5亿元购买华峰合成树脂与华峰热塑100%股权"
+    }
+   ],
+   "notes": "华峰化学拟68.5亿元收购华峰合成树脂与华峰热塑100%股权; 官方查证(2026-10-25)：交易作价41.5亿+27亿=68.5亿，业绩承诺3年净利合计不低于18亿；尚需交易所审核+证监会注册",
+   "evidence": [
+    21801
+   ],
+   "sigTime": "2026-09-02 20:37",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E709DA69711A9",
+   "key": "商务部等七部门-商品消费扩容升级实施意见-20260901",
+   "name": "商务部等7部门推动商品消费扩容升级，2030年社零目标60万亿",
+   "category": "政策法规",
+   "tags": [
+    "促消费",
+    "内需",
+    "零售"
+   ],
+   "importance": "中",
+   "level": 4,
+   "signalDate": "2026-09-01",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "2030年社零目标约60万亿元",
+   "amountYi": 600000.0,
+   "sector": "消费/零售",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2470324",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-01",
+     "label": "【发生】商务部等7部门推动商品消费扩容升级，2030年社零目标60万亿"
+    }
+   ],
+   "watch": [],
+   "notes": "国家级促消费政策，明确2030年社零60万亿目标，培育十万亿级绿色/智能/健康消费市场。",
+   "evidence": [
+    22847
+   ],
+   "sigTime": "2026-09-01 09:34",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EC5D7F5760795",
+   "key": "财政部税务总局-外籍个人股息红利个税政策-20260901",
+   "name": "外籍个人从外商投资企业取得股息红利恢复按20%缴个税",
+   "category": "政策法规",
+   "tags": [
+    "财税政策",
+    "个税",
+    "外资"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-09-01",
+   "landDate": "2026-09-01",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "财税/外资",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2470796",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-01",
+     "label": "【发生】外籍个人从外商投资企业取得股息红利恢复按20%缴个税"
+    }
+   ],
+   "watch": [],
+   "notes": "延续30年的外籍股息红利免税政策取消，推进统一大市场，影响外商投资利润汇回安排。",
+   "evidence": [
+    22627
+   ],
+   "sigTime": "2026-09-01 16:04",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EA9CEEF09DB76",
+   "key": "英伟达-投资联发科-20260831",
+   "name": "英伟达宣布将向联发科投资35亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-31",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "35亿美元（约合252亿元人民币）",
+   "amountYi": 252.0,
+   "sector": "海外半导体",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%AE%A3%E5%B8%83%E5%B0%86%E5%90%91%E8%81%94%E5%8F%91%E7%A7%91%E6%8A%95%E8%B5%84",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-31",
+     "label": "联发科同日完成39亿美元可转债定价（Alphabet参与），英伟达宣布将向其投资35亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "英伟达AI生态横向绑定；联发科年内另有50亿美元无担保债券发行（7-31）。",
+   "evidence": [
+    23040
+   ],
+   "sigTime": "2026-08-31 20:30",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E35688693D467",
+   "key": "分众传媒-收购新潮传媒90.02%-20260831",
+   "name": "分众传媒发行股份及现金购买新潮传媒90.02%股份恢复审核",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "广告传媒"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-08-31",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "金额待调查（分众收购新潮传媒多数股权，业内估约百亿级）",
+   "amountYi": null,
+   "sector": "广告传媒",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2469871",
+     "role": "info"
+    },
+    {
+     "name": "市场监管总局关于附加限制性条件批准分众传媒收购新潮传媒股权案公告",
+     "org": "市场监管总局",
+     "url": "https://www.samr.gov.cn/jzxts/tzgg/ftjpz/art/2026/art_dffe5a3714b342d5a003d782f8ba91a4.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-31",
+     "label": "【发生】分众传媒发行股份及现金购买新潮传媒90.02%股份恢复审核"
+    },
+    {
+     "date": "2026-09-18",
+     "label": "向市场监管总局提交附加限制性条件承诺方案（9-19生效，每年报告履行情况）"
+    },
+    {
+     "date": "2026-10-10",
+     "label": "【落地】市场监管总局附加限制性条件批准（经营者集中反垄断审查通过）"
+    }
+   ],
+   "watch": [],
+   "notes": "梯媒龙头分众整合新潮传媒，楼宇媒体行业集中度提升，尚需深交所审核与证监会注册。; 官方查证(2026-10-25)：反垄断附条件批准10-10公告，尚需交易所审核+证监会注册后交割",
+   "evidence": [
+    23098
+   ],
+   "sigTime": "2026-08-31 18:58",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E477FAE0EBD44",
+   "key": "燧原科技-科创板IPO定价-20260831",
+   "name": "燧原科技科创板IPO定价142.18元/股，募资61.19亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "AI芯片",
+    "科创板"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-31",
+   "landDate": "2026-09-02",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "募资总额61.19亿元",
+   "amountYi": 61.19,
+   "sector": "AI算力芯片",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2469878",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-31",
+     "label": "【发生】燧原科技科创板IPO定价142.18元/股，募资61.19亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "国产AI训练芯片头部企业科创板IPO定价，募资超60亿，申购9月2日。",
+   "evidence": [
+    23094
+   ],
+   "sigTime": "2026-08-31 19:03",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EFF6D597C87D5",
+   "key": "SHEIN-港股IPO-20260828",
+   "name": "SHEIN（希音）港股IPO筹资约17亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "跨境电商",
+    "港股"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-28",
+   "landDate": "2026-09-01",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "募资约17亿美元（约122.4亿元人民币）",
+   "amountYi": 122.4,
+   "sector": "跨境电商/快时尚",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2467560",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-28",
+     "label": "【发生】SHEIN（希音）港股IPO筹资约17亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "跨境电商巨头希音港股上市，募资约17亿美元，9月1日挂牌，附期权/权证/卖空安排。",
+   "evidence": [
+    24177
+   ],
+   "sigTime": "2026-08-28 15:14",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E548F8042E374",
+   "key": "财政部税务总局证监会-限售股个税政策规范-20260828",
+   "name": "三部门规范限售股个人所得税政策，解禁后送转股纳入征税",
+   "category": "政策法规",
+   "tags": [
+    "财税政策",
+    "限售股",
+    "个税"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-28",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "财税/资本市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2467966",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-28",
+     "label": "【发生】三部门规范限售股个人所得税政策，解禁后送转股纳入征税"
+    }
+   ],
+   "watch": [],
+   "notes": "明确限售股解禁后送转股征税口径，新老划段，影响股东减持税负与市场行为。",
+   "evidence": [
+    24000
+   ],
+   "sigTime": "2026-08-28 18:22",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E168408B1905C",
+   "key": "金融监管总局住建部-城市更新项目贷款管理办法-20260828",
+   "name": "金融监管总局、住建部印发《城市更新项目贷款管理办法（试行）》",
+   "category": "政策法规",
+   "tags": [
+    "房地产金融",
+    "城市更新",
+    "信贷政策"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-08-28",
+   "landDate": "2026-08-28",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "无直接金额（规范城市更新信贷投放）",
+   "amountYi": null,
+   "sector": "房地产/城市更新",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2468040",
+     "role": "info"
+    },
+    {
+     "name": "金融监管总局 住房城乡建设部关于印发《城市更新项目贷款管理办法（试行）》的通知（金规〔2026〕7号）",
+     "org": "国家金融监督管理总局",
+     "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1270033&itemId=928",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-28",
+     "label": "【发生】金融监管总局、住建部印发《城市更新项目贷款管理办法（试行）》"
+    }
+   ],
+   "watch": [],
+   "notes": "首部城市更新项目贷款专项管理办法，引导金融资源支持城市更新与存量改造。; 官方查证(2026-10-25)：第二十四条自印发之日起施行，新签借款合同项目依本办法执行",
+   "evidence": [
+    23952
+   ],
+   "sigTime": "2026-08-28 19:11",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E75A0BEBB07AC",
+   "key": "粤芯半导体-创业板IPO注册批文-20260828",
+   "name": "粤芯半导体取得创业板IPO注册批文",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "晶圆制造",
+    "半导体"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-28",
+   "landDate": "2026-10-13",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资最高70.8亿元（发行5.13亿股×12.01元，超额配售全额行使）；此前拟募资75亿",
+   "amountYi": 70.8,
+   "sector": "半导体/晶圆制造",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2468227",
+     "role": "info"
+    },
+    {
+     "name": "粤芯半导体：将于10月13日在创业板上市",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2501586",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-28",
+     "label": "【发生】粤芯半导体取得创业板IPO注册批文"
+    },
+    {
+     "date": "2026-09-24",
+     "label": "网上/网下申购（发行价12.01元/股，代码301660）"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "【落地】创业板上市（开盘45元，市值超1200亿元）"
+    }
+   ],
+   "watch": [],
+   "notes": "创业板注册制首家晶圆制造企业获注册批文，国产特色工艺代工重要资本化事件。; 官方查证(2026-10-25)：2026-10-13创业板上市，市值超1200亿",
+   "evidence": [
+    23880
+   ],
+   "sigTime": "2026-08-28 21:17",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E11D1E4A50327",
+   "key": "中金公司-换股吸收合并东兴信达-20260827",
+   "name": "中金公司换股吸收合并东兴证券、信达证券获上交所审核通过",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "券商整合",
+    "换股吸收合并"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-08-27",
+   "landDate": "2026-10-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "换股吸收合并（无直接现金对价，涉及三家头部券商）",
+   "amountYi": null,
+   "sector": "证券行业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2466656",
+     "role": "info"
+    },
+    {
+     "name": "中金公司公告：东兴证券、信达证券10月19日终止上市",
+     "org": "新华财经/中国金融信息网",
+     "url": "https://www.cnfin.com/kx/detail/20261012/4479747_1.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-27",
+     "label": "【发生】中金公司换股吸收合并东兴证券、信达证券获上交所审核通过"
+    },
+    {
+     "date": "2026-09-07",
+     "label": "【落地】证监会出具批复：同意注册并核准吸收合并"
+    },
+    {
+     "date": "2026-10-16",
+     "label": "换股实施股权登记日（A股）"
+    },
+    {
+     "date": "2026-10-19",
+     "label": "【落地】东兴证券、信达证券终止上市，不进入退市整理期，原股东换股为中金股份"
+    }
+   ],
+   "watch": [],
+   "notes": "头部券商中金公司同时吸收合并东兴、信达两家券商，证券行业重大整合，尚需证监会批准。; 官方查证(2026-10-25)：换股登记日10月16日，东兴/信达10月19日终止上市",
+   "evidence": [
+    24552
+   ],
+   "sigTime": "2026-08-27 20:20",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E7B6A3C907E43",
+   "key": "国家医保局-长期护理保险支付管理指导意见-20260826",
+   "name": "国家医保局规范长期护理保险报销管理",
+   "category": "政策法规",
+   "tags": [
+    "医保政策",
+    "长护险",
+    "养老"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-26",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "医保/养老护理",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2464531",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-26",
+     "label": "【发生】国家医保局规范长期护理保险报销管理"
+    }
+   ],
+   "watch": [],
+   "notes": "明确长护险支付范围/标准/基金监管，年度报销上限不超过当地居民人均可支配收入50%。",
+   "evidence": [
+    25544
+   ],
+   "sigTime": "2026-08-26 12:21",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E3E9F5DB0E38C",
+   "key": "央行-数字人民币运营机构扩容-20260825",
+   "name": "数字人民币业务运营机构由22家扩容至30家",
+   "category": "政策法规",
+   "tags": [
+    "数字人民币",
+    "支付清算",
+    "金融科技"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-25",
+   "landDate": "2026-08-17",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "金融科技/数字支付",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2463139",
+     "role": "info"
+    },
+    {
+     "name": "数字人民币业务运营机构扩容至30家",
+     "org": "新华社/上海证券报",
+     "url": "https://www.news.cn/20260818/d9654b805b5e456eaae30df0523707f0/c.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-04-02",
+     "label": "第一次扩容：新增12家，运营机构增至22家"
+    },
+    {
+     "date": "2026-08-17",
+     "label": "【落地】央行公告新增8家（平安/恒丰/渤海/上海/杭州/徽商/长沙/广西北部湾），运营机构增至30家"
+    },
+    {
+     "date": "2026-08-25",
+     "label": "【发生】数字人民币业务运营机构由22家扩容至30家"
+    }
+   ],
+   "watch": [],
+   "notes": "新增平安/恒丰/渤海/上海/宁波/徽商/长沙/北部湾8家银行作为数字人民币运营机构。; 官方查证(2026-10-25)：央行8月17日公告，新增机构完成业务技术准备后开展业务",
+   "evidence": [
+    26236
+   ],
+   "sigTime": "2026-08-25 09:55",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E07527629D708",
+   "key": "软银-63亿美元零售债券-20260824",
+   "name": "软银计划在日本发行63亿美元零售债券",
+   "category": "公司大事件",
+   "tags": [
+    "发债",
+    "跨境资金"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-24",
+   "landDate": "2026-09-04",
+   "market": "外资",
+   "status": "已落地",
+   "amount": "63亿美元≈454亿元（创纪录零售债券）",
+   "amountYi": 454.0,
+   "sector": "科技/软银",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2461843",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-24",
+     "label": "【发生】软银计划在日本发行创纪录的63亿美元零售债券"
+    },
+    {
+     "date": "2026-09-04",
+     "label": "【落地】债券定价发行（日本史上最大零售债，9-16付息/2033-09-16到期）"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-08-24",
+     "label": "【关注】软银计划在日本发行创纪录的63亿美元零售债券"
+    }
+   ],
+   "notes": "软银计划在日本发行创纪录的63亿美元零售债券; 官方查证(2026-10-25)：1万亿日元7年期零售债券，票息指引4.3%~4.9%，定价2026-09-04",
+   "evidence": [
+    26847
+   ],
+   "sigTime": "2026-08-24 08:07",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E76E47C6D8028",
+   "key": "阿里巴巴-800亿港元配售-20260823",
+   "name": "阿里巴巴拟配售800亿港元新股，全部投入AI建设",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "再融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-08-23",
+   "landDate": null,
+   "market": "港股",
+   "status": "关注中",
+   "amount": "拟配售800亿港元（约合735亿元人民币）新股",
+   "amountYi": 735.0,
+   "sector": "互联网/AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%8B%9F%E9%85%8D%E5%94%AE800%E4%BA%BF%E6%B8%AF",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-23",
+     "label": "拟配售800亿港元新股，全部投入AI建设；CEO称AI基建投入已达1900亿元、CapEx预计三年内回本"
+    },
+    {
+     "date": "2026-08-24",
+     "label": "配售获近3倍超额认购，主权及长线基金最终认购比例超40%"
+    }
+   ],
+   "watch": [],
+   "notes": "中概AI资本开支周期最强募资锚点；其后10月腾讯等亦有大额发债用于AI。",
+   "evidence": [
+    26968
+   ],
+   "sigTime": "2026-08-23 13:15",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E6C3CCAE5160A",
+   "key": "绿色算力大会-签约项目-20260822",
+   "name": "2026绿色算力大会现场签约13个项目、总投资1361亿元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "算力",
+    "绿色低碳"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-22",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "签约13个项目、总投资1361亿元",
+   "amountYi": 1361.0,
+   "sector": "算力",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=2026%E7%BB%BF%E8%89%B2%E7%AE%97%E5%8A%9B%E5%A4%A7%E4%BC%9A%E7%8E%B0%E5%9C%BA",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-22",
+     "label": "2026绿色算力大会签约13个项目，总投资1361亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "国内算力基建投资热度锚点。",
+   "evidence": [
+    27028
+   ],
+   "sigTime": "2026-08-22 19:08",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EBDA616DB4EAB",
+   "key": "Stripe-收购OpenRouter-20260820",
+   "name": "Stripe宣布与AI模型聚合平台OpenRouter达成收购协议",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "并购"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-08-20",
+   "landDate": "2026-08-20",
+   "market": "外资",
+   "status": "已落地",
+   "amount": "逾70亿美元（约合504亿元，报道口径）",
+   "amountYi": 504.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Stripe%E5%AE%A3%E5%B8%83%E4%B8%8EAI%E6%A8%A1",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-17",
+     "label": "据悉即将达成，金额超过70亿美元"
+    },
+    {
+     "date": "2026-08-20",
+     "label": "宣布已达成收购协议（此前经独家谈判，估值约逾70亿美元）"
+    }
+   ],
+   "watch": [],
+   "notes": "支付巨头对AI模型入口层的整合；官方交易金额待查证。",
+   "evidence": [
+    28279
+   ],
+   "sigTime": "2026-08-20 08:33",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E3C71C818C3DC",
+   "key": "国家医保局-全民医疗保障十五五规划-20260819",
+   "name": "《全民医疗保障“十五五”规划》发布",
+   "category": "政策法规",
+   "tags": [
+    "医保政策",
+    "商保",
+    "民生"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额（覆盖全民医保体系）",
+   "amountYi": null,
+   "sector": "医保/医疗",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2457984",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】《全民医疗保障“十五五”规划》发布"
+    }
+   ],
+   "watch": [],
+   "notes": "明确参保率95%、长护险全覆盖、住院报销比例、商保发展等五年医保体系目标。",
+   "evidence": [
+    28813
+   ],
+   "sigTime": "2026-08-19 11:54",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E346C6113586D",
+   "key": "司法部-欧盟外国补贴条例不当域外管辖公告-20260819",
+   "name": "司法部认定欧盟对京东外国补贴调查构成不当域外管辖",
+   "category": "政策法规",
+   "tags": [
+    "反制",
+    "对外贸易",
+    "法律"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "2026-08-19",
+   "market": "港股",
+   "status": "已落地",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "对外经贸/法律",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2458567",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】司法部认定欧盟对京东外国补贴调查构成不当域外管辖"
+    }
+   ],
+   "watch": [],
+   "notes": "援引《反外国不当域外管辖条例》，任何组织个人不得执行欧盟该跨境调查措施。",
+   "evidence": [
+    28517
+   ],
+   "sigTime": "2026-08-19 19:21",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E866D81F46980",
+   "key": "长存控股-科创板IPO-20260819",
+   "name": "长存控股IPO辅导状态变更为辅导验收",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "半导体"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "IPO辅导验收（募资待确认）",
+   "amountYi": null,
+   "sector": "半导体/长存控股",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2457800",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】长存控股IPO辅导状态变更为“辅导验收”"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-08-19",
+     "label": "【关注】长存控股IPO辅导状态变更为“辅导验收”"
+    }
+   ],
+   "notes": "长存控股IPO进入辅导验收关键阶段",
+   "evidence": [
+    28885
+   ],
+   "sigTime": "2026-08-19 09:12",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E8FF4F97C1654",
+   "key": "Anthropic-筹备IPO-20260819",
+   "name": "Anthropic据悉数周内启动IPO 信贷额度或超100亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "外资",
+   "status": "关注中",
+   "amount": "IPO前信贷额度预计超100亿美元（约710亿元人民币）",
+   "amountYi": 710.0,
+   "sector": "AI大模型/海外",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】预计几周内进行IPO"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【进展】IPO前信贷额度预计超100亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "OpenAI最大竞争对手启动IPO进程；二季度营收115亿美元首次小幅盈利，为全球AI资本开支核心事件。",
+   "evidence": [
+    28772,
+    28830
+   ],
+   "sigTime": "2026-08-19 11:05",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E52AFFC759CF3",
+   "key": "KKR-收购UGI 90亿美元-20260819",
+   "name": "KKR拟90亿美元收购天然气分销商UGI",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "外资",
+   "status": "待落地",
+   "amount": "约90亿美元（折合约640亿元人民币）",
+   "amountYi": 640.0,
+   "sector": "能源/海外并购",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】KKR提出约90亿美元收购要约"
+    }
+   ],
+   "watch": [],
+   "notes": "要约价格每股42.50美元；全球私募巨头在能源基础设施领域的重大并购。",
+   "evidence": [
+    28728
+   ],
+   "sigTime": "2026-08-19 14:48",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E4FDCC4FE9B7B",
+   "key": "长存控股-IPO辅导验收-20260819",
+   "name": "长江存储控股IPO辅导状态变更为“辅导验收”",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "募资规模待披露（国家级存储平台标的，预计为千亿级IPO）",
+   "amountYi": null,
+   "sector": "半导体存储/长江存储",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】IPO辅导状态变更为“辅导验收”"
+    }
+   ],
+   "watch": [],
+   "notes": "辅导券商为中信证券+中信建投；辅导验收后距申报受理更近一步，是未来A股最大规模IPO候选之一。; 官方查证(2026-10-25)：招股书拟募资330亿元（8-21受理）",
+   "evidence": [
+    28716
+   ],
+   "sigTime": "2026-08-19 15:00",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EF42C9FF63907",
+   "key": "住房公积金管理条例修改-20260920施行",
+   "name": "国务院修改住房公积金管理条例 9月20日施行",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "2026-09-20",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "全国性资金政策（影响公积金提取与使用范围）",
+   "amountYi": null,
+   "sector": "地产/消费",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【影响】地产链板块逆势走强"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【发生】国务院公布修改决定"
+    },
+    {
+     "date": "2026-09-20",
+     "label": "【落地】起施行"
+    }
+   ],
+   "watch": [],
+   "notes": "装修、物业费纳入提取范围；提取公积金支付房租不再设置收入比例门槛；对地产链与居民消费资金面形成利好。; 官方查证(2026-10-25)：9月20日起施行",
+   "evidence": [
+    28700,
+    28747
+   ],
+   "sigTime": "2026-08-19 14:21",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E84B4049F57BB",
+   "key": "双英集团-北交所上市-20260819",
+   "name": "双英集团登陆北交所 募资约5亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "2026-08-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "募资约5亿元",
+   "amountYi": 5.0,
+   "sector": "汽车座舱/双英集团",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】登陆北交所，募资约5亿元"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【行情】涨超200%触发二次临停"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【行情】涨超143%触发临停"
+    }
+   ],
+   "watch": [],
+   "notes": "智能座舱整体解决方案商，上汽通用五菱第一大座椅供应商；首日涨超200%触发二次临停；战配30%获东风资产、重庆渝富认购。",
+   "evidence": [
+    28645,
+    28690,
+    28696
+   ],
+   "sigTime": "2026-08-19 15:24",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EEF59C9071BAE",
+   "key": "全民医疗保障十五五规划-20260819",
+   "name": "国家医保局印发《全民医疗保障“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "—",
+   "amountYi": null,
+   "sector": "医疗健康",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【要点】大力推动商业医疗保险发展"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【发生】《全民医疗保障“十五五”规划》发布"
+    }
+   ],
+   "watch": [],
+   "notes": "大力推动商业医疗保险发展，推动医保与商保数据共享、同步结算，支持商保快赔直赔；长期护理险覆盖所有统筹地区。",
+   "evidence": [
+    28638,
+    28644
+   ],
+   "sigTime": "2026-08-19 16:15",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE2F155C786FF",
+   "key": "北京-机器人产业基金100亿-20260819",
+   "name": "北京设立100亿元机器人产业基金 带动社会资本超530亿",
+   "category": "行业事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "100亿元高精尖产业投资基金，已带动社会资本投入超530亿元",
+   "amountYi": 630.0,
+   "sector": "机器人/北京",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】世界机器人大会开幕，披露北京机器人产业投入"
+    }
+   ],
+   "watch": [],
+   "notes": "上半年工业机器人产量+76%、服务机器人+2.3倍；7家具身智能企业新晋独角兽，14种人形机器人关键部件布局。",
+   "evidence": [
+    28605
+   ],
+   "sigTime": "2026-08-19 17:10",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDE7A6B796A15",
+   "key": "拓荆创益-增资至33.6亿-20260819",
+   "name": "拓荆科技旗下沈阳半导体设备公司增资至33.6亿",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "注册资本由5亿元增至约33.6亿元（增幅约572%）",
+   "amountYi": 28.6,
+   "sector": "半导体设备/拓荆科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】工商变更增资至33.6亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "拓荆创益（沈阳）为拓荆科技全资子公司，注册资本大幅增厚，强化半导体设备扩产。",
+   "evidence": [
+    28504
+   ],
+   "sigTime": "2026-08-19 19:43",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "ED0E3E6CB1CF5",
+   "key": "数字上海十五五规划-20260819",
+   "name": "上海印发《数字上海建设“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "—",
+   "amountYi": null,
+   "sector": "数字经济/上海",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【要点】6G试验网与卫星互联网部署"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【要点】算力服务体系与智算中心建设"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【发生】印发“十五五”规划"
+    }
+   ],
+   "watch": [],
+   "notes": "构建通用+智能+超算三位一体算力服务体系；推进6G试验网、卫星互联网千帆星座、Web3.0创新试验场、区块链枢纽。",
+   "evidence": [
+    28488,
+    28498,
+    28501
+   ],
+   "sigTime": "2026-08-19 19:51",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EA40D27E8D9EE",
+   "key": "上海张江高新区十五五规划-20260819",
+   "name": "上海发布张江高新区发展“十五五”规划",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "—",
+   "amountYi": null,
+   "sector": "科创/上海",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】印发“十五五”规划"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【要点】支持优质科技企业登陆科创板上市融资"
+    }
+   ],
+   "watch": [],
+   "notes": "支持优质科技企业登陆科创板上市融资；鼓励并购贷款试点、科技创新债；布局量子、脑机接口、智能机器人、6G等方向。",
+   "evidence": [
+    28484,
+    28665
+   ],
+   "sigTime": "2026-08-19 16:00",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E74E38277947A",
+   "key": "SK海力士-回购40万亿韩元-20260819",
+   "name": "SK海力士拟回购40万亿韩元（约286亿美元）并注销",
+   "category": "公司大事件",
+   "tags": [
+    "大额回购"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "2026-10-21",
+   "market": "外资",
+   "status": "已落地",
+   "amount": "40万亿韩元（约286亿美元，折合约2047亿元人民币）",
+   "amountYi": 2047.0,
+   "sector": "存储半导体/SK海力士",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    },
+    {
+     "name": "SK海力士完成了40万亿韩元股票回购",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2511015",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【行情】ADR盘前涨7.1%"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【影响】股东回报目标扩大至自由现金流50%以上"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟回购40万亿韩元并注销，8月20日起约三个月"
+    },
+    {
+     "date": "2026-08-20",
+     "label": "启动40.0434万亿韩元回购（计划期8-20至11-19，回购2407万股约3.3%）"
+    },
+    {
+     "date": "2026-10-21",
+     "label": "【落地】回购提前约一个月完成（韩国上市公司史上最大规模股票注销，注销安排10-28业绩公告时）"
+    }
+   ],
+   "watch": [],
+   "notes": "8月20日起约三个月内回购并注销至多2400万股；股东回报目标扩至自由现金流50%以上，缓解AI支出担忧。; 官方查证(2026-10-25)：10月21日完成回购，此前公告期限8-20至11-19",
+   "evidence": [
+    28482,
+    28559,
+    28563
+   ],
+   "sigTime": "2026-08-19 18:19",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E443B1A4595CD",
+   "key": "三星-晶圆代工涨价15%-20260819",
+   "name": "三星上调晶圆代工价格 先进制程涨幅最高15%",
+   "category": "行业事件",
+   "tags": [
+    "行业事件"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "外资",
+   "status": "关注中",
+   "amount": "SF4/SF5制程新订单涨价10%–15%",
+   "amountYi": null,
+   "sector": "半导体/代工",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】上调部分先进制程代工价格"
+    }
+   ],
+   "watch": [],
+   "notes": "AI芯片需求激增推高产能紧张，三星受益于台积电产能趋紧获得定价权。",
+   "evidence": [
+    28460
+   ],
+   "sigTime": "2026-08-19 20:45",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EB72B1674AE32",
+   "key": "桐城国轩-增资至35.3亿-20260819",
+   "name": "国轩高科旗下桐城新能源增资至35.3亿 农银金投入股",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资",
+    "股权变更"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "注册资本由约27.3亿元增至约35.3亿元（增幅约30%）",
+   "amountYi": 35.3,
+   "sector": "电池/国轩高科",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】工商变更，增资至35.3亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "新增农银金融资产投资有限公司为股东，电池制造及太阳能热利用业务主体扩资。",
+   "evidence": [
+    28452
+   ],
+   "sigTime": "2026-08-19 21:00",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EAB11F09B9571",
+   "key": "中澳央行本币互换扩额-20260819",
+   "name": "中澳央行续签本币互换协议 规模扩至2200亿元",
+   "category": "政策法规",
+   "tags": [
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "互换规模由2000亿元扩至2200亿元人民币/460亿澳元",
+   "amountYi": 2200.0,
+   "sector": "跨境金融",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】续签并扩大双边本币互换协议"
+    }
+   ],
+   "watch": [],
+   "notes": "有效期五年，可展期；深化双边货币金融合作，促进贸易投资便利化。",
+   "evidence": [
+    28448
+   ],
+   "sigTime": "2026-08-19 21:10",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E1AB57E9DDFE2",
+   "key": "工业富联-回购执行-20260819",
+   "name": "工业富联启动10-20亿回购 首日耗资1.49亿元",
+   "category": "公司大事件",
+   "tags": [
+    "大额回购"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "回购方案10亿~20亿元；当日首次回购1.49亿元",
+   "amountYi": 20.0,
+   "sector": "电子制造/工业富联",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】首次回购241.44万股，耗资1.49亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "首次回购241.44万股，回购价格上限103元/股，用于维护公司价值及股东权益。",
+   "evidence": [
+    28429
+   ],
+   "sigTime": "2026-08-19 21:43",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EC96EEE2D6E3D",
+   "key": "华新建材-股东增持3.4至6.8亿-20260819",
+   "name": "华新建材控股股东拟增持3.4亿至6.8亿元",
+   "category": "公司大事件",
+   "tags": [
+    "减持增持"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "增持金额不低于3.4亿元、不高于6.8亿元",
+   "amountYi": 6.8,
+   "sector": "建材/华新建材",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】大股东拟增持3.4亿至6.8亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "12个月内集中竞价增持；不触及要约收购，不影响控股股东及实控人。",
+   "evidence": [
+    28423
+   ],
+   "sigTime": "2026-08-19 21:50",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E9F60BE8C8A4A",
+   "key": "国电电力-收购控股股东资产-20260819",
+   "name": "国电电力拟收购国家能源集团部分发电资产",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "自有资金收购；涉及在运32万千瓦、在建/拟建1354万千瓦装机",
+   "amountYi": null,
+   "sector": "电力/国电电力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟启动收购控股股东部分资产"
+    }
+   ],
+   "watch": [],
+   "notes": "收购控股股东资产减少同业竞争；构成关联交易，不构成重大资产重组。",
+   "evidence": [
+    28422
+   ],
+   "sigTime": "2026-08-19 21:51",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E26B8562C59F6",
+   "key": "南京公用-国资集团间接收购54.19%-20260819",
+   "name": "南京市国资集团间接收购南京公用54.19%股份",
+   "category": "公司大事件",
+   "tags": [
+    "股权变更"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "以经审计归母净资产为定价依据（金额未披露）",
+   "amountYi": null,
+   "sector": "公用事业/南京公用",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】南京市国资集团间接收购54.19%股份"
+    }
+   ],
+   "watch": [],
+   "notes": "南京国资整合：国资集团间接控制3.11亿股（54.19%）成为间接控股股东，实控人仍为南京市国资委。",
+   "evidence": [
+    28420
+   ],
+   "sigTime": "2026-08-19 21:54",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E1597A547F709",
+   "key": "国药现代-收购国瑞药业51%-20260819",
+   "name": "国药现代4.06亿元收购国瑞药业51%股权",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "现金4.06亿元",
+   "amountYi": 4.06,
+   "sector": "医药/国药现代",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟4.06亿元收购国瑞药业51%股权"
+    }
+   ],
+   "watch": [],
+   "notes": "向国药集团、国药控股及国药股份收购，消除同业竞争，丰富神经系统、抗感染领域管线。",
+   "evidence": [
+    28409
+   ],
+   "sigTime": "2026-08-19 22:22",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE9401EC614EC",
+   "key": "中微公司-临港基地二期35亿-20260819",
+   "name": "中微公司拟投资35亿元建设临港产业化基地二期",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "计划总投资35亿元（其中固定资产17亿元）",
+   "amountYi": 35.0,
+   "sector": "半导体设备/中微公司",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟投资35亿元建设临港基地二期"
+    }
+   ],
+   "watch": [],
+   "notes": "聚焦刻蚀设备、量检测设备、薄膜沉积设备，达产后预计年销售收入30亿元。",
+   "evidence": [
+    28404
+   ],
+   "sigTime": "2026-08-19 22:33",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E8B58A2C3571D",
+   "key": "交易商协会-债券交易违规处分-20260819",
+   "name": "交易商协会对盛达期货、长子农商行债券违规予以处分",
+   "category": "监管处罚",
+   "tags": [
+    "监管处罚"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-08-19",
+   "landDate": "2026-08-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "—",
+   "amountYi": null,
+   "sector": "债券市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】对盛达期货予以严重警告"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【落地】对长子农商行予以警告"
+    }
+   ],
+   "watch": [],
+   "notes": "出借交易通讯账户、未实现债券交易全程留痕、让渡交易额度等违规，予以严重警告/警告并责令整改。",
+   "evidence": [
+    28395,
+    28414
+   ],
+   "sigTime": "2026-08-19 22:01",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E92F5A4209D7C",
+   "key": "中国铁建-中标443亿重大项目-20260819",
+   "name": "中国铁建中标13个重大项目 合计443.1亿元",
+   "category": "公司大事件",
+   "tags": [
+    "大额合同"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "项目金额合计443.1亿元",
+   "amountYi": 443.1,
+   "sector": "基建/中国铁建",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】中标多个重大项目合计443.1亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "占2025年度经审计营收的4.3%，含城中村改造、风电场、高速公路等13个单体15亿以上项目。",
+   "evidence": [
+    28393
+   ],
+   "sigTime": "2026-08-19 23:05",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE4C9AA5BEC31",
+   "key": "赛意信息-64.5亿算力服务合同-20260819",
+   "name": "赛意信息签订64.5亿元高性能算力服务合同",
+   "category": "公司大事件",
+   "tags": [
+    "大额合同"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "合同含税总金额64.5亿元",
+   "amountYi": 64.5,
+   "sector": "算力/赛意信息",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】签订两份高性能算力服务合同共64.5亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "占公司2025年度经审计营收的311.11%，60个月服务期，预计三个月内完成部署交付。",
+   "evidence": [
+    28385
+   ],
+   "sigTime": "2026-08-19 23:28",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDC3208E2C096",
+   "key": "司法部-欧盟不当域外管辖认定-20260819",
+   "name": "司法部认定欧盟对京东调查构成不当域外管辖",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "2026-08-19",
+   "market": "港股",
+   "status": "已落地",
+   "amount": "—",
+   "amountYi": null,
+   "sector": "跨境经贸",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【解读】司法部答记者问"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【落地】公告发布并实施"
+    }
+   ],
+   "watch": [],
+   "notes": "依据《反外国不当域外管辖条例》公告认定，自公布之日起实施；任何组织、个人不得执行或协助执行该措施。",
+   "evidence": [
+    28344,
+    28348
+   ],
+   "sigTime": "2026-08-20 03:07",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EBF09175BA6EA",
+   "key": "Nebius-发行45亿美元可转债-20260819",
+   "name": "AI算力租赁商Nebius拟发行45亿美元可转换优先票据",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "外资",
+   "status": "待落地",
+   "amount": "45亿美元（折合约321亿元人民币）",
+   "amountYi": 321.0,
+   "sector": "AI算力/海外",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【行情】盘前跌幅扩大至7%"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟发行45亿美元可转换优先票据"
+    }
+   ],
+   "watch": [],
+   "notes": "纳斯达克上市的AI算力租赁公司大规模再融资，用于扩充算力资本开支。",
+   "evidence": [
+    28338,
+    28340
+   ],
+   "sigTime": "2026-08-20 03:32",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E3519435EEB6E",
+   "key": "恒瑞医药-回购10至20亿-20260819",
+   "name": "恒瑞医药拟10亿至20亿元回购A股股份",
+   "category": "公司大事件",
+   "tags": [
+    "大额回购"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "回购资金总额不低于10亿、不超过20亿元",
+   "amountYi": 20.0,
+   "sector": "医药/恒瑞医药",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】公告拟10亿至20亿元回购"
+    }
+   ],
+   "watch": [],
+   "notes": "回购用于员工持股计划，回购价格不超过81.78元/股，期限12个月。",
+   "evidence": [
+    28336
+   ],
+   "sigTime": "2026-08-20 04:00",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EA758BA54DF5C",
+   "key": "利通电子-定增50亿智算-20260819",
+   "name": "利通电子拟定增募资不超50亿元投建智算中心",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "募集资金不超过50亿元（智算中心40亿+补充流动资金10亿）",
+   "amountYi": 50.0,
+   "sector": "算力/利通电子",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟定增募资不超50亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "拟购置高性能GPU服务器，形成训推一体算力租赁服务能力。",
+   "evidence": [
+    28323
+   ],
+   "sigTime": "2026-08-20 05:39",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E77EA8D23912E",
+   "key": "发改委-六张网重大项目协调机制-20260819",
+   "name": "国家发改委建立“六张网”重大项目协调调度机制",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "—",
+   "amountYi": null,
+   "sector": "新基建",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】召开“六张网”重大项目协调调度机制会"
+    }
+   ],
+   "watch": [],
+   "notes": "算力网、新型电网、新一代通信网“2+3+N”（2家电网+3家电信运营商+N家算力企业）协调机制，推动重大项目加快建设。",
+   "evidence": [
+    28321
+   ],
+   "sigTime": "2026-08-20 05:51",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE411AE06CA62",
+   "key": "湖南黄金-重组方案调整停牌-20260819",
+   "name": "湖南黄金调整重组配套募资至10.5亿 8月20日起停牌",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "配套募集资金由不超过10亿元调增至不超过10.5亿元",
+   "amountYi": 10.5,
+   "sector": "黄金/湖南黄金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】调整重组配套募资规模，构成重大调整"
+    },
+    {
+     "date": "2026-08-20",
+     "label": "【落地】开市起停牌"
+    }
+   ],
+   "watch": [],
+   "notes": "发行股份购买黄金天岳100%及中南冶炼100%股权，预计构成重大资产重组；股票8月20日起停牌不超过5个交易日。",
+   "evidence": [
+    28315
+   ],
+   "sigTime": "2026-08-20 06:08",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E36052C151C86",
+   "key": "柘中股份-收购杰创科技-20260819",
+   "name": "柘中股份受让杰创科技18.08%股权并增资3亿元",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "受让18.08%股权并对杰创科技增资3亿元",
+   "amountYi": 3.0,
+   "sector": "电子元器件/柘中股份",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟受让股权并增资3亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "完成后持股53.19%实现控股，标的聚焦VCSEL芯片销售。",
+   "evidence": [
+    28297
+   ],
+   "sigTime": "2026-08-20 07:51",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E3B93C3301891",
+   "key": "美国财政部-扩大长债回购-20260819",
+   "name": "美国财政部扩大长期国债回购规模 9月9日生效",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "2026-09-09",
+   "market": "外资",
+   "status": "已落地",
+   "amount": "流动性支持回购单次最高规模至少翻倍（至少40亿美元）",
+   "amountYi": 40.0,
+   "sector": "全球债市",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【影响】30年期美债收益率快速走低"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【发生】宣布扩大长期名义国债回购规模"
+    },
+    {
+     "date": "2026-09-09",
+     "label": "【落地】生效并持续至11月4日"
+    }
+   ],
+   "watch": [],
+   "notes": "缓解长债抛售压力；30年期美债收益率自2007年高位回落，美元指数创三周最大跌幅。",
+   "evidence": [
+    28290,
+    28305
+   ],
+   "sigTime": "2026-08-20 07:08",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E90F9FA940D0F",
+   "key": "敏芯股份-收购浦丹光电54%-20260819",
+   "name": "敏芯股份1.77亿元收购浦丹光电54%股权",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "交易总金额1.77亿元",
+   "amountYi": 1.77,
+   "sector": "半导体传感器/敏芯股份",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟收购及增资取得浦丹光电54%股权"
+    }
+   ],
+   "watch": [],
+   "notes": "受让+增资取得光纤陀螺核心光电器件公司54%股权，成为控股子公司。",
+   "evidence": [
+    28283
+   ],
+   "sigTime": "2026-08-20 08:19",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDC658C5FC696",
+   "key": "汇丰香港-港元稳定币2026下半年-20260819",
+   "name": "汇丰香港：港元稳定币按计划2026年下半年推出",
+   "category": "行业事件",
+   "tags": [
+    "资金监管",
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "港股",
+   "status": "关注中",
+   "amount": "—",
+   "amountYi": null,
+   "sector": "香港数字金融",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】独家回应：准备工作如期推进，2026年下半年推出"
+    }
+   ],
+   "watch": [],
+   "notes": "首批港元稳定币牌照机构之一；初期聚焦链上P2P/P2M支付与投资代币化产品，详情将于短期内公布。",
+   "evidence": [
+    28276
+   ],
+   "sigTime": "2026-08-20 08:35",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E340477890810",
+   "key": "联创电子-终止2025年度定增-20260819",
+   "name": "联创电子终止2025年度向特定对象发行股票",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signalDate": "2026-08-19",
+   "landDate": "2026-08-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "未披露（原定对象为江西国资创投）",
+   "amountYi": null,
+   "sector": "光学光电/联创电子",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】终止2025年度向特定对象发行股票"
+    }
+   ],
+   "watch": [],
+   "notes": "股份转让协议生效条件未全部成就，经协商终止定增事项。",
+   "evidence": [
+    28261
+   ],
+   "sigTime": "2026-08-20 09:04",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E0B152EBA0C44",
+   "key": "黄金企业-UFLPA实体清单-20260819",
+   "name": "中国黄金协会回应美将国内黄金企业列入UFLPA清单",
+   "category": "行业事件",
+   "tags": [
+    "监管处罚"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "—",
+   "amountYi": null,
+   "sector": "黄金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】黄金协会发布严正声明"
+    }
+   ],
+   "watch": [],
+   "notes": "美国国土安全部将国内部分黄金企业加入UFLPA实体清单，LBMA暂停相关企业合格交割资格；协会声明坚决反对并协同维权。",
+   "evidence": [
+    28256
+   ],
+   "sigTime": "2026-08-20 09:22",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EC28FD204159B",
+   "key": "京东-机器人战略百亿投入-20260819",
+   "name": "京东发布机器人战略 截至2028年投入百亿资源",
+   "category": "行业事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-19",
+   "landDate": "",
+   "market": "港股",
+   "status": "关注中",
+   "amount": "截至2028年在机器人领域投入百亿资源",
+   "amountYi": 100.0,
+   "sector": "机器人/京东",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】世界机器人大会发布机器人战略"
+    }
+   ],
+   "watch": [],
+   "notes": "建立80个RoboBase机器人基地，助力100个品牌独立销售额破10亿，创造超10万机器人售后岗位。",
+   "evidence": [
+    28237
+   ],
+   "sigTime": "2026-08-20 09:54",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E348E4EEA2D0F",
+   "key": "国务院-修改住房公积金管理条例-20260818",
+   "name": "国务院修改《住房公积金管理条例》，租房提取取消收入比例门槛",
+   "category": "政策法规",
+   "tags": [
+    "房地产政策",
+    "住房公积金",
+    "民生"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-18",
+   "landDate": "2026-09-20",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "房地产/住房",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2457220",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-18",
+     "label": "【发生】国务院修改《住房公积金管理条例》，租房提取取消收入比例门槛"
+    }
+   ],
+   "watch": [],
+   "notes": "拓宽公积金提取范围（租房/装修/物业费），允许购买政策性金融债，9月20日施行。; 官方查证(2026-10-25)：9月20日起施行",
+   "evidence": [
+    29203
+   ],
+   "sigTime": "2026-08-18 17:03",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E6CB707158B6C",
+   "key": "英伟达-OpenAI俄亥俄担保-20260817",
+   "name": "英伟达为OpenAI俄亥俄州AI数据中心提供最高1050亿美元融资担保",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-17",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "最高1050亿美元（约合7560亿元人民币）",
+   "amountYi": 7560.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%BAOpenAI%E4%BF%84%E4%BA%A5",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "label": "早前报道：洽谈为OpenAI俄亥俄数据中心项目提供约2500亿美元财务担保（传闻级）"
+    },
+    {
+     "date": "2026-08-17",
+     "label": "宣布：为OpenAI俄亥俄州AI数据中心提供最高1050亿美元担保"
+    }
+   ],
+   "watch": [],
+   "notes": "AI「循环融资」风险的标志性事件（新债王冈拉克：预示市场或见顶），后有Anthropic签约合同总值超1800亿美元等跟进。",
+   "evidence": [
+    29602
+   ],
+   "sigTime": "2026-08-17 22:00",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EB632F556AFBC",
+   "key": "绿色算力人工智能大会-百亿项目集中签约-20260817",
+   "name": "呼和浩特绿色算力大会将集中签约一批百亿级产业项目",
+   "category": "行业事件",
+   "tags": [
+    "算力",
+    "AI基建",
+    "东数西算",
+    "产业签约"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signalDate": "2026-08-17",
+   "landDate": "2026-08-22",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "一批百亿级重大产业项目集中签约",
+   "amountYi": 100.0,
+   "sector": "算力/AI数据中心",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2455802",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-17",
+     "label": "【发生】呼和浩特绿色算力大会将集中签约一批百亿级产业项目"
+    }
+   ],
+   "watch": [],
+   "notes": "字节/寒武纪/宁德时代/中金数据等围绕绿色智算中心、词元工厂、算电装备落地和林格尔集群。",
+   "evidence": [
+    29913
+   ],
+   "sigTime": "2026-08-17 13:24",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E447D61EC519F",
+   "key": "发改委能源局-石油天然气十五五规划-20260817",
+   "name": "发改委、能源局印发《石油天然气发展“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "能源政策",
+    "油气管网",
+    "CCUS",
+    "氢能"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-08-17",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "2030年国内油气供应4.4亿吨油当量、新增长输管道2万公里、管道进口气1140亿方/年",
+   "amountYi": 1140.0,
+   "sector": "石油天然气/能源",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2456013",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-17",
+     "label": "【发生】发改委、能源局印发《石油天然气发展“十五五”规划》"
+    }
+   ],
+   "watch": [],
+   "notes": "油气行业五年顶层规划，布局西气东输四线五线、煤制油气基地、CCUS与氢能，影响能源全产业链。",
+   "evidence": [
+    29791
+   ],
+   "sigTime": "2026-08-17 16:12",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E0E52F09F4425",
+   "key": "宁德时代-枧下窝锂矿环评拟受理-20260817",
+   "name": "宁德时代宜春枧下窝锂矿环评拟受理公示，复产现关键进展",
+   "category": "行业事件",
+   "tags": [
+    "锂矿",
+    "产能",
+    "新能源"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-17",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额（满产年碳酸锂产能约10万吨，约占全国8%-10%）",
+   "amountYi": null,
+   "sector": "锂电/锂资源",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2456350",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-17",
+     "label": "【发生】宁德时代宜春枧下窝锂矿环评拟受理公示，复产现关键进展"
+    }
+   ],
+   "watch": [],
+   "notes": "全球最大锂云母矿复产关键一步，直接影响国内锂盐供给与碳酸锂价格（8月26日公示撤销，进展反复）。",
+   "evidence": [
+    29654
+   ],
+   "sigTime": "2026-08-17 20:13",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E85596C611374",
+   "key": "国家医保局-首批31个DRG基层病组-20260817",
+   "name": "首批31个DRG基层病组确定，医保支付引导常见病下沉",
+   "category": "政策法规",
+   "tags": [
+    "医保支付",
+    "DRG",
+    "基层医疗"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-17",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "医保/医疗服务",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2456374",
+     "role": "info"
+    },
+    {
+     "name": "国家医保局：推进DRG/DIP3.0版分组落地实施",
+     "org": "央广网",
+     "url": "https://health.cnr.cn/yg/20260902/t20260902_527802351.shtml",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-17",
+     "label": "【发生】首批31个DRG基层病组确定，医保支付引导常见病下沉"
+    },
+    {
+     "date": "2026-09-02",
+     "label": "【发生】DRG/DIP付费3.0版分组方案发布（DRG 492核心病组/825细分组，DIP 5125病种；首批DRG基层病组31个）"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-12-31",
+     "label": "3.0版分组切换准备截止（医保局：按病种付费地区）"
+    },
+    {
+     "date": "2027-03-31",
+     "label": "3.0版分组落地应用（医保局官方时间）"
+    }
+   ],
+   "notes": "DRG3.0首批基层病组“同病同付”，以支付杠杆引导常见病向基层医疗机构下沉。; 官方查证(2026-10-25)：3.0版9月2日发布，切换2026年底前、落地2027年3月底前",
+   "evidence": [
+    29638
+   ],
+   "sigTime": "2026-08-17 20:40",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EA97893DA1964",
+   "key": "宇树科技-科创板上市-20260819",
+   "name": "宇树科技登陆科创板，开盘涨超500%市值超3500亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "人形机器人",
+    "大额融资",
+    "科创板"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-08-17",
+   "landDate": "2026-08-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "上市首日总市值4449亿元（募资60.99亿元）",
+   "amountYi": 4449.0,
+   "sector": "人形机器人/机器人",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【影响】王兴兴身家超千亿，90后新首富"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【落地】正式登陆科创板，梁文锋浮盈11亿、雷军浮盈152亿、美团系浮盈333亿"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【发生】高开629%报1100元，总市值达4449亿元"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【发生】单签收益达47万元（科创板日报）"
+    }
+   ],
+   "watch": [],
+   "notes": "四足与人形机器人全球出货量第一；开盘涨629%，单签收益47.46万元；梁文锋浮盈11亿、雷军浮盈152亿、美团系浮盈333亿，王兴兴身家超千亿。；人形机器人龙头宇树科技科创板挂牌，王兴兴身家超千亿，为机器人产业标志性资本化事件。",
+   "evidence": [
+    28691,
+    28695,
+    28710,
+    28711,
+    28860
+   ],
+   "sigTime": "2026-08-19 09:47",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EA90A09C69B32",
+   "key": "SpaceX-收购Cursor-20260814",
+   "name": "SpaceX完成对AI编程公司Cursor的600亿美元收购",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力",
+    "并购"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-08-14",
+   "landDate": "2026-08-14",
+   "market": "外资",
+   "status": "已落地",
+   "amount": "约600亿美元（约合4270亿元人民币）",
+   "amountYi": 4270.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=SpaceX%E5%AE%8C%E6%88%90%E5%AF%B9AI%E7%BC%96",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "label": "报道：马斯克加码AI竞赛，SpaceX完成对Cursor的600亿美元收购"
+    }
+   ],
+   "watch": [],
+   "notes": "AI编程/AI应用层史诗级并购（以报道口径记录，官方文件待查证）。",
+   "evidence": [
+    30406
+   ],
+   "sigTime": "2026-08-14 21:40",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E54C8144C17A2",
+   "key": "皇冠新材-深交所主板IPO注册-20260814",
+   "name": "证监会同意皇冠新材深交所主板IPO注册",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "注册"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-14",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "皇冠新材",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2454613",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "label": "【发生】证监会同意皇冠新材深交所主板IPO注册"
+    }
+   ],
+   "watch": [],
+   "notes": "证监会同意IPO注册,进入发行关键阶段",
+   "evidence": [
+    30563
+   ],
+   "sigTime": "2026-08-14 16:52",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E40824BB7D3BF",
+   "key": "传音控股-港股IPO-20260814",
+   "name": "传音控股港股上市获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-14",
+   "landDate": "2026-10-15",
+   "market": "港股",
+   "status": "已落地",
+   "amount": "募资30.59亿港元（发行8664.83万股×35.30港元下限定价），净筹29.68亿港元",
+   "amountYi": 26.2,
+   "sector": "消费电子/传音控股",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2454677",
+     "role": "info"
+    },
+    {
+     "name": "传音控股港股上市首日破发 最多跌逾4%",
+     "org": "观点网",
+     "url": "https://www.guandian.cn/m/show/613532",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "label": "【发生】传音控股港股上市获中国证监会备案"
+    },
+    {
+     "date": "2026-10-07",
+     "label": "启动招股（区间35.30~38.80港元，基石GIC/易方达/比亚迪认购12.45亿港元）"
+    },
+    {
+     "date": "2026-10-13",
+     "label": "定价35.30港元（区间下限）"
+    },
+    {
+     "date": "2026-10-15",
+     "label": "【落地】港交所主板挂牌（02636.HK，实现A+H；首日破发跌约5.7%）"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-08-14",
+     "label": "【关注】传音控股港股上市获中国证监会备案"
+    }
+   ],
+   "notes": "传音控股港股上市获证监会备案; 官方查证(2026-10-25)：2026-10-15港交所挂牌",
+   "evidence": [
+    30523
+   ],
+   "sigTime": "2026-08-14 17:48",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E8035D5A9252E",
+   "key": "宁德时代-海南绿色产业投资基金设立-20260812",
+   "name": "宁德时代认缴24.75亿元参与设立海南时代绿色产业投资基金(总规模50亿)",
+   "category": "行业事件",
+   "tags": [
+    "产业基金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-12",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "基金总规模50亿元,宁德时代认缴24.75亿元(占49.5%)",
+   "amountYi": 50.0,
+   "sector": "宁德时代/绿色零碳产业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2452623",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-12",
+     "label": "【发生】宁德时代认缴24.75亿元参与设立海南时代绿色产业投资基金(总规模50亿)"
+    }
+   ],
+   "watch": [],
+   "notes": "宁德时代联合设立50亿绿色产业基金,聚焦海南零碳产业投资",
+   "evidence": [
+    31593
+   ],
+   "sigTime": "2026-08-12 19:25",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E370E2F247976",
+   "key": "英特尔-200亿美元增发-20260811",
+   "name": "英特尔上调并定价200亿美元普通股发行（每股95美元）",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体",
+    "再融资"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-11",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "上调并定价200亿美元（约合1440亿元人民币，2.105亿股@95美元）",
+   "amountYi": 1440.0,
+   "sector": "海外半导体",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8A%E8%B0%83%E5%B9%B6%E5%AE%9A%E4%BB%B7200%E4%BA%BF",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-10",
+     "label": "宣布拟议150亿美元普通股发行计划"
+    },
+    {
+     "date": "2026-08-11",
+     "label": "宣布扩大并定价200亿美元普通股发行（每股95美元）"
+    }
+   ],
+   "watch": [],
+   "notes": "芯片巨头罕见的股权摊薄型大规模融资。",
+   "evidence": [
+    32375
+   ],
+   "sigTime": "2026-08-11 14:38",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E43DF9D8AD085",
+   "key": "宇树科技-科创板IPO申购-20260810",
+   "name": "宇树科技科创板IPO网上申购(发行价150.80元/股)",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "申购"
+   ],
+   "importance": "高",
+   "level": 2,
+   "signalDate": "2026-08-10",
+   "landDate": "2026-08-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "发行4044.64万股,发行价150.80元/股,募资约61亿元",
+   "amountYi": 61.0,
+   "sector": "宇树科技/人形机器人",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2450323",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-10",
+     "label": "【发生】宇树科技科创板IPO网上申购(发行价150.80元/股)"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【落地】正式登陆科创板（开盘涨超500%，市值超3500亿元）"
+    }
+   ],
+   "watch": [],
+   "notes": "人形机器人龙头宇树科技科创板IPO,募资约61亿,超高关注度; 官方查证(2026-10-25)：上市日2026-08-19",
+   "evidence": [
+    32783
+   ],
+   "sigTime": "2026-08-10 19:10",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E094A988D495C",
+   "key": "北京君正-港交所IPO通过聆讯-20260809",
+   "name": "北京君正港交所IPO通过聆讯",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "聆讯"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-09",
+   "landDate": "",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "北京君正/半导体",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2449363",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-09",
+     "label": "【发生】北京君正港交所IPO通过聆讯"
+    }
+   ],
+   "watch": [],
+   "notes": "北京君正更新聆讯后资料集,港交所IPO通过聆讯",
+   "evidence": [
+    33270
+   ],
+   "sigTime": "2026-08-09 18:29",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EBCE613E98B7C",
+   "key": "梅卡曼德-港股IPO证监会备案-20260807",
+   "name": "梅卡曼德机器人港股IPO获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-07",
+   "landDate": "",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "梅卡曼德/工业机器人",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2448694",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-07",
+     "label": "【发生】梅卡曼德机器人港股IPO获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "梅卡曼德机器人境外发行上市及全流通获证监会备案",
+   "evidence": [
+    33649
+   ],
+   "sigTime": "2026-08-07 19:02",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EFC8C665BB9E0",
+   "key": "宇隆光电-创业板IPO过会-20260806",
+   "name": "重庆宇隆光电创业板IPO获上市委会议通过(预计融资10亿)",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "过会"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-06",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "预计融资金额10亿元",
+   "amountYi": 10.0,
+   "sector": "宇隆光电",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2447768",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-06",
+     "label": "【发生】重庆宇隆光电创业板IPO获上市委会议通过(预计融资10亿)"
+    }
+   ],
+   "watch": [],
+   "notes": "宇隆光电创业板IPO过会,预计融资10亿元",
+   "evidence": [
+    34102
+   ],
+   "sigTime": "2026-08-06 21:37",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "ED345BB07A0BB",
+   "key": "宇树科技-科创板IPO-20260805",
+   "name": "宇树科技科创板IPO询价 市值预估超400亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "机器人"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-08-05",
+   "landDate": "2026-08-19",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "IPO预估市值超400亿元（初步询价）",
+   "amountYi": 400.0,
+   "sector": "机器人/宇树科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2446004",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-05",
+     "label": "【发生】宇树科技开启科创板IPO初步询价 市场预估IPO市值或将超400亿元"
+    },
+    {
+     "date": "2026-08-19",
+     "label": "【落地】正式登陆科创板（开盘涨超500%，市值超3500亿元）"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-08-05",
+     "label": "【关注】宇树科技开启科创板IPO初步询价 市场预估IPO市值或将超400亿元"
+    }
+   ],
+   "notes": "宇树科技开启科创板IPO初步询价，市场预估市值或超400亿元; 官方查证(2026-10-25)：上市日2026-08-19",
+   "evidence": [
+    34977
+   ],
+   "sigTime": "2026-08-05 10:50",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E3380E8E3AB52",
+   "key": "恒力重工-新造船订单-20260802",
+   "name": "恒力重工7月承接46艘新造船订单、总金额超300亿元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "造船"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-08-02",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "7月单月承接46艘，总金额超300亿元",
+   "amountYi": 300.0,
+   "sector": "造船",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E6%81%92%E5%8A%9B%E9%87%8D%E5%B7%A57%E6%9C%88%E6%89%BF%E6%8E%A546%E8%89%98%E6%96%B0",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-02",
+     "label": "恒力重工7月承接46艘新造船订单，总金额超300亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "新造船周期景气锚点（隔日：旗下大连造船增资至190亿元）。",
+   "evidence": [
+    36229
+   ],
+   "sigTime": "2026-08-02 19:46",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EF5DB2D15A3E8",
+   "key": "亚马逊-投资OpenAI-20260731",
+   "name": "亚马逊披露Q2向OpenAI投资137亿美元、上半年累计287亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-07-31",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "Q2投资137亿美元，上半年累计287亿美元（约2070亿元）",
+   "amountYi": 2070.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%8A%AB%E9%9C%B2Q2%E5%90%91Open",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "季报披露：Q2向OpenAI的C轮优先股投资137亿美元，上半年累计287亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "云巨头绑定OpenAI的资金流向锚点；同日CEO称订单积压达4960亿美元。",
+   "evidence": [
+    36715
+   ],
+   "sigTime": "2026-07-31 18:08",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EB46DF435AD5D",
+   "key": "金融监管总局等四部门-健全金融机构治理实施意见-20260731",
+   "name": "四部门联合发布《关于健全金融机构治理的实施意见》",
+   "category": "政策法规",
+   "tags": [
+    "金融监管",
+    "行业政策"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-07-31",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "金融行业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2442598",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "【发生】四部门联合发布《关于健全金融机构治理的实施意见》"
+    }
+   ],
+   "watch": [],
+   "notes": "金融监管总局/央行/证监会/财政部联合发文,对风险金融机构早期干预,强化监管硬约束",
+   "evidence": [
+    36817
+   ],
+   "sigTime": "2026-07-31 16:13",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EE0A1A8CC6D33",
+   "key": "康威科技-创业板IPO注册-20260731",
+   "name": "证监会同意康威科技创业板IPO注册",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "注册"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-31",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "康威科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2442679",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "【发生】证监会同意康威科技创业板IPO注册"
+    }
+   ],
+   "watch": [],
+   "notes": "康威科技创业板IPO获证监会注册",
+   "evidence": [
+    36769
+   ],
+   "sigTime": "2026-07-31 17:06",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E9978B7FBB518",
+   "key": "和美药业-港股IPO证监会备案-20260731",
+   "name": "和美药业港股IPO获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-31",
+   "landDate": "",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "和美药业",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2442713",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "【发生】和美药业港股IPO获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "和美药业境外发行上市获证监会备案",
+   "evidence": [
+    36744
+   ],
+   "sigTime": "2026-07-31 17:34",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E543BAB1C08A1",
+   "key": "维达力-港股IPO证监会备案-20260731",
+   "name": "维达力科技港股IPO获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-31",
+   "landDate": "",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "维达力科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2442729",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "【发生】维达力科技港股IPO获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "维达力科技境外发行上市获证监会备案",
+   "evidence": [
+    36732
+   ],
+   "sigTime": "2026-07-31 17:41",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDC3012EBA2AE",
+   "key": "猎奇智能-创业板IPO过会-20260731",
+   "name": "苏州猎奇智能创业板IPO获上市委会议通过",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "过会"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-31",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "猎奇智能",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2442733",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "【发生】苏州猎奇智能创业板IPO获上市委会议通过"
+    }
+   ],
+   "watch": [],
+   "notes": "猎奇智能创业板IPO过会",
+   "evidence": [
+    36729
+   ],
+   "sigTime": "2026-07-31 17:43",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E2C83D7D98899",
+   "key": "国务院常务会议-核准四个核电项目机组-20260731",
+   "name": "国常会核准辽宁庄河、浙江金七门等四个华龙一号核电机组",
+   "category": "行业事件",
+   "tags": [
+    "核电",
+    "能源项目核准"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-07-31",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "4台华龙一号机组,合计投资千亿级(金额待调查)",
+   "amountYi": null,
+   "sector": "中国核电/核电",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2442878",
+     "role": "info"
+    },
+    {
+     "name": "中国核电关于辽宁庄河核电、浙江金七门核电项目核准的公告",
+     "org": "上海证券交易所",
+     "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-01/601985_20260801_LY6U.pdf",
+     "role": "ext"
+    },
+    {
+     "name": "华龙一号2.0版示范项目获国务院常务会议核准",
+     "org": "新华网",
+     "url": "https://www.news.cn/20260731/45b3e587d06c4ff69a351a59983fb14d/c.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "【发生】国常会核准辽宁庄河、浙江金七门等四个华龙一号核电机组"
+    },
+    {
+     "date": "2026-08-01",
+     "label": "【发生】中国核电公告：国常会核准庄河1/2号+金七门3/4号机组；同批合计8台机组（含太平岭三期/莱阳一期），总投资超1700亿元，其中6台采用华龙一号"
+    }
+   ],
+   "watch": [],
+   "notes": "国常会一次性核准4台华龙一号核电机组,核电审批加速,投资规模巨大; 官方查证(2026-10-25)：核准批复即落地节点已发生；正式开工日以业主公告为准（现场推进开工前准备）",
+   "evidence": [
+    36648
+   ],
+   "sigTime": "2026-07-31 19:11",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E3BDA4A593107",
+   "key": "国家医保局-第十二批药品集采开标-20260731",
+   "name": "第十二批国家组织药品集采开标(65种药品,迄今规模最大)",
+   "category": "行业事件",
+   "tags": [
+    "药品集采",
+    "行业政策"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-07-31",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "覆盖65种药品,521个产品拟中选,院端市场规模近600亿元",
+   "amountYi": 600.0,
+   "sector": "医药生物",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2443061",
+     "role": "info"
+    },
+    {
+     "name": "关于公布第12批国家组织药品集中带量采购中选结果的通知",
+     "org": "国家医保局",
+     "url": "https://www.nhsa.gov.cn/art/2026/8/6/art_187_21682.html",
+     "role": "ext"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-31",
+     "label": "【发生】第十二批国家组织药品集采开标(65种药品,迄今规模最大)"
+    },
+    {
+     "date": "2026-08-06",
+     "label": "【落地】中选结果公布（医保局：年内实施，具体执行日期以各地通知为准）"
+    }
+   ],
+   "watch": [],
+   "notes": "迄今规模最大一批国家集采,4.5万家机构报量,重塑医药行业价格体系; 官方查证(2026-10-25)：无统一执行日，官方口径为年内实施",
+   "evidence": [
+    36550
+   ],
+   "sigTime": "2026-07-31 22:57",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E5B2D00DFD148",
+   "key": "微软-2027财年资本开支-20260730",
+   "name": "微软预计2027财年资本支出将达1750亿美元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "AI算力",
+    "资本开支"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-07-30",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "2027财年资本支出预计达1750亿美元（约合1.26万亿元人民币）",
+   "amountYi": 12600.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%BE%AE%E8%BD%AF%E9%A2%84%E8%AE%A12027%E8%B4%A2%E5%B9%B4%E8%B5%84%E6%9C%AC",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "label": "财报电话会：预计2027财年资本支出将达1750亿美元；Azure云业务同比增长43%"
+    }
+   ],
+   "watch": [],
+   "notes": "全球AI资本开支超级周期最大单一公司锚点（另有Meta支出承诺8250亿美元等）。",
+   "evidence": [
+    37800
+   ],
+   "sigTime": "2026-07-30 06:06",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E231A98B864B8",
+   "key": "中共中央政治局-分析研究经济形势会议-20260730",
+   "name": "中共中央政治局召开会议分析研究当前经济形势和经济工作",
+   "category": "政策法规",
+   "tags": [
+    "宏观政策",
+    "政治局会议"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signalDate": "2026-07-30",
+   "landDate": "",
+   "market": "A股",
+   "status": "关注中",
+   "amount": "无直接金额",
+   "amountYi": null,
+   "sector": "全市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2441242",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "label": "【发生】中共中央政治局召开会议分析研究当前经济形势和经济工作"
+    }
+   ],
+   "watch": [],
+   "notes": "中央政治局会议定调下半年经济工作,全局政策风向标",
+   "evidence": [
+    37560
+   ],
+   "sigTime": "2026-07-30 14:35",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E116FDB6E148E",
+   "key": "沈鼓集团-沪市主板IPO注册-20260730",
+   "name": "证监会同意沈鼓集团沪市主板IPO注册",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "注册"
+   ],
+   "importance": "高",
+   "level": 2,
+   "signalDate": "2026-07-30",
+   "landDate": "",
+   "market": "A股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "沈鼓集团/高端装备",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2441478",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "label": "【发生】证监会同意沈鼓集团沪市主板IPO注册"
+    }
+   ],
+   "watch": [],
+   "notes": "重大技术装备龙头沈鼓集团沪市主板IPO获注册",
+   "evidence": [
+    37445
+   ],
+   "sigTime": "2026-07-30 17:05",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EF18E3C0D4717",
+   "key": "山西-制造业振兴升级基金-20260729",
+   "name": "山西省制造业振兴升级股权投资基金登记成立，出资额100.1亿元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "产业基金",
+    "制造业"
+   ],
+   "importance": "中",
+   "level": 1,
+   "signalDate": "2026-07-29",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "出资额100.1亿元",
+   "amountYi": 100.1,
+   "sector": "山西/制造业",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%B1%B1%E8%A5%BF%E7%9C%81%E5%88%B6%E9%80%A0%E4%B8%9A%E6%8C%AF%E5%85%B4%E5%8D%87%E7%BA%A7%E8%82%A1%E6%9D%83",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-29",
+     "label": "山西省制造业振兴升级股权投资基金登记成立，出资额100.1亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "省级制造业引导基金；政府性产业基金按口径建记。",
+   "evidence": [
+    38184
+   ],
+   "sigTime": "2026-07-29 16:04",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E616661FEFA16",
+   "key": "英伟达-投资SSI-20260728",
+   "name": "英伟达据悉将向Sutskever创办的SSI投资50亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI算力"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-28",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "约50亿美元（约合360亿元人民币）",
+   "amountYi": 360.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%8D%AE%E6%82%89%E5%B0%86%E5%90%91Sutsk",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "label": "据报道：英伟达将向Sutskever的人工智能初创公司投资50亿美元（前日已称进行“重大”投资）"
+    }
+   ],
+   "watch": [],
+   "notes": "英伟达广撒网AI初创股权投资序列之一（后有联发科35亿美元、Perplexity/Mercor等传闻）。",
+   "evidence": [
+    39137
+   ],
+   "sigTime": "2026-07-28 00:32",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E2C6265E8C8EA",
+   "key": "上海杨浦-八埭头地块-20260728",
+   "name": "保利发展与华润置地联合体161.2亿元拍下上海杨浦八埭头地块",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "土拍",
+    "上海"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-28",
+   "landDate": "2026-07-28",
+   "market": "A股",
+   "status": "已落地",
+   "amount": "161.2亿元成交（联合体竞得）",
+   "amountYi": 161.2,
+   "sector": "房地产",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E4%BF%9D%E5%88%A9%E5%8F%91%E5%B1%95%E4%B8%8E%E5%8D%8E%E6%B6%A6%E7%BD%AE%E5%9C%B0%E8%81%94%E5%90%88%E4%BD%93",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "label": "保利发展、华润置地联合体161.2亿元拍下上海杨浦八埭头地块"
+    }
+   ],
+   "watch": [],
+   "notes": "沪市中心大体量宅地高价成交，土拍热度锚点（同类：8-31中海150亿普陀真如等）。",
+   "evidence": [
+    38921
+   ],
+   "sigTime": "2026-07-28 12:45",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E0F93BE306BC7",
+   "key": "Meta贝莱德-ElPaso数据中心-20260728",
+   "name": "Meta与贝莱德拟在得州El Paso开发140亿美元级数据中心园区",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "AI算力",
+    "海外基建"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-28",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "总开发成本约140亿美元（约合1008亿元人民币）",
+   "amountYi": 1008.0,
+   "sector": "海外AI",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=Meta%E4%B8%8E%E8%B4%9D%E8%8E%B1%E5%BE%B7%E6%8B%9F%E5%9C%A8%E5%BE%97%E5%B7%9E",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-28",
+     "label": "报道：META和贝莱德将在得州El Paso开发数据中心园区，总开发成本约140亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "全球AI资本开支潮的园区级样本之一。",
+   "evidence": [
+    38729
+   ],
+   "sigTime": "2026-07-28 17:32",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E2ABA8A3A2AE6",
+   "key": "长鑫科技-科创板IPO-20260727",
+   "name": "长鑫科技科创板IPO上市（存储国产化巨头登陆A股，首日大涨）",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "半导体存储",
+    "IPO"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-07-27",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "募资额/发行价待官方查证（8-26超额配售选择权已全额行使）",
+   "amountYi": null,
+   "sector": "半导体存储",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E7%A7%91%E5%88%9B%E6%9D%BFIPO%E4%B8%8A%E5%B8%82",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-27",
+     "label": "上市首日：公募账面浮盈近500亿元、私募约65亿元；比亚迪曾以198亿元参与其Pre-IPO轮"
+    },
+    {
+     "date": "2026-08-26",
+     "label": "公司披露首次公开发行超额配售选择权（绿鞋）全额行使"
+    }
+   ],
+   "watch": [],
+   "notes": "与已建「长江存储330亿募资」互补的另一存储主线；上市日/募资额待查证后回补落地日与金额。",
+   "evidence": [
+    39353
+   ],
+   "sigTime": "2026-07-27 17:12",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDD5E877F5A43",
+   "key": "拿森智能-港交所IPO通过聆讯-20260726",
+   "name": "拿森智能科技通过港交所上市聆讯",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "聆讯"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-26",
+   "landDate": "",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "拿森智能/汽车底盘",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2437203",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-26",
+     "label": "【发生】拿森智能科技通过港交所上市聆讯"
+    }
+   ],
+   "watch": [],
+   "notes": "拿森智能通过港交所上市聆讯",
+   "evidence": [
+    39708
+   ],
+   "sigTime": "2026-07-26 18:32",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E552D06E5F095",
+   "key": "希音国际-港交所IPO通过聆讯-20260726",
+   "name": "希音国际(SHEIN)通过港交所上市聆讯",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "聆讯"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-07-26",
+   "landDate": "2026-09-01",
+   "market": "港股",
+   "status": "已落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "希音SHEIN/跨境电商",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2437207",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-26",
+     "label": "【发生】希音国际(SHEIN)通过港交所上市聆讯"
+    },
+    {
+     "date": "2026-09-01",
+     "label": "【落地】港股IPO完成（筹资约17亿美元）"
+    }
+   ],
+   "watch": [],
+   "notes": "跨境电商巨头希音通过港交所聆讯,万众瞩目的大型IPO; 官方查证(2026-10-25)：上市日2026-09-01（库内已上市事件佐证）",
+   "evidence": [
+    39703
+   ],
+   "sigTime": "2026-07-26 19:15",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "EDFC612829550",
+   "key": "甲骨文-美国防部软件合同-20260724",
+   "name": "甲骨文与美国五角大楼签10年期、最高70亿美元软件订阅合同",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "AI软件",
+    "军政信息化"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-07-24",
+   "landDate": null,
+   "market": "外资",
+   "status": "关注中",
+   "amount": "10年期、最高70亿美元（约合504亿元人民币）",
+   "amountYi": 504.0,
+   "sector": "海外科技/软件",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E7%94%B2%E9%AA%A8%E6%96%87%E4%B8%8E%E7%BE%8E%E5%9B%BD%E4%BA%94%E8%A7%92%E5%A4%A7%E6%A5%BC%E7%AD%BE1",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-24",
+     "label": "据报道：与美国五角大楼签订10年期软件承包合同，价值高达70亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "联邦AI云大单，映射甲骨文云收入弹性；金额为报道口径。",
+   "evidence": [
+    40510
+   ],
+   "sigTime": "2026-07-24 05:08",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E32CED6C15166",
+   "key": "宁德时代-回购股份并注销-20260724",
+   "name": "宁德时代拟以200亿至400亿元回购股份并注销（A股史上最大规模回购）",
+   "category": "公司大事件",
+   "tags": [
+    "公司大事件",
+    "锂电",
+    "回购"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signalDate": "2026-07-24",
+   "landDate": null,
+   "market": "A股",
+   "status": "关注中",
+   "amount": "拟以200亿至400亿元回购股份并用于注销",
+   "amountYi": 400.0,
+   "sector": "新能源电池",
+   "sources": [
+    {
+     "name": "财联社电报（单一源，待外部验证）",
+     "org": "财联社",
+     "url": "https://www.cls.cn/searchpage?keyword=%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E6%8B%9F%E4%BB%A5200%E4%BA%BF%E8%87%B34",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-24",
+     "label": "盘后公告：拟最高400亿元回购并注销，为A股史上最大规模股票回购方案"
+    }
+   ],
+   "watch": [],
+   "notes": "回购规模史无前例，兼具市值管理与股东回报信号；后续落地进度以公司公告为准（截至9-30已耗资33.03亿元）。",
+   "evidence": [
+    40050
+   ],
+   "sigTime": "2026-07-24 19:28",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E094A29AF2D21",
+   "key": "臻驱科技-港股IPO证监会备案-20260724",
+   "name": "臻驱科技港股上市获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-24",
+   "landDate": "",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "臻驱科技/电驱",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2436461",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-24",
+     "label": "【发生】臻驱科技港股上市获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "臻驱科技港股上市获证监会备案",
+   "evidence": [
+    40135
+   ],
+   "sigTime": "2026-07-24 17:48",
+   "auto": true,
+   "ai": true
+  },
+  {
+   "id": "E0DDF1D9EFBFF",
+   "key": "涛涛车业-港股IPO证监会备案-20260724",
+   "name": "涛涛车业港股上市获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signalDate": "2026-07-24",
+   "landDate": "",
+   "market": "港股",
+   "status": "待落地",
+   "amount": "金额待调查",
+   "amountYi": null,
+   "sector": "涛涛车业/休闲车辆",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/2436486",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-24",
+     "label": "【发生】涛涛车业港股上市获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "涛涛车业港股上市获证监会备案",
+   "evidence": [
+    40129
+   ],
+   "sigTime": "2026-07-24 17:57",
+   "auto": true,
+   "ai": true
+  }
+ ],
+ "cands": []
+}
