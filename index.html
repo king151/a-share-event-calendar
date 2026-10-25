@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A股大事件日历｜中国股市事件日历（开源 + 双击即用）</title>
+<meta name="description" content="开源的中国股市(A股/沪深北)大事件日历：单 HTML 文件日历页 + 本地 Python 事件雷达，财联社电报自动粗滤 → LLM 语义判读 → 月历可视化；A股/港股/外资三视野，全部数据停留本地 127.0.0.1。">
+<meta name="keywords" content="A股日历, 中国股市, 股票事件, 事件日历, 财经电报, LLM判读, 量化台账, 沪深, 港股, a-share calendar, china stock calendar, event radar">
+<link rel="canonical" href="https://github.com/king151/a-share-event-calendar">
+<meta property="og:type" content="website">
+<meta property="og:title" content="A股大事件日历——开源 · 双击即用 · 全本地数据">
+<meta property="og:description" content="把每天几百条财经电报压缩成一页能看的中国股市事件日历；电报粗滤→LLM判读→月历可视化，消化率 60.5%。">
+<meta property="og:image" content="https://testingcf.jsdelivr.net/gh/king151/a-share-event-calendar@master/docs/screenshots/calendar.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"A股大事件日历","alternateName":"a-share-event-calendar",
+"description":"开源的中国股市(A股)大事件日历：单HTML日历页+本地事件雷达（电报粗滤→LLM判读→消化率60.5%），双击即用，全本地数据。",
+"url":"https://github.com/king151/a-share-event-calendar","codeRepository":"https://github.com/king151/a-share-event-calendar",
+"programmingLanguage":"Python","license":"https://opensource.org/licenses/MIT","inLanguage":"zh-CN",
+"applicationCategory":"FinanceApplication","keywords":"A股,中国股市,股票,事件日历,财经电报,LLM"}
+</script>
+<style>
+:root{--bg:#f6f7fa;--ink:#1c2333;--sub:#5a6478;--bd:#e3e7ef;--blue:#2563eb}
+*{box-sizing:border-box;margin:0}
+body{font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:960px;margin:0 auto;padding:48px 20px 64px}
+h1{font-size:30px;line-height:1.3;margin-bottom:10px}
+.tagline{color:var(--sub);font-size:16px;margin-bottom:22px}
+.btns{margin:0 0 30px}
+.btn{display:inline-block;background:var(--blue);color:#fff;border-radius:8px;padding:11px 22px;text-decoration:none;font-weight:600;margin-right:10px}
+.btn.ghost{background:#fff;color:var(--blue);border:1px solid var(--bd)}
+h2{font-size:20px;margin:34px 0 12px}
+ul.feats{margin:0 0 8px 18px}
+ul.feats li{margin:6px 0}
+.shot{width:100%;border:1px solid var(--bd);border-radius:10px;display:block;margin:14px 0;box-shadow:0 2px 10px rgba(20,30,60,.06)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:16px 18px}
+.card b{color:var(--blue)}
+.foot{color:var(--sub);font-size:13px;margin-top:40px;border-top:1px solid var(--bd);padding-top:16px}
+kbd{background:#eef1f6;border:1px solid var(--bd);border-radius:4px;padding:1px 6px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📈 A股大事件日历（单文件日历页 + 事件雷达）</h1>
+  <p class="tagline">把每天几百条财经电报，压缩成一页"<b>能看的</b>"中国股市大事件日历。开源免费（MIT），双击即用，全部数据停留本地。</p>
+  <div class="btns">
+    <a class="btn" href="https://github.com/king151/a-share-event-calendar">⭐ GitHub 仓库</a>
+    <a class="btn ghost" href="https://github.com/king151/a-share-event-calendar#快速开始">🚀 三步跑起来</a>
+  </div>
+
+  <img class="shot" src="docs/screenshots/calendar.png" alt="A股大事件日历——月历全景：格内横排事件条、星级深浅、水位量杯、日消化率%">
+
+  <div class="grid">
+    <div class="card"><b>三级压缩管道</b><br>财联社电报流 → 入库即预筛（关键词+高确定性噪音规则族）→ 硬候选 LLM 语义判读 → 4 万+ 条电报压成 140+ 条"值得上日历"的事件</div>
+    <div class="card"><b>消化率漏斗</b><br>每格右上角显示当日"判+丢+粗滤直击"比例，雷达是否健康一眼可见；当前 <b>60.5%</b></div>
+    <div class="card"><b>台账纪律：宁缺毋滥</b><br>金额必须可查证、落地日必须有官方原文，查不到就留空，不编造</div>
+    <div class="card"><b>单文件 + 全本地</b><br>无账号无后台依赖，数据全在 <kbd>127.0.0.1</kbd>；<kbd>data.json</kbd> 即权威数据源，可直接放进同步盘</div>
+  </div>
+
+  <h2>三步跑起来</h2>
+  <ul class="feats">
+    <li><kbd>pip install akshare</kbd></li>
+    <li>启动 <kbd>事件雷达/启动雷达.bat</kbd>（自动找 Python，端口 7610，自检 /api/ping）</li>
+    <li>双击 <kbd>大事件日历.html</kbd> —— 完事。想先看效果：顶栏 <b>导入数据 → docs/demo.json</b></li>
+  </ul>
+
+  <h2>更多视图</h2>
+  <img class="shot" src="docs/screenshots/timeline.png" alt="时间线视图：按发生/落地排序的事件列表">
+  <img class="shot" src="docs/screenshots/detail.png" alt="事件详情：金额量杯、时间线、官方原文链接">
+
+  <div class="foot">A-share Event Calendar · 中国股市事件日历 · MIT License —— <a href="https://github.com/king151/a-share-event-calendar">github.com/king151/a-share-event-calendar</a></div>
+</div>
+</body>
+</html>
