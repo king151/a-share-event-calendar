@@ -83,6 +83,7 @@ CREATE TABLE IF NOT EXISTS events(
   signal_date TEXT,                  -- 发生日（首次公开）
   land_date  TEXT,                   -- 落地日（施行/执行）
   status     TEXT,                   -- 待落地 / 已落地 / 关注中
+  market     TEXT DEFAULT 'A股',     -- 市场视野：A股 / 港股 / 外资（默认A股）
   amount_yi  REAL,                   -- 金额（亿元，数值化，供水位图）
   amount     TEXT,                   -- 金额描述
   sector     TEXT,
@@ -285,6 +286,7 @@ def _event_row_to_api(r):
         "level": r["level"],
         "signalDate": r["signal_date"],
         "landDate": r["land_date"],
+        "market": r["market"] or "A股",
         "status": r["status"],
         "amount": r["amount"],
         "amountYi": r["amount_yi"],

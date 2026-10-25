@@ -212,9 +212,11 @@ def _merge_ev(existing, ev, tel_id, now):
             merged_notes = "；".join([x for x in [merged_notes, n] if x])
     notes = merged_notes
     scope = ev.get("scope") or existing["scope"] or "watch"
+    market = ev.get("market") or existing["market"] or "A股"
     return {
         "name": ev.get("name") or existing["name"],
         "scope": scope,
+        "market": market,
         "category": ev.get("category") or existing["category"],
         "tags": json.dumps(tags, ensure_ascii=False),
         "importance": (ev.get("importance") or existing["importance"] or ""),
@@ -268,13 +270,14 @@ def cmd_apply(args):
                 eid = _ev_id(key)
                 conn.execute(
                     """INSERT INTO events(event_id,key,name,category,tags,importance,level,
-                       signal_date,land_date,status,amount_yi,amount,sector,sources,timeline,watch,
+                       signal_date,land_date,status,market,amount_yi,amount,sector,sources,timeline,watch,
                        notes,evidence,scope,updated_at,created_at)
-                       VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                       VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                     (eid, key, ev.get("name"), ev.get("category"),
                      json.dumps(ev.get("tags", []), ensure_ascii=False),
                      ev.get("importance"), ev.get("level"), ev.get("signal_date"), ev.get("land_date"),
                      ev.get("status") or ("已落地" if ev.get("land_date") else "待落地"),
+                     ev.get("market") or "A股",
                      ev.get("amount_yi"), ev.get("amount"), ev.get("sector"),
                      json.dumps(ev.get("sources", []), ensure_ascii=False),
                      json.dumps(ev.get("timeline", []), ensure_ascii=False),
@@ -287,10 +290,11 @@ def cmd_apply(args):
                 merged = _merge_ev(existing, ev, tel_id, now)
                 conn.execute(
                     """UPDATE events SET name=?,category=?,tags=?,importance=?,level=?,signal_date=?,
-                       land_date=?,status=?,amount_yi=?,amount=?,sector=?,sources=?,timeline=?,watch=?,
+                       land_date=?,status=?,market=?,amount_yi=?,amount=?,sector=?,sources=?,timeline=?,watch=?,
                        notes=?,evidence=?,scope=?,updated_at=? WHERE event_id=?""",
                     (merged["name"], merged["category"], merged["tags"], merged["importance"],
                      merged["level"], merged["signal_date"], merged["land_date"], merged["status"],
+                     merged["market"],
                      merged["amount_yi"], merged["amount"], merged["sector"], merged["sources"],
                      merged["timeline"], merged["watch"], merged["notes"], merged["evidence"],
                      merged["scope"], now, existing["event_id"]))

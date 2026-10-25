@@ -158,6 +158,7 @@
   </div>
   <div class="bar">
     <span class="pill" id="upcomingPill"></span>
+    <span id="mkFilter" class="mksegs" style="display:inline-flex;margin-right:6px"></span>
     <button onclick="pullRadar()">⚡ 断点更新</button>
     <button onclick="toggleView()" id="viewBtn">切换为时间线视图</button>
     <button onclick="openAdd()">＋ 添加事件</button>
@@ -245,19 +246,46 @@ const CATS = { "政策法规":"#6f4bd8", "公司大事件":"#e07a1f", "行业事
 const LVS  = { 1:"★", 2:"★★", 3:"★★★", 4:"★★★★" };
 const LS   = { 1:"<10亿", 2:"10亿~100亿", 3:"100亿~1000亿", 4:">1000亿/全局性" };
 
-let events = load();
+let _allEvents = load();   // 全量事件（市场过滤前），写回/导出必须用全量，避免视野过滤丢事件
+let MK = localStorage.getItem("mk_filter") || "A股";   // 市场视野：A股 / 港股 / 外资 / all
 let cands = loadCands();
+/* 市场视野过滤：默认只看 A股；港股/外资为次要视野 */
+function evByMarket(list){
+  if (MK === "all") return list;
+  return list.filter(e => (e.market || "A股") === MK);
+}
 /* 自愈：清理历史遗留重复（同 id 重复条目、候选与正式事件同 id 的残留），防止"重复加载" */
 (function selfHeal(){
   const seen = new Set();
-  const n0 = events.length;
-  events = events.filter(e => { if (!e.id || seen.has(e.id)) return false; seen.add(e.id); return true; });
-  const ids = new Set(events.map(e => e.id));
+  const n0 = _allEvents.length;
+  _allEvents = _allEvents.filter(e => { if (!e.id || seen.has(e.id)) return false; seen.add(e.id); return true; });
+  const ids = new Set(_allEvents.map(e => e.id));
   const c0 = cands.length;
   cands = cands.filter(c => !ids.has(c.id));
-  if (events.length !== n0) localStorage.setItem("aq_events", JSON.stringify(events));
+  if (_allEvents.length !== n0) localStorage.setItem("aq_events", JSON.stringify(_allEvents));
   if (cands.length !== c0) localStorage.setItem("aq_cands", JSON.stringify(cands));
 })();
+let events = evByMarket(_allEvents);
+/* 全量合并：视野内 events（含新增/修改）并回 _allEvents；persist/导出用 */
+function mergedAll(){
+  if (MK === "all" || events === _allEvents) return _allEvents;
+  const upd = new Map(events.map(e => [e.id, e]));
+  const ids = new Set(_allEvents.map(e => e.id));
+  return _allEvents.map(e => upd.get(e.id) || e).concat(events.filter(e => !ids.has(e.id)));
+}
+function setMk(m){
+  MK = m;
+  try { localStorage.setItem("mk_filter", m); } catch(e){}
+  events = evByMarket(_allEvents);
+  renderMk(); render();
+}
+function renderMk(){
+  const el = document.getElementById("mkFilter");
+  if (!el) return;
+  const opts = [["A股","A股"],["港股","港股"],["外资","外资"],["all","全部"]];
+  el.innerHTML = opts.map(([v, l]) =>
+    `<button onclick="setMk('${v}')" style="${MK === v ? "background:#3b82f6;border-color:#3b82f6;color:#fff" : ""}">${l}</button>`).join("");
+}
 let view = "cal";
 let cur = new Date();
 let catFilter = new Set(), lvFilter = new Set(["2","3","4"]);   // 默认只显示 ≥10亿（2/3/4星），1星(<10亿)默认隐藏
@@ -319,7 +347,8 @@ function cacheLocal(){
 }
 function applySnapshot(d){
   if (!d || !Array.isArray(d.events)) return;
-  events = d.events;
+  _allEvents = d.events;
+  events = evByMarket(_allEvents);
   cands = Array.isArray(d.cands) ? d.cands : [];
   if (typeof d.auto === "boolean") AUTO = d.auto;
   if (d.progress) PROG = d.progress;
@@ -327,7 +356,7 @@ function applySnapshot(d){
   render(); renderProgress();
 }
 async function persist(payload){
-  payload = Object.assign({ events: events, cands: cands, auto: AUTO }, payload || {});
+  payload = Object.assign({ events: mergedAll(), cands: cands, auto: AUTO }, payload || {});
   try {
     const info = await apiMutate(payload);
     if (info && info.snapshot) applySnapshot(info.snapshot);
@@ -501,10 +530,10 @@ function load(){
   if (s) { try { return JSON.parse(s); } catch(e){} }
   return JSON.parse(JSON.stringify(SEED));
 }
-function save(){ localStorage.setItem("aq_events", JSON.stringify(events)); location.reload(); }
+function save(){ localStorage.setItem("aq_events", JSON.stringify(_allEvents)); location.reload(); }
 function resetData(){ if (confirm("确定清空全部记录？（正式事件与雷达候选都将删除，只由新扫描补充）")) { localStorage.removeItem("aq_events"); localStorage.removeItem("aq_cands"); location.reload(); } }
 function exportJSON(){
-  const payload = { exportedAt: new Date().toISOString().replace("T", " ").slice(0, 19), events: events, cands: cands };
+  const payload = { exportedAt: new Date().toISOString().replace("T", " ").slice(0, 19), events: mergedAll(), cands: cands };
   const blob = new Blob([JSON.stringify(payload, null, 2)], {type:"application/json"});
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob); a.download = "A股大事件日历数据-" + new Date().toISOString().slice(0,10) + ".json"; a.click();
@@ -517,7 +546,8 @@ function importJSON(input){
     // 兼容两种格式：旧版纯数组；新版 {exportedAt, events, cands}
     const ev = Array.isArray(d) ? d : (Array.isArray(d.events) ? d.events : null);
     if (ev) {
-      events = ev;
+      _allEvents = ev;
+      events = evByMarket(_allEvents);
       if (Array.isArray(d.cands)) cands = d.cands;
       render(); persist({ action: "import" });
     } else alert("文件格式不正确（需为事件数组或含 events 字段的对象）");
@@ -1050,6 +1080,7 @@ function saveEvent(){
 loadFilters();   // 先恢复筛选状态，再初始化筛选条
 initFilters();
 document.getElementById("autoChip").classList.toggle("active", AUTO);
+renderMk();
 render(); initTags();
 fetchSnapshot();
 // 已改为纯手动触发：需要更新时点「⚡ 断点更新」，不再打开即自动扫描
