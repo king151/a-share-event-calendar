@@ -34,13 +34,6 @@
   .cal-head .nav .ym{min-width:110px; text-align:center; font-size:13px;}
   .grid{display:grid; grid-template-columns:repeat(7,1fr); gap:6px;}
   .dow{text-align:center; color:var(--muted); font-size:11px; padding:2px 0; font-weight:600;}
-  /* ===== 格内竖文字事件条：日历骨架不动，文字竖着长，用宽屏横向消化事件密度 ===== */
-  .cell{display:flex; flex-direction:column;}
-  .cell .drow{display:flex; align-items:center; gap:5px; min-height:17px;}
-  .evwrap{flex:1 1 0; min-height:0; display:flex; flex-wrap:wrap; gap:4px 3px; align-content:flex-start; align-items:flex-start; overflow:hidden; position:relative; z-index:2;}
-  .evwrap .ev{writing-mode:vertical-lr; text-orientation:mixed; margin:0 !important; padding:4px 2px 3px 2px; gap:2px; max-width:28px; white-space:nowrap;}
-  .evwrap .ev .cd, .evwrap .ev .dup{writing-mode:horizontal-tb; align-self:flex-end; font-size:8px; margin-top:2px;}
-  .evwrap .ev .more{writing-mode:horizontal-tb;}
   .cell{background:var(--card); border:1px solid var(--line); border-radius:8px; min-height:100px; padding:5px; overflow:hidden; position:relative;}
   .cell.today{border-color:#e0552f; box-shadow:0 0 0 2px rgba(224,85,47,.15);}
   .cell.other{opacity:.45;}
@@ -51,17 +44,17 @@
     #legend, .cal-head .nav > span[style]{display:none !important;}
     main{padding:10px;}
     .grid{gap:3px;}
-    .cell{min-height:88px;}
-    .evwrap .ev{font-size:10px; padding:3px 2px;}
+    .cell{min-height:88px; height:auto; max-height:190px;}
+    .ev{font-size:10px; padding:1px 4px 1px 3px; margin-bottom:2px;}
     .filters{padding:5px 10px;}
     .filters input[type=text]{width:130px;}
   }
   @media (max-width:560px){
     header{padding:8px 10px; gap:6px;}
     .chip{padding:2px 8px; font-size:11px;}
-    .cell{min-height:76px;}
-    .evwrap .ev{font-size:9.5px;}
-    .cell .drow{min-height:15px;}
+    .cell{min-height:76px; max-height:170px;}
+    .ev{font-size:9.5px; gap:3px;}
+    .cell .d{font-size:11px;}
     button{padding:4px 8px; font-size:11.5px;}
   }
   .ev{display:flex; align-items:center; gap:5px; padding:2px 5px 2px 4px; margin-bottom:3px; border-radius:5px; font-size:11px; line-height:1.35; cursor:pointer; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; border-left:3px solid transparent;}
@@ -698,7 +691,8 @@ function renderCal(){
   DIGEST = {};
   ((PROG && PROG.digestByDate) || []).forEach(x => { DIGEST[x.date] = x; });
   const first = new Date(y, m, 1).getDay();
-  const firstDow = first === 0 ? 6 : first - 1;
+  const start = first === 0 ? -6 : 1 - first; // 周一为一周起点
+  const firstDow = new Date(y,m,1).getDay()===0?6:new Date(y,m,1).getDay()-1;
   const days = new Date(y, m+1, 0).getDate();
   const map = {};
   HOVER = [];
@@ -738,21 +732,21 @@ function renderCal(){
       ? `<i class="cellwater" style="height:${water.pct}%; background:${rgba(CATS[water.cat], .16)}; border-top:1.5px solid ${rgba(CATS[water.cat], .6)}" title="水位≈${water.pct.toFixed(0)}%（${esc(water.amt)}，${esc(water.name)}）"></i>`
       : "";
     let inner = "";
-    const items0 = (map[ds] || []).slice().sort((a, b) => (b.ev.level || 0) - (a.ev.level || 0));  // 大额大事件置顶
+    const items0 = (map[ds] || []).slice().sort((a, b) => (b.ev.level || 0) - (a.ev.level || 0));  // Q2 大额大事件置顶
     const items = groupKeyed(items0);   // 同事件多源合并（7-24 财政部+电报 → 一枚）
-    items.slice(0, 10).forEach(it => {
+    items.slice(0, 9).forEach(it => {
       const kindTxt = it.kind === "sig" ? "发" : it.kind === "land" ? "落" : it.kind === "plan" ? "⇢" : "⚠";
       const shownRaw = it.kind === "watch" ? (it.wlabel || it.ev.name) : it.ev.name;
-      const shown = esc(shownRaw.length > 9 ? shownRaw.slice(0, 9) + "…" : shownRaw);  // 竖文字条：名字截9字，全链走悬停
+    const shown = esc(shownRaw.length > 8 ? shownRaw.slice(0, 8) + "…" : shownRaw);
       const n = it.kind === "sig" ? null : daysLeft(ds);
       const cd = cdBadge(it.kind, n);
       const dup = it.dups && it.dups.length ? `<span class="dup">源+${it.dups.length}</span>` : "";
       HOVER.push({ e: it.ev, kind: it.kind, date: ds, label: it.wlabel });
-      inner += `<div class="ev ${it.kind} ${it.ev.cand ? "cand" : "l" + (it.ev.level || 1)}" data-hk="${HOVER.length-1}" style="border-left:none;border-top:3px solid ${CATS[it.ev.category]}" onclick="showDetail('${it.ev.id}')">
-        <span class="k">${it.ev.cand ? "?" : kindTxt}</span>${shown}${cd}${dup}</div>`;
+      inner += `<div class="ev ${it.kind} ${it.ev.cand ? "cand" : "l" + (it.ev.level || 1)}" data-hk="${HOVER.length-1}" style="border-left-color:${CATS[it.ev.category]}" onclick="showDetail('${it.ev.id}')">
+        <span class="k">${it.ev.cand ? "?" : kindTxt}</span>${LVS[it.ev.level]} ${shown.length>8?shown.slice(0,8)+"…":shown}${cd}${dup}</div>`;
     });
-    if (items.length > 10) inner += `<div style="font-size:10px;color:var(--muted);padding-left:4px;cursor:pointer;text-decoration:underline dotted;writing-mode:horizontal-tb" onclick="showDayEvents('${ds}')">还有 ${items.length-10} 条…</div>`;
-    html += `<div class="${cls.join(" ")}"><div class="drow"><div class="d">${d}</div>${digestBadge(ds)}</div>${waterHTML}<div class="evwrap">${inner}</div></div>`;
+    if (items.length > 9) inner += `<div style="font-size:10px;color:var(--muted);padding-left:5px;cursor:pointer;text-decoration:underline dotted" onclick="showDayEvents('${ds}')">还有 ${items.length-9} 条…（点击查看）</div>`;
+    html += `<div class="${cls.join(" ")}">${waterHTML}<div class="d">${d}</div>${digestBadge(ds)}${inner}</div>`;
   }
   const total = firstDow + days;
   const rest = (7 - (total % 7)) % 7;
@@ -782,7 +776,7 @@ function fitRows(){
   // 窗口适配：富余高度均分给各行（减去行距、底部留白与表头行；.dow 星期头也在 .grid 里占一行）
   const dow = grid.querySelector(".dow");
   const nRows = groups.length + (dow ? 1 : 0);
-  const avail = window.innerHeight - grid.getBoundingClientRect().top - 14
+  const avail = window.innerHeight - grid.getBoundingClientRect().top - 34
               - (nRows - 1) * 6 - (dow ? Math.ceil(dow.getBoundingClientRect().height) : 0);
   const extra = Math.max(0, avail - sumContent);
   const share = groups.length ? Math.floor(extra / groups.length) : 0;
