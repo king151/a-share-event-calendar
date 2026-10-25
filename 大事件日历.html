@@ -44,10 +44,26 @@
   .ev.cand .k{background:#98a0b3;}
   .tag.cand{background:#98a0b3;}
   .ev:hover{filter:brightness(.95);}
-  .ev.sig{background:rgba(224,85,47,.10);}
-  .ev.land{background:rgba(36,114,200,.10);}
-  .ev.watch{background:rgba(111,75,216,.10);}
+  .ev.sig{background:rgba(224,85,47,.11);}
+  .ev.land{background:rgba(36,114,200,.11);}
+  .ev.watch{background:rgba(111,75,216,.11);}
   .ev.plan{background:rgba(91,139,158,.12); border-left-style:dashed;}
+  /* 星级分级：状态守色相，星级管深浅 —— L1极浅灰字 L2浅 L3明显+加粗 L4实底白字 */
+  .ev.l1{opacity:.92; color:#9aa3b6;}
+  .ev.sig.l1{background:rgba(224,85,47,.055)!important;}
+  .ev.land.l1{background:rgba(36,114,200,.055)!important;}
+  .ev.watch.l1{background:rgba(111,75,216,.055)!important;}
+  .ev.plan.l1{background:rgba(91,139,158,.07)!important;}
+  .ev.sig.l3{background:rgba(224,85,47,.22)!important; font-weight:600;}
+  .ev.land.l3{background:rgba(36,114,200,.22)!important; font-weight:600;}
+  .ev.watch.l3{background:rgba(111,75,216,.22)!important; font-weight:600;}
+  .ev.plan.l3{background:rgba(91,139,158,.24)!important; font-weight:600;}
+  .ev.sig.l4{background:#b23a1d!important; color:#fff; font-weight:700;}
+  .ev.land.l4{background:#1d5da0!important; color:#fff; font-weight:700;}
+  .ev.watch.l4{background:#5a3d9e!important; color:#fff; font-weight:700;}
+  .ev.plan.l4{background:#416d79!important; color:#fff; font-weight:700;}
+  .ev.l4 .star{color:#ffd98a; letter-spacing:-1px;}
+  .ev.l4 .cd, .ev.l4 .dup{background:rgba(255,255,255,.25)!important;}
   .ev .k{flex:none; font-size:9px; font-weight:700; color:#fff; border-radius:3px; padding:0 3px; line-height:1.6;}
   .ev.sig .k{background:var(--signal);}
   .ev.land .k{background:var(--land);}
@@ -618,6 +634,7 @@ function initFilters(){
     + '<span><i style="background:var(--policy)"></i>⚠=截止/关注日</span>'
     + '<span><i style="background:var(--plan)"></i>⇢=自查观察点(推算)</span>'
     + '<span>💧水位=当日最大金额</span>'
+    + '<span title="同一状态色内：底色越深星越高；深底白字=四星(>1000亿/全局)">⬜底色深浅=星级（深底白字=四星 ★★★★）</span>'
     + '<span style="text-decoration:underline dotted">% = 日消化率（判+丢+高确定性粗滤 / 当日电报数；hover 看细目）</span>'
     + Object.keys(CATS).map(k => `<span><i style="background:${CATS[k]}"></i>${k}</span>`).join("")
     + '<span>级别：★&lt;10亿 ★★10~100亿 ★★★100~1000亿 ★★★★&gt;1000亿/全局</span>';
@@ -707,7 +724,7 @@ function renderCal(){
       const cd = cdBadge(it.kind, n);
       const dup = it.dups && it.dups.length ? `<span class="dup">源+${it.dups.length}</span>` : "";
       HOVER.push({ e: it.ev, kind: it.kind, date: ds, label: it.wlabel });
-      inner += `<div class="ev ${it.kind} ${it.ev.cand ? "cand" : ""}" data-hk="${HOVER.length-1}" style="border-left-color:${CATS[it.ev.category]}" onclick="showDetail('${it.ev.id}')">
+      inner += `<div class="ev ${it.kind} ${it.ev.cand ? "cand" : "l" + (it.ev.level || 1)}" data-hk="${HOVER.length-1}" style="border-left-color:${CATS[it.ev.category]}" onclick="showDetail('${it.ev.id}')">
         <span class="k">${it.ev.cand ? "?" : kindTxt}</span>${LVS[it.ev.level]} ${shown.length>8?shown.slice(0,8)+"…":shown}${cd}${dup}</div>`;
     });
     if (items.length > 9) inner += `<div style="font-size:10px;color:var(--muted);padding-left:5px;cursor:pointer;text-decoration:underline dotted" onclick="showDayEvents('${ds}')">还有 ${items.length-9} 条…（点击查看）</div>`;
