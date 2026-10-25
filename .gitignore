@@ -19,3 +19,9 @@ _inspect_db.py
 # 备份文件（git 本身就是备份）
 *.bak
 *.bak_*
+
+# README 截图例外
+!docs/
+!docs/
+!docs/screenshots/
+!docs/screenshots/*.png
