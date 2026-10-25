@@ -11,20 +11,20 @@ if not defined PY (
   pause
   exit /b 1
 )
-rem Use port 7610 to check whether it is already running (more accurate than tasklist: other pythonw processes such as desktop pets will not be misjudged)
-netstat -ano | findstr ":7610" >nul 2>nul
+rem 用端口 7610 的 LISTENING 态判断是否已在运行（TIME_WAIT 不算）
+netstat -ano | findstr ":7610.*LISTENING" >nul 2>nul
 if errorlevel 1 (
     start "event-radar" /min "%PY%" radar_server.py
-    echo Event radar started (127.0.0.1:7610, running in background; requires pip install akshare)
-    rem Start self-check: after 3 seconds probe /api/ping; if it fails, check radar.log (all exceptions are logged)
-    timeout /t 3 >nul
+    rem ping 式延时：无控制台环境 timeout 会报 Input redirection 错
+    ping -n 4 127.0.0.1 >nul
+    echo 事件雷达已启动（127.0.0.1:7610，后台运行；需 pip install akshare）
     curl -s -o nul http://127.0.0.1:7610/api/ping
     if errorlevel 1 (
-        echo [Warning] Self-check failed: the service is not responding, which is most likely due to missing the akshare dependency; run pip install akshare then double-click this script again, or check radar.log in this directory for details.
+        echo [警告] 自检未通过：多半是 akshare 依赖未装（pip install akshare），或启动较慢——稍等几秒刷新页面重试，详见本目录 radar.log
     ) else (
-        echo Self-check passed: the service responded normally.
+        echo 自检通过：服务正常响应。
     )
 ) else (
-    echo Event radar is already running (127.0.0.1:7610)
+    echo 事件雷达已在运行（127.0.0.1:7610）
 )
-timeout /t 2 >nul
+ping -n 3 127.0.0.1 >nul
