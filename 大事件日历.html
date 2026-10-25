@@ -158,7 +158,6 @@
   </div>
   <div class="bar">
     <span class="pill" id="upcomingPill"></span>
-    <span id="mkFilter" class="mksegs" style="display:inline-flex;margin-right:6px"></span>
     <button onclick="pullRadar()">⚡ 断点更新</button>
     <button onclick="toggleView()" id="viewBtn">切换为时间线视图</button>
     <button onclick="openAdd()">＋ 添加事件</button>
@@ -172,6 +171,8 @@
 <div class="filters">
   <span class="chip active" id="recentChip" onclick="toggleRecent()" title="默认只显示最近6个月内仍有动态的事件，点击切换查看全部">⏳ 近6个月</span>
   <span class="chip active" id="autoChip" onclick="toggleAuto()" title="开启后：候选齐备双源（信息+外部）且有已知落地日时，自动转正进正式日历，不用逐条点">⚡ 自动转正</span>
+  <span style="font-size:12px;color:var(--muted)">| 市场：</span>
+  <span id="mkChips"></span>
   <span style="font-size:12px;color:var(--muted)">| 类别：</span>
   <span id="catChips"></span>
   <span style="font-size:12px;color:var(--muted)">| 等级：</span>
@@ -247,12 +248,15 @@ const LVS  = { 1:"★", 2:"★★", 3:"★★★", 4:"★★★★" };
 const LS   = { 1:"<10亿", 2:"10亿~100亿", 3:"100亿~1000亿", 4:">1000亿/全局性" };
 
 let _allEvents = load();   // 全量事件（市场过滤前），写回/导出必须用全量，避免视野过滤丢事件
-let MK = localStorage.getItem("mk_filter") || "A股";   // 市场视野：A股 / 港股 / 外资 / all
+let MKS = (function(){     // 市场视野多选集合：默认只选 A股（与等级 chips 同款交互）
+  try { const v = JSON.parse(localStorage.getItem("mk_set") || "null"); if (Array.isArray(v)) return new Set(v); } catch(e){}
+  return new Set(["A股"]);
+})();
 let cands = loadCands();
-/* 市场视野过滤：默认只看 A股；港股/外资为次要视野 */
+/* 市场视野过滤：集合为空=全部 */
 function evByMarket(list){
-  if (MK === "all") return list;
-  return list.filter(e => (e.market || "A股") === MK);
+  if (!MKS.size) return list;
+  return list.filter(e => MKS.has(e.market || "A股"));
 }
 /* 自愈：清理历史遗留重复（同 id 重复条目、候选与正式事件同 id 的残留），防止"重复加载" */
 (function selfHeal(){
@@ -268,23 +272,24 @@ function evByMarket(list){
 let events = evByMarket(_allEvents);
 /* 全量合并：视野内 events（含新增/修改）并回 _allEvents；persist/导出用 */
 function mergedAll(){
-  if (MK === "all" || events === _allEvents) return _allEvents;
+  if (!MKS.size || events === _allEvents) return _allEvents;
   const upd = new Map(events.map(e => [e.id, e]));
   const ids = new Set(_allEvents.map(e => e.id));
   return _allEvents.map(e => upd.get(e.id) || e).concat(events.filter(e => !ids.has(e.id)));
 }
-function setMk(m){
-  MK = m;
-  try { localStorage.setItem("mk_filter", m); } catch(e){}
+function setMk(k){
+  k === "__all" ? MKS.clear() : (MKS.has(k) ? MKS.delete(k) : MKS.add(k));
+  try { localStorage.setItem("mk_set", JSON.stringify([...MKS])); } catch(e){}
   events = evByMarket(_allEvents);
   renderMk(); render();
 }
 function renderMk(){
-  const el = document.getElementById("mkFilter");
+  const el = document.getElementById("mkChips");
   if (!el) return;
-  const opts = [["A股","A股"],["港股","港股"],["外资","外资"],["all","全部"]];
-  el.innerHTML = opts.map(([v, l]) =>
-    `<button onclick="setMk('${v}')" style="${MK === v ? "background:#3b82f6;border-color:#3b82f6;color:#fff" : ""}">${l}</button>`).join("");
+  el.innerHTML = '<span class="chip' + (MKS.size ? "" : " active") + '" data-mk="__all">全部</span>'
+    + ["A股", "港股", "外资"].map(v =>
+      `<span class="chip${MKS.has(v) ? " active" : ""}" data-mk="${v}">${v}</span>`).join(" ");
+  el.querySelectorAll(".chip").forEach(x => x.onclick = () => setMk(x.dataset.mk));
 }
 let view = "cal";
 let cur = new Date();
