@@ -314,11 +314,21 @@ def progress():
     ev = conn.execute("SELECT COUNT(*) c FROM events").fetchone()["c"]
     pending_by_date = [dict(r) for r in conn.execute(
         "SELECT date, COUNT(*) c FROM telegrams WHERE status='pending' GROUP BY date ORDER BY date DESC LIMIT 30")]
+    # 按日消化统计：t=当日电报总数 j=语义判建事件 d=语义判丢弃 f=预筛粗滤 p=待判
+    # 语义消化率 = (j+d)/t —— 当日信息被"准确无比地分类"的覆盖面；粗滤只算进食未算彻底消化
+    digest_by_date = [dict(r) for r in conn.execute(
+        "SELECT date, COUNT(*) t,"
+        " SUM(CASE WHEN status='judged' THEN 1 ELSE 0 END) j,"
+        " SUM(CASE WHEN status='dropped' THEN 1 ELSE 0 END) d,"
+        " SUM(CASE WHEN status='filtered' THEN 1 ELSE 0 END) f,"
+        " SUM(CASE WHEN status='pending' OR status IS NULL OR status='' THEN 1 ELSE 0 END) p"
+        " FROM telegrams GROUP BY date ORDER BY date DESC")]
     conn.close()
     out = {
         "total": total, "judged": judged, "dropped": dropped, "filtered": filtered,
         "pending": total - judged - dropped - filtered,
         "events": ev, "pendingByDate": pending_by_date,
+        "digestByDate": digest_by_date,
         "lastJudgeAt": meta_get("last_judge_at", ""),
         "lastFilterAt": meta_get("last_filter_at", ""),
         "lastFetchAt": meta_get("last_fetch_cls_live", ""),
