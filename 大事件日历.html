@@ -12,24 +12,25 @@
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   body{font-family:"Microsoft YaHei","PingFang SC",sans-serif; background:var(--bg); color:var(--ink); font-size:14px;}
-  header{display:flex; align-items:center; justify-content:space-between; padding:10px 18px; background:var(--card); border-bottom:1px solid var(--line); flex-wrap:wrap; gap:8px;}
-  header h1{font-size:16px; letter-spacing:1px;}
+  header{display:flex; align-items:center; justify-content:space-between; padding:6px 18px; background:var(--card); border-bottom:1px solid var(--line); flex-wrap:wrap; gap:6px;}
+  header h1{font-size:15px; letter-spacing:1px; white-space:nowrap;}
   header .sub{color:var(--muted); font-size:11px; margin-top:1px;}
   .bar{display:flex; gap:6px; flex-wrap:wrap;}
   button{font-family:inherit; cursor:pointer; border:1px solid var(--line); background:#fff; border-radius:6px; padding:4px 10px; font-size:12px;}
   button:hover{border-color:#b9c0cf;}
   button.primary{background:var(--accent); color:#fff; border-color:var(--accent);}
-  /* 筛选区 */
-  .filters{display:flex; gap:10px; align-items:center; padding:6px 18px; flex-wrap:wrap; background:var(--card); border-bottom:1px solid var(--line);}
-  .chip{padding:3px 10px; border-radius:20px; border:1px solid var(--line); background:#fff; cursor:pointer; font-size:11.5px; user-select:none;}
+  /* 筛选区：单行紧凑 */
+  .filters{display:flex; gap:6px; align-items:center; padding:4px 14px; flex-wrap:wrap; background:var(--card); border-bottom:1px solid var(--line);}
+  .chip{padding:2px 8px; border-radius:20px; border:1px solid var(--line); background:#fff; cursor:pointer; font-size:11px; user-select:none;}
   .chip.active{background:var(--accent); color:#fff; border-color:var(--accent);}
-  .chip .dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; vertical-align:1px;}
-  .filters input[type=text]{padding:5px 9px; border:1px solid var(--line); border-radius:6px; width:170px; font-family:inherit;}
-  .filters select{padding:5px 7px; border:1px solid var(--line); border-radius:6px; font-family:inherit; font-size:12px;}
+  .chip .dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:4px; vertical-align:1px;}
+  .filters input[type=text]{padding:4px 8px; border:1px solid var(--line); border-radius:6px; width:124px; font-family:inherit; font-size:11.5px;}
+  .filters select{padding:4px 6px; border:1px solid var(--line); border-radius:6px; font-family:inherit; font-size:11.5px;}
+  #statusSel{width:78px; flex:none; text-align:center;}
   /* 日历 */
-  main{padding:12px 18px;}
-  .cal-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;}
-  .cal-head .month{font-size:17px; font-weight:600;}
+  main{padding:8px 18px 8px;}
+  .cal-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;}
+  .cal-head .month{font-size:15px; font-weight:600;}
   .cal-head .nav{display:flex; gap:8px; align-items:center;}
   .cal-head .nav .ym{min-width:110px; text-align:center; font-size:13px;}
   .grid{display:grid; grid-template-columns:repeat(7,1fr); gap:6px;}
@@ -41,8 +42,9 @@
   .cell.festival .d{color:#d5444a;}
   /* ===== 屏幕适配：≤900px（平板窄屏）/ ≤560px（手机），桌面压留白+JS格行自适应 ===== */
   @media (max-width:900px){
-    #legend, .cal-head .nav > span[style]{display:none !important;}
-    main{padding:10px;}
+    .legseg, .cal-head .nav > span[style]{display:none !important;}
+    .statrow{padding:3px 10px;}
+    main{padding:6px 10px;}
     .grid{gap:3px;}
     .cell{min-height:88px; height:auto; max-height:190px;}
     .ev{font-size:10px; padding:1px 4px 1px 3px; margin-bottom:2px;}
@@ -50,8 +52,9 @@
     .filters input[type=text]{width:130px;}
   }
   @media (max-width:560px){
-    header{padding:8px 10px; gap:6px;}
+    header{padding:6px 10px; gap:6px;}
     .chip{padding:2px 8px; font-size:11px;}
+    .statrow{flex-wrap:wrap; white-space:normal;}
     .cell{min-height:76px; max-height:170px;}
     .ev{font-size:9.5px; gap:3px;}
     .cell .d{font-size:11px;}
@@ -89,9 +92,13 @@
   .ev.plan .k{background:var(--plan);}
   .star{font-size:10px; letter-spacing:-1px; color:#c9a227;}
   .ev .dup{margin-left:auto; flex:none; font-size:8px; color:#fff; background:#8e96ab; border-radius:6px; padding:0 4px; align-self:center;}
-  /* 图例：单行紧凑 */
-  .legend{display:flex; gap:14px; align-items:center; padding:3px 18px; font-size:10px; color:var(--muted); white-space:nowrap; overflow:hidden;}
-  .legend i{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:3px; flex:none;}
+  /* 图例+统计+判读进度：合并一行（外壳压缩） */
+  .statrow{display:flex; gap:10px; align-items:center; padding:4px 18px; font-size:10.5px; color:var(--muted); white-space:nowrap; overflow:hidden; background:var(--card); border-bottom:1px solid var(--line);}
+  .legseg{display:inline-flex; gap:9px; align-items:center; flex:none;}
+  .legseg i{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:2px; flex:none;}
+  .divider{width:1px; height:12px; background:var(--line); flex:none;}
+  #statLine{display:inline-flex; gap:9px; align-items:center; flex:none;}
+  #statLine kbd{padding:0 4px; font-size:10px;}
   /* 列表视图 */
   .list-item{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin-bottom:10px; display:flex; gap:14px; align-items:flex-start; cursor:pointer;}
   .list-item:hover{border-color:#b9c0cf;}
@@ -161,10 +168,10 @@
   .dg.low{color:#d5444a;}
   .dg.mid{color:#d78b2f;}
   .dg.good{color:#1f9e77;}
-  /* 判读进度面板：LLM语义判读管道进度 */
-  .progress-panel{display:flex; gap:20px; align-items:center; padding:10px 24px; background:var(--card); border-bottom:1px solid var(--line); font-size:12px; color:var(--muted); flex-wrap:wrap; min-height:48px;}
+  /* 判读进度：inline 于合并行；有积压展开时仍独占一行高度 */
+  .progress-panel{display:inline-flex; gap:9px; align-items:center; font-size:10.5px; color:var(--muted); flex-wrap:nowrap;}
   .progress-panel b{color:var(--ink); font-weight:700;}
-  .progress-panel .seg{display:inline-flex; align-items:center; gap:6px;}
+  .progress-panel .seg{display:inline-flex; align-items:center; gap:5px; white-space:nowrap;}
   .progress-panel .pbar{flex:1; min-width:160px; height:9px; border-radius:5px; background:#eef0f5; overflow:hidden; position:relative;}
   .progress-panel .pbar i{position:absolute; top:0; bottom:0; left:0; border-radius:5px;}
   .progress-panel .pbar .done{background:linear-gradient(90deg,#2472c8,#5b8def);}
@@ -186,18 +193,17 @@
 <body>
 
 <header>
-  <div>
+  <div style="display:flex; align-items:center; gap:10px;">
     <h1>📈 A股大事件日历</h1>
-    <div class="sub">🔴 发生日 = 消息/事件首次公开　🔵 落地日 = 政策施行/事项落地（官方确认）　⚠ 关注日 = 截止/关键节点　⇢ 计划 = 自查观察点（引擎按发生日推算，非官方）　星级 = 金额×影响面综合评级</div>
+    <span class="pill" id="upcomingPill"></span>
   </div>
   <div class="bar">
-    <span class="pill" id="upcomingPill"></span>
-    <button onclick="pullRadar()">⚡ 断点更新</button>
-    <button onclick="toggleView()" id="viewBtn">切换为时间线视图</button>
-    <button onclick="openAdd()">＋ 添加事件</button>
-    <button onclick="exportJSON()">导出数据</button>
-    <button onclick="document.getElementById('importFile').click()">导入数据</button>
-    <button onclick="resetData()">重置</button>
+    <button onclick="pullRadar()" title="拉取 事件雷达 新电报并刷新快照">⚡断点更新</button>
+    <button onclick="toggleView()" id="viewBtn" title="月历 / 时间线 两种视图切换">时间线</button>
+    <button onclick="openAdd()">＋添加事件</button>
+    <button onclick="exportJSON()" title="导出全部事件为 JSON">导出</button>
+    <button onclick="document.getElementById('importFile').click()" title="导入 JSON 事件">导入</button>
+    <button onclick="resetData()" title="恢复到内置种子数据（谨慎）">重置</button>
     <input type="file" id="importFile" accept=".json" style="display:none" onchange="importJSON(this)">
   </div>
 </header>
@@ -211,8 +217,11 @@
   <span id="catChips"></span>
   <span style="font-size:12px;color:var(--muted)">| 等级：</span>
   <span id="lvChips"></span>
-  <span style="font-size:12px;color:var(--muted)">| 标签：</span>
-  <span class="tagchips" id="tagChips"></span>
+  <span class="chip" id="tagToggle" onclick="toggleTags()" title="标签筛选（LLM语义判读打标，点击展开/收起）">标签 ▾</span>
+  <span id="tagBlock" style="display:inline-flex; gap:6px; align-items:center;">
+    <span style="font-size:12px;color:var(--muted)">标签：</span>
+    <span class="tagchips" id="tagChips"></span>
+  </span>
   <span style="font-size:12px;color:var(--muted)">| 状态：</span>
   <select id="statusSel" onchange="render()">
     <option value="">全部</option><option>待落地</option><option>已落地</option><option>关注中</option><option>已失效/辟谣</option>
@@ -220,9 +229,13 @@
   <input type="text" id="searchBox" placeholder="🔍 搜索事件/板块/个股..." oninput="render()">
 </div>
 
-<div class="legend" id="legend"></div>
-<div class="legend" id="statLine" style="padding-top:0"></div>
-<div class="progress-panel" id="progressPanel" style="display:none"></div>
+<div class="statrow">
+  <span class="legseg" id="legend"></span>
+  <i class="divider"></i>
+  <span id="statLine"></span>
+  <i class="divider"></i>
+  <span class="progress-panel" id="progressPanel"></span>
+</div>
 
 <main id="main"></main>
 <div id="hoverCard"></div>
@@ -629,8 +642,9 @@ function filtered(){
 
 function initFilters(){
   const c = document.getElementById("catChips");
+  const SHORT = {"政策法规":"政策", "公司大事件":"公司", "行业事件":"行业", "监管处罚":"处罚"};
   c.innerHTML = '<span class="chip active" data-cat="__all">全部</span>'
-    + Object.keys(CATS).map(k => `<span class="chip" data-cat="${k}"><i class="dot" style="background:${CATS[k]}"></i>${k}</span>`).join(" ");
+    + Object.keys(CATS).map(k => `<span class="chip" data-cat="${k}" title="${k}"><i class="dot" style="background:${CATS[k]}"></i>${SHORT[k] || k}</span>`).join("");
   c.querySelectorAll(".chip").forEach(el => el.onclick = () => {
     const k = el.dataset.cat;
     k === "__all" ? catFilter.clear() : (catFilter.has(k) ? catFilter.delete(k) : catFilter.add(k));
@@ -647,15 +661,13 @@ function initFilters(){
     render();
   });
   document.getElementById("legend").innerHTML =
-    '图例：<span><i style="background:var(--signal)"></i>发生=消息公开</span>'
-    + '<span><i style="background:var(--land)"></i>落地=施行/终局</span>'
-    + '<span><i style="background:var(--policy)"></i>⚠=截止/关注日</span>'
-    + '<span><i style="background:var(--plan)"></i>⇢=自查观察点(推算)</span>'
-    + '<span>💧水位=当日最大金额</span>'
-    + '<span title="同一状态色内：底色越深星越高；深底白字=四星(>1000亿/全局)">⬜底色深浅=星级（深底白字=四星 ★★★★）</span>'
-    + '<span style="text-decoration:underline dotted">% = 日消化率（判+丢+高确定性粗滤 / 当日电报数；hover 看细目）</span>'
-    + Object.keys(CATS).map(k => `<span><i style="background:${CATS[k]}"></i>${k}</span>`).join("")
-    + '<span>级别：★&lt;10亿 ★★10~100亿 ★★★100~1000亿 ★★★★&gt;1000亿/全局</span>';
+    '<span title="发生日 = 消息/事件首次公开"><i style="background:var(--signal)"></i>发生=首次公开</span>'
+    + '<span title="落地日 = 政策施行/事项落地（官方确认）"><i style="background:var(--land)"></i>落地=施行/终局</span>'
+    + '<span title="关注日 = 截止/关键节点，独立标在日历上"><i style="background:var(--policy)"></i>⚠=截止/关注</span>'
+    + '<span title="计划/自查观察点，引擎按发生日推算，非官方"><i style="background:var(--plan)"></i>⇢=自查(推算)</span>'
+    + '<span title="水位 = 格子底色高度=当日最大金额（对数刻度）">💧=当日最大额</span>'
+    + '<span title="同一状态色内底色越深星越高，深底白字=★★★★">⬜深浅=星级</span>'
+    + '<span style="text-decoration:underline dotted" title="% = 日消化率 =（语义判读已判+已丢+高确定性粗滤直击）/ 当日电报数；0%灰 <30%红 30~69%橙 ≥70%绿；hover 日历格看有无%角标">% 消化率</span>';
 }
 
 function rgba(hex, a){
@@ -817,7 +829,7 @@ function renderList(){
 function render(){
   FCACHE = null;   // 新一轮渲染：筛选条件可能已变，重新计算
   view === "cal" ? renderCal() : renderList();
-  document.getElementById("viewBtn").textContent = view === "cal" ? "切换为时间线视图" : "切换为日历视图";
+  document.getElementById("viewBtn").textContent = view === "cal" ? "时间线" : "月历";
   fitRows();
   updateExtras(); renderProgress(); initTags();
   saveFilters();   // 刷新后保持筛选状态
@@ -827,6 +839,22 @@ function render(){
 /* ---- 标签筛选（多选=或关系；标签由LLM语义判读打上）----
    默认只展示出现频次最高的 TOP 个标签，其余折叠进「＋其他 N 项」胶囊，点击展开后再筛选。 */
 let tagMoreOpen = false;
+let tagsOpen = localStorage.getItem("aq_tagsOpen") === "1";
+function toggleTags(){
+  tagsOpen = !tagsOpen;
+  localStorage.setItem("aq_tagsOpen", tagsOpen ? "1" : "0");
+  applyTagsVis();
+  if ((tagFilter || new Set()).size) render();   // 展开带着激活筛选，收起时同步刷新
+}
+function applyTagsVis(){
+  const blk = document.getElementById("tagBlock");
+  const tgl = document.getElementById("tagToggle");
+  if (!blk || !tgl) return;
+  const nAct = (tagFilter || new Set()).size;
+  blk.style.display = tagsOpen || nAct ? "inline-flex" : "none";
+  tgl.textContent = (tagsOpen ? "标签 ▴" : "标签 ▾") + (nAct ? ` ●${nAct}` : "");
+  tgl.classList.toggle("active", nAct > 0);
+}
 function initTags(){
   const counts = {};
   events.concat(cands).forEach(e => (e.tags || []).forEach(t => counts[t] = (counts[t] || 0) + 1));
@@ -851,6 +879,7 @@ function initTags(){
   }
   box.innerHTML = html;
   box.querySelectorAll(".tagchip[data-tag]").forEach(bind);
+  applyTagsVis();
   const more = document.getElementById("tagMore");
   if (more) more.onclick = () => {
     tagMoreOpen = !tagMoreOpen;
@@ -880,7 +909,7 @@ function digestBadge(ds){
 }
 function renderProgress(){
   const box = document.getElementById("progressPanel");
-  if (!PROG) { box.style.display = "flex"; box.innerHTML = '<span class="seg">🧠 语义判读进度</span><span class="seg" style="color:#9aa3b6">雷达服务未连接 · 启动「事件雷达\\启动雷达.bat」后自动展示</span>'; return; }
+  if (!PROG) { box.style.display = "inline-flex"; box.innerHTML = '<span class="seg">🧠 语义判读进度</span><span class="seg" style="color:#9aa3b6">雷达服务未连接 · 启动「事件雷达\\启动雷达.bat」后自动展示</span>'; return; }
   const { total, judged, dropped, filtered = 0, pending, events: evN, pendingByDate = [], lastJudgeAt, lastFilterAt = "" } = PROG;
   const done = judged + dropped + filtered;
   const pct = total ? Math.round(done / total * 100) : 0;
@@ -897,8 +926,9 @@ function renderProgress(){
   }).join("");
   const stats =
      allDone && !open
-     ? `<span class="seg">✅ 电报已全部处理 <b>${total}</b> 条（判 ${judged} / 丢 ${dropped} / 滤 ${filtered}）· 事件 <b>${evN}</b></span><span class="seg" title="消化率 =(语义判读 ${judged}+${dropped} + 高确定性粗滤close ${filteredHi}) / ${total}；普通粗滤 ${filtered - filteredHi} 条未直击规则族，不计入">🧠 整体消化 <b style="color:${cover >= 70 ? "#1f9e77" : cover >= 30 ? "#d78b2f" : "#d5444a"}">${cover}%</b></span>`
-     : `<span class="seg">已过滤 <b style="color:#1f9e77">${filtered}</b></span>
+     ? `<span class="seg" title="电报全链：语义判 ${judged} + 丢 ${dropped} + 粗滤 ${filtered}（其中高确定性 ${filteredHi}）；共 ${total} 条">✅ 判 ${judged}·丢 ${dropped}·滤 ${filtered}· 事件 <b>${evN}</b></span><span class="seg" title="消化率 =(语义判读 ${judged}+${dropped} + 高确定性粗滤直击 ${filteredHi}) / ${total}；普通粗滤 ${filtered - filteredHi} 条未直击规则族，不计入">🧠消化 <b style="color:${cover >= 70 ? "#1f9e77" : cover >= 30 ? "#d78b2f" : "#d5444a"}">${cover}%</b></span>`
+     : `<span class="seg">🧠语义判读进度</span>
+      <span class="seg">已过滤 <b style="color:#1f9e77">${filtered}</b></span>
       <span class="seg">待判硬候选 <b style="color:#d5444a">${pending}</b></span>
       <span class="seg">已判 <b>${judged}</b></span>
       <span class="seg">丢弃 <b>${dropped}</b></span>
@@ -907,13 +937,13 @@ function renderProgress(){
         <i class="done" style="width:${Math.max(0.4, pct * (judged / dm))}%"></i>
         <i class="drop" style="left:${pct * (judged / dm)}%; width:${pct * (dropped / dm)}%"></i>
       </span>
-      <span class="seg" style="font-size:11px">电报 ${total} 条 · 已处理 ${pct}%（含已过滤）${lastFilterAt ? ` · 最近过滤 ${lastFilterAt.slice(0,16).replace("T"," ")}` : ""}${lastJudgeAt ? ` · 上次判读 ${lastJudgeAt.slice(0,16).replace("T"," ")}` : ""}</span>`;
+      <span class="seg" style="font-size:10.5px">电报 ${total} 条 · 已处理 ${pct}%${lastFilterAt ? ` · 最近过滤 ${lastFilterAt.slice(0,16).replace("T"," ")}` : ""}${lastJudgeAt ? ` · 上次判读 ${lastJudgeAt.slice(0,16).replace("T"," ")}` : ""}</span>`;
   const toggle = allDone
     ? `<span class="seg" id="ppToggle" style="cursor:pointer;user-select:none;color:#5b8def">${open ? "收起 ▴" : "详情 ▾"}</span>`
     : "";
   const pdaysHtml = open ? `<span class="pdays">${pdays}<span class="plbl">近14日待判硬候选</span></span>` : "";
-  box.style.display = "flex";
-  box.innerHTML = `<span class="seg">🧠 语义判读进度</span>` + stats + toggle + pdaysHtml;
+  box.style.display = "inline-flex";
+  box.innerHTML = stats + toggle + pdaysHtml;
   if (allDone) {
     const t = document.getElementById("ppToggle");
     if (t) t.onclick = () => { panelOpen = !open; localStorage.setItem("aq_panelOpen", panelOpen ? "1" : "0"); renderProgress(); };
@@ -950,7 +980,7 @@ function updateExtras(){
     (e.landDate && e.landDate.startsWith(`${y}-${mm}`)) ||
     (e.watch || []).some(w => w.date.startsWith(`${y}-${mm}`))).length;
   document.getElementById("statLine").innerHTML =
-    `📊 正式事件 <b>${es.filter(e => !e.cand).length}</b> ｜ ⍰ 待确认候选 <b>${cands.length}</b> ｜ ⏳ 待落地/关注中 <b>${wait}</b> ｜ 📅 ${y}/${mm} 关键日 <b>${monthKey}</b> 个 ｜ 快捷键　<kbd>←</kbd><kbd>→</kbd> 翻月 · <kbd>T</kbd> 今天 · <kbd>V</kbd> 切换视图`;
+    `📊 正式 <b>${es.filter(e => !e.cand).length}</b>·⍰候选 <b>${cands.length}</b>·⏳待落/关注 <b>${wait}</b>·📅本月关键 <b>${monthKey}</b><span title="快捷键：←/→ 翻月 · T 今天 · V 切换视图" style="cursor:help">⌨ T·←→·V</span>`;
 }
 document.addEventListener("keydown", e => {
   if (["INPUT","TEXTAREA","SELECT"].includes(document.activeElement.tagName)) return;
