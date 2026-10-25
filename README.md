@@ -6,7 +6,7 @@
 - 事件雷达（本地 Python 服务）持续抓取电报流，按 **关键词粗滤 → 高确定性噪音规则族 → LLM 语义判读** 三级管道，把 4 万+ 条原始电报压成 140+ 条"值得上日历"的事件；**前两级粗滤已在电报入库瞬间由服务端就地执行**——所以新用户从第一天起，判读队列里只有硬候选
 - 一切停在 127.0.0.1，数据全本地（`radar.db` / `data.json` 均不入库）
 
-![日历全景](docs/screenshots/calendar.png)
+![日历全景](https://testingcf.jsdelivr.net/gh/king151/a-share-event-calendar@master/docs/screenshots/calendar.png)
 
 ## 核心特性
 
@@ -23,12 +23,12 @@
 ### 时间线视图
 按发生/落地排序（可正可倒）的事件列表，AI 判读标签、金额、板块一应俱全。
 
-![时间线视图](docs/screenshots/timeline.png)
+![时间线视图](https://testingcf.jsdelivr.net/gh/king151/a-share-event-calendar@master/docs/screenshots/timeline.png)
 
 ### 事件详情
 金额量杯（<10亿 → >1000亿 对数刻度）、状态/等级/板块、信息源头原文链接、事件时间线、关注日（独立截止节点）。
 
-![事件详情](docs/screenshots/detail.png)
+![事件详情](https://testingcf.jsdelivr.net/gh/king151/a-share-event-calendar@master/docs/screenshots/detail.png)
 
 ### 事件雷达（📡 后端）
 ```
