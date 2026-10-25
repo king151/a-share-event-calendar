@@ -259,6 +259,8 @@ let tagFilter = new Set();
 let recentOnly = true;
 let HOVER = [];
 let PROG = null;    // 判读进度：/api/progress
+let panelOpen = localStorage.getItem("aq_panelOpen") === "1" ? true : (localStorage.getItem("aq_panelOpen") === "0" ? false : null);  // 进度面板手动展开状态；null=自动折叠
+let FCACHE = null;  // 当轮渲染的筛选结果缓存（render() 开头清空，避免一轮渲染算 3 遍 filtered()）
 
 /* ===== 筛选状态持久化：等级/类别/标签/近6个月/状态/搜索词/视图，刷新后保持 ===== */
 const FILTER_KEY = "aq_filters";
@@ -495,14 +497,24 @@ function load(){
 function save(){ localStorage.setItem("aq_events", JSON.stringify(events)); location.reload(); }
 function resetData(){ if (confirm("确定清空全部记录？（正式事件与雷达候选都将删除，只由新扫描补充）")) { localStorage.removeItem("aq_events"); localStorage.removeItem("aq_cands"); location.reload(); } }
 function exportJSON(){
-  const blob = new Blob([JSON.stringify(events, null, 2)], {type:"application/json"});
+  const payload = { exportedAt: new Date().toISOString().replace("T", " ").slice(0, 19), events: events, cands: cands };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], {type:"application/json"});
   const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob); a.download = "A股大事件日历数据.json"; a.click();
+  a.href = URL.createObjectURL(blob); a.download = "A股大事件日历数据-" + new Date().toISOString().slice(0,10) + ".json"; a.click();
 }
 function importJSON(input){
   const f = input.files[0]; if (!f) return;
   const r = new FileReader();
-  r.onload = e => { try { const d = JSON.parse(e.target.result); if (Array.isArray(d)) { events = d; render(); persist({ action: "import" }); } } catch(err){ alert("文件格式不正确"); } };
+  r.onload = e => { try {
+    const d = JSON.parse(e.target.result);
+    // 兼容两种格式：旧版纯数组；新版 {exportedAt, events, cands}
+    const ev = Array.isArray(d) ? d : (Array.isArray(d.events) ? d.events : null);
+    if (ev) {
+      events = ev;
+      if (Array.isArray(d.cands)) cands = d.cands;
+      render(); persist({ action: "import" });
+    } else alert("文件格式不正确（需为事件数组或含 events 字段的对象）");
+  } catch(err){ alert("文件格式不正确"); } };
   r.readAsText(f);
 }
 
@@ -511,8 +523,10 @@ function tag(ev){ return '<span class="tag" style="background:'+CATS[ev.category
 function fmt(d){ return d.replace(/-/g, "/"); }
 
 function filtered(){
+  if (FCACHE) return FCACHE;   // 同一轮渲染内复用（render() 开头清空）
   const q = document.getElementById("searchBox").value.trim().toLowerCase();
-  return events.concat(cands).filter(e => {
+  const st = document.getElementById("statusSel").value;
+  const out = events.concat(cands).filter(e => {
     if (recentOnly) {
       // 以事件"最后一个关键日"为准，超过6个月无动态的默认隐藏
       const latest = [e.signalDate, e.landDate].concat((e.watch || []).map(w => w.date)).filter(Boolean).sort().pop();
@@ -529,11 +543,12 @@ function filtered(){
       tagFilter.forEach(t => { if (tg.has(t)) hit = true; });   // 多选=或
       if (!hit) return false;
     }
-    const st = document.getElementById("statusSel").value;
     if (st && e.status !== st) return false;
     if (q) { const s = JSON.stringify(e).toLowerCase(); if (!s.includes(q)) return false; }
     return true;
   });
+  FCACHE = out;
+  return out;
 }
 
 function initFilters(){
@@ -633,14 +648,15 @@ function renderCal(){
       if (p !== null && (water === null || p > water.pct)) water = { pct: p, cat: it.ev.category, name: it.ev.name, amt: it.ev.amount };
     });
     const waterHTML = water
-      ? `<i class="cellwater" style="height:${water.pct}%; background:${rgba(CATS[water.cat], .16)}; border-top:1.5px solid ${rgba(CATS[water.cat], .6)}" title="水位≈${water.pct.toFixed(0)}%（${water.amt}，${water.name}）"></i>`
+      ? `<i class="cellwater" style="height:${water.pct}%; background:${rgba(CATS[water.cat], .16)}; border-top:1.5px solid ${rgba(CATS[water.cat], .6)}" title="水位≈${water.pct.toFixed(0)}%（${esc(water.amt)}，${esc(water.name)}）"></i>`
       : "";
     let inner = "";
     const items0 = (map[ds] || []).slice().sort((a, b) => (b.ev.level || 0) - (a.ev.level || 0));  // Q2 大额大事件置顶
     const items = groupKeyed(items0);   // 同事件多源合并（7-24 财政部+电报 → 一枚）
     items.slice(0, 9).forEach(it => {
       const kindTxt = it.kind === "sig" ? "发" : it.kind === "land" ? "落" : it.kind === "plan" ? "⇢" : "⚠";
-      const shown = it.kind === "watch" ? (it.wlabel || it.ev.name) : it.ev.name;
+      const shownRaw = it.kind === "watch" ? (it.wlabel || it.ev.name) : it.ev.name;
+    const shown = esc(shownRaw.length > 8 ? shownRaw.slice(0, 8) + "…" : shownRaw);
       const n = it.kind === "sig" ? null : daysLeft(ds);
       const cd = cdBadge(it.kind, n);
       const dup = it.dups && it.dups.length ? `<span class="dup">源+${it.dups.length}</span>` : "";
@@ -699,14 +715,15 @@ function renderList(){
     return `<div class="list-item" onclick="showDetail('${e.id}')">
       <div class="date"><div class="big">${y}.${mo}.${d}</div><div class="lbl" style="color:${col}">${lbl}</div></div>
       <div class="body">
-        <div class="title">${e.cand ? '<span class="tag cand" style="background:#98a0b3">候选</span>' : ""}${e.ai ? '<span class="tag" style="background:#5b8def">AI</span>' : ""}${tag(e)}${(e.tags || []).slice(0, 4).map(t => `<span class="tag" style="background:#8f9bc0">${t}</span>`).join("")}${e.name} <span class="star">${LVS[e.level]}</span></div>
-        <div class="meta">状态：${e.status} ｜ 金额：${e.amount || "—"} ｜ 板块：${e.sector || "—"} ｜ 源头：${(e.sources[0]||{}).name || "—"}${cdBadge(it.kind, it.kind === "sig" ? null : daysLeft(it.date))}</div>
+        <div class="title">${e.cand ? '<span class="tag cand" style="background:#98a0b3">候选</span>' : ""}${e.ai ? '<span class="tag" style="background:#5b8def">AI</span>' : ""}${tag(e)}${(e.tags || []).slice(0, 4).map(t => `<span class="tag" style="background:#8f9bc0">${esc(t)}</span>`).join("")}${esc(e.name)} <span class="star">${LVS[e.level]}</span></div>
+        <div class="meta">状态：${esc(e.status)} ｜ 金额：${esc(e.amount || "—")} ｜ 板块：${esc(e.sector || "—")} ｜ 源头：${esc((e.sources[0]||{}).name || "—")}${cdBadge(it.kind, it.kind === "sig" ? null : daysLeft(it.date))}</div>
       </div>
     </div>`;
   }).join("");
 }
 
 function render(){
+  FCACHE = null;   // 新一轮渲染：筛选条件可能已变，重新计算
   view === "cal" ? renderCal() : renderList();
   document.getElementById("viewBtn").textContent = view === "cal" ? "切换为时间线视图" : "切换为日历视图";
   updateExtras(); renderProgress(); initTags();
@@ -760,25 +777,37 @@ function renderProgress(){
   const done = judged + dropped + filtered;
   const pct = total ? Math.round(done / total * 100) : 0;
   const dm = Math.max(done, 1);
+  const allDone = pending === 0 && total > 0;
+  // 待判为 0 时默认折叠为一行胶囊，点「详情 ▾」展开完整面板；有积压时始终展开
+  const open = allDone ? (panelOpen === true) : true;
   const maxP = Math.max(...pendingByDate.map(x => x.c), 1);
   const pdays = pendingByDate.slice(0, 14).map(x => {
     const h = Math.max(3, Math.round(x.c / maxP * 22));
     return `<span class="pday" style="height:${h}px" title="${x.date} 待判 ${x.c} 条"><i>${x.date} 待判 ${x.c}</i></span>`;
   }).join("");
+  const stats =
+     allDone && !open
+     ? `<span class="seg">✅ 电报已全部处理 <b>${total}</b> 条（判 ${judged} / 丢 ${dropped} / 滤 ${filtered}）· 事件 <b>${evN}</b></span>`
+     : `<span class="seg">已过滤 <b style="color:#1f9e77">${filtered}</b></span>
+      <span class="seg">待判硬候选 <b style="color:#d5444a">${pending}</b></span>
+      <span class="seg">已判 <b>${judged}</b></span>
+      <span class="seg">丢弃 <b>${dropped}</b></span>
+      <span class="seg">事件 <b>${evN}</b></span>
+      <span class="pbar" title="已处理 ${done}/${total}（${pct}%）">
+        <i class="done" style="width:${Math.max(0.4, pct * (judged / dm))}%"></i>
+        <i class="drop" style="left:${pct * (judged / dm)}%; width:${pct * (dropped / dm)}%"></i>
+      </span>
+      <span class="seg" style="font-size:11px">电报 ${total} 条 · 已处理 ${pct}%（含已过滤）${lastFilterAt ? ` · 最近过滤 ${lastFilterAt.slice(0,16).replace("T"," ")}` : ""}${lastJudgeAt ? ` · 上次判读 ${lastJudgeAt.slice(0,16).replace("T"," ")}` : ""}</span>`;
+  const toggle = allDone
+    ? `<span class="seg" id="ppToggle" style="cursor:pointer;user-select:none;color:#5b8def">${open ? "收起 ▴" : "详情 ▾"}</span>`
+    : "";
+  const pdaysHtml = open ? `<span class="pdays">${pdays}<span class="plbl">近14日待判硬候选</span></span>` : "";
   box.style.display = "flex";
-  box.innerHTML =
-    `<span class="seg">🧠 语义判读进度</span>
-     <span class="seg">已过滤 <b style="color:#1f9e77">${filtered}</b></span>
-     <span class="seg">待判硬候选 <b style="color:#d5444a">${pending}</b></span>
-     <span class="seg">已判 <b>${judged}</b></span>
-     <span class="seg">丢弃 <b>${dropped}</b></span>
-     <span class="seg">事件 <b>${evN}</b></span>
-     <span class="pbar" title="已处理 ${done}/${total}（${pct}%）">
-       <i class="done" style="width:${Math.max(0.4, pct * (judged / dm))}%"></i>
-       <i class="drop" style="left:${pct * (judged / dm)}%; width:${pct * (dropped / dm)}%"></i>
-     </span>
-     <span class="seg" style="font-size:11px">电报 ${total} 条 · 已处理 ${pct}%（含已过滤）${lastFilterAt ? ` · 最近过滤 ${lastFilterAt.slice(0,16).replace("T"," ")}` : ""}${lastJudgeAt ? ` · 上次判读 ${lastJudgeAt.slice(0,16).replace("T"," ")}` : ""}</span>
-     <span class="pdays">${pdays}<span class="plbl">近14日待判硬候选</span></span>`;
+  box.innerHTML = `<span class="seg">🧠 语义判读进度</span>` + stats + toggle + pdaysHtml;
+  if (allDone) {
+    const t = document.getElementById("ppToggle");
+    if (t) t.onclick = () => { panelOpen = !open; localStorage.setItem("aq_panelOpen", panelOpen ? "1" : "0"); renderProgress(); };
+  }
 }
 
 function updateExtras(){
@@ -833,10 +862,10 @@ document.addEventListener("keydown", e => {
     const dline = `${h.kind === "sig" ? "🔴 发生日" : h.kind === "land" ? "🔵 落地日(官方)" : h.kind === "plan" ? "⇢ 自查观察点(推算)" : "⚠ 关注/截止日"}：${fmt(h.date)}` +
       (n !== null && n >= 0 && n <= 45 ? `<span style="color:#d5444a;font-weight:600">（剩${n}天）</span>` : "") +
       ((h.kind === "watch" || h.kind === "plan") && n < 0 ? '<span style="color:var(--muted)">（已截止）</span>' : "");
-    HC.innerHTML = `<div class="hc-t">${tag(e)}<b>${e.name}</b> <span class="star">${LVS[e.level]}</span></div>
-      <div style="color:var(--muted)">${dline}${h.label ? `<div>⚠ ${h.label}</div>` : ""}</div>
-      <div>💰 金额：${jugHTML(e)}${e.amount || "—"}</div><div>🎯 板块：${e.sector || "—"}</div>
-      <div style="color:var(--muted)">📄 ${(e.sources[0] || {}).org || ""} ${(e.sources[0] || {}).name || "—"}</div>`;
+    HC.innerHTML = `<div class="hc-t">${tag(e)}<b>${esc(e.name)}</b> <span class="star">${LVS[e.level]}</span></div>
+      <div style="color:var(--muted)">${dline}${h.label ? `<div>⚠ ${esc(h.label)}</div>` : ""}</div>
+      <div>💰 金额：${jugHTML(e)}${esc(e.amount || "—")}</div><div>🎯 板块：${esc(e.sector || "—")}</div>
+      <div style="color:var(--muted)">📄 ${esc((e.sources[0] || {}).org || "")} ${esc((e.sources[0] || {}).name || "—")}</div>`;
     HC.style.display = "block";
     const r = c.getBoundingClientRect();
     let x = r.left, y = r.bottom + 6;
@@ -870,7 +899,7 @@ function srcHTML(e, kind){
     }
     return '<span style="color:var(--muted)">—</span>';
   }
-  return ss.map(s => `<div>📄 ${s.name}<div style="color:var(--muted)">${s.org}${kind === "ext" ? "（用于锁定金额/落地条款）" : ""}</div><a href="${s.url}" target="_blank">${s.url}</a></div>`).join("");
+  return ss.map(s => `<div>📄 ${esc(s.name)}<div style="color:var(--muted)">${esc(s.org)}${kind === "ext" ? "（用于锁定金额/落地条款）" : ""}</div><a href="${esc(s.url)}" target="_blank">${esc(s.url)}</a></div>`).join("");
 }
 
 function esc(s){ return String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;"); }
@@ -900,9 +929,9 @@ function showDayEvents(ds){
     return `<div style="display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line);cursor:pointer" onclick="showDetail('${e.id}')">
       <span class="tag" style="background:${CATS[e.category]}">${e.category}</span>
       <span class="star">${LVS[e.level]}</span>
-      <span style="flex:1;min-width:0;font-size:13px">${lbl}${dup}</span>
+      <span style="flex:1;min-width:0;font-size:13px">${esc(lbl)}${dup}</span>
       <span style="font-size:11px;color:var(--muted)">${kindTxt}</span>
-      <span style="font-size:11px;color:var(--muted)">💰 ${e.amount || "—"}</span>
+      <span style="font-size:11px;color:var(--muted)">💰 ${esc(e.amount || "—")}</span>
     </div>`;
   }).join("");
   const [y, mo, d] = ds.split("-");
@@ -924,21 +953,21 @@ function showDetail(id){
     const _t = (_m && _m[2]) ? `<span class="tl-time">${_m[2]}</span>` : "";
     return `<div class="node ${/\u3010落地\u3011/.test(n.label) ? "land" : ""}">
        <div class="dt">${fmt(_d)}${_t}${n.link ? `　<a href="${n.link}" target="_blank" style="color:var(--land);font-weight:400;font-size:12px">查看原文 ↗</a>` : ""}</div>
-       <div class="tx">${n.label}</div>
+       <div class="tx">${esc(n.label)}</div>
      </div>`;
   }).join("");
   document.getElementById("detailBody").innerHTML = `
-    <h2>${e.cand ? '<span class="tag" style="background:#98a0b3">候选</span> ' : ""}${tag(e)} ${e.name} <span class="star">${LVS[e.level]}</span></h2>
-    <div style="margin-top:8px">${(e.tags || []).map(t => `<span class="tag" style="background:#8f9bc0">${t}</span>`).join("") || ""}</div>
+    <h2>${e.cand ? '<span class="tag" style="background:#98a0b3">候选</span> ' : ""}${tag(e)} ${esc(e.name)} <span class="star">${LVS[e.level]}</span></h2>
+    <div style="margin-top:8px">${(e.tags || []).map(t => `<span class="tag" style="background:#8f9bc0">${esc(t)}</span>`).join("") || ""}</div>
     <dl class="kv">
       <dt>发生日期</dt><dd style="color:var(--signal);font-weight:600">${signalTxt.indexOf(" ") > 0 ? `<span class="tl-time" style="font-size:13px">${fmt(signalTxt.replace(/ \d{2}:\d{2}$/, ""))} ${signalTxt.slice(signalTxt.indexOf(" ")+1)}</span>` : `${fmt(signalTxt)}`}</dd>
       <dt>落地日期</dt><dd style="color:var(--land);font-weight:600">${e.landDate || "未落地"}${e.landDate ? (n = daysLeft(e.landDate), n > 0 ? ` <span style="font-size:12px;color:#d5444a">（未来落地，剩 ${n} 天）</span>` : "") : ""}</dd>
       <dt>具体时间</dt><dd style="color:var(--signal);font-weight:600">${e.sigTime ? `<span class="tl-time">${e.sigTime}</span> <span style="font-size:11px;color:var(--muted);font-weight:400">财联社电报发布</span>` : "—"}</dd>
       <dt>关注日</dt><dd>${watchHTML(e)}</dd>
-      <dt>状态</dt><dd>${e.status}</dd>
+      <dt>状态</dt><dd>${esc(e.status)}</dd>
       <dt>等级</dt><dd>${LVS[e.level]}（${LS[e.level]}）${e.levelNote ? `<div style="color:var(--muted);font-size:12px">${e.levelNote}</div>` : ""}</dd>
-      <dt>涉及金额</dt><dd>${tankHTML(e)}<span style="vertical-align:middle">${e.amount || "—（未量化，画虚线空杯）"}</span></dd>
-      <dt>板块/个股</dt><dd>${e.sector || "—"}</dd>
+      <dt>涉及金额</dt><dd>${tankHTML(e)}<span style="vertical-align:middle">${esc(e.amount || "—（未量化，画虚线空杯）")}</span></dd>
+      <dt>板块/个股</dt><dd>${esc(e.sector || "—")}</dd>
       <dt>信息源头</dt><dd>${srcHTML(e, "info")}</dd>
       <dt>外部源头</dt><dd>${srcHTML(e, "ext")}</dd>
       <dt>时间线</dt><dd><div class="tl">${tl}</div></dd>
@@ -976,7 +1005,7 @@ function saveEvent(){
     document.getElementById("f_status").value = st;
   }
   const e = {
-    id: "E" + String(events.length + 1).padStart(3, "0"),
+    id: "M" + Date.now().toString(36).toUpperCase() + Math.random().toString(36).slice(2, 5).toUpperCase(),  // M前缀+时间戳，与雷达生成的 E 前缀 id 天然不撞
     name, category: document.getElementById("f_cat").value,
     signalDate: sig, landDate: landVal,
     status: st,
