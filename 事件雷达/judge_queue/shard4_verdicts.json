@@ -1,0 +1,1701 @@
+[
+ {
+  "id": 30410,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30456,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30477,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30480,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30495,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30497,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30502,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30503,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30512,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30563,
+  "is_event": true,
+  "event": {
+   "key": "皇冠新材-深交所主板IPO注册-20260814",
+   "name": "证监会同意皇冠新材深交所主板IPO注册",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "注册"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-14",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "皇冠新材",
+   "notes": "证监会同意IPO注册,进入发行关键阶段"
+  }
+ },
+ {
+  "id": 30568,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30614,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30651,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30663,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30826,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30834,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30851,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30874,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30958,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 30982,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31095,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31096,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31116,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31163,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31188,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31189,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31214,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31321,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31409,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31475,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31521,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31593,
+  "is_event": true,
+  "event": {
+   "key": "宁德时代-海南绿色产业投资基金设立-20260812",
+   "name": "宁德时代认缴24.75亿元参与设立海南时代绿色产业投资基金(总规模50亿)",
+   "category": "行业事件",
+   "tags": [
+    "产业基金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-12",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 50.0,
+   "amount": "基金总规模50亿元,宁德时代认缴24.75亿元(占49.5%)",
+   "sector": "宁德时代/绿色零碳产业",
+   "notes": "宁德时代联合设立50亿绿色产业基金,聚焦海南零碳产业投资"
+  }
+ },
+ {
+  "id": 31618,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31647,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31792,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31859,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31877,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31886,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31971,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31976,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31977,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 31987,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32071,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32075,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32093,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32207,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32221,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32278,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32281,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32301,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32333,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32379,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32383,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32392,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32513,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32525,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32526,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32538,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32664,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32753,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32780,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32783,
+  "is_event": true,
+  "event": {
+   "key": "宇树科技-科创板IPO申购-20260810",
+   "name": "宇树科技科创板IPO网上申购(发行价150.80元/股)",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "申购"
+   ],
+   "importance": "高",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-10",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 61.0,
+   "amount": "发行4044.64万股,发行价150.80元/股,募资约61亿元",
+   "sector": "宇树科技/人形机器人",
+   "notes": "人形机器人龙头宇树科技科创板IPO,募资约61亿,超高关注度"
+  }
+ },
+ {
+  "id": 32825,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32839,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32852,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32874,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32925,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32927,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 32941,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33011,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33059,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33157,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33179,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33217,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33270,
+  "is_event": true,
+  "event": {
+   "key": "北京君正-港交所IPO通过聆讯-20260809",
+   "name": "北京君正港交所IPO通过聆讯",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "聆讯"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-09",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "北京君正/半导体",
+   "notes": "北京君正更新聆讯后资料集,港交所IPO通过聆讯"
+  }
+ },
+ {
+  "id": 33317,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33462,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33479,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33485,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33514,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33543,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33634,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33649,
+  "is_event": true,
+  "event": {
+   "key": "梅卡曼德-港股IPO证监会备案-20260807",
+   "name": "梅卡曼德机器人港股IPO获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-07",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "梅卡曼德/工业机器人",
+   "notes": "梅卡曼德机器人境外发行上市及全流通获证监会备案"
+  }
+ },
+ {
+  "id": 33670,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33712,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33778,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33796,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33806,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33848,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33876,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33882,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33972,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 33989,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34033,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34051,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34102,
+  "is_event": true,
+  "event": {
+   "key": "宇隆光电-创业板IPO过会-20260806",
+   "name": "重庆宇隆光电创业板IPO获上市委会议通过(预计融资10亿)",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "过会"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-08-06",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 10.0,
+   "amount": "预计融资金额10亿元",
+   "sector": "宇隆光电",
+   "notes": "宇隆光电创业板IPO过会,预计融资10亿元"
+  }
+ },
+ {
+  "id": 34122,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34148,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34175,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34215,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34256,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34334,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34397,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34398,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34403,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34419,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34454,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34467,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34470,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34507,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34516,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34534,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34603,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34624,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34694,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34741,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34832,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34839,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34840,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 34974,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35032,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35045,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35062,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35065,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35083,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35191,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35228,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35246,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35254,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35256,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35399,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35462,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35561,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35571,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35580,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35586,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35628,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35652,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35658,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35863,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35885,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35893,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35905,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35913,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35923,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 35930,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36074,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36124,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36130,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36158,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36277,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36405,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36550,
+  "is_event": true,
+  "event": {
+   "key": "国家医保局-第十二批药品集采开标-20260731",
+   "name": "第十二批国家组织药品集采开标(65种药品,迄今规模最大)",
+   "category": "行业事件",
+   "tags": [
+    "药品集采",
+    "行业政策"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-07-31",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 600.0,
+   "amount": "覆盖65种药品,521个产品拟中选,院端市场规模近600亿元",
+   "sector": "医药生物",
+   "notes": "迄今规模最大一批国家集采,4.5万家机构报量,重塑医药行业价格体系"
+  }
+ },
+ {
+  "id": 36554,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36565,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36568,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36612,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36647,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36648,
+  "is_event": true,
+  "event": {
+   "key": "国务院常务会议-核准四个核电项目机组-20260731",
+   "name": "国常会核准辽宁庄河、浙江金七门等四个华龙一号核电机组",
+   "category": "行业事件",
+   "tags": [
+    "核电",
+    "能源项目核准"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-07-31",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "4台华龙一号机组,合计投资千亿级(金额待调查)",
+   "sector": "中国核电/核电",
+   "notes": "国常会一次性核准4台华龙一号核电机组,核电审批加速,投资规模巨大"
+  }
+ },
+ {
+  "id": 36650,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36695,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36700,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36703,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36706,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36716,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36717,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36722,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36725,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36726,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36729,
+  "is_event": true,
+  "event": {
+   "key": "猎奇智能-创业板IPO过会-20260731",
+   "name": "苏州猎奇智能创业板IPO获上市委会议通过",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "过会"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-31",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "猎奇智能",
+   "notes": "猎奇智能创业板IPO过会"
+  }
+ },
+ {
+  "id": 36732,
+  "is_event": true,
+  "event": {
+   "key": "维达力-港股IPO证监会备案-20260731",
+   "name": "维达力科技港股IPO获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-31",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "维达力科技",
+   "notes": "维达力科技境外发行上市获证监会备案"
+  }
+ },
+ {
+  "id": 36735,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36744,
+  "is_event": true,
+  "event": {
+   "key": "和美药业-港股IPO证监会备案-20260731",
+   "name": "和美药业港股IPO获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-31",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "和美药业",
+   "notes": "和美药业境外发行上市获证监会备案"
+  }
+ },
+ {
+  "id": 36747,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36760,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36769,
+  "is_event": true,
+  "event": {
+   "key": "康威科技-创业板IPO注册-20260731",
+   "name": "证监会同意康威科技创业板IPO注册",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "注册"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-31",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "康威科技",
+   "notes": "康威科技创业板IPO获证监会注册"
+  }
+ },
+ {
+  "id": 36817,
+  "is_event": true,
+  "event": {
+   "key": "金融监管总局等四部门-健全金融机构治理实施意见-20260731",
+   "name": "四部门联合发布《关于健全金融机构治理的实施意见》",
+   "category": "政策法规",
+   "tags": [
+    "金融监管",
+    "行业政策"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-07-31",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "无直接金额",
+   "sector": "金融行业",
+   "notes": "金融监管总局/央行/证监会/财政部联合发文,对风险金融机构早期干预,强化监管硬约束"
+  }
+ },
+ {
+  "id": 36820,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36825,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36831,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36832,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36871,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 36909,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37003,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37015,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37019,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37077,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37087,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37088,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37095,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37100,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37112,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37160,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37195,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37207,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37241,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37269,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37356,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37445,
+  "is_event": true,
+  "event": {
+   "key": "沈鼓集团-沪市主板IPO注册-20260730",
+   "name": "证监会同意沈鼓集团沪市主板IPO注册",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "注册"
+   ],
+   "importance": "高",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-30",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "沈鼓集团/高端装备",
+   "notes": "重大技术装备龙头沈鼓集团沪市主板IPO获注册"
+  }
+ },
+ {
+  "id": 37474,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37511,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37560,
+  "is_event": true,
+  "event": {
+   "key": "中共中央政治局-分析研究经济形势会议-20260730",
+   "name": "中共中央政治局召开会议分析研究当前经济形势和经济工作",
+   "category": "政策法规",
+   "tags": [
+    "宏观政策",
+    "政治局会议"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-07-30",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "无直接金额",
+   "sector": "全市场",
+   "notes": "中央政治局会议定调下半年经济工作,全局政策风向标"
+  }
+ },
+ {
+  "id": 37758,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37787,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37798,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37939,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37942,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 37992,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38067,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38070,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38117,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38132,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38188,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38341,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38368,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38439,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38514,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38691,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38704,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38800,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38822,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38848,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38887,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38917,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 38961,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39012,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39056,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39063,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39088,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39149,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39203,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39222,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39232,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39274,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39295,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39296,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39299,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39364,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39365,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39405,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39473,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39488,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39506,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39546,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39617,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39630,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39688,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39692,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39703,
+  "is_event": true,
+  "event": {
+   "key": "希音国际-港交所IPO通过聆讯-20260726",
+   "name": "希音国际(SHEIN)通过港交所上市聆讯",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "聆讯"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-07-26",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "希音SHEIN/跨境电商",
+   "notes": "跨境电商巨头希音通过港交所聆讯,万众瞩目的大型IPO"
+  }
+ },
+ {
+  "id": 39708,
+  "is_event": true,
+  "event": {
+   "key": "拿森智能-港交所IPO通过聆讯-20260726",
+   "name": "拿森智能科技通过港交所上市聆讯",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "聆讯"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-26",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "拿森智能/汽车底盘",
+   "notes": "拿森智能通过港交所上市聆讯"
+  }
+ },
+ {
+  "id": 39796,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39958,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39964,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 39970,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40021,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40112,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40116,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40118,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40122,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40129,
+  "is_event": true,
+  "event": {
+   "key": "涛涛车业-港股IPO证监会备案-20260724",
+   "name": "涛涛车业港股上市获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-24",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "涛涛车业/休闲车辆",
+   "notes": "涛涛车业港股上市获证监会备案"
+  }
+ },
+ {
+  "id": 40135,
+  "is_event": true,
+  "event": {
+   "key": "臻驱科技-港股IPO证监会备案-20260724",
+   "name": "臻驱科技港股上市获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "港股",
+    "备案"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-07-24",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待调查",
+   "sector": "臻驱科技/电驱",
+   "notes": "臻驱科技港股上市获证监会备案"
+  }
+ },
+ {
+  "id": 40151,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40165,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40191,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40205,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40259,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40382,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40396,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40470,
+  "is_event": false,
+  "event": null
+ },
+ {
+  "id": 40473,
+  "is_event": false,
+  "event": null
+ }
+]

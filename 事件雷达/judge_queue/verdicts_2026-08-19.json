@@ -1,0 +1,4258 @@
+[
+ {
+  "id": 28210,
+  "is_event": false
+ },
+ {
+  "id": 28211,
+  "is_event": false
+ },
+ {
+  "id": 28212,
+  "is_event": false
+ },
+ {
+  "id": 28213,
+  "is_event": false
+ },
+ {
+  "id": 28214,
+  "is_event": false
+ },
+ {
+  "id": 28215,
+  "is_event": false
+ },
+ {
+  "id": 28216,
+  "is_event": false
+ },
+ {
+  "id": 28217,
+  "is_event": false
+ },
+ {
+  "id": 28218,
+  "is_event": false
+ },
+ {
+  "id": 28219,
+  "is_event": false
+ },
+ {
+  "id": 28220,
+  "is_event": false
+ },
+ {
+  "id": 28221,
+  "is_event": false
+ },
+ {
+  "id": 28222,
+  "is_event": false
+ },
+ {
+  "id": 28223,
+  "is_event": false
+ },
+ {
+  "id": 28224,
+  "is_event": false
+ },
+ {
+  "id": 28225,
+  "is_event": false
+ },
+ {
+  "id": 28226,
+  "is_event": false
+ },
+ {
+  "id": 28227,
+  "is_event": false
+ },
+ {
+  "id": 28228,
+  "is_event": false
+ },
+ {
+  "id": 28229,
+  "is_event": false
+ },
+ {
+  "id": 28230,
+  "is_event": false
+ },
+ {
+  "id": 28231,
+  "is_event": false
+ },
+ {
+  "id": 28232,
+  "is_event": false
+ },
+ {
+  "id": 28233,
+  "is_event": false
+ },
+ {
+  "id": 28234,
+  "is_event": false
+ },
+ {
+  "id": 28235,
+  "is_event": false
+ },
+ {
+  "id": 28236,
+  "is_event": false
+ },
+ {
+  "id": 28237,
+  "is_event": true,
+  "event": {
+   "key": "京东-机器人战略百亿投入-20260819",
+   "name": "京东发布机器人战略 截至2028年投入百亿资源",
+   "category": "行业事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 100,
+   "amount": "截至2028年在机器人领域投入百亿资源",
+   "sector": "机器人/京东",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】世界机器人大会发布机器人战略"
+    }
+   ],
+   "watch": [],
+   "notes": "建立80个RoboBase机器人基地，助力100个品牌独立销售额破10亿，创造超10万机器人售后岗位。"
+  }
+ },
+ {
+  "id": 28238,
+  "is_event": false
+ },
+ {
+  "id": 28239,
+  "is_event": false
+ },
+ {
+  "id": 28240,
+  "is_event": false
+ },
+ {
+  "id": 28241,
+  "is_event": false
+ },
+ {
+  "id": 28242,
+  "is_event": false
+ },
+ {
+  "id": 28243,
+  "is_event": false
+ },
+ {
+  "id": 28244,
+  "is_event": false
+ },
+ {
+  "id": 28245,
+  "is_event": false
+ },
+ {
+  "id": 28246,
+  "is_event": false
+ },
+ {
+  "id": 28247,
+  "is_event": false
+ },
+ {
+  "id": 28248,
+  "is_event": false
+ },
+ {
+  "id": 28249,
+  "is_event": false
+ },
+ {
+  "id": 28250,
+  "is_event": false
+ },
+ {
+  "id": 28251,
+  "is_event": false
+ },
+ {
+  "id": 28252,
+  "is_event": false
+ },
+ {
+  "id": 28253,
+  "is_event": false
+ },
+ {
+  "id": 28254,
+  "is_event": false
+ },
+ {
+  "id": 28255,
+  "is_event": false
+ },
+ {
+  "id": 28256,
+  "is_event": true,
+  "event": {
+   "key": "黄金企业-UFLPA实体清单-20260819",
+   "name": "中国黄金协会回应美将国内黄金企业列入UFLPA清单",
+   "category": "行业事件",
+   "tags": [
+    "监管处罚"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "黄金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】黄金协会发布严正声明"
+    }
+   ],
+   "watch": [],
+   "notes": "美国国土安全部将国内部分黄金企业加入UFLPA实体清单，LBMA暂停相关企业合格交割资格；协会声明坚决反对并协同维权。"
+  }
+ },
+ {
+  "id": 28257,
+  "is_event": false
+ },
+ {
+  "id": 28258,
+  "is_event": false
+ },
+ {
+  "id": 28259,
+  "is_event": false
+ },
+ {
+  "id": 28260,
+  "is_event": false
+ },
+ {
+  "id": 28261,
+  "is_event": true,
+  "event": {
+   "key": "联创电子-终止2025年度定增-20260819",
+   "name": "联创电子终止2025年度向特定对象发行股票",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "未披露（原定对象为江西国资创投）",
+   "sector": "光学光电/联创电子",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】终止2025年度向特定对象发行股票"
+    }
+   ],
+   "watch": [],
+   "notes": "股份转让协议生效条件未全部成就，经协商终止定增事项。"
+  }
+ },
+ {
+  "id": 28262,
+  "is_event": false
+ },
+ {
+  "id": 28263,
+  "is_event": false
+ },
+ {
+  "id": 28264,
+  "is_event": false
+ },
+ {
+  "id": 28265,
+  "is_event": false
+ },
+ {
+  "id": 28266,
+  "is_event": false
+ },
+ {
+  "id": 28267,
+  "is_event": false
+ },
+ {
+  "id": 28268,
+  "is_event": false
+ },
+ {
+  "id": 28269,
+  "is_event": false
+ },
+ {
+  "id": 28270,
+  "is_event": false
+ },
+ {
+  "id": 28271,
+  "is_event": false
+ },
+ {
+  "id": 28272,
+  "is_event": false
+ },
+ {
+  "id": 28273,
+  "is_event": false
+ },
+ {
+  "id": 28274,
+  "is_event": false
+ },
+ {
+  "id": 28275,
+  "is_event": false
+ },
+ {
+  "id": 28276,
+  "is_event": true,
+  "event": {
+   "key": "汇丰香港-港元稳定币2026下半年-20260819",
+   "name": "汇丰香港：港元稳定币按计划2026年下半年推出",
+   "category": "行业事件",
+   "tags": [
+    "资金监管",
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "香港数字金融",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】独家回应：准备工作如期推进，2026年下半年推出"
+    }
+   ],
+   "watch": [],
+   "notes": "首批港元稳定币牌照机构之一；初期聚焦链上P2P/P2M支付与投资代币化产品，详情将于短期内公布。"
+  }
+ },
+ {
+  "id": 28277,
+  "is_event": false
+ },
+ {
+  "id": 28278,
+  "is_event": false
+ },
+ {
+  "id": 28279,
+  "is_event": false
+ },
+ {
+  "id": 28280,
+  "is_event": false
+ },
+ {
+  "id": 28281,
+  "is_event": false
+ },
+ {
+  "id": 28282,
+  "is_event": false
+ },
+ {
+  "id": 28283,
+  "is_event": true,
+  "event": {
+   "key": "敏芯股份-收购浦丹光电54%-20260819",
+   "name": "敏芯股份1.77亿元收购浦丹光电54%股权",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 1.77,
+   "amount": "交易总金额1.77亿元",
+   "sector": "半导体传感器/敏芯股份",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟收购及增资取得浦丹光电54%股权"
+    }
+   ],
+   "watch": [],
+   "notes": "受让+增资取得光纤陀螺核心光电器件公司54%股权，成为控股子公司。"
+  }
+ },
+ {
+  "id": 28284,
+  "is_event": false
+ },
+ {
+  "id": 28285,
+  "is_event": false
+ },
+ {
+  "id": 28286,
+  "is_event": false
+ },
+ {
+  "id": 28287,
+  "is_event": false
+ },
+ {
+  "id": 28288,
+  "is_event": false
+ },
+ {
+  "id": 28289,
+  "is_event": false
+ },
+ {
+  "id": 28290,
+  "is_event": true,
+  "event": {
+   "key": "美国财政部-扩大长债回购-20260819",
+   "name": "美国财政部扩大长期国债回购规模 9月9日生效",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-09-09",
+   "status": "已落地",
+   "amount_yi": 40,
+   "amount": "流动性支持回购单次最高规模至少翻倍（至少40亿美元）",
+   "sector": "全球债市",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【影响】30年期美债收益率快速走低"
+    }
+   ],
+   "watch": [],
+   "notes": "缓解长债抛售压力；30年期美债收益率自2007年高位回落，美元指数创三周最大跌幅。"
+  }
+ },
+ {
+  "id": 28291,
+  "is_event": false
+ },
+ {
+  "id": 28292,
+  "is_event": false
+ },
+ {
+  "id": 28293,
+  "is_event": false
+ },
+ {
+  "id": 28294,
+  "is_event": false
+ },
+ {
+  "id": 28295,
+  "is_event": false
+ },
+ {
+  "id": 28296,
+  "is_event": false
+ },
+ {
+  "id": 28297,
+  "is_event": true,
+  "event": {
+   "key": "柘中股份-收购杰创科技-20260819",
+   "name": "柘中股份受让杰创科技18.08%股权并增资3亿元",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 3,
+   "amount": "受让18.08%股权并对杰创科技增资3亿元",
+   "sector": "电子元器件/柘中股份",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟受让股权并增资3亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "完成后持股53.19%实现控股，标的聚焦VCSEL芯片销售。"
+  }
+ },
+ {
+  "id": 28298,
+  "is_event": false
+ },
+ {
+  "id": 28299,
+  "is_event": false
+ },
+ {
+  "id": 28300,
+  "is_event": false
+ },
+ {
+  "id": 28301,
+  "is_event": false
+ },
+ {
+  "id": 28302,
+  "is_event": false
+ },
+ {
+  "id": 28303,
+  "is_event": false
+ },
+ {
+  "id": 28304,
+  "is_event": false
+ },
+ {
+  "id": 28305,
+  "is_event": true,
+  "event": {
+   "key": "美国财政部-扩大长债回购-20260819",
+   "name": "美国财政部扩大长期国债回购规模 9月9日生效",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-09-09",
+   "status": "已落地",
+   "amount_yi": 40,
+   "amount": "流动性支持回购单次最高规模至少翻倍（至少40亿美元）",
+   "sector": "全球债市",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】宣布扩大长期名义国债回购规模"
+    },
+    {
+     "date": "2026-09-09",
+     "label": "【落地】生效并持续至11月4日"
+    }
+   ],
+   "watch": [],
+   "notes": "缓解长债抛售压力；30年期美债收益率自2007年高位回落，美元指数创三周最大跌幅。"
+  }
+ },
+ {
+  "id": 28306,
+  "is_event": false
+ },
+ {
+  "id": 28307,
+  "is_event": false
+ },
+ {
+  "id": 28308,
+  "is_event": false
+ },
+ {
+  "id": 28309,
+  "is_event": false
+ },
+ {
+  "id": 28310,
+  "is_event": false
+ },
+ {
+  "id": 28311,
+  "is_event": false
+ },
+ {
+  "id": 28312,
+  "is_event": false
+ },
+ {
+  "id": 28313,
+  "is_event": false
+ },
+ {
+  "id": 28314,
+  "is_event": false
+ },
+ {
+  "id": 28315,
+  "is_event": true,
+  "event": {
+   "key": "湖南黄金-重组方案调整停牌-20260819",
+   "name": "湖南黄金调整重组配套募资至10.5亿 8月20日起停牌",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 10.5,
+   "amount": "配套募集资金由不超过10亿元调增至不超过10.5亿元",
+   "sector": "黄金/湖南黄金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】调整重组配套募资规模，构成重大调整"
+    },
+    {
+     "date": "2026-08-20",
+     "label": "【落地】开市起停牌"
+    }
+   ],
+   "watch": [],
+   "notes": "发行股份购买黄金天岳100%及中南冶炼100%股权，预计构成重大资产重组；股票8月20日起停牌不超过5个交易日。"
+  }
+ },
+ {
+  "id": 28316,
+  "is_event": false
+ },
+ {
+  "id": 28317,
+  "is_event": false
+ },
+ {
+  "id": 28318,
+  "is_event": false
+ },
+ {
+  "id": 28319,
+  "is_event": false
+ },
+ {
+  "id": 28320,
+  "is_event": false
+ },
+ {
+  "id": 28321,
+  "is_event": true,
+  "event": {
+   "key": "发改委-六张网重大项目协调机制-20260819",
+   "name": "国家发改委建立“六张网”重大项目协调调度机制",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "新基建",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】召开“六张网”重大项目协调调度机制会"
+    }
+   ],
+   "watch": [],
+   "notes": "算力网、新型电网、新一代通信网“2+3+N”（2家电网+3家电信运营商+N家算力企业）协调机制，推动重大项目加快建设。"
+  }
+ },
+ {
+  "id": 28322,
+  "is_event": false
+ },
+ {
+  "id": 28323,
+  "is_event": true,
+  "event": {
+   "key": "利通电子-定增50亿智算-20260819",
+   "name": "利通电子拟定增募资不超50亿元投建智算中心",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 50,
+   "amount": "募集资金不超过50亿元（智算中心40亿+补充流动资金10亿）",
+   "sector": "算力/利通电子",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟定增募资不超50亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "拟购置高性能GPU服务器，形成训推一体算力租赁服务能力。"
+  }
+ },
+ {
+  "id": 28324,
+  "is_event": false
+ },
+ {
+  "id": 28325,
+  "is_event": false
+ },
+ {
+  "id": 28326,
+  "is_event": false
+ },
+ {
+  "id": 28327,
+  "is_event": false
+ },
+ {
+  "id": 28328,
+  "is_event": false
+ },
+ {
+  "id": 28329,
+  "is_event": false
+ },
+ {
+  "id": 28330,
+  "is_event": false
+ },
+ {
+  "id": 28331,
+  "is_event": false
+ },
+ {
+  "id": 28332,
+  "is_event": false
+ },
+ {
+  "id": 28333,
+  "is_event": false
+ },
+ {
+  "id": 28334,
+  "is_event": false
+ },
+ {
+  "id": 28335,
+  "is_event": false
+ },
+ {
+  "id": 28336,
+  "is_event": true,
+  "event": {
+   "key": "恒瑞医药-回购10至20亿-20260819",
+   "name": "恒瑞医药拟10亿至20亿元回购A股股份",
+   "category": "公司大事件",
+   "tags": [
+    "大额回购"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 20,
+   "amount": "回购资金总额不低于10亿、不超过20亿元",
+   "sector": "医药/恒瑞医药",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】公告拟10亿至20亿元回购"
+    }
+   ],
+   "watch": [],
+   "notes": "回购用于员工持股计划，回购价格不超过81.78元/股，期限12个月。"
+  }
+ },
+ {
+  "id": 28337,
+  "is_event": false
+ },
+ {
+  "id": 28338,
+  "is_event": true,
+  "event": {
+   "key": "Nebius-发行45亿美元可转债-20260819",
+   "name": "AI算力租赁商Nebius拟发行45亿美元可转换优先票据",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 321,
+   "amount": "45亿美元（折合约321亿元人民币）",
+   "sector": "AI算力/海外",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【行情】盘前跌幅扩大至7%"
+    }
+   ],
+   "watch": [],
+   "notes": "纳斯达克上市的AI算力租赁公司大规模再融资，用于扩充算力资本开支。"
+  }
+ },
+ {
+  "id": 28339,
+  "is_event": false
+ },
+ {
+  "id": 28340,
+  "is_event": true,
+  "event": {
+   "key": "Nebius-发行45亿美元可转债-20260819",
+   "name": "AI算力租赁商Nebius拟发行45亿美元可转换优先票据",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 321,
+   "amount": "45亿美元（折合约321亿元人民币）",
+   "sector": "AI算力/海外",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟发行45亿美元可转换优先票据"
+    }
+   ],
+   "watch": [],
+   "notes": "纳斯达克上市的AI算力租赁公司大规模再融资，用于扩充算力资本开支。"
+  }
+ },
+ {
+  "id": 28341,
+  "is_event": false
+ },
+ {
+  "id": 28342,
+  "is_event": false
+ },
+ {
+  "id": 28343,
+  "is_event": false
+ },
+ {
+  "id": 28344,
+  "is_event": true,
+  "event": {
+   "key": "司法部-欧盟不当域外管辖认定-20260819",
+   "name": "司法部认定欧盟对京东调查构成不当域外管辖",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "跨境经贸",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【解读】司法部答记者问"
+    }
+   ],
+   "watch": [],
+   "notes": "依据《反外国不当域外管辖条例》公告认定，自公布之日起实施；任何组织、个人不得执行或协助执行该措施。"
+  }
+ },
+ {
+  "id": 28345,
+  "is_event": false
+ },
+ {
+  "id": 28346,
+  "is_event": false
+ },
+ {
+  "id": 28347,
+  "is_event": false
+ },
+ {
+  "id": 28348,
+  "is_event": true,
+  "event": {
+   "key": "司法部-欧盟不当域外管辖认定-20260819",
+   "name": "司法部认定欧盟对京东调查构成不当域外管辖",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "跨境经贸",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】公告发布并实施"
+    }
+   ],
+   "watch": [],
+   "notes": "依据《反外国不当域外管辖条例》公告认定，自公布之日起实施；任何组织、个人不得执行或协助执行该措施。"
+  }
+ },
+ {
+  "id": 28349,
+  "is_event": false
+ },
+ {
+  "id": 28350,
+  "is_event": false
+ },
+ {
+  "id": 28351,
+  "is_event": false
+ },
+ {
+  "id": 28352,
+  "is_event": false
+ },
+ {
+  "id": 28353,
+  "is_event": false
+ },
+ {
+  "id": 28354,
+  "is_event": false
+ },
+ {
+  "id": 28355,
+  "is_event": false
+ },
+ {
+  "id": 28356,
+  "is_event": false
+ },
+ {
+  "id": 28357,
+  "is_event": false
+ },
+ {
+  "id": 28358,
+  "is_event": false
+ },
+ {
+  "id": 28359,
+  "is_event": false
+ },
+ {
+  "id": 28360,
+  "is_event": false
+ },
+ {
+  "id": 28361,
+  "is_event": false
+ },
+ {
+  "id": 28362,
+  "is_event": false
+ },
+ {
+  "id": 28363,
+  "is_event": false
+ },
+ {
+  "id": 28364,
+  "is_event": false
+ },
+ {
+  "id": 28365,
+  "is_event": false
+ },
+ {
+  "id": 28366,
+  "is_event": false
+ },
+ {
+  "id": 28367,
+  "is_event": false
+ },
+ {
+  "id": 28368,
+  "is_event": false
+ },
+ {
+  "id": 28369,
+  "is_event": false
+ },
+ {
+  "id": 28370,
+  "is_event": false
+ },
+ {
+  "id": 28371,
+  "is_event": false
+ },
+ {
+  "id": 28372,
+  "is_event": false
+ },
+ {
+  "id": 28373,
+  "is_event": false
+ },
+ {
+  "id": 28374,
+  "is_event": false
+ },
+ {
+  "id": 28375,
+  "is_event": false
+ },
+ {
+  "id": 28376,
+  "is_event": false
+ },
+ {
+  "id": 28377,
+  "is_event": false
+ },
+ {
+  "id": 28378,
+  "is_event": false
+ },
+ {
+  "id": 28379,
+  "is_event": false
+ },
+ {
+  "id": 28380,
+  "is_event": false
+ },
+ {
+  "id": 28381,
+  "is_event": false
+ },
+ {
+  "id": 28382,
+  "is_event": false
+ },
+ {
+  "id": 28383,
+  "is_event": false
+ },
+ {
+  "id": 28384,
+  "is_event": false
+ },
+ {
+  "id": 28385,
+  "is_event": true,
+  "event": {
+   "key": "赛意信息-64.5亿算力服务合同-20260819",
+   "name": "赛意信息签订64.5亿元高性能算力服务合同",
+   "category": "公司大事件",
+   "tags": [
+    "大额合同"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 64.5,
+   "amount": "合同含税总金额64.5亿元",
+   "sector": "算力/赛意信息",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】签订两份高性能算力服务合同共64.5亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "占公司2025年度经审计营收的311.11%，60个月服务期，预计三个月内完成部署交付。"
+  }
+ },
+ {
+  "id": 28386,
+  "is_event": false
+ },
+ {
+  "id": 28387,
+  "is_event": false
+ },
+ {
+  "id": 28388,
+  "is_event": false
+ },
+ {
+  "id": 28389,
+  "is_event": false
+ },
+ {
+  "id": 28390,
+  "is_event": false
+ },
+ {
+  "id": 28391,
+  "is_event": false
+ },
+ {
+  "id": 28392,
+  "is_event": false
+ },
+ {
+  "id": 28393,
+  "is_event": true,
+  "event": {
+   "key": "中国铁建-中标443亿重大项目-20260819",
+   "name": "中国铁建中标13个重大项目 合计443.1亿元",
+   "category": "公司大事件",
+   "tags": [
+    "大额合同"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 443.1,
+   "amount": "项目金额合计443.1亿元",
+   "sector": "基建/中国铁建",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】中标多个重大项目合计443.1亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "占2025年度经审计营收的4.3%，含城中村改造、风电场、高速公路等13个单体15亿以上项目。"
+  }
+ },
+ {
+  "id": 28394,
+  "is_event": false
+ },
+ {
+  "id": 28395,
+  "is_event": true,
+  "event": {
+   "key": "交易商协会-债券交易违规处分-20260819",
+   "name": "交易商协会对盛达期货、长子农商行债券违规予以处分",
+   "category": "监管处罚",
+   "tags": [
+    "监管处罚"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "债券市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】对盛达期货予以严重警告"
+    }
+   ],
+   "watch": [],
+   "notes": "出借交易通讯账户、未实现债券交易全程留痕、让渡交易额度等违规，予以严重警告/警告并责令整改。"
+  }
+ },
+ {
+  "id": 28396,
+  "is_event": false
+ },
+ {
+  "id": 28397,
+  "is_event": false
+ },
+ {
+  "id": 28398,
+  "is_event": false
+ },
+ {
+  "id": 28399,
+  "is_event": false
+ },
+ {
+  "id": 28400,
+  "is_event": false
+ },
+ {
+  "id": 28401,
+  "is_event": false
+ },
+ {
+  "id": 28402,
+  "is_event": false
+ },
+ {
+  "id": 28403,
+  "is_event": false
+ },
+ {
+  "id": 28404,
+  "is_event": true,
+  "event": {
+   "key": "中微公司-临港基地二期35亿-20260819",
+   "name": "中微公司拟投资35亿元建设临港产业化基地二期",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 35,
+   "amount": "计划总投资35亿元（其中固定资产17亿元）",
+   "sector": "半导体设备/中微公司",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟投资35亿元建设临港基地二期"
+    }
+   ],
+   "watch": [],
+   "notes": "聚焦刻蚀设备、量检测设备、薄膜沉积设备，达产后预计年销售收入30亿元。"
+  }
+ },
+ {
+  "id": 28405,
+  "is_event": false
+ },
+ {
+  "id": 28406,
+  "is_event": false
+ },
+ {
+  "id": 28407,
+  "is_event": false
+ },
+ {
+  "id": 28408,
+  "is_event": false
+ },
+ {
+  "id": 28409,
+  "is_event": true,
+  "event": {
+   "key": "国药现代-收购国瑞药业51%-20260819",
+   "name": "国药现代4.06亿元收购国瑞药业51%股权",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 4.06,
+   "amount": "现金4.06亿元",
+   "sector": "医药/国药现代",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟4.06亿元收购国瑞药业51%股权"
+    }
+   ],
+   "watch": [],
+   "notes": "向国药集团、国药控股及国药股份收购，消除同业竞争，丰富神经系统、抗感染领域管线。"
+  }
+ },
+ {
+  "id": 28410,
+  "is_event": false
+ },
+ {
+  "id": 28411,
+  "is_event": false
+ },
+ {
+  "id": 28412,
+  "is_event": false
+ },
+ {
+  "id": 28413,
+  "is_event": false
+ },
+ {
+  "id": 28414,
+  "is_event": true,
+  "event": {
+   "key": "交易商协会-债券交易违规处分-20260819",
+   "name": "交易商协会对盛达期货、长子农商行债券违规予以处分",
+   "category": "监管处罚",
+   "tags": [
+    "监管处罚"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "债券市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】对长子农商行予以警告"
+    }
+   ],
+   "watch": [],
+   "notes": "出借交易通讯账户、未实现债券交易全程留痕、让渡交易额度等违规，予以严重警告/警告并责令整改。"
+  }
+ },
+ {
+  "id": 28415,
+  "is_event": false
+ },
+ {
+  "id": 28416,
+  "is_event": false
+ },
+ {
+  "id": 28417,
+  "is_event": false
+ },
+ {
+  "id": 28418,
+  "is_event": false
+ },
+ {
+  "id": 28419,
+  "is_event": false
+ },
+ {
+  "id": 28420,
+  "is_event": true,
+  "event": {
+   "key": "南京公用-国资集团间接收购54.19%-20260819",
+   "name": "南京市国资集团间接收购南京公用54.19%股份",
+   "category": "公司大事件",
+   "tags": [
+    "股权变更"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "以经审计归母净资产为定价依据（金额未披露）",
+   "sector": "公用事业/南京公用",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】南京市国资集团间接收购54.19%股份"
+    }
+   ],
+   "watch": [],
+   "notes": "南京国资整合：国资集团间接控制3.11亿股（54.19%）成为间接控股股东，实控人仍为南京市国资委。"
+  }
+ },
+ {
+  "id": 28421,
+  "is_event": false
+ },
+ {
+  "id": 28422,
+  "is_event": true,
+  "event": {
+   "key": "国电电力-收购控股股东资产-20260819",
+   "name": "国电电力拟收购国家能源集团部分发电资产",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "自有资金收购；涉及在运32万千瓦、在建/拟建1354万千瓦装机",
+   "sector": "电力/国电电力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟启动收购控股股东部分资产"
+    }
+   ],
+   "watch": [],
+   "notes": "收购控股股东资产减少同业竞争；构成关联交易，不构成重大资产重组。"
+  }
+ },
+ {
+  "id": 28423,
+  "is_event": true,
+  "event": {
+   "key": "华新建材-股东增持3.4至6.8亿-20260819",
+   "name": "华新建材控股股东拟增持3.4亿至6.8亿元",
+   "category": "公司大事件",
+   "tags": [
+    "减持增持"
+   ],
+   "importance": "低",
+   "level": 1,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 6.8,
+   "amount": "增持金额不低于3.4亿元、不高于6.8亿元",
+   "sector": "建材/华新建材",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】大股东拟增持3.4亿至6.8亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "12个月内集中竞价增持；不触及要约收购，不影响控股股东及实控人。"
+  }
+ },
+ {
+  "id": 28424,
+  "is_event": false
+ },
+ {
+  "id": 28425,
+  "is_event": false
+ },
+ {
+  "id": 28426,
+  "is_event": false
+ },
+ {
+  "id": 28427,
+  "is_event": false
+ },
+ {
+  "id": 28428,
+  "is_event": false
+ },
+ {
+  "id": 28429,
+  "is_event": true,
+  "event": {
+   "key": "工业富联-回购执行-20260819",
+   "name": "工业富联启动10-20亿回购 首日耗资1.49亿元",
+   "category": "公司大事件",
+   "tags": [
+    "大额回购"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 20,
+   "amount": "回购方案10亿~20亿元；当日首次回购1.49亿元",
+   "sector": "电子制造/工业富联",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】首次回购241.44万股，耗资1.49亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "首次回购241.44万股，回购价格上限103元/股，用于维护公司价值及股东权益。"
+  }
+ },
+ {
+  "id": 28430,
+  "is_event": false
+ },
+ {
+  "id": 28431,
+  "is_event": false
+ },
+ {
+  "id": 28432,
+  "is_event": false
+ },
+ {
+  "id": 28433,
+  "is_event": false
+ },
+ {
+  "id": 28434,
+  "is_event": false
+ },
+ {
+  "id": 28435,
+  "is_event": false
+ },
+ {
+  "id": 28436,
+  "is_event": false
+ },
+ {
+  "id": 28437,
+  "is_event": false
+ },
+ {
+  "id": 28438,
+  "is_event": false
+ },
+ {
+  "id": 28439,
+  "is_event": false
+ },
+ {
+  "id": 28440,
+  "is_event": false
+ },
+ {
+  "id": 28441,
+  "is_event": false
+ },
+ {
+  "id": 28442,
+  "is_event": false
+ },
+ {
+  "id": 28443,
+  "is_event": false
+ },
+ {
+  "id": 28444,
+  "is_event": false
+ },
+ {
+  "id": 28445,
+  "is_event": false
+ },
+ {
+  "id": 28446,
+  "is_event": false
+ },
+ {
+  "id": 28447,
+  "is_event": false
+ },
+ {
+  "id": 28448,
+  "is_event": true,
+  "event": {
+   "key": "中澳央行本币互换扩额-20260819",
+   "name": "中澳央行续签本币互换协议 规模扩至2200亿元",
+   "category": "政策法规",
+   "tags": [
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 2200,
+   "amount": "互换规模由2000亿元扩至2200亿元人民币/460亿澳元",
+   "sector": "跨境金融",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】续签并扩大双边本币互换协议"
+    }
+   ],
+   "watch": [],
+   "notes": "有效期五年，可展期；深化双边货币金融合作，促进贸易投资便利化。"
+  }
+ },
+ {
+  "id": 28449,
+  "is_event": false
+ },
+ {
+  "id": 28450,
+  "is_event": false
+ },
+ {
+  "id": 28451,
+  "is_event": false
+ },
+ {
+  "id": 28452,
+  "is_event": true,
+  "event": {
+   "key": "桐城国轩-增资至35.3亿-20260819",
+   "name": "国轩高科旗下桐城新能源增资至35.3亿 农银金投入股",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资",
+    "股权变更"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 35.3,
+   "amount": "注册资本由约27.3亿元增至约35.3亿元（增幅约30%）",
+   "sector": "电池/国轩高科",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】工商变更，增资至35.3亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "新增农银金融资产投资有限公司为股东，电池制造及太阳能热利用业务主体扩资。"
+  }
+ },
+ {
+  "id": 28453,
+  "is_event": false
+ },
+ {
+  "id": 28454,
+  "is_event": false
+ },
+ {
+  "id": 28455,
+  "is_event": false
+ },
+ {
+  "id": 28456,
+  "is_event": false
+ },
+ {
+  "id": 28457,
+  "is_event": false
+ },
+ {
+  "id": 28458,
+  "is_event": false
+ },
+ {
+  "id": 28459,
+  "is_event": false
+ },
+ {
+  "id": 28460,
+  "is_event": true,
+  "event": {
+   "key": "三星-晶圆代工涨价15%-20260819",
+   "name": "三星上调晶圆代工价格 先进制程涨幅最高15%",
+   "category": "行业事件",
+   "tags": [
+    "行业事件"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "SF4/SF5制程新订单涨价10%–15%",
+   "sector": "半导体/代工",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】上调部分先进制程代工价格"
+    }
+   ],
+   "watch": [],
+   "notes": "AI芯片需求激增推高产能紧张，三星受益于台积电产能趋紧获得定价权。"
+  }
+ },
+ {
+  "id": 28461,
+  "is_event": false
+ },
+ {
+  "id": 28462,
+  "is_event": false
+ },
+ {
+  "id": 28463,
+  "is_event": false
+ },
+ {
+  "id": 28464,
+  "is_event": false
+ },
+ {
+  "id": 28465,
+  "is_event": false
+ },
+ {
+  "id": 28466,
+  "is_event": false
+ },
+ {
+  "id": 28467,
+  "is_event": false
+ },
+ {
+  "id": 28468,
+  "is_event": false
+ },
+ {
+  "id": 28469,
+  "is_event": false
+ },
+ {
+  "id": 28470,
+  "is_event": false
+ },
+ {
+  "id": 28471,
+  "is_event": false
+ },
+ {
+  "id": 28472,
+  "is_event": false
+ },
+ {
+  "id": 28473,
+  "is_event": false
+ },
+ {
+  "id": 28474,
+  "is_event": false
+ },
+ {
+  "id": 28475,
+  "is_event": false
+ },
+ {
+  "id": 28476,
+  "is_event": false
+ },
+ {
+  "id": 28477,
+  "is_event": false
+ },
+ {
+  "id": 28478,
+  "is_event": false
+ },
+ {
+  "id": 28479,
+  "is_event": false
+ },
+ {
+  "id": 28480,
+  "is_event": false
+ },
+ {
+  "id": 28481,
+  "is_event": false
+ },
+ {
+  "id": 28482,
+  "is_event": true,
+  "event": {
+   "key": "SK海力士-回购40万亿韩元-20260819",
+   "name": "SK海力士拟回购40万亿韩元（约286亿美元）并注销",
+   "category": "公司大事件",
+   "tags": [
+    "大额回购"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 2047,
+   "amount": "40万亿韩元（约286亿美元，折合约2047亿元人民币）",
+   "sector": "存储半导体/SK海力士",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【行情】ADR盘前涨7.1%"
+    }
+   ],
+   "watch": [],
+   "notes": "8月20日起约三个月内回购并注销至多2400万股；股东回报目标扩至自由现金流50%以上，缓解AI支出担忧。"
+  }
+ },
+ {
+  "id": 28483,
+  "is_event": false
+ },
+ {
+  "id": 28484,
+  "is_event": true,
+  "event": {
+   "key": "上海张江高新区十五五规划-20260819",
+   "name": "上海发布张江高新区发展“十五五”规划",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "科创/上海",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】印发“十五五”规划"
+    }
+   ],
+   "watch": [],
+   "notes": "支持优质科技企业登陆科创板上市融资；鼓励并购贷款试点、科技创新债；布局量子、脑机接口、智能机器人、6G等方向。"
+  }
+ },
+ {
+  "id": 28485,
+  "is_event": false
+ },
+ {
+  "id": 28486,
+  "is_event": false
+ },
+ {
+  "id": 28487,
+  "is_event": false
+ },
+ {
+  "id": 28488,
+  "is_event": true,
+  "event": {
+   "key": "数字上海十五五规划-20260819",
+   "name": "上海印发《数字上海建设“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "数字经济/上海",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【要点】6G试验网与卫星互联网部署"
+    }
+   ],
+   "watch": [],
+   "notes": "构建通用+智能+超算三位一体算力服务体系；推进6G试验网、卫星互联网千帆星座、Web3.0创新试验场、区块链枢纽。"
+  }
+ },
+ {
+  "id": 28489,
+  "is_event": false
+ },
+ {
+  "id": 28490,
+  "is_event": false
+ },
+ {
+  "id": 28491,
+  "is_event": false
+ },
+ {
+  "id": 28492,
+  "is_event": false
+ },
+ {
+  "id": 28493,
+  "is_event": false
+ },
+ {
+  "id": 28494,
+  "is_event": false
+ },
+ {
+  "id": 28495,
+  "is_event": false
+ },
+ {
+  "id": 28496,
+  "is_event": false
+ },
+ {
+  "id": 28497,
+  "is_event": false
+ },
+ {
+  "id": 28498,
+  "is_event": true,
+  "event": {
+   "key": "数字上海十五五规划-20260819",
+   "name": "上海印发《数字上海建设“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "数字经济/上海",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【要点】算力服务体系与智算中心建设"
+    }
+   ],
+   "watch": [],
+   "notes": "构建通用+智能+超算三位一体算力服务体系；推进6G试验网、卫星互联网千帆星座、Web3.0创新试验场、区块链枢纽。"
+  }
+ },
+ {
+  "id": 28499,
+  "is_event": false
+ },
+ {
+  "id": 28500,
+  "is_event": false
+ },
+ {
+  "id": 28501,
+  "is_event": true,
+  "event": {
+   "key": "数字上海十五五规划-20260819",
+   "name": "上海印发《数字上海建设“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "数字经济/上海",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】印发“十五五”规划"
+    }
+   ],
+   "watch": [],
+   "notes": "构建通用+智能+超算三位一体算力服务体系；推进6G试验网、卫星互联网千帆星座、Web3.0创新试验场、区块链枢纽。"
+  }
+ },
+ {
+  "id": 28502,
+  "is_event": false
+ },
+ {
+  "id": 28503,
+  "is_event": false
+ },
+ {
+  "id": 28504,
+  "is_event": true,
+  "event": {
+   "key": "拓荆创益-增资至33.6亿-20260819",
+   "name": "拓荆科技旗下沈阳半导体设备公司增资至33.6亿",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 28.6,
+   "amount": "注册资本由5亿元增至约33.6亿元（增幅约572%）",
+   "sector": "半导体设备/拓荆科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】工商变更增资至33.6亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "拓荆创益（沈阳）为拓荆科技全资子公司，注册资本大幅增厚，强化半导体设备扩产。"
+  }
+ },
+ {
+  "id": 28505,
+  "is_event": false
+ },
+ {
+  "id": 28506,
+  "is_event": false
+ },
+ {
+  "id": 28507,
+  "is_event": false
+ },
+ {
+  "id": 28508,
+  "is_event": false
+ },
+ {
+  "id": 28509,
+  "is_event": false
+ },
+ {
+  "id": 28510,
+  "is_event": false
+ },
+ {
+  "id": 28511,
+  "is_event": false
+ },
+ {
+  "id": 28512,
+  "is_event": false
+ },
+ {
+  "id": 28513,
+  "is_event": false
+ },
+ {
+  "id": 28514,
+  "is_event": false
+ },
+ {
+  "id": 28515,
+  "is_event": false
+ },
+ {
+  "id": 28516,
+  "is_event": false
+ },
+ {
+  "id": 28517,
+  "is_event": false
+ },
+ {
+  "id": 28518,
+  "is_event": false
+ },
+ {
+  "id": 28519,
+  "is_event": false
+ },
+ {
+  "id": 28520,
+  "is_event": false
+ },
+ {
+  "id": 28521,
+  "is_event": false
+ },
+ {
+  "id": 28522,
+  "is_event": false
+ },
+ {
+  "id": 28523,
+  "is_event": false
+ },
+ {
+  "id": 28524,
+  "is_event": false
+ },
+ {
+  "id": 28525,
+  "is_event": false
+ },
+ {
+  "id": 28526,
+  "is_event": false
+ },
+ {
+  "id": 28527,
+  "is_event": false
+ },
+ {
+  "id": 28528,
+  "is_event": false
+ },
+ {
+  "id": 28529,
+  "is_event": false
+ },
+ {
+  "id": 28530,
+  "is_event": false
+ },
+ {
+  "id": 28531,
+  "is_event": false
+ },
+ {
+  "id": 28532,
+  "is_event": false
+ },
+ {
+  "id": 28533,
+  "is_event": false
+ },
+ {
+  "id": 28534,
+  "is_event": false
+ },
+ {
+  "id": 28535,
+  "is_event": false
+ },
+ {
+  "id": 28536,
+  "is_event": false
+ },
+ {
+  "id": 28537,
+  "is_event": false
+ },
+ {
+  "id": 28538,
+  "is_event": false
+ },
+ {
+  "id": 28539,
+  "is_event": false
+ },
+ {
+  "id": 28540,
+  "is_event": false
+ },
+ {
+  "id": 28541,
+  "is_event": false
+ },
+ {
+  "id": 28542,
+  "is_event": false
+ },
+ {
+  "id": 28543,
+  "is_event": false
+ },
+ {
+  "id": 28544,
+  "is_event": false
+ },
+ {
+  "id": 28545,
+  "is_event": false
+ },
+ {
+  "id": 28546,
+  "is_event": false
+ },
+ {
+  "id": 28547,
+  "is_event": false
+ },
+ {
+  "id": 28548,
+  "is_event": false
+ },
+ {
+  "id": 28549,
+  "is_event": false
+ },
+ {
+  "id": 28550,
+  "is_event": false
+ },
+ {
+  "id": 28551,
+  "is_event": false
+ },
+ {
+  "id": 28552,
+  "is_event": false
+ },
+ {
+  "id": 28553,
+  "is_event": false
+ },
+ {
+  "id": 28554,
+  "is_event": false
+ },
+ {
+  "id": 28555,
+  "is_event": false
+ },
+ {
+  "id": 28556,
+  "is_event": false
+ },
+ {
+  "id": 28557,
+  "is_event": false
+ },
+ {
+  "id": 28558,
+  "is_event": false
+ },
+ {
+  "id": 28559,
+  "is_event": true,
+  "event": {
+   "key": "SK海力士-回购40万亿韩元-20260819",
+   "name": "SK海力士拟回购40万亿韩元（约286亿美元）并注销",
+   "category": "公司大事件",
+   "tags": [
+    "大额回购"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 2047,
+   "amount": "40万亿韩元（约286亿美元，折合约2047亿元人民币）",
+   "sector": "存储半导体/SK海力士",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【影响】股东回报目标扩大至自由现金流50%以上"
+    }
+   ],
+   "watch": [],
+   "notes": "8月20日起约三个月内回购并注销至多2400万股；股东回报目标扩至自由现金流50%以上，缓解AI支出担忧。"
+  }
+ },
+ {
+  "id": 28560,
+  "is_event": false
+ },
+ {
+  "id": 28561,
+  "is_event": false
+ },
+ {
+  "id": 28562,
+  "is_event": false
+ },
+ {
+  "id": 28563,
+  "is_event": true,
+  "event": {
+   "key": "SK海力士-回购40万亿韩元-20260819",
+   "name": "SK海力士拟回购40万亿韩元（约286亿美元）并注销",
+   "category": "公司大事件",
+   "tags": [
+    "大额回购"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 2047,
+   "amount": "40万亿韩元（约286亿美元，折合约2047亿元人民币）",
+   "sector": "存储半导体/SK海力士",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】拟回购40万亿韩元并注销，8月20日起约三个月"
+    }
+   ],
+   "watch": [],
+   "notes": "8月20日起约三个月内回购并注销至多2400万股；股东回报目标扩至自由现金流50%以上，缓解AI支出担忧。"
+  }
+ },
+ {
+  "id": 28564,
+  "is_event": false
+ },
+ {
+  "id": 28565,
+  "is_event": false
+ },
+ {
+  "id": 28566,
+  "is_event": false
+ },
+ {
+  "id": 28567,
+  "is_event": false
+ },
+ {
+  "id": 28568,
+  "is_event": false
+ },
+ {
+  "id": 28569,
+  "is_event": false
+ },
+ {
+  "id": 28570,
+  "is_event": false
+ },
+ {
+  "id": 28571,
+  "is_event": false
+ },
+ {
+  "id": 28572,
+  "is_event": false
+ },
+ {
+  "id": 28573,
+  "is_event": false
+ },
+ {
+  "id": 28574,
+  "is_event": false
+ },
+ {
+  "id": 28575,
+  "is_event": false
+ },
+ {
+  "id": 28576,
+  "is_event": false
+ },
+ {
+  "id": 28577,
+  "is_event": false
+ },
+ {
+  "id": 28578,
+  "is_event": false
+ },
+ {
+  "id": 28579,
+  "is_event": false
+ },
+ {
+  "id": 28580,
+  "is_event": false
+ },
+ {
+  "id": 28581,
+  "is_event": false
+ },
+ {
+  "id": 28582,
+  "is_event": false
+ },
+ {
+  "id": 28583,
+  "is_event": false
+ },
+ {
+  "id": 28584,
+  "is_event": false
+ },
+ {
+  "id": 28585,
+  "is_event": false
+ },
+ {
+  "id": 28586,
+  "is_event": false
+ },
+ {
+  "id": 28587,
+  "is_event": false
+ },
+ {
+  "id": 28588,
+  "is_event": false
+ },
+ {
+  "id": 28589,
+  "is_event": false
+ },
+ {
+  "id": 28590,
+  "is_event": false
+ },
+ {
+  "id": 28591,
+  "is_event": false
+ },
+ {
+  "id": 28592,
+  "is_event": false
+ },
+ {
+  "id": 28593,
+  "is_event": false
+ },
+ {
+  "id": 28594,
+  "is_event": false
+ },
+ {
+  "id": 28595,
+  "is_event": false
+ },
+ {
+  "id": 28596,
+  "is_event": false
+ },
+ {
+  "id": 28597,
+  "is_event": false
+ },
+ {
+  "id": 28598,
+  "is_event": false
+ },
+ {
+  "id": 28599,
+  "is_event": false
+ },
+ {
+  "id": 28600,
+  "is_event": false
+ },
+ {
+  "id": 28601,
+  "is_event": false
+ },
+ {
+  "id": 28602,
+  "is_event": false
+ },
+ {
+  "id": 28603,
+  "is_event": false
+ },
+ {
+  "id": 28604,
+  "is_event": false
+ },
+ {
+  "id": 28605,
+  "is_event": true,
+  "event": {
+   "key": "北京-机器人产业基金100亿-20260819",
+   "name": "北京设立100亿元机器人产业基金 带动社会资本超530亿",
+   "category": "行业事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "中",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 630,
+   "amount": "100亿元高精尖产业投资基金，已带动社会资本投入超530亿元",
+   "sector": "机器人/北京",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】世界机器人大会开幕，披露北京机器人产业投入"
+    }
+   ],
+   "watch": [],
+   "notes": "上半年工业机器人产量+76%、服务机器人+2.3倍；7家具身智能企业新晋独角兽，14种人形机器人关键部件布局。"
+  }
+ },
+ {
+  "id": 28606,
+  "is_event": false
+ },
+ {
+  "id": 28607,
+  "is_event": false
+ },
+ {
+  "id": 28608,
+  "is_event": false
+ },
+ {
+  "id": 28609,
+  "is_event": false
+ },
+ {
+  "id": 28610,
+  "is_event": false
+ },
+ {
+  "id": 28611,
+  "is_event": false
+ },
+ {
+  "id": 28612,
+  "is_event": false
+ },
+ {
+  "id": 28613,
+  "is_event": false
+ },
+ {
+  "id": 28614,
+  "is_event": false
+ },
+ {
+  "id": 28615,
+  "is_event": false
+ },
+ {
+  "id": 28616,
+  "is_event": false
+ },
+ {
+  "id": 28617,
+  "is_event": false
+ },
+ {
+  "id": 28618,
+  "is_event": false
+ },
+ {
+  "id": 28619,
+  "is_event": false
+ },
+ {
+  "id": 28620,
+  "is_event": false
+ },
+ {
+  "id": 28621,
+  "is_event": false
+ },
+ {
+  "id": 28622,
+  "is_event": false
+ },
+ {
+  "id": 28623,
+  "is_event": false
+ },
+ {
+  "id": 28624,
+  "is_event": false
+ },
+ {
+  "id": 28625,
+  "is_event": false
+ },
+ {
+  "id": 28626,
+  "is_event": false
+ },
+ {
+  "id": 28627,
+  "is_event": false
+ },
+ {
+  "id": 28628,
+  "is_event": false
+ },
+ {
+  "id": 28629,
+  "is_event": false
+ },
+ {
+  "id": 28630,
+  "is_event": false
+ },
+ {
+  "id": 28631,
+  "is_event": false
+ },
+ {
+  "id": 28632,
+  "is_event": false
+ },
+ {
+  "id": 28633,
+  "is_event": false
+ },
+ {
+  "id": 28634,
+  "is_event": false
+ },
+ {
+  "id": 28635,
+  "is_event": false
+ },
+ {
+  "id": 28636,
+  "is_event": false
+ },
+ {
+  "id": 28637,
+  "is_event": false
+ },
+ {
+  "id": 28638,
+  "is_event": true,
+  "event": {
+   "key": "全民医疗保障十五五规划-20260819",
+   "name": "国家医保局印发《全民医疗保障“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "医疗健康",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【要点】大力推动商业医疗保险发展"
+    }
+   ],
+   "watch": [],
+   "notes": "大力推动商业医疗保险发展，推动医保与商保数据共享、同步结算，支持商保快赔直赔；长期护理险覆盖所有统筹地区。"
+  }
+ },
+ {
+  "id": 28639,
+  "is_event": false
+ },
+ {
+  "id": 28640,
+  "is_event": false
+ },
+ {
+  "id": 28641,
+  "is_event": false
+ },
+ {
+  "id": 28642,
+  "is_event": false
+ },
+ {
+  "id": 28643,
+  "is_event": false
+ },
+ {
+  "id": 28644,
+  "is_event": true,
+  "event": {
+   "key": "全民医疗保障十五五规划-20260819",
+   "name": "国家医保局印发《全民医疗保障“十五五”规划》",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "医疗健康",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】《全民医疗保障“十五五”规划》发布"
+    }
+   ],
+   "watch": [],
+   "notes": "大力推动商业医疗保险发展，推动医保与商保数据共享、同步结算，支持商保快赔直赔；长期护理险覆盖所有统筹地区。"
+  }
+ },
+ {
+  "id": 28645,
+  "is_event": true,
+  "event": {
+   "key": "双英集团-北交所上市-20260819",
+   "name": "双英集团登陆北交所 募资约5亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": 5,
+   "amount": "募资约5亿元",
+   "sector": "汽车座舱/双英集团",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】登陆北交所，募资约5亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "智能座舱整体解决方案商，上汽通用五菱第一大座椅供应商；首日涨超200%触发二次临停；战配30%获东风资产、重庆渝富认购。"
+  }
+ },
+ {
+  "id": 28646,
+  "is_event": false
+ },
+ {
+  "id": 28647,
+  "is_event": false
+ },
+ {
+  "id": 28648,
+  "is_event": false
+ },
+ {
+  "id": 28649,
+  "is_event": false
+ },
+ {
+  "id": 28650,
+  "is_event": false
+ },
+ {
+  "id": 28651,
+  "is_event": false
+ },
+ {
+  "id": 28652,
+  "is_event": false
+ },
+ {
+  "id": 28653,
+  "is_event": false
+ },
+ {
+  "id": 28654,
+  "is_event": false
+ },
+ {
+  "id": 28655,
+  "is_event": false
+ },
+ {
+  "id": 28656,
+  "is_event": false
+ },
+ {
+  "id": 28657,
+  "is_event": false
+ },
+ {
+  "id": 28658,
+  "is_event": false
+ },
+ {
+  "id": 28659,
+  "is_event": false
+ },
+ {
+  "id": 28660,
+  "is_event": false
+ },
+ {
+  "id": 28661,
+  "is_event": false
+ },
+ {
+  "id": 28662,
+  "is_event": false
+ },
+ {
+  "id": 28663,
+  "is_event": false
+ },
+ {
+  "id": 28664,
+  "is_event": false
+ },
+ {
+  "id": 28665,
+  "is_event": true,
+  "event": {
+   "key": "上海张江高新区十五五规划-20260819",
+   "name": "上海发布张江高新区发展“十五五”规划",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "—",
+   "sector": "科创/上海",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【要点】支持优质科技企业登陆科创板上市融资"
+    }
+   ],
+   "watch": [],
+   "notes": "支持优质科技企业登陆科创板上市融资；鼓励并购贷款试点、科技创新债；布局量子、脑机接口、智能机器人、6G等方向。"
+  }
+ },
+ {
+  "id": 28666,
+  "is_event": false
+ },
+ {
+  "id": 28667,
+  "is_event": false
+ },
+ {
+  "id": 28668,
+  "is_event": false
+ },
+ {
+  "id": 28669,
+  "is_event": false
+ },
+ {
+  "id": 28670,
+  "is_event": false
+ },
+ {
+  "id": 28671,
+  "is_event": false
+ },
+ {
+  "id": 28672,
+  "is_event": false
+ },
+ {
+  "id": 28673,
+  "is_event": false
+ },
+ {
+  "id": 28674,
+  "is_event": false
+ },
+ {
+  "id": 28675,
+  "is_event": false
+ },
+ {
+  "id": 28676,
+  "is_event": false
+ },
+ {
+  "id": 28677,
+  "is_event": false
+ },
+ {
+  "id": 28678,
+  "is_event": false
+ },
+ {
+  "id": 28679,
+  "is_event": false
+ },
+ {
+  "id": 28680,
+  "is_event": false
+ },
+ {
+  "id": 28681,
+  "is_event": false
+ },
+ {
+  "id": 28682,
+  "is_event": false
+ },
+ {
+  "id": 28683,
+  "is_event": false
+ },
+ {
+  "id": 28684,
+  "is_event": false
+ },
+ {
+  "id": 28685,
+  "is_event": false
+ },
+ {
+  "id": 28686,
+  "is_event": false
+ },
+ {
+  "id": 28687,
+  "is_event": false
+ },
+ {
+  "id": 28688,
+  "is_event": false
+ },
+ {
+  "id": 28689,
+  "is_event": false
+ },
+ {
+  "id": 28690,
+  "is_event": true,
+  "event": {
+   "key": "双英集团-北交所上市-20260819",
+   "name": "双英集团登陆北交所 募资约5亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": 5,
+   "amount": "募资约5亿元",
+   "sector": "汽车座舱/双英集团",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【行情】涨超200%触发二次临停"
+    }
+   ],
+   "watch": [],
+   "notes": "智能座舱整体解决方案商，上汽通用五菱第一大座椅供应商；首日涨超200%触发二次临停；战配30%获东风资产、重庆渝富认购。"
+  }
+ },
+ {
+  "id": 28691,
+  "is_event": true,
+  "event": {
+   "key": "宇树科技-科创板上市-20260819",
+   "name": "宇树科技登陆科创板 首日总市值4449亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "大额融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signal_date": "2026-08-17",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": 4449,
+   "amount": "上市首日总市值4449亿元（募资60.99亿元）",
+   "sector": "机器人/宇树科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【影响】王兴兴身家超千亿，90后新首富"
+    }
+   ],
+   "watch": [],
+   "notes": "四足与人形机器人全球出货量第一；开盘涨629%，单签收益47.46万元；梁文锋浮盈11亿、雷军浮盈152亿、美团系浮盈333亿，王兴兴身家超千亿。"
+  }
+ },
+ {
+  "id": 28692,
+  "is_event": false
+ },
+ {
+  "id": 28693,
+  "is_event": false
+ },
+ {
+  "id": 28694,
+  "is_event": false
+ },
+ {
+  "id": 28695,
+  "is_event": true,
+  "event": {
+   "key": "宇树科技-科创板上市-20260819",
+   "name": "宇树科技登陆科创板 首日总市值4449亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "大额融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signal_date": "2026-08-17",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": 4449,
+   "amount": "上市首日总市值4449亿元（募资60.99亿元）",
+   "sector": "机器人/宇树科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【落地】正式登陆科创板，梁文锋浮盈11亿、雷军浮盈152亿、美团系浮盈333亿"
+    }
+   ],
+   "watch": [],
+   "notes": "四足与人形机器人全球出货量第一；开盘涨629%，单签收益47.46万元；梁文锋浮盈11亿、雷军浮盈152亿、美团系浮盈333亿，王兴兴身家超千亿。"
+  }
+ },
+ {
+  "id": 28696,
+  "is_event": true,
+  "event": {
+   "key": "双英集团-北交所上市-20260819",
+   "name": "双英集团登陆北交所 募资约5亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": 5,
+   "amount": "募资约5亿元",
+   "sector": "汽车座舱/双英集团",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【行情】涨超143%触发临停"
+    }
+   ],
+   "watch": [],
+   "notes": "智能座舱整体解决方案商，上汽通用五菱第一大座椅供应商；首日涨超200%触发二次临停；战配30%获东风资产、重庆渝富认购。"
+  }
+ },
+ {
+  "id": 28697,
+  "is_event": false
+ },
+ {
+  "id": 28698,
+  "is_event": false
+ },
+ {
+  "id": 28699,
+  "is_event": false
+ },
+ {
+  "id": 28700,
+  "is_event": true,
+  "event": {
+   "key": "住房公积金管理条例修改-20260920施行",
+   "name": "国务院修改住房公积金管理条例 9月20日施行",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-09-20",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "全国性资金政策（影响公积金提取与使用范围）",
+   "sector": "地产/消费",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【影响】地产链板块逆势走强"
+    }
+   ],
+   "watch": [],
+   "notes": "装修、物业费纳入提取范围；提取公积金支付房租不再设置收入比例门槛；对地产链与居民消费资金面形成利好。"
+  }
+ },
+ {
+  "id": 28701,
+  "is_event": false
+ },
+ {
+  "id": 28702,
+  "is_event": false
+ },
+ {
+  "id": 28703,
+  "is_event": false
+ },
+ {
+  "id": 28704,
+  "is_event": false
+ },
+ {
+  "id": 28705,
+  "is_event": false
+ },
+ {
+  "id": 28706,
+  "is_event": false
+ },
+ {
+  "id": 28707,
+  "is_event": false
+ },
+ {
+  "id": 28708,
+  "is_event": false
+ },
+ {
+  "id": 28709,
+  "is_event": false
+ },
+ {
+  "id": 28710,
+  "is_event": true,
+  "event": {
+   "key": "宇树科技-科创板上市-20260819",
+   "name": "宇树科技登陆科创板 首日总市值4449亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "大额融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signal_date": "2026-08-17",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": 4449,
+   "amount": "上市首日总市值4449亿元（募资60.99亿元）",
+   "sector": "机器人/宇树科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】高开629%报1100元，总市值达4449亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "四足与人形机器人全球出货量第一；开盘涨629%，单签收益47.46万元；梁文锋浮盈11亿、雷军浮盈152亿、美团系浮盈333亿，王兴兴身家超千亿。"
+  }
+ },
+ {
+  "id": 28711,
+  "is_event": true,
+  "event": {
+   "key": "宇树科技-科创板上市-20260819",
+   "name": "宇树科技登陆科创板 首日总市值4449亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "大额融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "signal_date": "2026-08-17",
+   "land_date": "2026-08-19",
+   "status": "已落地",
+   "amount_yi": 4449,
+   "amount": "上市首日总市值4449亿元（募资60.99亿元）",
+   "sector": "机器人/宇树科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】单签收益达47万元（科创板日报）"
+    }
+   ],
+   "watch": [],
+   "notes": "四足与人形机器人全球出货量第一；开盘涨629%，单签收益47.46万元；梁文锋浮盈11亿、雷军浮盈152亿、美团系浮盈333亿，王兴兴身家超千亿。"
+  }
+ },
+ {
+  "id": 28712,
+  "is_event": false
+ },
+ {
+  "id": 28713,
+  "is_event": false
+ },
+ {
+  "id": 28714,
+  "is_event": false
+ },
+ {
+  "id": 28715,
+  "is_event": false
+ },
+ {
+  "id": 28716,
+  "is_event": true,
+  "event": {
+   "key": "长存控股-IPO辅导验收-20260819",
+   "name": "长江存储控股IPO辅导状态变更为“辅导验收”",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": null,
+   "amount": "募资规模待披露（国家级存储平台标的，预计为千亿级IPO）",
+   "sector": "半导体存储/长江存储",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】IPO辅导状态变更为“辅导验收”"
+    }
+   ],
+   "watch": [],
+   "notes": "辅导券商为中信证券+中信建投；辅导验收后距申报受理更近一步，是未来A股最大规模IPO候选之一。"
+  }
+ },
+ {
+  "id": 28717,
+  "is_event": false
+ },
+ {
+  "id": 28718,
+  "is_event": false
+ },
+ {
+  "id": 28719,
+  "is_event": false
+ },
+ {
+  "id": 28720,
+  "is_event": false
+ },
+ {
+  "id": 28721,
+  "is_event": false
+ },
+ {
+  "id": 28722,
+  "is_event": false
+ },
+ {
+  "id": 28723,
+  "is_event": false
+ },
+ {
+  "id": 28724,
+  "is_event": false
+ },
+ {
+  "id": 28725,
+  "is_event": false
+ },
+ {
+  "id": 28726,
+  "is_event": false
+ },
+ {
+  "id": 28727,
+  "is_event": false
+ },
+ {
+  "id": 28728,
+  "is_event": true,
+  "event": {
+   "key": "KKR-收购UGI 90亿美元-20260819",
+   "name": "KKR拟90亿美元收购天然气分销商UGI",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "待落地",
+   "amount_yi": 640,
+   "amount": "约90亿美元（折合约640亿元人民币）",
+   "sector": "能源/海外并购",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】KKR提出约90亿美元收购要约"
+    }
+   ],
+   "watch": [],
+   "notes": "要约价格每股42.50美元；全球私募巨头在能源基础设施领域的重大并购。"
+  }
+ },
+ {
+  "id": 28729,
+  "is_event": false
+ },
+ {
+  "id": 28730,
+  "is_event": false
+ },
+ {
+  "id": 28731,
+  "is_event": false
+ },
+ {
+  "id": 28732,
+  "is_event": false
+ },
+ {
+  "id": 28733,
+  "is_event": false
+ },
+ {
+  "id": 28734,
+  "is_event": false
+ },
+ {
+  "id": 28735,
+  "is_event": false
+ },
+ {
+  "id": 28736,
+  "is_event": false
+ },
+ {
+  "id": 28737,
+  "is_event": false
+ },
+ {
+  "id": 28738,
+  "is_event": false
+ },
+ {
+  "id": 28739,
+  "is_event": false
+ },
+ {
+  "id": 28740,
+  "is_event": false
+ },
+ {
+  "id": 28741,
+  "is_event": false
+ },
+ {
+  "id": 28742,
+  "is_event": false
+ },
+ {
+  "id": 28743,
+  "is_event": false
+ },
+ {
+  "id": 28744,
+  "is_event": false
+ },
+ {
+  "id": 28745,
+  "is_event": false
+ },
+ {
+  "id": 28746,
+  "is_event": false
+ },
+ {
+  "id": 28747,
+  "is_event": true,
+  "event": {
+   "key": "住房公积金管理条例修改-20260920施行",
+   "name": "国务院修改住房公积金管理条例 9月20日施行",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "高",
+   "level": 3,
+   "signal_date": "2026-08-19",
+   "land_date": "2026-09-20",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "全国性资金政策（影响公积金提取与使用范围）",
+   "sector": "地产/消费",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】国务院公布修改决定"
+    },
+    {
+     "date": "2026-09-20",
+     "label": "【落地】起施行"
+    }
+   ],
+   "watch": [],
+   "notes": "装修、物业费纳入提取范围；提取公积金支付房租不再设置收入比例门槛；对地产链与居民消费资金面形成利好。"
+  }
+ },
+ {
+  "id": 28748,
+  "is_event": false
+ },
+ {
+  "id": 28749,
+  "is_event": false
+ },
+ {
+  "id": 28750,
+  "is_event": false
+ },
+ {
+  "id": 28751,
+  "is_event": false
+ },
+ {
+  "id": 28752,
+  "is_event": false
+ },
+ {
+  "id": 28753,
+  "is_event": false
+ },
+ {
+  "id": 28754,
+  "is_event": false
+ },
+ {
+  "id": 28755,
+  "is_event": false
+ },
+ {
+  "id": 28756,
+  "is_event": false
+ },
+ {
+  "id": 28757,
+  "is_event": false
+ },
+ {
+  "id": 28758,
+  "is_event": false
+ },
+ {
+  "id": 28759,
+  "is_event": false
+ },
+ {
+  "id": 28760,
+  "is_event": false
+ },
+ {
+  "id": 28761,
+  "is_event": false
+ },
+ {
+  "id": 28762,
+  "is_event": false
+ },
+ {
+  "id": 28763,
+  "is_event": false
+ },
+ {
+  "id": 28764,
+  "is_event": false
+ },
+ {
+  "id": 28765,
+  "is_event": false
+ },
+ {
+  "id": 28766,
+  "is_event": false
+ },
+ {
+  "id": 28767,
+  "is_event": false
+ },
+ {
+  "id": 28768,
+  "is_event": false
+ },
+ {
+  "id": 28769,
+  "is_event": false
+ },
+ {
+  "id": 28770,
+  "is_event": false
+ },
+ {
+  "id": 28771,
+  "is_event": false
+ },
+ {
+  "id": 28772,
+  "is_event": true,
+  "event": {
+   "key": "Anthropic-筹备IPO-20260819",
+   "name": "Anthropic据悉数周内启动IPO 信贷额度或超100亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 710,
+   "amount": "IPO前信贷额度预计超100亿美元（约710亿元人民币）",
+   "sector": "AI大模型/海外",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】预计几周内进行IPO"
+    }
+   ],
+   "watch": [],
+   "notes": "OpenAI最大竞争对手启动IPO进程；二季度营收115亿美元首次小幅盈利，为全球AI资本开支核心事件。"
+  }
+ },
+ {
+  "id": 28773,
+  "is_event": false
+ },
+ {
+  "id": 28774,
+  "is_event": false
+ },
+ {
+  "id": 28775,
+  "is_event": false
+ },
+ {
+  "id": 28776,
+  "is_event": false
+ },
+ {
+  "id": 28777,
+  "is_event": false
+ },
+ {
+  "id": 28778,
+  "is_event": false
+ },
+ {
+  "id": 28779,
+  "is_event": false
+ },
+ {
+  "id": 28780,
+  "is_event": false
+ },
+ {
+  "id": 28781,
+  "is_event": false
+ },
+ {
+  "id": 28782,
+  "is_event": false
+ },
+ {
+  "id": 28783,
+  "is_event": false
+ },
+ {
+  "id": 28784,
+  "is_event": false
+ },
+ {
+  "id": 28785,
+  "is_event": false
+ },
+ {
+  "id": 28786,
+  "is_event": false
+ },
+ {
+  "id": 28787,
+  "is_event": false
+ },
+ {
+  "id": 28788,
+  "is_event": false
+ },
+ {
+  "id": 28789,
+  "is_event": false
+ },
+ {
+  "id": 28790,
+  "is_event": false
+ },
+ {
+  "id": 28791,
+  "is_event": false
+ },
+ {
+  "id": 28792,
+  "is_event": false
+ },
+ {
+  "id": 28793,
+  "is_event": false
+ },
+ {
+  "id": 28794,
+  "is_event": false
+ },
+ {
+  "id": 28795,
+  "is_event": false
+ },
+ {
+  "id": 28796,
+  "is_event": false
+ },
+ {
+  "id": 28797,
+  "is_event": false
+ },
+ {
+  "id": 28798,
+  "is_event": false
+ },
+ {
+  "id": 28799,
+  "is_event": false
+ },
+ {
+  "id": 28800,
+  "is_event": false
+ },
+ {
+  "id": 28801,
+  "is_event": false
+ },
+ {
+  "id": 28802,
+  "is_event": false
+ },
+ {
+  "id": 28803,
+  "is_event": false
+ },
+ {
+  "id": 28804,
+  "is_event": false
+ },
+ {
+  "id": 28805,
+  "is_event": false
+ },
+ {
+  "id": 28806,
+  "is_event": false
+ },
+ {
+  "id": 28807,
+  "is_event": false
+ },
+ {
+  "id": 28808,
+  "is_event": false
+ },
+ {
+  "id": 28809,
+  "is_event": false
+ },
+ {
+  "id": 28810,
+  "is_event": false
+ },
+ {
+  "id": 28811,
+  "is_event": false
+ },
+ {
+  "id": 28812,
+  "is_event": false
+ },
+ {
+  "id": 28813,
+  "is_event": false
+ },
+ {
+  "id": 28814,
+  "is_event": false
+ },
+ {
+  "id": 28815,
+  "is_event": false
+ },
+ {
+  "id": 28816,
+  "is_event": false
+ },
+ {
+  "id": 28817,
+  "is_event": false
+ },
+ {
+  "id": 28818,
+  "is_event": false
+ },
+ {
+  "id": 28819,
+  "is_event": false
+ },
+ {
+  "id": 28820,
+  "is_event": false
+ },
+ {
+  "id": 28821,
+  "is_event": false
+ },
+ {
+  "id": 28822,
+  "is_event": false
+ },
+ {
+  "id": 28823,
+  "is_event": false
+ },
+ {
+  "id": 28824,
+  "is_event": false
+ },
+ {
+  "id": 28825,
+  "is_event": false
+ },
+ {
+  "id": 28826,
+  "is_event": false
+ },
+ {
+  "id": 28827,
+  "is_event": false
+ },
+ {
+  "id": 28828,
+  "is_event": false
+ },
+ {
+  "id": 28829,
+  "is_event": false
+ },
+ {
+  "id": 28830,
+  "is_event": true,
+  "event": {
+   "key": "Anthropic-筹备IPO-20260819",
+   "name": "Anthropic据悉数周内启动IPO 信贷额度或超100亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "status": "关注中",
+   "amount_yi": 710,
+   "amount": "IPO前信贷额度预计超100亿美元（约710亿元人民币）",
+   "sector": "AI大模型/海外",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【进展】IPO前信贷额度预计超100亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "OpenAI最大竞争对手启动IPO进程；二季度营收115亿美元首次小幅盈利，为全球AI资本开支核心事件。"
+  }
+ },
+ {
+  "id": 28831,
+  "is_event": false
+ },
+ {
+  "id": 28832,
+  "is_event": false
+ },
+ {
+  "id": 28833,
+  "is_event": false
+ },
+ {
+  "id": 28834,
+  "is_event": false
+ },
+ {
+  "id": 28835,
+  "is_event": false
+ },
+ {
+  "id": 28836,
+  "is_event": false
+ }
+]

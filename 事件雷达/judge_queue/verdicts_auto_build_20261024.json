@@ -1,0 +1,430 @@
+[
+ {
+  "id": 34977,
+  "is_event": true,
+  "event": {
+   "key": "宇树科技-科创板IPO-20260805",
+   "name": "宇树科技科创板IPO询价 市值预估超400亿元",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "机器人"
+   ],
+   "importance": "高",
+   "level": 3,
+   "status": "待落地",
+   "amount_yi": 400.0,
+   "amount": "IPO预估市值超400亿元（初步询价）",
+   "sector": "机器人/宇树科技",
+   "notes": "宇树科技开启科创板IPO初步询价，市场预估市值或超400亿元",
+   "signal_date": "2026-08-05",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/34977",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-05",
+     "label": "【发生】宇树科技开启科创板IPO初步询价 市场预估IPO市值或将超400亿元"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-08-05",
+     "label": "【关注】宇树科技开启科创板IPO初步询价 市场预估IPO市值或将超400亿元"
+    }
+   ]
+  }
+ },
+ {
+  "id": 12802,
+  "is_event": true,
+  "event": {
+   "key": "粤芯半导体-科创板IPO-20260922",
+   "name": "粤芯半导体IPO发行价格确定为12.01元/股",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "半导体"
+   ],
+   "importance": "中",
+   "level": 2,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "IPO发行价12.01元/股（募资待确认）",
+   "sector": "半导体/粤芯",
+   "notes": "粤芯半导体IPO发行价12.01元/股",
+   "signal_date": "2026-09-22",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/12802",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-22",
+     "label": "【发生】粤芯半导体：IPO发行价格为12.01元/股"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-22",
+     "label": "【关注】粤芯半导体：IPO发行价格为12.01元/股"
+    }
+   ]
+  }
+ },
+ {
+  "id": 30523,
+  "is_event": true,
+  "event": {
+   "key": "传音控股-港股IPO-20260814",
+   "name": "传音控股港股上市获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 3,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "港股IPO备案（募资待上市确认）",
+   "sector": "消费电子/传音控股",
+   "notes": "传音控股港股上市获证监会备案",
+   "signal_date": "2026-08-14",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/30523",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-14",
+     "label": "【发生】传音控股港股上市获中国证监会备案"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-08-14",
+     "label": "【关注】传音控股港股上市获中国证监会备案"
+    }
+   ]
+  }
+ },
+ {
+  "id": 28885,
+  "is_event": true,
+  "event": {
+   "key": "长存控股-科创板IPO-20260819",
+   "name": "长存控股IPO辅导状态变更为辅导验收",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市",
+    "半导体"
+   ],
+   "importance": "高",
+   "level": 3,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "IPO辅导验收（募资待确认）",
+   "sector": "半导体/长存控股",
+   "notes": "长存控股IPO进入辅导验收关键阶段",
+   "signal_date": "2026-08-19",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/28885",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-19",
+     "label": "【发生】长存控股IPO辅导状态变更为“辅导验收”"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-08-19",
+     "label": "【关注】长存控股IPO辅导状态变更为“辅导验收”"
+    }
+   ]
+  }
+ },
+ {
+  "id": 21801,
+  "is_event": true,
+  "event": {
+   "key": "华峰化学-收购华峰合成树脂-20260902",
+   "name": "华峰化学拟68.5亿元收购华峰合成树脂与华峰热塑100%股权",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组"
+   ],
+   "importance": "高",
+   "level": 3,
+   "status": "待落地",
+   "amount_yi": 68.5,
+   "amount": "68.5亿元（拟购买100%股权）",
+   "sector": "化工/华峰化学",
+   "notes": "华峰化学拟68.5亿元收购华峰合成树脂与华峰热塑100%股权",
+   "signal_date": "2026-09-02",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/21801",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-02",
+     "label": "【发生】华峰化学：拟68.5亿元购买华峰合成树脂与华峰热塑100%股权"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-02",
+     "label": "【关注】华峰化学：拟68.5亿元购买华峰合成树脂与华峰热塑100%股权"
+    }
+   ]
+  }
+ },
+ {
+  "id": 10419,
+  "is_event": true,
+  "event": {
+   "key": "广汽集团-收购一汽丰田50%-20260929",
+   "name": "广汽集团拟收购一汽丰田50%股权",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "汽车"
+   ],
+   "importance": "高",
+   "level": 3,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "一汽丰田50%股权（交易对价待公告）",
+   "sector": "汽车/广汽集团",
+   "notes": "广汽集团拟收购一汽丰田50%股权，金额待公告确认",
+   "signal_date": "2026-09-29",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/10419",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-29",
+     "label": "【发生】拟收购一汽丰田50%股权 广汽集团复牌一字涨停"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-29",
+     "label": "【关注】拟收购一汽丰田50%股权 广汽集团复牌一字涨停"
+    }
+   ]
+  }
+ },
+ {
+  "id": 18710,
+  "is_event": true,
+  "event": {
+   "key": "湖南黄金-重大资产重组-20260909",
+   "name": "湖南黄金重大资产重组获湖南省国资委批复",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "有色金属"
+   ],
+   "importance": "中",
+   "level": 2,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "金额待公告",
+   "sector": "有色金属/湖南黄金",
+   "notes": "湖南黄金重大资产重组获湖南省国资委批复",
+   "signal_date": "2026-09-09",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/18710",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-09",
+     "label": "【发生】湖南黄金：重大资产重组获湖南省国资委批复"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-09",
+     "label": "【关注】湖南黄金：重大资产重组获湖南省国资委批复"
+    }
+   ]
+  }
+ },
+ {
+  "id": 26847,
+  "is_event": true,
+  "event": {
+   "key": "软银-63亿美元零售债券-20260824",
+   "name": "软银计划在日本发行63亿美元零售债券",
+   "category": "公司大事件",
+   "tags": [
+    "发债",
+    "跨境资金"
+   ],
+   "importance": "高",
+   "level": 3,
+   "status": "待落地",
+   "amount_yi": 454.0,
+   "amount": "63亿美元≈454亿元（创纪录零售债券）",
+   "sector": "科技/软银",
+   "notes": "软银计划在日本发行创纪录的63亿美元零售债券",
+   "signal_date": "2026-08-24",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/26847",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-08-24",
+     "label": "【发生】软银计划在日本发行创纪录的63亿美元零售债券"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-08-24",
+     "label": "【关注】软银计划在日本发行创纪录的63亿美元零售债券"
+    }
+   ]
+  }
+ },
+ {
+  "id": 20236,
+  "is_event": true,
+  "event": {
+   "key": "中国再保-募资30亿-20260906",
+   "name": "中国再保计划募资30亿元增加核心一级资本",
+   "category": "公司大事件",
+   "tags": [
+    "募资定增",
+    "金融"
+   ],
+   "importance": "中",
+   "level": 2,
+   "status": "待落地",
+   "amount_yi": 30.0,
+   "amount": "30亿元（增加核心一级资本）",
+   "sector": "保险/中国再保",
+   "notes": "中国再保计划募资30亿元用于增加核心一级资本",
+   "signal_date": "2026-09-06",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/20236",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-06",
+     "label": "【发生】中国再保计划募资30亿元用于增加核心一级资本"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-06",
+     "label": "【关注】中国再保计划募资30亿元用于增加核心一级资本"
+    }
+   ]
+  }
+ },
+ {
+  "id": 17518,
+  "is_event": true,
+  "event": {
+   "key": "华虹宏力-发行股份购资产-20260911",
+   "name": "华虹宏力发行股份购买资产事项完成",
+   "category": "公司大事件",
+   "tags": [
+    "并购重组",
+    "半导体"
+   ],
+   "importance": "中",
+   "level": 2,
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "金额待公告",
+   "sector": "半导体/华虹宏力",
+   "notes": "华虹宏力发行股份购买资产事项完成",
+   "signal_date": "2026-09-11",
+   "land_date": "",
+   "scope": "watch",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "https://www.cls.cn/detail/17518",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-09-11",
+     "label": "【发生】华虹宏力发行股份购买资产事项完成"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-09-11",
+     "label": "【关注】华虹宏力发行股份购买资产事项完成"
+    }
+   ]
+  }
+ }
+]

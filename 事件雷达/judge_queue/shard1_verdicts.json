@@ -1,0 +1,1804 @@
+[
+  {
+    "id": 82,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 154,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 187,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 226,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 292,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 302,
+    "is_event": true,
+    "event": {
+      "key": "发改委-能源保供中长期合同管理办法-20261023",
+      "name": "发改委发布《能源保供中长期合同管理办法(试行)》",
+      "category": "政策法规",
+      "tags": [
+        "监管政策",
+        "能源"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-23",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "电力天然气保供中长期合同价格机制改革",
+      "sector": "电力/天然气",
+      "notes": "规范全国能源保供中长期合同定价与管输服务,禁止强制固定价格,影响电气体制全局"
+    }
+  },
+  {
+    "id": 310,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 324,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 350,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 351,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 353,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 363,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 369,
+    "is_event": true,
+    "event": {
+      "key": "河北省-2027新能源机制电价竞价-20261023",
+      "name": "河北启动2027年度新能源机制电价竞价(约600亿千瓦时)",
+      "category": "行业事件",
+      "tags": [
+        "电价政策",
+        "新能源"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-23",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "河北南网+冀北机制电量约600亿千瓦时,竞价0.2-0.36元/度",
+      "sector": "新能源电力",
+      "notes": "年度新能源保障性电价竞价,规模约600亿千瓦时,影响风光运营商收益预期"
+    }
+  },
+  {
+    "id": 374,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 394,
+    "is_event": true,
+    "event": {
+      "key": "羲禾科技-科创板IPO注册-20261023",
+      "name": "证监会同意上海羲禾科技科创板IPO注册",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市"
+      ],
+      "importance": "低",
+      "level": "1★",
+      "scope": "watch",
+      "signal_date": "2026-10-23",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "募资额待调查",
+      "sector": "半导体",
+      "notes": "科创板IPO注册生效,进入发行申购关键阶段"
+    }
+  },
+  {
+    "id": 460,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 552,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 609,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 698,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 812,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 979,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1009,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1131,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1147,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1156,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1169,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1209,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1304,
+    "is_event": true,
+    "event": {
+      "key": "工信部等八部门-产业基础能力提升十五五规划-20261022",
+      "name": "八部门印发《产业基础能力提升十五五规划》",
+      "category": "行业事件",
+      "tags": [
+        "产业规划",
+        "科技创新"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-22",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "面向量子/生物制造/氢能/6G/具身智能等前沿布局",
+      "sector": "产业基础",
+      "notes": "国家级产业基础再造专项规划,明确企业牵头创新联合体与前沿技术攻关方向"
+    }
+  },
+  {
+    "id": 1306,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1344,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1369,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1421,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1437,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1470,
+    "is_event": true,
+    "event": {
+      "key": "江苏芯德半导体-港交所IPO过聆讯-20261021",
+      "name": "江苏芯德半导体港交所IPO通过聆讯",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市",
+        "半导体"
+      ],
+      "importance": "中",
+      "level": "1★",
+      "scope": "watch",
+      "signal_date": "2026-10-21",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "募资额待调查",
+      "sector": "半导体封装基板",
+      "notes": "封装基板企业港交所IPO过聆讯,进入发行关键阶段"
+    }
+  },
+  {
+    "id": 1497,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1644,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1645,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1650,
+    "is_event": true,
+    "event": {
+      "key": "中办国办-推动科技创新和产业创新深度融合意见-20261021",
+      "name": "中办、国办发布《关于推动科技创新和产业创新深度融合的意见》",
+      "category": "政策法规",
+      "tags": [
+        "顶层政策",
+        "科技创新"
+      ],
+      "importance": "高",
+      "level": "4★",
+      "scope": "watch",
+      "signal_date": "2026-10-21",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "围绕6方面部署产学研融通与全链条创新",
+      "sector": "科技产业",
+      "notes": "中办国办联合发布的全局级产业创新顶层文件,布局集成电路/工业母机/未来产业"
+    }
+  },
+  {
+    "id": 1741,
+    "is_event": true,
+    "event": {
+      "key": "美国-对华胺类化合物双反调查-20261021",
+      "name": "美国对进口自中国的胺类化合物发起反倾销反补贴调查",
+      "category": "行业事件",
+      "tags": [
+        "关税",
+        "贸易救济"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-21",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": 16.92,
+      "amount": "涉案2025年美自华进口约2.35亿美元",
+      "sector": "化工",
+      "notes": "美方对中国胺类化合物发起双反,涉案约17亿元,影响相关化工品出口"
+    }
+  },
+  {
+    "id": 1788,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1807,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1823,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1837,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1869,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1921,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1958,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1962,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 1990,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2006,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2007,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2019,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2195,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2228,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2231,
+    "is_event": true,
+    "event": {
+      "key": "保伦股份-沪市主板IPO上会-20261020",
+      "name": "保伦股份沪市主板IPO定于10月27日上会",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市"
+      ],
+      "importance": "低",
+      "level": "1★",
+      "scope": "watch",
+      "signal_date": "2026-10-20",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "募资额待调查",
+      "sector": "电子(音视频)",
+      "notes": "沪市主板IPO上会审议关键节点"
+    }
+  },
+  {
+    "id": 2249,
+    "is_event": true,
+    "event": {
+      "key": "国务院国资委-组建国家数据集团-20261020",
+      "name": "国务院批准组建国家数据集团有限公司",
+      "category": "政策法规",
+      "tags": [
+        "央企重组",
+        "数据要素"
+      ],
+      "importance": "高",
+      "level": "4★",
+      "scope": "watch",
+      "signal_date": "2026-10-20",
+      "land_date": "",
+      "status": "已落地",
+      "amount_yi": null,
+      "amount": "新设中央企业,由国资委履行出资人职责",
+      "sector": "数据要素",
+      "notes": "组建国家级数据集团,统领数据资源开发与数据要素市场化,全局影响"
+    }
+  },
+  {
+    "id": 2275,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2285,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2335,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2356,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2387,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2471,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2597,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2634,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2666,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2711,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2808,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2827,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2852,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2853,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2868,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2894,
+    "is_event": true,
+    "event": {
+      "key": "央行等11部门-金融支持国际科创中心意见-20261019",
+      "name": "央行等11部门印发金融支持北京/上海/粤港澳国际科创中心指导意见",
+      "category": "政策法规",
+      "tags": [
+        "货币政策",
+        "科创金融"
+      ],
+      "importance": "中",
+      "level": "3★",
+      "scope": "watch",
+      "signal_date": "2026-10-19",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "用好社保科创基金/国家创投引导基金,发展并购基金与科技板债券",
+      "sector": "科创金融",
+      "notes": "11部门联合指导意见,明确耐心资本、社保科创基金、再贷款等科创金融工具"
+    }
+  },
+  {
+    "id": 2958,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2966,
+    "is_event": true,
+    "event": {
+      "key": "央行-银行间与交易所债券市场互联互通-20261019",
+      "name": "推动银行间与交易所债券市场互联互通落地",
+      "category": "政策法规",
+      "tags": [
+        "货币政策",
+        "债市改革"
+      ],
+      "importance": "中",
+      "level": "3★",
+      "scope": "watch",
+      "signal_date": "2026-10-19",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "测试后即可开通,便利债券跨市场发行交易",
+      "sector": "债券市场",
+      "notes": "债市基础设施互联互通重大改革,提升流动性与价格发现,全局影响"
+    }
+  },
+  {
+    "id": 2975,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2980,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2987,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2993,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 2997,
+    "is_event": true,
+    "event": {
+      "key": "央行-非银机构大额赎回流动性支持工具-20261019",
+      "name": "央行将推出非银机构大额赎回流动性支持工具",
+      "category": "政策法规",
+      "tags": [
+        "货币政策",
+        "宏观审慎"
+      ],
+      "importance": "中",
+      "level": "3★",
+      "scope": "watch",
+      "signal_date": "2026-10-19",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "面向理财子/公募等资管机构的债券市场稳定新工具",
+      "sector": "货币市场",
+      "notes": "央行新设宏观审慎工具,防范债券赎回-抛售负向循环,系统性风险防控"
+    }
+  },
+  {
+    "id": 3065,
+    "is_event": true,
+    "event": {
+      "key": "商务部海关总署-盾构机等物项出口管制-20261019",
+      "name": "两部门对盾构机等物项实施出口管制",
+      "category": "政策法规",
+      "tags": [
+        "出口管制",
+        "高端装备"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-19",
+      "land_date": "",
+      "status": "已落地",
+      "amount_yi": null,
+      "amount": "商务部/海关总署2026年第50号公告",
+      "sector": "高端装备",
+      "notes": "对盾构机等高端装备实施出口管制,影响相关物项出口格局"
+    }
+  },
+  {
+    "id": 3084,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3091,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3097,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3193,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3195,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3198,
+    "is_event": true,
+    "event": {
+      "key": "商务部等9部门-加快推进科技兴商意见-20261019",
+      "name": "商务部等9部门发布《关于加快推进科技兴商的意见》",
+      "category": "行业事件",
+      "tags": [
+        "产业政策",
+        "人工智能+"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-19",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "深入实施人工智能+制造专项行动",
+      "sector": "商贸/制造",
+      "notes": "9部门联合推进科技兴商,部署AI+制造与个性化定制,影响消费电子与制造业"
+    }
+  },
+  {
+    "id": 3222,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3275,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3357,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3370,
+    "is_event": true,
+    "event": {
+      "key": "上海超导-三期高温超导带材基地封顶-20261018",
+      "name": "上海超导二代高温超导带材三期基地封顶(总投资25亿)",
+      "category": "行业事件",
+      "tags": [
+        "产能扩张",
+        "超导"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-18",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": 25.0,
+      "amount": "总投资25亿元,达产后总产能升至2万公里/年",
+      "sector": "超导材料",
+      "notes": "全球二代高温超导带材龙头产能扩张,投资25亿,规模化量产推进"
+    }
+  },
+  {
+    "id": 3601,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3653,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3692,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3694,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3711,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3717,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3738,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3741,
+    "is_event": true,
+    "event": {
+      "key": "朗高电机-创业板IPO注册-20261016",
+      "name": "证监会同意苏州朗高电机创业板IPO注册",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市"
+      ],
+      "importance": "低",
+      "level": "1★",
+      "scope": "watch",
+      "signal_date": "2026-10-16",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "募资额待调查",
+      "sector": "电机",
+      "notes": "创业板IPO注册生效,进入发行申购关键阶段"
+    }
+  },
+  {
+    "id": 3764,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3774,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3775,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3815,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3841,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3847,
+    "is_event": true,
+    "event": {
+      "key": "财政部-2026年1.3万亿超长期特别国债发行收官-20261016",
+      "name": "2026年1.3万亿元超长期特别国债全年发行收官",
+      "category": "政策法规",
+      "tags": [
+        "财政政策",
+        "特别国债"
+      ],
+      "importance": "高",
+      "level": "4★",
+      "scope": "watch",
+      "signal_date": "2026-10-16",
+      "land_date": "2026-10-16",
+      "status": "已落地",
+      "amount_yi": 13000.0,
+      "amount": "全年1.3万亿:8000亿两重/2500亿以旧换新/2000亿设备更新/500亿促内需",
+      "sector": "财政",
+      "notes": "1.3万亿超长期特别国债全部发行,大额财政资金落地支撑两重建设与促消费"
+    }
+  },
+  {
+    "id": 3929,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3943,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 3959,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4010,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4016,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4031,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4211,
+    "is_event": true,
+    "event": {
+      "key": "季丰电子-创业板IPO过会-20261015",
+      "name": "季丰电子创业板IPO获上市委会议通过",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市",
+        "半导体"
+      ],
+      "importance": "低",
+      "level": "1★",
+      "scope": "watch",
+      "signal_date": "2026-10-15",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "募资额待调查",
+      "sector": "半导体测试",
+      "notes": "创业板IPO过会关键节点"
+    }
+  },
+  {
+    "id": 4213,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4236,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4292,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4327,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4389,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4412,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4523,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4543,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4594,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4610,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4716,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4748,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4751,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4843,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4876,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4889,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4895,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 4954,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5091,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5094,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5194,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5203,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5374,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5404,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5415,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5428,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5434,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5545,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5548,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5550,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5551,
+    "is_event": true,
+    "event": {
+      "key": "交通运输部等三部门-内河新能源船舶推广行动方案-20261013",
+      "name": "三部门印发《内河新能源船舶推广应用行动方案(2026-2030)》",
+      "category": "行业事件",
+      "tags": [
+        "产业规划",
+        "新能源船舶"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-13",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "2028年内河新能源船舶保有量较2025年翻倍,电动船破1000艘",
+      "sector": "船舶/航运",
+      "notes": "三部门联合行动方案,量化电动/甲醇船舶目标与加注设施建设,影响船舶与氢能产业链"
+    }
+  },
+  {
+    "id": 5553,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5554,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5578,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5640,
+    "is_event": true,
+    "event": {
+      "key": "央行-批准威士Visa筹备银行卡清算机构-20261013",
+      "name": "央行批准威士信息技术(北京)筹备银行卡清算机构",
+      "category": "政策法规",
+      "tags": [
+        "金融开放",
+        "支付清算"
+      ],
+      "importance": "中",
+      "level": "3★",
+      "scope": "watch",
+      "signal_date": "2026-10-13",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "维萨在华外商独资企业获批筹备银行卡清算牌照(一年内)",
+      "sector": "支付清算",
+      "notes": "外资国际卡组织Visa获批在华筹备银行卡清算机构,支付清算市场开放实质落地"
+    }
+  },
+  {
+    "id": 5722,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5759,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5844,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5892,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 5954,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6000,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6111,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6124,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6138,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6141,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6180,
+    "is_event": true,
+    "event": {
+      "key": "民航局等六部门-促进国际航空货运发展意见-20261012",
+      "name": "六部门印发《关于促进国际航空货运健康有序发展的意见》",
+      "category": "行业事件",
+      "tags": [
+        "产业政策",
+        "航空货运"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-10-12",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "到2030年基本建成国际航空货运体系,支撑全球123快货物流圈",
+      "sector": "航空物流",
+      "notes": "六部门联合部署国际航空货运枢纽与航线网络建设,全局影响航空物流"
+    }
+  },
+  {
+    "id": 6182,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6196,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6234,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6235,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6303,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6529,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6531,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6637,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6647,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6719,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6751,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6788,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6813,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6818,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6830,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6831,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6834,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6837,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6839,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6847,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6848,
+    "is_event": true,
+    "event": {
+      "key": "中共中央国务院-关于发展新质生产力的意见-20261009",
+      "name": "中共中央、国务院印发《关于发展新质生产力的意见》",
+      "category": "政策法规",
+      "tags": [
+        "顶层政策",
+        "人工智能+"
+      ],
+      "importance": "高",
+      "level": "4★",
+      "scope": "watch",
+      "signal_date": "2026-10-09",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "全面实施人工智能+行动,布局未来产业与原创颠覆性科技",
+      "sector": "科技产业",
+      "notes": "党中央国务院联合发布的全局级顶层文件,明确AI+行动与未来产业风险分担机制"
+    }
+  },
+  {
+    "id": 6948,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 6994,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7102,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7105,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7132,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7163,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7222,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7228,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7307,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7324,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7357,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7559,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7584,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7719,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7730,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7841,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7971,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 7974,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8281,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8524,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8617,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8751,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8772,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8779,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8808,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8858,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 8955,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9002,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9011,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9065,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9091,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9098,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9216,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9239,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9340,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9415,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9438,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9454,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9541,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9544,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9573,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9587,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9625,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9636,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9718,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9734,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9740,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9750,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9777,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9795,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9811,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9815,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9820,
+    "is_event": true,
+    "event": {
+      "key": "商务部-自巴西进口牛肉加征55%关税-20260930",
+      "name": "自巴西进口牛肉保障措施项下加征55%关税(10月1日起)",
+      "category": "行业事件",
+      "tags": [
+        "关税",
+        "农产品"
+      ],
+      "importance": "中",
+      "level": "2★",
+      "scope": "watch",
+      "signal_date": "2026-09-30",
+      "land_date": "2026-10-01",
+      "status": "已落地",
+      "amount_yi": null,
+      "amount": "巴西牛肉进口达规定数量100%,第3日起加征55%关税",
+      "sector": "畜牧/牛肉进口",
+      "notes": "保障措施触发,巴西牛肉进口加征55%关税落地,影响牛肉进口产业链"
+    }
+  },
+  {
+    "id": 9833,
+    "is_event": true,
+    "event": {
+      "key": "工信部等七部门-新型电池产业发展十五五规划-20260930",
+      "name": "工信部等七部门印发《新型电池产业发展十五五规划》",
+      "category": "行业事件",
+      "tags": [
+        "产业规划",
+        "固态电池"
+      ],
+      "importance": "高",
+      "level": "3★",
+      "scope": "watch",
+      "signal_date": "2026-09-30",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "2030年全固态电池初步规模化应用,长寿命锂电池循环达1.5万次",
+      "sector": "电池",
+      "notes": "七部门联合新型电池产业规划,明确全固态电池/钠电池目标,引爆固态电池板块"
+    }
+  },
+  {
+    "id": 9843,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9846,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9879,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9957,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 9990,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10015,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10162,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10166,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10356,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10446,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10456,
+    "is_event": true,
+    "event": {
+      "key": "上期所郑商所广期所-QFI可交易品种扩围-20260929",
+      "name": "三大期交所扩大QFI可交易品种,新增23个期货期权合约",
+      "category": "政策法规",
+      "tags": [
+        "金融开放",
+        "期货"
+      ],
+      "importance": "中",
+      "level": "3★",
+      "scope": "watch",
+      "signal_date": "2026-09-29",
+      "land_date": "2026-09-28",
+      "status": "已落地",
+      "amount_yi": null,
+      "amount": "新增开放23个期货/期权合约,覆盖能源金属化工农产品新能源",
+      "sector": "期货市场",
+      "notes": "期货市场制度型开放,QFI可交易品种再扩围,引入境外机构提升流动性"
+    }
+  },
+  {
+    "id": 10497,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10579,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10595,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10645,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10708,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10742,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10753,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10772,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10807,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10825,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10852,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10874,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10922,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10973,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10975,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 10981,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11053,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11120,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11139,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11273,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11343,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11381,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11384,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11548,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11556,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11633,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11683,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11687,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 11757,
+    "is_event": false,
+    "event": null
+  }
+]

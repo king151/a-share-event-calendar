@@ -1,0 +1,1833 @@
+[
+  {
+    "id": 20799,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 20803,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 20806,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 20808,
+    "is_event": true,
+    "event": {
+      "key": "工信部-AI中小企业创业支持计划-20260904",
+      "name": "工信部印发《人工智能中小企业创业支持计划（2026-2028年）》",
+      "category": "政策法规",
+      "tags": [
+        "AI政策",
+        "创业支持",
+        "产业基金"
+      ],
+      "importance": "中",
+      "level": 2,
+      "scope": "watch",
+      "signal_date": "2026-09-04",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额（依托国家中小企业发展基金/AI产业基金等引导）",
+      "sector": "人工智能/中小企业",
+      "notes": "国家级AI创业扶持三年计划，引导耐心资本投向早期AI企业，影响AI创业生态。"
+    }
+  },
+  {
+    "id": 20810,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 20887,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 20971,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21109,
+    "is_event": true,
+    "event": {
+      "key": "长江存储-科创板IPO已问询-20260903",
+      "name": "长江存储科创板IPO审核状态变更为“已问询”",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市",
+        "半导体",
+        "存储芯片"
+      ],
+      "importance": "高",
+      "level": 4,
+      "scope": "watch",
+      "signal_date": "2026-09-03",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "金额待调查（国产存储龙头，募资预计数百亿级）",
+      "sector": "半导体/存储",
+      "notes": "国产NAND存储龙头科创板IPO进入问询关键阶段，具全局产业与资本市场意义。"
+    }
+  },
+  {
+    "id": 21116,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21120,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21174,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21193,
+    "is_event": true,
+    "event": {
+      "key": "生态环境部-全国碳市场配额分配方案-20260903",
+      "name": "全国碳市场2025/2026年度配额总量和分配方案印发",
+      "category": "政策法规",
+      "tags": [
+        "碳市场",
+        "环保政策",
+        "产能调控"
+      ],
+      "importance": "高",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-09-03",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额（覆盖发电/钢铁/水泥/铝冶炼四行业）",
+      "sector": "碳市场/高耗能行业",
+      "notes": "碳市场扩围至钢铁水泥铝冶炼，配额分配直接影响高耗能行业成本与供给。"
+    }
+  },
+  {
+    "id": 21230,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21237,
+    "is_event": true,
+    "event": {
+      "key": "国家医保局-2026医保国谈-20260903",
+      "name": "2026年国家医保药品目录谈判9月5日启动",
+      "category": "政策法规",
+      "tags": [
+        "医保政策",
+        "药品定价",
+        "医药行业"
+      ],
+      "importance": "高",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-09-03",
+      "land_date": "2026-09-05",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "无直接金额（涉及医保基金与全行业药品定价）",
+      "sector": "医药/医保",
+      "notes": "年度医保目录谈判直接影响创新药放量与医药板块估值，同步商保创新药目录协商。"
+    }
+  },
+  {
+    "id": 21302,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21309,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21327,
+    "is_event": true,
+    "event": {
+      "key": "工信部等十部门-促进中小企业十五五规划-20260903",
+      "name": "十部门印发《促进中小企业发展“十五五”规划》",
+      "category": "政策法规",
+      "tags": [
+        "产业政策",
+        "耐心资本",
+        "未来产业"
+      ],
+      "importance": "中",
+      "level": 2,
+      "scope": "watch",
+      "signal_date": "2026-09-03",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额",
+      "sector": "中小企业/未来产业",
+      "notes": "国家级中小企业发展五年规划，引导耐心资本投向种子期初创期，覆盖机器人/量子/脑机接口等。"
+    }
+  },
+  {
+    "id": 21345,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21401,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21404,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21416,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21434,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21436,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21465,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21584,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21596,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21633,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21702,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21711,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21715,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21853,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21865,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 21906,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22043,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22075,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22087,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22189,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22206,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22217,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22231,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22253,
+    "is_event": true,
+    "event": {
+      "key": "国家能源局-新型电网建设工作部署会-20260902",
+      "name": "国家能源局部署新型电网建设，加快重大电网工程核准",
+      "category": "政策法规",
+      "tags": [
+        "电网投资",
+        "新能源",
+        "新基建"
+      ],
+      "importance": "中",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-09-02",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额（“十五五”电力需求年均约5%增长）",
+      "sector": "电力设备/电网",
+      "notes": "部署加快输电通道等重大电网工程核准，利好电网设备与新能源消纳产业链。"
+    }
+  },
+  {
+    "id": 22261,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22383,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22426,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22522,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22587,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22596,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22627,
+    "is_event": true,
+    "event": {
+      "key": "财政部税务总局-外籍个人股息红利个税政策-20260901",
+      "name": "外籍个人从外商投资企业取得股息红利恢复按20%缴个税",
+      "category": "政策法规",
+      "tags": [
+        "财税政策",
+        "个税",
+        "外资"
+      ],
+      "importance": "中",
+      "level": 2,
+      "scope": "watch",
+      "signal_date": "2026-09-01",
+      "land_date": "2026-09-01",
+      "status": "已落地",
+      "amount_yi": null,
+      "amount": "无直接金额",
+      "sector": "财税/外资",
+      "notes": "延续30年的外籍股息红利免税政策取消，推进统一大市场，影响外商投资利润汇回安排。"
+    }
+  },
+  {
+    "id": 22638,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22661,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22665,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22694,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22716,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22801,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22847,
+    "is_event": true,
+    "event": {
+      "key": "商务部等七部门-商品消费扩容升级实施意见-20260901",
+      "name": "商务部等7部门推动商品消费扩容升级，2030年社零目标60万亿",
+      "category": "政策法规",
+      "tags": [
+        "促消费",
+        "内需",
+        "零售"
+      ],
+      "importance": "中",
+      "level": 4,
+      "scope": "watch",
+      "signal_date": "2026-09-01",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": 600000.0,
+      "amount": "2030年社零目标约60万亿元",
+      "sector": "消费/零售",
+      "notes": "国家级促消费政策，明确2030年社零60万亿目标，培育十万亿级绿色/智能/健康消费市场。"
+    }
+  },
+  {
+    "id": 22906,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22976,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22980,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22987,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 22989,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23027,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23043,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23067,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23074,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23090,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23094,
+    "is_event": true,
+    "event": {
+      "key": "燧原科技-科创板IPO定价-20260831",
+      "name": "燧原科技科创板IPO定价142.18元/股，募资61.19亿元",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市",
+        "AI芯片",
+        "科创板"
+      ],
+      "importance": "高",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-31",
+      "land_date": "2026-09-02",
+      "status": "待落地",
+      "amount_yi": 61.19,
+      "amount": "募资总额61.19亿元",
+      "sector": "AI算力芯片",
+      "notes": "国产AI训练芯片头部企业科创板IPO定价，募资超60亿，申购9月2日。"
+    }
+  },
+  {
+    "id": 23095,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23096,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23098,
+    "is_event": true,
+    "event": {
+      "key": "分众传媒-收购新潮传媒90.02%-20260831",
+      "name": "分众传媒发行股份及现金购买新潮传媒90.02%股份恢复审核",
+      "category": "公司大事件",
+      "tags": [
+        "并购重组",
+        "广告传媒"
+      ],
+      "importance": "中",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-31",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "金额待调查（分众收购新潮传媒多数股权，业内估约百亿级）",
+      "sector": "广告传媒",
+      "notes": "梯媒龙头分众整合新潮传媒，楼宇媒体行业集中度提升，尚需深交所审核与证监会注册。"
+    }
+  },
+  {
+    "id": 23120,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23132,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23170,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23189,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23215,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23262,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23288,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23368,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23379,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23426,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23472,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23522,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23548,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23613,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23706,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23825,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23826,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23828,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23834,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23838,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23864,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23867,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23880,
+    "is_event": true,
+    "event": {
+      "key": "粤芯半导体-创业板IPO注册批文-20260828",
+      "name": "粤芯半导体取得创业板IPO注册批文",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市",
+        "晶圆制造",
+        "半导体"
+      ],
+      "importance": "高",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-28",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "金额待调查（12英寸晶圆制造企业，募资预计数十亿级）",
+      "sector": "半导体/晶圆制造",
+      "notes": "创业板注册制首家晶圆制造企业获注册批文，国产特色工艺代工重要资本化事件。"
+    }
+  },
+  {
+    "id": 23903,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23916,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23920,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23931,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23943,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 23952,
+    "is_event": true,
+    "event": {
+      "key": "金融监管总局住建部-城市更新项目贷款管理办法-20260828",
+      "name": "金融监管总局、住建部印发《城市更新项目贷款管理办法（试行）》",
+      "category": "政策法规",
+      "tags": [
+        "房地产金融",
+        "城市更新",
+        "信贷政策"
+      ],
+      "importance": "中",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-28",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额（规范城市更新信贷投放）",
+      "sector": "房地产/城市更新",
+      "notes": "首部城市更新项目贷款专项管理办法，引导金融资源支持城市更新与存量改造。"
+    }
+  },
+  {
+    "id": 23991,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24000,
+    "is_event": true,
+    "event": {
+      "key": "财政部税务总局证监会-限售股个税政策规范-20260828",
+      "name": "三部门规范限售股个人所得税政策，解禁后送转股纳入征税",
+      "category": "政策法规",
+      "tags": [
+        "财税政策",
+        "限售股",
+        "个税"
+      ],
+      "importance": "中",
+      "level": 2,
+      "scope": "watch",
+      "signal_date": "2026-08-28",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额",
+      "sector": "财税/资本市场",
+      "notes": "明确限售股解禁后送转股征税口径，新老划段，影响股东减持税负与市场行为。"
+    }
+  },
+  {
+    "id": 24010,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24011,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24027,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24034,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24152,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24177,
+    "is_event": true,
+    "event": {
+      "key": "SHEIN-港股IPO-20260828",
+      "name": "SHEIN（希音）港股IPO筹资约17亿美元",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市",
+        "跨境电商",
+        "港股"
+      ],
+      "importance": "高",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-28",
+      "land_date": "2026-09-01",
+      "status": "待落地",
+      "amount_yi": 122.4,
+      "amount": "募资约17亿美元（约122.4亿元人民币）",
+      "sector": "跨境电商/快时尚",
+      "notes": "跨境电商巨头希音港股上市，募资约17亿美元，9月1日挂牌，附期权/权证/卖空安排。"
+    }
+  },
+  {
+    "id": 24225,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24259,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24378,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24429,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24466,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24510,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24528,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24552,
+    "is_event": true,
+    "event": {
+      "key": "中金公司-换股吸收合并东兴信达-20260827",
+      "name": "中金公司换股吸收合并东兴证券、信达证券获上交所审核通过",
+      "category": "公司大事件",
+      "tags": [
+        "并购重组",
+        "券商整合",
+        "换股吸收合并"
+      ],
+      "importance": "高",
+      "level": 4,
+      "scope": "watch",
+      "signal_date": "2026-08-27",
+      "land_date": "",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "换股吸收合并（无直接现金对价，涉及三家头部券商）",
+      "sector": "证券行业",
+      "notes": "头部券商中金公司同时吸收合并东兴、信达两家券商，证券行业重大整合，尚需证监会批准。"
+    }
+  },
+  {
+    "id": 24553,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24599,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24670,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24672,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24724,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24762,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24763,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24810,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24814,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24840,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24877,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24936,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24938,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 24990,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25169,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25203,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25224,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25278,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25312,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25324,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25363,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25367,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25388,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25423,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25448,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25453,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25513,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25536,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25544,
+    "is_event": true,
+    "event": {
+      "key": "国家医保局-长期护理保险支付管理指导意见-20260826",
+      "name": "国家医保局规范长期护理保险报销管理",
+      "category": "政策法规",
+      "tags": [
+        "医保政策",
+        "长护险",
+        "养老"
+      ],
+      "importance": "中",
+      "level": 2,
+      "scope": "watch",
+      "signal_date": "2026-08-26",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额",
+      "sector": "医保/养老护理",
+      "notes": "明确长护险支付范围/标准/基金监管，年度报销上限不超过当地居民人均可支配收入50%。"
+    }
+  },
+  {
+    "id": 25682,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25697,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25758,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25763,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25773,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25813,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25890,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25896,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25899,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25902,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 25946,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26064,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26174,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26236,
+    "is_event": true,
+    "event": {
+      "key": "央行-数字人民币运营机构扩容-20260825",
+      "name": "数字人民币业务运营机构由22家扩容至30家",
+      "category": "政策法规",
+      "tags": [
+        "数字人民币",
+        "支付清算",
+        "金融科技"
+      ],
+      "importance": "中",
+      "level": 2,
+      "scope": "watch",
+      "signal_date": "2026-08-25",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额",
+      "sector": "金融科技/数字支付",
+      "notes": "新增平安/恒丰/渤海/上海/宁波/徽商/长沙/北部湾8家银行作为数字人民币运营机构。"
+    }
+  },
+  {
+    "id": 26291,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26307,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26322,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26332,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26373,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26380,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26385,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26394,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26441,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26452,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26484,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26485,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26488,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26519,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26537,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26549,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26654,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26670,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26673,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26684,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26702,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26853,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26854,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26860,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26892,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26914,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 26963,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27045,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27085,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27090,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27119,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27128,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27158,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27184,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27187,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27188,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27189,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27194,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27204,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27206,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27220,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27273,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27317,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27329,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27379,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27387,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27485,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27558,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27672,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27781,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27787,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27796,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27820,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27837,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27928,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27988,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 27990,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28053,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28119,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28219,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28294,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28399,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28467,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28484,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28517,
+    "is_event": true,
+    "event": {
+      "key": "司法部-欧盟外国补贴条例不当域外管辖公告-20260819",
+      "name": "司法部认定欧盟对京东外国补贴调查构成不当域外管辖",
+      "category": "政策法规",
+      "tags": [
+        "反制",
+        "对外贸易",
+        "法律"
+      ],
+      "importance": "中",
+      "level": 2,
+      "scope": "watch",
+      "signal_date": "2026-08-19",
+      "land_date": "2026-08-19",
+      "status": "已落地",
+      "amount_yi": null,
+      "amount": "无直接金额",
+      "sector": "对外经贸/法律",
+      "notes": "援引《反外国不当域外管辖条例》，任何组织个人不得执行欧盟该跨境调查措施。"
+    }
+  },
+  {
+    "id": 28573,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28645,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28690,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28693,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28709,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28740,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28748,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28807,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28813,
+    "is_event": true,
+    "event": {
+      "key": "国家医保局-全民医疗保障十五五规划-20260819",
+      "name": "《全民医疗保障“十五五”规划》发布",
+      "category": "政策法规",
+      "tags": [
+        "医保政策",
+        "商保",
+        "民生"
+      ],
+      "importance": "中",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-19",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额（覆盖全民医保体系）",
+      "sector": "医保/医疗",
+      "notes": "明确参保率95%、长护险全覆盖、住院报销比例、商保发展等五年医保体系目标。"
+    }
+  },
+  {
+    "id": 28860,
+    "is_event": true,
+    "event": {
+      "key": "宇树科技-科创板上市-20260819",
+      "name": "宇树科技登陆科创板，开盘涨超500%市值超3500亿元",
+      "category": "公司大事件",
+      "tags": [
+        "IPO上市",
+        "人形机器人",
+        "科创板"
+      ],
+      "importance": "高",
+      "level": 4,
+      "scope": "watch",
+      "signal_date": "2026-08-19",
+      "land_date": "2026-08-19",
+      "status": "已落地",
+      "amount_yi": 3500.0,
+      "amount": "上市首日市值超3500亿元",
+      "sector": "人形机器人/机器人",
+      "notes": "人形机器人龙头宇树科技科创板挂牌，王兴兴身家超千亿，为机器人产业标志性资本化事件。"
+    }
+  },
+  {
+    "id": 28889,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28896,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28915,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28925,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28928,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 28971,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29056,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29203,
+    "is_event": true,
+    "event": {
+      "key": "国务院-修改住房公积金管理条例-20260818",
+      "name": "国务院修改《住房公积金管理条例》，租房提取取消收入比例门槛",
+      "category": "政策法规",
+      "tags": [
+        "房地产政策",
+        "住房公积金",
+        "民生"
+      ],
+      "importance": "高",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-18",
+      "land_date": "2026-09-20",
+      "status": "待落地",
+      "amount_yi": null,
+      "amount": "无直接金额",
+      "sector": "房地产/住房",
+      "notes": "拓宽公积金提取范围（租房/装修/物业费），允许购买政策性金融债，9月20日施行。"
+    }
+  },
+  {
+    "id": 29205,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29234,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29319,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29501,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29502,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29516,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29638,
+    "is_event": true,
+    "event": {
+      "key": "国家医保局-首批31个DRG基层病组-20260817",
+      "name": "首批31个DRG基层病组确定，医保支付引导常见病下沉",
+      "category": "政策法规",
+      "tags": [
+        "医保支付",
+        "DRG",
+        "基层医疗"
+      ],
+      "importance": "中",
+      "level": 2,
+      "scope": "watch",
+      "signal_date": "2026-08-17",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额",
+      "sector": "医保/医疗服务",
+      "notes": "DRG3.0首批基层病组“同病同付”，以支付杠杆引导常见病向基层医疗机构下沉。"
+    }
+  },
+  {
+    "id": 29654,
+    "is_event": true,
+    "event": {
+      "key": "宁德时代-枧下窝锂矿环评拟受理-20260817",
+      "name": "宁德时代宜春枧下窝锂矿环评拟受理公示，复产现关键进展",
+      "category": "行业事件",
+      "tags": [
+        "锂矿",
+        "产能",
+        "新能源"
+      ],
+      "importance": "高",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-17",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": null,
+      "amount": "无直接金额（满产年碳酸锂产能约10万吨，约占全国8%-10%）",
+      "sector": "锂电/锂资源",
+      "notes": "全球最大锂云母矿复产关键一步，直接影响国内锂盐供给与碳酸锂价格（8月26日公示撤销，进展反复）。"
+    }
+  },
+  {
+    "id": 29666,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29753,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29791,
+    "is_event": true,
+    "event": {
+      "key": "发改委能源局-石油天然气十五五规划-20260817",
+      "name": "发改委、能源局印发《石油天然气发展“十五五”规划》",
+      "category": "政策法规",
+      "tags": [
+        "能源政策",
+        "油气管网",
+        "CCUS",
+        "氢能"
+      ],
+      "importance": "高",
+      "level": 4,
+      "scope": "watch",
+      "signal_date": "2026-08-17",
+      "land_date": "",
+      "status": "关注中",
+      "amount_yi": 1140.0,
+      "amount": "2030年国内油气供应4.4亿吨油当量、新增长输管道2万公里、管道进口气1140亿方/年",
+      "sector": "石油天然气/能源",
+      "notes": "油气行业五年顶层规划，布局西气东输四线五线、煤制油气基地、CCUS与氢能，影响能源全产业链。"
+    }
+  },
+  {
+    "id": 29796,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29797,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29798,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29800,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29802,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29804,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29805,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29807,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29810,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29812,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29850,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29887,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29889,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29890,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 29913,
+    "is_event": true,
+    "event": {
+      "key": "绿色算力人工智能大会-百亿项目集中签约-20260817",
+      "name": "呼和浩特绿色算力大会将集中签约一批百亿级产业项目",
+      "category": "行业事件",
+      "tags": [
+        "算力",
+        "AI基建",
+        "东数西算",
+        "产业签约"
+      ],
+      "importance": "中",
+      "level": 3,
+      "scope": "watch",
+      "signal_date": "2026-08-17",
+      "land_date": "2026-08-22",
+      "status": "待落地",
+      "amount_yi": 100.0,
+      "amount": "一批百亿级重大产业项目集中签约",
+      "sector": "算力/AI数据中心",
+      "notes": "字节/寒武纪/宁德时代/中金数据等围绕绿色智算中心、词元工厂、算电装备落地和林格尔集群。"
+    }
+  },
+  {
+    "id": 29948,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 30060,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 30144,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 30196,
+    "is_event": false,
+    "event": null
+  },
+  {
+    "id": 30380,
+    "is_event": false,
+    "event": null
+  }
+]

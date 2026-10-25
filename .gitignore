@@ -1,0 +1,21 @@
+# 数据与运行时产物（可由脚本/db 重建，不入库）
+radar.db
+radar.db-shm
+radar.db-wal
+*.jsonl
+data.json
+data.json.bak*
+AI精选.js
+*.log
+__pycache__/
+
+# 截图与临时实验产物
+*.png
+_test_*
+_inline_*
+_ana_occ.py
+_inspect_db.py
+
+# 备份文件（git 本身就是备份）
+*.bak
+*.bak_*

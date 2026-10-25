@@ -1,0 +1,675 @@
+[
+ {
+  "id": 718,
+  "is_event": true,
+  "event": {
+   "key": "DeepSeek-千亿级融资-20261022",
+   "name": "DeepSeek完成约1000亿元融资（投前估值约5000亿元）",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资",
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-22",
+   "land_date": "2026-10-22",
+   "status": "已落地",
+   "amount_yi": 1000.0,
+   "amount": "约1000亿元人民币（约合150亿美元），投前估值约5000亿元",
+   "sector": "AI大模型/DeepSeek",
+   "sources": [
+    {
+     "name": "证券时报",
+     "org": "证券时报",
+     "url": "https://stcn.com/article/detail/4209093.html",
+     "role": "info"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniweuqq8121411.shtml",
+     "role": "info"
+    },
+    {
+     "name": "36氪",
+     "org": "36氪",
+     "url": "https://36kr.com/p/4036587917661064",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-06",
+     "label": "【发生】传DeepSeek接近锁定至少800亿元融资"
+    },
+    {
+     "date": "2026-10-22",
+     "label": "【落地】多家外媒确认完成约1000亿元融资，宁德时代、腾讯为主要投资方"
+    }
+   ],
+   "watch": [],
+   "notes": "中国AI史上最大私募融资之一：募资由500亿增至约1000亿，投前估值5000亿；联想系、完美世界、中芯聚源等产业资本入局；并筹备科创板上市。"
+  }
+ },
+ {
+  "id": 440,
+  "is_event": true,
+  "event": {
+   "key": "DeepSeek-千亿级融资-20261022",
+   "name": "DeepSeek完成约1000亿元融资（投前估值约5000亿元）",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资",
+    "IPO上市"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-22",
+   "land_date": "2026-10-22",
+   "status": "已落地",
+   "amount_yi": 1000.0,
+   "amount": "约1000亿元人民币（约合150亿美元），投前估值约5000亿元",
+   "sector": "AI大模型/DeepSeek",
+   "sources": [
+    {
+     "name": "证券时报",
+     "org": "证券时报",
+     "url": "https://stcn.com/article/detail/4209093.html",
+     "role": "info"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniweuqq8121411.shtml",
+     "role": "info"
+    },
+    {
+     "name": "36氪",
+     "org": "36氪",
+     "url": "https://36kr.com/p/4036587917661064",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-06",
+     "label": "【发生】传DeepSeek接近锁定至少800亿元融资"
+    },
+    {
+     "date": "2026-10-22",
+     "label": "【落地】多家外媒确认完成约1000亿元融资，宁德时代、腾讯为主要投资方"
+    }
+   ],
+   "watch": [],
+   "notes": "中国AI史上最大私募融资之一：募资由500亿增至约1000亿，投前估值5000亿；联想系、完美世界、中芯聚源等产业资本入局；并筹备科创板上市。"
+  }
+ },
+ {
+  "id": 87,
+  "is_event": true,
+  "event": {
+   "key": "国常会-建设生育友好型社会-20261023",
+   "name": "国务院常务会议：加快建设生育友好型社会，优化面向家庭的财税社保住房支持",
+   "category": "政策法规",
+   "tags": [
+    "政策法规"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 900.0,
+   "amount": "直接金额未披露；可估算口径：中央财政育儿补贴补助资金约900亿元/年（2025年已实施）",
+   "sector": "人口/生育支持",
+   "sources": [
+    {
+     "name": "人民日报",
+     "org": "新华社",
+     "url": "http://data.people.com.cn/rmrb/20261024/1/8f0d72f3679d4243ac8af2c01257d0dc",
+     "role": "info"
+    },
+    {
+     "name": "中国政府网·政策解读",
+     "org": "中国政府网",
+     "url": "https://www.gov.cn/zhengce/202507/content_7034595.htm",
+     "role": "ref"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】李强主持国常会，研究人口发展工作"
+    }
+   ],
+   "watch": [],
+   "notes": "政策方向：持续完善婚嫁、生育、养育、教育政策，优化财税、社保、住房支持举措，努力稳定新出生人口规模；金额按育儿补贴中央财政约900亿/年估算。"
+  }
+ },
+ {
+  "id": 247,
+  "is_event": true,
+  "event": {
+   "key": "财政部-提前下达2027年新增地方债限额-20261023",
+   "name": "财政部：抓紧做好提前下达2027年部分新增地方政府债务限额工作",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "专项债"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "待落地",
+   "amount_yi": 31200.0,
+   "amount": "上限约3.12万亿元（2026年新增限额5.2万亿元的60%以内）",
+   "sector": "财政/地方政府债务",
+   "sources": [
+    {
+     "name": "第一财经",
+     "org": "第一财经",
+     "url": "http://m.toutiao.com/group/7699775985130029596/",
+     "role": "info"
+    },
+    {
+     "name": "新华网",
+     "org": "新华网",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】财政部发布会宣布抓紧提前下达2027年部分新增限额"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2027-01-01",
+     "label": "【计划】2027年1月尽早启动债券发行"
+    }
+   ],
+   "notes": "按全国人大授权，提前下达额度不超过当年新增限额的60%；2026年限额5.2万亿→提前下达上限3.12万亿；确保明年1月尽早发行，支持扩大有效投资。"
+  }
+ },
+ {
+  "id": 65,
+  "is_event": true,
+  "event": {
+   "key": "外汇局-跨境投融资便利化一揽子政策-20261023",
+   "name": "外汇局征求意见：提升直接投资便利化水平，扩大跨境融资高水平开放",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "跨境资金"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "机制性政策，直接金额不可量化；科创/专精特新中小企业跨境融资便利额度1000万~2000万美元/家",
+   "sector": "外汇/跨境投融资",
+   "sources": [
+    {
+     "name": "国家外汇管理局",
+     "org": "国家外汇管理局",
+     "url": "https://www.safe.gov.cn/internet_app/search?q=外汇",
+     "role": "ref"
+    },
+    {
+     "name": "中国新闻网",
+     "org": "中国新闻网",
+     "url": "http://m.chinanews.com/wap/detail/chs/zw/10661175.shtml",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-17",
+     "label": "【前序】外汇局预告推出一揽子跨境投融资便利化政策"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【发生】外汇局就具体措施征求意见"
+    }
+   ],
+   "watch": [],
+   "notes": "简化资本项目结汇支付、简化走出去企业资金汇出审核；拓展跨境融资便利化适用主体、全国推广绿色外债试点；涉及全国跨境企业。"
+  }
+ },
+ {
+  "id": 162,
+  "is_event": true,
+  "event": {
+   "key": "证监会-私募投资母基金管理规定征求意见-20261023",
+   "name": "证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "产业基金"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "涉及私募母基金行业（存量认缴规模约3万亿~4万亿元，影响长线资金入市通道）",
+   "sector": "私募基金/资本市场",
+   "sources": [
+    {
+     "name": "中国证监会",
+     "org": "中国证监会",
+     "url": "http://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
+     "role": "ref"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniwffen5078521.shtml",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】证监会公开征求意见，明确母基金豁免计入一层投资层级"
+    }
+   ],
+   "watch": [],
+   "notes": "六大核心条款：母基金豁免一层投资层级；鼓励社保、养老、年金、保险、QFII及国家级政府投资基金出资；明确分散投资与运作管理要求。"
+  }
+ },
+ {
+  "id": 160,
+  "is_event": true,
+  "event": {
+   "key": "证监会-私募投资母基金管理规定征求意见-20261023",
+   "name": "证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+   "category": "政策法规",
+   "tags": [
+    "政策法规",
+    "产业基金"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "涉及私募母基金行业（存量认缴规模约3万亿~4万亿元，影响长线资金入市通道）",
+   "sector": "私募基金/资本市场",
+   "sources": [
+    {
+     "name": "中国证监会",
+     "org": "中国证监会",
+     "url": "http://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
+     "role": "ref"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/roll/2026-10-23/doc-iniwffen5078521.shtml",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】证监会公开征求意见，明确母基金豁免计入一层投资层级"
+    }
+   ],
+   "watch": [],
+   "notes": "六大核心条款：母基金豁免一层投资层级；鼓励社保、养老、年金、保险、QFII及国家级政府投资基金出资；明确分散投资与运作管理要求。"
+  }
+ },
+ {
+  "id": 192,
+  "is_event": true,
+  "event": {
+   "key": "深圳-腾飞贷科技企业获贷超300亿-20261023",
+   "name": "深圳“腾飞贷”助力近1.2万家科技企业获贷超300亿元",
+   "category": "行业事件",
+   "tags": [
+    "行业事件",
+    "贷款"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": "2026-10-23",
+   "status": "已落地",
+   "amount_yi": 300.0,
+   "amount": "超300亿元（累计获贷规模）",
+   "sector": "科技金融/深圳",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【落地】近1.2万家科技企业累计获贷超300亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "深圳科技企业专属信贷产品，反映地方科技金融支持力度；属行业资金动向。"
+  }
+ },
+ {
+  "id": 123,
+  "is_event": true,
+  "event": {
+   "key": "晶存科技-港股IPO备案-20261023",
+   "name": "晶存科技港股IPO获中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "募资规模待上市定价确认（备案阶段）",
+   "sector": "存储芯片/晶存科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】港股IPO获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "存储芯片公司港股上市关键阶段（证监会备案）；募资额待发行确认。"
+  }
+ },
+ {
+  "id": 141,
+  "is_event": true,
+  "event": {
+   "key": "昆仑新能源-港股IPO备案-20261023",
+   "name": "昆仑新能源港股IPO获得中国证监会备案",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "募资规模待上市定价确认（备案阶段）",
+   "sector": "新能源/昆仑新能源",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "【发生】港股IPO获中国证监会备案"
+    }
+   ],
+   "watch": [],
+   "notes": "新能源公司港股上市关键阶段（证监会备案）；募资额待发行确认。"
+  }
+ },
+ {
+  "id": 754,
+  "is_event": true,
+  "event": {
+   "key": "长电科技-2026投资计划调增至182亿-20261022",
+   "name": "长电科技：拟调增2026年投资计划至182亿元",
+   "category": "公司大事件",
+   "tags": [
+    "大额投资"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-22",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 182.0,
+   "amount": "182亿元（2026年投资计划）",
+   "sector": "半导体封测/长电科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "【发生】调增2026年投资计划至182亿元"
+    }
+   ],
+   "watch": [],
+   "notes": "封测龙头扩产信号，投资额≥100亿属百亿级资金事件（半导体行业产能扩张）。"
+  }
+ },
+ {
+  "id": 661,
+  "is_event": true,
+  "event": {
+   "key": "日本制铁-美钢蒙谷工厂30亿美元投资-20261022",
+   "name": "日本制铁拟30亿美元升级美国钢铁蒙谷工厂（220万吨→350万吨产能）",
+   "category": "行业事件",
+   "tags": [
+    "大额投资",
+    "行业事件"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-22",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 216.0,
+   "amount": "约30亿美元（≈216亿元人民币）；属美钢110亿美元投资计划一部分",
+   "sector": "钢铁/全球产能",
+   "sources": [
+    {
+     "name": "日本制铁",
+     "org": "Nippon Steel",
+     "url": "https://www.nipponsteel.com/en/newsroom/news/2026/20261023_100.html",
+     "role": "ref"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-10-23/doc-iniweiyt5663613.shtml",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "【发生】消息传出拟投30亿美元升级美钢蒙谷工厂"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【确认】美国钢铁董事会批准近30亿美元热轧产线投资"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2029-12-31",
+     "label": "【计划】2029年末投产（产能220→350万吨）"
+    }
+   ],
+   "notes": "日铁2028年前在美合计110亿美元投资规划的一部分；替换埃德加·汤姆森老旧产线，配备最新热轧技术。"
+  }
+ },
+ {
+  "id": 651,
+  "is_event": true,
+  "event": {
+   "key": "日本制铁-美钢蒙谷工厂30亿美元投资-20261022",
+   "name": "日本制铁拟30亿美元升级美国钢铁蒙谷工厂（220万吨→350万吨产能）",
+   "category": "行业事件",
+   "tags": [
+    "大额投资",
+    "行业事件"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-22",
+   "land_date": null,
+   "status": "关注中",
+   "amount_yi": 216.0,
+   "amount": "约30亿美元（≈216亿元人民币）；属美钢110亿美元投资计划一部分",
+   "sector": "钢铁/全球产能",
+   "sources": [
+    {
+     "name": "日本制铁",
+     "org": "Nippon Steel",
+     "url": "https://www.nipponsteel.com/en/newsroom/news/2026/20261023_100.html",
+     "role": "ref"
+    },
+    {
+     "name": "新浪财经",
+     "org": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/estate/integration/2026-10-23/doc-iniweiyt5663613.shtml",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "label": "【发生】消息传出拟投30亿美元升级美钢蒙谷工厂"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【确认】美国钢铁董事会批准近30亿美元热轧产线投资"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2029-12-31",
+     "label": "【计划】2029年末投产（产能220→350万吨）"
+    }
+   ],
+   "notes": "日铁2028年前在美合计110亿美元投资规划的一部分；替换埃德加·汤姆森老旧产线，配备最新热轧技术。"
+  }
+ },
+ {
+  "id": 225,
+  "is_event": true,
+  "event": {
+   "key": "羲禾科技-科创板IPO注册生效-20261023",
+   "name": "证监会同意上海羲禾科技首次公开发行并在科创板上市的注册申请",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "募资规模待发行定价确认（注册生效）",
+   "sector": "半导体/羲禾科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-14",
+     "label": "【前序】科创板IPO获上市委会议通过"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【发生】科创板IPO注册申请获证监会同意"
+    }
+   ],
+   "watch": [],
+   "notes": "科创板上市关键阶段（注册生效，距发行一步）；募资额待确认。"
+  }
+ },
+ {
+  "id": 4727,
+  "is_event": true,
+  "event": {
+   "key": "羲禾科技-科创板IPO注册生效-20261023",
+   "name": "证监会同意上海羲禾科技首次公开发行并在科创板上市的注册申请",
+   "category": "公司大事件",
+   "tags": [
+    "IPO上市"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": null,
+   "status": "待落地",
+   "amount_yi": null,
+   "amount": "募资规模待发行定价确认（注册生效）",
+   "sector": "半导体/羲禾科技",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-14",
+     "label": "【前序】科创板IPO获上市委会议通过"
+    },
+    {
+     "date": "2026-10-23",
+     "label": "【发生】科创板IPO注册申请获证监会同意"
+    }
+   ],
+   "watch": [],
+   "notes": "科创板上市关键阶段（注册生效，距发行一步）；募资额待确认。"
+  }
+ }
+]

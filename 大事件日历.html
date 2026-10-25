@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A股大事件日历</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --ink:#1a1f2e; --muted:#7a8194; --line:#e4e7ee;
+    --policy:#6f4bd8; --company:#e07a1f; --industry:#1f9e77; --penalty:#d5444a;
+    --signal:#e0552f; --land:#2472c8; --plan:#5b8b9e; --accent:#1a1f2e;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:"Microsoft YaHei","PingFang SC",sans-serif; background:var(--bg); color:var(--ink); font-size:14px;}
+  header{display:flex; align-items:center; justify-content:space-between; padding:14px 24px; background:var(--card); border-bottom:1px solid var(--line); flex-wrap:wrap; gap:10px;}
+  header h1{font-size:18px; letter-spacing:1px;}
+  header .sub{color:var(--muted); font-size:12px; margin-top:2px;}
+  .bar{display:flex; gap:10px;}
+  button{font-family:inherit; cursor:pointer; border:1px solid var(--line); background:#fff; border-radius:6px; padding:6px 12px; font-size:13px;}
+  button:hover{border-color:#b9c0cf;}
+  button.primary{background:var(--accent); color:#fff; border-color:var(--accent);}
+  /* 筛选区 */
+  .filters{display:flex; gap:16px; align-items:center; padding:12px 24px; flex-wrap:wrap; background:var(--card); border-bottom:1px solid var(--line);}
+  .chip{padding:4px 12px; border-radius:20px; border:1px solid var(--line); background:#fff; cursor:pointer; font-size:12px; user-select:none;}
+  .chip.active{background:var(--accent); color:#fff; border-color:var(--accent);}
+  .chip .dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; vertical-align:1px;}
+  .filters input[type=text]{padding:6px 10px; border:1px solid var(--line); border-radius:6px; width:180px; font-family:inherit;}
+  .filters select{padding:6px 8px; border:1px solid var(--line); border-radius:6px; font-family:inherit; font-size:13px;}
+  /* 日历 */
+  main{padding:20px 24px;}
+  .cal-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;}
+  .cal-head .month{font-size:20px; font-weight:600;}
+  .cal-head .nav{display:flex; gap:8px; align-items:center;}
+  .cal-head .nav .ym{min-width:110px; text-align:center; font-size:14px;}
+  .grid{display:grid; grid-template-columns:repeat(7,1fr); gap:6px;}
+  .dow{text-align:center; color:var(--muted); font-size:12px; padding:6px 0; font-weight:600;}
+  .cell{background:var(--card); border:1px solid var(--line); border-radius:8px; min-height:120px; padding:6px; overflow:hidden; position:relative;}
+  .cell.today{border-color:#e0552f; box-shadow:0 0 0 2px rgba(224,85,47,.15);}
+  .cell.other{opacity:.45;}
+  .cell .d{font-size:12px; color:var(--muted); font-weight:600; margin-bottom:3px;}
+  .cell.festival .d{color:#d5444a;}
+  .ev{display:flex; align-items:center; gap:5px; padding:2px 5px 2px 4px; margin-bottom:3px; border-radius:5px; font-size:11px; line-height:1.35; cursor:pointer; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; border-left:3px solid transparent;}
+  .ev.cand{border-left-style:dashed; background:#fbf8f0;}
+  .ev.cand .k{background:#98a0b3;}
+  .tag.cand{background:#98a0b3;}
+  .ev:hover{filter:brightness(.95);}
+  .ev.sig{background:rgba(224,85,47,.10);}
+  .ev.land{background:rgba(36,114,200,.10);}
+  .ev.watch{background:rgba(111,75,216,.10);}
+  .ev.plan{background:rgba(91,139,158,.12); border-left-style:dashed;}
+  .ev .k{flex:none; font-size:9px; font-weight:700; color:#fff; border-radius:3px; padding:0 3px; line-height:1.6;}
+  .ev.sig .k{background:var(--signal);}
+  .ev.land .k{background:var(--land);}
+  .ev.watch .k{background:var(--policy);}
+  .ev.plan .k{background:var(--plan);}
+  .star{font-size:10px; letter-spacing:-1px; color:#c9a227;}
+  .ev .dup{margin-left:auto; flex:none; font-size:8px; color:#fff; background:#8e96ab; border-radius:6px; padding:0 4px; align-self:center;}
+  /* 图例：单行紧凑 */
+  .legend{display:flex; gap:14px; align-items:center; padding:5px 24px; font-size:11px; color:var(--muted); white-space:nowrap; overflow:hidden;}
+  .legend i{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:3px; flex:none;}
+  /* 列表视图 */
+  .list-item{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin-bottom:10px; display:flex; gap:14px; align-items:flex-start; cursor:pointer;}
+  .list-item:hover{border-color:#b9c0cf;}
+  .list-item .date{flex:none; width:88px; text-align:center;}
+  .list-item .date .big{font-size:18px; font-weight:700;}
+  .list-item .date .lbl{font-size:11px; margin-top:2px;}
+  .list-item .body{flex:1; min-width:0;}
+  .list-item .title{font-weight:600; font-size:14px;}
+  .list-item .meta{color:var(--muted); font-size:12px; margin-top:4px;}
+  .tag{display:inline-block; padding:1px 8px; border-radius:10px; font-size:11px; color:#fff; margin-right:6px;}
+  /* 弹窗 */
+  .mask{position:fixed; inset:0; background:rgba(20,24,34,.45); display:none; align-items:flex-start; justify-content:center; padding:40px 16px; z-index:50; overflow:auto;}
+  .mask.open{display:flex;}
+  .modal{background:var(--card); border-radius:12px; width:680px; max-width:100%; padding:24px 28px; max-height:calc(100vh - 80px); overflow:auto;}
+  .modal h2{font-size:17px; margin-bottom:4px; word-break:break-word; overflow-wrap:anywhere;}
+  .modal .close{float:right; border:none; font-size:20px; background:none; color:var(--muted);}
+  .kv{display:grid; grid-template-columns:88px 1fr; gap:6px 12px; font-size:13px; margin-top:14px;}
+  .kv dt{color:var(--muted);}
+  .kv dd{word-break:break-word; overflow-wrap:anywhere;}
+  .kv dd a{color:var(--land); word-break:break-all;}
+  .kv dd .wd{display:flex; gap:8px; padding:2px 0;}
+  .kv dd .wd .wdate{flex:none; color:var(--policy); font-weight:600;}
+  .kv dd .note{white-space:pre-wrap; word-break:break-word;}
+  .tl{margin-top:14px; border-left:2px solid var(--line); padding-left:16px;}
+  .tl .node{position:relative; padding:4px 0 10px;}
+  .tl .node::before{content:""; position:absolute; left:-21.5px; top:9px; width:9px; height:9px; border-radius:50%; background:var(--signal); outline:3px solid #fff;}
+  .tl .node.land::before{background:var(--land);}
+  .tl .dt{font-weight:600; font-size:12px;}
+  .tl .tx{color:var(--muted); font-size:12.5px;}
+.tl-time{color:var(--signal); font-weight:700; margin-left:6px; font-size:12px;}
+  /* 表单 */
+  .form .kv dt{padding-top:8px;}
+  .form input,.form select,.form textarea{width:100%; padding:6px 8px; border:1px solid var(--line); border-radius:6px; font-family:inherit; font-size:13px;}
+  .form textarea{min-height:60px; resize:vertical;}
+  .form .hint{color:var(--muted); font-size:11px;}
+  .form-actions{margin-top:16px; display:flex; justify-content:flex-end; gap:10px;}
+  .empty{padding:60px 0; text-align:center; color:var(--muted);}
+  /* 小巧思 */
+  .pill{display:inline-flex; align-items:center; gap:6px; padding:6px 12px; border-radius:20px; background:linear-gradient(120deg,#fff3ec,#eef4fd); border:1px solid #ead7cf; cursor:pointer; font-size:12px; line-height:1.4; visibility:hidden;}
+  .pill b{color:var(--signal);}
+  .pill .pn{color:var(--muted); max-width:180px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  #hoverCard{position:fixed; z-index:60; background:#fff; border:1px solid var(--line); border-radius:10px; box-shadow:0 8px 24px rgba(20,24,34,.14); padding:12px 14px; width:300px; display:none; font-size:12px; line-height:1.6; pointer-events:none;}
+  .hc-t{font-weight:600; margin-bottom:2px;}
+  .cd{flex:none; font-size:9px; background:rgba(213,68,74,.12); color:#d5444a; border-radius:3px; padding:0 3px; font-weight:600; margin-left:auto;}
+  .cd.dim{background:#eef0f5; color:var(--muted);}
+  .cell.wknd{background:#fafbfd;}
+  kbd{background:#eef0f5; border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:0 5px; font-size:11px; font-family:inherit;}
+  #statLine b{color:var(--ink);}
+  /* 金额量杯：方框是容器，金额是水位（对数刻度：10亿≈33%，100亿≈50%，1000亿≈67%） */
+  .tankwrap{display:inline-flex; align-items:flex-end; gap:6px; margin-right:10px;}
+  .tank{position:relative; width:30px; height:60px; border:1.5px solid #9aa3b6; border-radius:4px 4px 5px 5px; overflow:hidden; background:#fdfdfe; display:inline-block;}
+  .tank.blank{background:repeating-linear-gradient(45deg,#f2f4f8 0 6px,#e9edf4 6px 12px);}
+  .fill{position:absolute; left:0; right:0; bottom:0; background:linear-gradient(180deg, rgba(255,255,255,.4) 0, rgba(255,255,255,0) 26%), var(--c); opacity:.82;}
+  .fill.top{top:0;}
+  .tickline{position:absolute; left:0; right:0; height:0; border-top:1px dashed #c3c9d6;}
+  .tickline.v{top:0; bottom:0; left:auto; right:auto; width:0; border-left:1px dashed #c3c9d6;}
+  .vscale{position:relative; height:60px; width:42px; font-size:9px; color:var(--muted); line-height:1;}
+  .vscale i{position:absolute; right:0; font-style:normal; transform:translateY(50%);}
+  .jug{position:relative; width:64px; height:11px; border:1px solid #9aa3b6; border-radius:3px; overflow:hidden; background:#fdfdfe; display:inline-block; vertical-align:middle; margin-right:6px;}
+  .jug.blank{background:repeating-linear-gradient(45deg,#f2f4f8 0 5px,#e9edf4 5px 10px);}
+  /* 日历格子水位：格子是容器，水位=当天最大金额（对数刻度） */
+  .cell .d, .cell .ev, .cell .cell-more{position:relative; z-index:2;}
+  .cellwater{position:absolute; left:0; right:0; bottom:0; z-index:1; border-radius:0 0 7px 7px;}
+  /* 判读进度面板：LLM语义判读管道进度 */
+  .progress-panel{display:flex; gap:20px; align-items:center; padding:10px 24px; background:var(--card); border-bottom:1px solid var(--line); font-size:12px; color:var(--muted); flex-wrap:wrap; min-height:48px;}
+  .progress-panel b{color:var(--ink); font-weight:700;}
+  .progress-panel .seg{display:inline-flex; align-items:center; gap:6px;}
+  .progress-panel .pbar{flex:1; min-width:160px; height:9px; border-radius:5px; background:#eef0f5; overflow:hidden; position:relative;}
+  .progress-panel .pbar i{position:absolute; top:0; bottom:0; left:0; border-radius:5px;}
+  .progress-panel .pbar .done{background:linear-gradient(90deg,#2472c8,#5b8def);}
+  .progress-panel .pbar .drop{background:#c6cfdd;}
+  .pdays{display:flex; gap:4px; align-items:flex-end; height:28px; margin-left:auto;}
+  .pdays .pday{width:7px; border-radius:2px 2px 0 0; background:#e3e7f0; position:relative; transition:background .15s;}
+  .pdays .pday:hover{background:#2472c8;}
+  .pdays .pday i{position:absolute; left:50%; bottom:calc(100% + 3px); transform:translateX(-50%); font-style:normal; font-size:9px; color:var(--ink); background:#fff; border:1px solid var(--line); border-radius:3px; padding:0 4px; white-space:nowrap; display:none; z-index:5;}
+  .pdays .pday:hover i{display:block;}
+  .pdays .plbl{font-size:9px; color:var(--muted); margin-left:2px; white-space:nowrap;}
+  .tagchips{display:inline-flex; gap:6px; flex-wrap:wrap;}
+  .tagchip{padding:2px 10px; border-radius:12px; border:1px solid var(--line); background:#fff; cursor:pointer; font-size:11px; color:var(--muted); user-select:none;}
+  .tagchip.active{background:#5b8def; color:#fff; border-color:#5b8def;}
+  .tagchip.more{background:#f0f2f7; color:var(--ink); border-style:dashed;}
+  .tagmore-wrap{display:inline-flex; gap:6px; flex-wrap:wrap;}
+</style>
+
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>📈 A股大事件日历</h1>
+    <div class="sub">🔴 发生日 = 消息/事件首次公开　🔵 落地日 = 政策施行/事项落地（官方确认）　⚠ 关注日 = 截止/关键节点　⇢ 计划 = 自查观察点（引擎按发生日推算，非官方）　星级 = 金额×影响面综合评级</div>
+  </div>
+  <div class="bar">
+    <span class="pill" id="upcomingPill"></span>
+    <button onclick="pullRadar()">⚡ 断点更新</button>
+    <button onclick="toggleView()" id="viewBtn">切换为时间线视图</button>
+    <button onclick="openAdd()">＋ 添加事件</button>
+    <button onclick="exportJSON()">导出数据</button>
+    <button onclick="document.getElementById('importFile').click()">导入数据</button>
+    <button onclick="resetData()">重置</button>
+    <input type="file" id="importFile" accept=".json" style="display:none" onchange="importJSON(this)">
+  </div>
+</header>
+
+<div class="filters">
+  <span class="chip active" id="recentChip" onclick="toggleRecent()" title="默认只显示最近6个月内仍有动态的事件，点击切换查看全部">⏳ 近6个月</span>
+  <span class="chip active" id="autoChip" onclick="toggleAuto()" title="开启后：候选齐备双源（信息+外部）且有已知落地日时，自动转正进正式日历，不用逐条点">⚡ 自动转正</span>
+  <span style="font-size:12px;color:var(--muted)">| 类别：</span>
+  <span id="catChips"></span>
+  <span style="font-size:12px;color:var(--muted)">| 等级：</span>
+  <span id="lvChips"></span>
+  <span style="font-size:12px;color:var(--muted)">| 标签：</span>
+  <span class="tagchips" id="tagChips"></span>
+  <span style="font-size:12px;color:var(--muted)">| 状态：</span>
+  <select id="statusSel" onchange="render()">
+    <option value="">全部</option><option>待落地</option><option>已落地</option><option>关注中</option><option>已失效/辟谣</option>
+  </select>
+  <input type="text" id="searchBox" placeholder="🔍 搜索事件/板块/个股..." oninput="render()">
+</div>
+
+<div class="legend" id="legend"></div>
+<div class="legend" id="statLine" style="padding-top:0"></div>
+<div class="progress-panel" id="progressPanel" style="display:none"></div>
+
+<main id="main"></main>
+<div id="hoverCard"></div>
+
+<!-- 详情弹窗 -->
+<div class="mask" id="detailMask" onclick="if(event.target===this)closeModal('detailMask')">
+  <div class="modal">
+    <button class="close" onclick="closeModal('detailMask')">✕</button>
+    <div id="detailBody"></div>
+  </div>
+</div>
+
+<!-- 当天事件弹窗 -->
+<div class="mask" id="dayMask" onclick="if(event.target===this)closeModal('dayMask')">
+  <div class="modal">
+    <button class="close" onclick="closeModal('dayMask')">✕</button>
+    <div id="dayBody"></div>
+  </div>
+</div>
+
+<!-- 添加事件弹窗 -->
+<div class="mask" id="addMask" onclick="if(event.target===this)closeModal('addMask')">
+  <div class="modal form">
+    <button class="close" onclick="closeModal('addMask')">✕</button>
+    <h2>添加大事件</h2>
+    <dl class="kv">
+      <dt>事件名称</dt><dd><input id="f_name" placeholder="例如：离岸信托个税新规"></dd>
+      <dt>类别</dt><dd><select id="f_cat"><option>政策法规</option><option>公司大事件</option><option>行业事件</option><option>监管处罚</option></select></dd>
+      <dt>发生日期</dt><dd><input type="date" id="f_sig"> <span class="hint">消息首次公开/事件首见报道日</span></dd>
+      <dt>落地日期</dt><dd><input type="date" id="f_land"> <span class="hint">政策施行日/事项落地日，未落地留空</span></dd>
+      <dt>状态</dt><dd><select id="f_status"><option>待落地</option><option>已落地</option><option>关注中</option><option>已失效/辟谣</option></select></dd>
+      <dt>等级 ★</dt><dd><select id="f_level"><option value="1">★ <10亿</option><option value="2">★★ 10亿~100亿</option><option value="3" selected>★★★ 100亿~1000亿</option><option value="4">★★★★ >1000亿/全局性</option></select></dd>
+      <dt>涉及金额</dt><dd><input id="f_amount" placeholder="例如：120亿 / 9.8亿美元 / 不适用（可自动换算并画水位）"></dd>
+      <dt>影响板块/个股</dt><dd><input id="f_sector" placeholder="例如：信托概念、券商"></dd>
+      <dt>信息源头</dt><dd><input id="f_src" placeholder="权威机构+文件名，例如：财政部、税务总局第21号公告"></dd>
+      <dt>源头链接</dt><dd><input id="f_url" placeholder="https:// 官网原文链接"></dd>
+      <dt>时间线<br><span class="hint">每行一条</span></dt>
+      <dd><textarea id="f_tl" placeholder="格式：2026-07-24 | 公告发布，自发布之日起施行&#10;格式：2026-01-01 | 申报义务起点"></textarea></dd>
+      <dt>关注日<br><span class="hint">每行一条，会单独标注在日历上</span></dt>
+      <dd><textarea id="f_watch" placeholder="格式：2026-10-22 | 存量申报90天窗口截止"></textarea></dd>
+      <dt>备注</dt><dd><textarea id="f_note"></textarea></dd>
+    </dl>
+    <div class="form-actions">
+      <button onclick="closeModal('addMask')">取消</button>
+      <button class="primary" onclick="saveEvent()">保存</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ===================== 数据区：直接编辑此数组即可 ===================== */
+const SEED = [];  // 全部由事件雷达(📡)与人工添加补充
+/* ===================== 数据区结束 ===================== */
+
+const CATS = { "政策法规":"#6f4bd8", "公司大事件":"#e07a1f", "行业事件":"#1f9e77", "监管处罚":"#d5444a" };
+const LVS  = { 1:"★", 2:"★★", 3:"★★★", 4:"★★★★" };
+const LS   = { 1:"<10亿", 2:"10亿~100亿", 3:"100亿~1000亿", 4:">1000亿/全局性" };
+
+let events = load();
+let cands = loadCands();
+/* 自愈：清理历史遗留重复（同 id 重复条目、候选与正式事件同 id 的残留），防止"重复加载" */
+(function selfHeal(){
+  const seen = new Set();
+  const n0 = events.length;
+  events = events.filter(e => { if (!e.id || seen.has(e.id)) return false; seen.add(e.id); return true; });
+  const ids = new Set(events.map(e => e.id));
+  const c0 = cands.length;
+  cands = cands.filter(c => !ids.has(c.id));
+  if (events.length !== n0) localStorage.setItem("aq_events", JSON.stringify(events));
+  if (cands.length !== c0) localStorage.setItem("aq_cands", JSON.stringify(cands));
+})();
+let view = "cal";
+let cur = new Date();
+let catFilter = new Set(), lvFilter = new Set(["2","3","4"]);   // 默认只显示 ≥10亿（2/3/4星），1星(<10亿)默认隐藏
+let tagFilter = new Set();
+let recentOnly = true;
+let HOVER = [];
+let PROG = null;    // 判读进度：/api/progress
+
+/* ===== 筛选状态持久化：等级/类别/标签/近6个月/状态/搜索词/视图，刷新后保持 ===== */
+const FILTER_KEY = "aq_filters";
+function loadFilters(){
+  try {
+    const s = localStorage.getItem(FILTER_KEY); if (!s) return;
+    const f = JSON.parse(s);
+    if (Array.isArray(f.lv)) lvFilter = new Set(f.lv);
+    if (Array.isArray(f.cat)) catFilter = new Set(f.cat);
+    if (Array.isArray(f.tag)) tagFilter = new Set(f.tag);
+    if (typeof f.recentOnly === "boolean") recentOnly = f.recentOnly;
+    if (typeof f.status === "string") document.getElementById("statusSel").value = f.status;
+    if (typeof f.search === "string") document.getElementById("searchBox").value = f.search;
+    if (f.view === "cal" || f.view === "list") view = f.view;
+  } catch(e){}
+}
+function saveFilters(){
+  try {
+    localStorage.setItem(FILTER_KEY, JSON.stringify({
+      lv: [...lvFilter], cat: [...catFilter], tag: [...tagFilter],
+      recentOnly: recentOnly,
+      status: document.getElementById("statusSel").value,
+      search: document.getElementById("searchBox").value,
+      view: view
+    }));
+  } catch(e){}
+}
+
+function loadCands(){
+  try { const s = localStorage.getItem("aq_cands"); return s ? JSON.parse(s) : []; } catch(e){ return []; }
+}
+function saveCands(){ localStorage.setItem("aq_cands", JSON.stringify(cands)); }
+
+/* ===================== 数据权威迁移：后端 data.json 是唯一权威，localStorage 仅作离线缓存 ===================== */
+const API = "http://127.0.0.1:7610";
+async function apiSnapshot(){
+  const r = await fetch(API + "/api/snapshot");
+  return r.json();
+}
+async function apiMutate(payload){
+  const r = await fetch(API + "/api/mutate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+  return r.json();
+}
+function cacheLocal(){
+  try {
+    localStorage.setItem("aq_events", JSON.stringify(events));
+    localStorage.setItem("aq_cands", JSON.stringify(cands));
+    localStorage.setItem("aq_auto", AUTO ? "on" : "off");
+  } catch(e){}
+}
+function applySnapshot(d){
+  if (!d || !Array.isArray(d.events)) return;
+  events = d.events;
+  cands = Array.isArray(d.cands) ? d.cands : [];
+  if (typeof d.auto === "boolean") AUTO = d.auto;
+  if (d.progress) PROG = d.progress;
+  cacheLocal();
+  render(); renderProgress();
+}
+async function persist(payload){
+  payload = Object.assign({ events: events, cands: cands, auto: AUTO }, payload || {});
+  try {
+    const info = await apiMutate(payload);
+    if (info && info.snapshot) applySnapshot(info.snapshot);
+    return info;
+  } catch(err) {
+    console.warn("持久化失败（后端未连接？），数据暂存本地缓存：", err);
+    cacheLocal();
+    return null;
+  }
+}
+async function fetchSnapshot(){
+  try {
+    const d = await apiSnapshot();
+    applySnapshot(d);
+  } catch(err) {
+    console.warn("拉取 data.json 快照失败（后端未连接？）：", err);
+  }
+  fetchProgress();
+}
+
+/* ---- 减少操作：证据链齐备的候选自动转正（信息+外部双源 且 落地日已知） ---- */
+let AUTO = localStorage.getItem("aq_auto") !== "off";      // 默认开
+const roleOf = s => s.role || (/财联社/.test(s.org || "") ? "info" : "ext");
+function chainOK(c){
+  const ss = c.sources || [];
+  return !!(c.landDate) && ss.some(s => roleOf(s) === "info") && ss.some(s => roleOf(s) === "ext");
+}
+function autoShift(){
+  if (!AUTO) return 0;
+  let n = 0;
+  for (let i = cands.length - 1; i >= 0; i--) {
+    const c = cands[i];
+    if (c.key && events.some(e => e.key === c.key)) {   // 同key事件已在正式账 → 防重复
+      cands.splice(i, 1); continue;
+    }
+    if (!chainOK(c) && c.auto !== true) continue;       // auto=引擎事件级命中，免点击直接转正
+    const e = { ...c }; delete e.cand;
+    if (e.landDate && daysLeft(e.landDate) > 0) e.status = "待落地";
+    events.push(e);
+    cands.splice(i, 1);
+    n++;
+  }
+  if (n) { cacheLocal(); }
+  return n;
+}
+
+async function pullRadar(silent){
+  try {
+    const info = await persist({ action: "scan" });
+    if (!info || !info.snapshot) throw new Error("未收到数据快照");
+    events = info.snapshot.events;
+    cands = Array.isArray(info.snapshot.cands) ? info.snapshot.cands : [];
+    if (info.snapshot.progress) PROG = info.snapshot.progress;
+    if (autoShift()) persist();   // 自动转正后再落盘一次
+    render(); fetchProgress();
+    if (silent) return;
+    const p = info.snapshot.progress || {};
+    const pend = (p.pending != null) ? p.pending : ((p.total || 0) - (p.judged || 0) - (p.dropped || 0) - (p.filtered || 0));
+    const addObj = info.added || {};
+    const fetched = (addObj.cls_live || 0) + (addObj.cls_hist || 0);
+    const msg = "⚡ 断点更新完成（仅处理断点之后的新数据，无需从头开始）\n"
+      + "· 本次抓取新增电报：" + fetched + " 条（实时通道 + 历史存档增量）\n"
+      + "· 日历事件：" + (info.fresh || 0) + " 条（本次新增 " + (info.newEvents || 0) + " 条，候选 " + (info.newCands || 0) + "）\n"
+      + "· 当前待判硬候选：" + pend + " 条（另有 " + (p.filtered || 0) + " 条已按关键词预筛过滤，无需判读）";
+    if (pend > 0) {
+      alert(msg + "\n\n有新增电报待判读 → 对我说「继续判读」，我会从断点继续（只判 pending，不重判已处理过的）；判完入库后再点本按钮即可同步进日历。");
+    } else {
+      alert(msg);
+    }
+  } catch(err) {
+    if (silent) return;
+    alert("雷达服务未启动。\n请双击「事件雷达\\启动雷达.bat」启动后台服务，再点本按钮。\n（" + (err.message || err) + "）");
+  }
+}
+function confirmEvent(id){
+  const i = cands.findIndex(c => c.id === id); if (i < 0) return;
+  const e = { ...cands[i] }; delete e.cand;
+  if (e.landDate && daysLeft(e.landDate) > 0) e.status = "待落地";
+  events.push(e);
+  cands.splice(i, 1);
+  render(); persist();            // 原地更新，并落盘到后端 data.json
+}
+function dropEvent(id){
+  const i = cands.findIndex(c => c.id === id); if (i < 0) return;
+  cands.splice(i, 1); render(); persist();
+}
+
+function toggleAuto(){
+  AUTO = !AUTO;
+  document.getElementById("autoChip").classList.toggle("active", AUTO);
+  if (AUTO) autoShift();
+  render(); persist();
+}
+
+function toggleRecent(){
+  recentOnly = !recentOnly;
+  document.getElementById("recentChip").classList.toggle("active", recentOnly);
+  if (recentOnly) {
+    cur = new Date();   // 回到当下：日历跳回今天所在月份
+    view = "cal";
+  }
+  render();
+}
+
+function daysLeft(d){
+  const t = new Date(); t.setHours(0,0,0,0);
+  return Math.round((new Date(d + "T00:00:00") - t) / 864e5);
+}
+function cdBadge(btn, n){
+  if (n === null) return "";
+  if (n >= 0 && n <= 45) return `<span class="cd">剩${n}天</span>`;
+  if (n < 0 && (btn === "watch" || btn === "plan")) return '<span class="cd dim">已截止</span>';
+  return "";
+}
+
+/* ===== 金额量杯：把金额解析成"亿元"，映射为水位 ===== */
+function parseAmountYi(a){
+  if (!a) return null;
+  const s = String(a).replace(/,/g, "");   // 千分位逗号不影响解析（如"约4,121.0亿元"→4121亿，不再误判为121亿）
+  let best = null, m;
+  // ① 数字：120亿 / 9.8亿美元 / 3千万…
+  const re = /([\d.]+)\s*(万亿|亿|万|千)?(美元|元)?/g;
+  while ((m = re.exec(s))) {
+    let n = parseFloat(m[1]); if (isNaN(n) || n <= 0) continue;
+    const u = m[2] || "", cur = m[3] || "";
+    if (u === "万亿") n *= 1e4; else if (u === "亿") n *= 1;
+    else if (u === "万") n *= 1e-4; else if (u === "千") n *= 1e-5;
+    else if (!u && !cur) n /= 1e8;          // 纯数字默认是"元"
+    if (cur === "美元") n *= 7.2;            // 美元粗略折人民币
+    if (best === null || n > best) best = n; // 取最大口径（如"9.8亿美元（约70亿元）"→70）
+  }
+  // ② 纯文字量级："数百亿~千亿级 / 万亿级 / 数十亿" 等
+  let rest = s;
+  const specific = [["数万亿",50000],["数千亿",5000],["数百亿",500],["数十亿",50]];
+  const generic  = [["万亿",10000],["千亿",1000],["百亿",100],["十亿",10]];
+  let textHit = null;
+  for (const [t, v] of specific) {
+    while (rest.includes(t)) { textHit = Math.max(textHit ?? 0, v); rest = rest.split(t).join(" "); }
+  }
+  for (const [t, v] of generic) {
+    while (rest.includes(t)) { textHit = Math.max(textHit ?? 0, v); rest = rest.split(t).join(" "); }
+  }
+  if (textHit !== null && (best === null || textHit > best)) best = textHit;
+  return best;
+}
+function amountPct(e){
+  const n = parseAmountYi(e.amount);
+  if (n === null) return null;
+  return Math.max(5, Math.min(95, ((Math.log10(Math.max(n, 0.01)) + 1) / 6) * 100));
+}
+function tickHTML(v){
+  return `<i class="tickline" style="bottom:33%"></i><i class="tickline" style="bottom:50%"></i><i class="tickline" style="bottom:67%"></i>`;
+}
+function tankHTML(e){   // 详情弹窗：竖杯 + 刻度标签
+  const pct = amountPct(e), c = CATS[e.category] || "#9aa3b6";
+  const inner = pct === null
+    ? tickHTML("")
+    : `<i class="fill" style="height:${pct}%;--c:${c}"></i>` + tickHTML("");
+  return `<span class="tankwrap"><span class="tank ${pct===null?"blank":""}" title="${pct===null?"无金额/未量化":"约" + pct.toFixed(0) + "% 水位"}">${inner}</span>
+    <span class="vscale"><i style="bottom:0">0</i><i style="bottom:33%">10亿</i><i style="bottom:50%">100亿</i><i style="bottom:67%">1000亿</i></span></span>`;
+}
+function jugHTML(e){    // 列表/悬停卡：迷你横槽
+  const pct = amountPct(e), c = CATS[e.category] || "#9aa3b6";
+  if (pct === null) return '<span class="jug blank"></span>';
+  return `<span class="jug" title="约${pct.toFixed(0)}% 水位"><i class="fill top" style="width:${pct}%;--c:${c}"></i><i class="tickline v" style="left:33%"></i><i class="tickline v" style="left:50%"></i><i class="tickline v" style="left:67%"></i></span>`;
+}
+
+function load(){
+  const s = localStorage.getItem("aq_events");
+  if (s) { try { return JSON.parse(s); } catch(e){} }
+  return JSON.parse(JSON.stringify(SEED));
+}
+function save(){ localStorage.setItem("aq_events", JSON.stringify(events)); location.reload(); }
+function resetData(){ if (confirm("确定清空全部记录？（正式事件与雷达候选都将删除，只由新扫描补充）")) { localStorage.removeItem("aq_events"); localStorage.removeItem("aq_cands"); location.reload(); } }
+function exportJSON(){
+  const blob = new Blob([JSON.stringify(events, null, 2)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = "A股大事件日历数据.json"; a.click();
+}
+function importJSON(input){
+  const f = input.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = e => { try { const d = JSON.parse(e.target.result); if (Array.isArray(d)) { events = d; render(); persist({ action: "import" }); } } catch(err){ alert("文件格式不正确"); } };
+  r.readAsText(f);
+}
+
+function stars(n){ return '<span class="star">' + "★".repeat(n) + "</span>"; }
+function tag(ev){ return '<span class="tag" style="background:'+CATS[ev.category]+'">'+ev.category+'</span>'; }
+function fmt(d){ return d.replace(/-/g, "/"); }
+
+function filtered(){
+  const q = document.getElementById("searchBox").value.trim().toLowerCase();
+  return events.concat(cands).filter(e => {
+    if (recentOnly) {
+      // 以事件"最后一个关键日"为准，超过6个月无动态的默认隐藏
+      const latest = [e.signalDate, e.landDate].concat((e.watch || []).map(w => w.date)).filter(Boolean).sort().pop();
+      if (latest) {
+        const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth() - 6);
+        if (new Date(latest + "T00:00:00") < cutoff) return false;
+      }
+    }
+    if (catFilter.size && !catFilter.has(e.category)) return false;
+    if (lvFilter.size && !lvFilter.has(String(e.level))) return false;
+    if (tagFilter.size) {
+      const tg = new Set(e.tags || []);
+      let hit = false;
+      tagFilter.forEach(t => { if (tg.has(t)) hit = true; });   // 多选=或
+      if (!hit) return false;
+    }
+    const st = document.getElementById("statusSel").value;
+    if (st && e.status !== st) return false;
+    if (q) { const s = JSON.stringify(e).toLowerCase(); if (!s.includes(q)) return false; }
+    return true;
+  });
+}
+
+function initFilters(){
+  const c = document.getElementById("catChips");
+  c.innerHTML = '<span class="chip active" data-cat="__all">全部</span>'
+    + Object.keys(CATS).map(k => `<span class="chip" data-cat="${k}"><i class="dot" style="background:${CATS[k]}"></i>${k}</span>`).join(" ");
+  c.querySelectorAll(".chip").forEach(el => el.onclick = () => {
+    const k = el.dataset.cat;
+    k === "__all" ? catFilter.clear() : (catFilter.has(k) ? catFilter.delete(k) : catFilter.add(k));
+    c.querySelectorAll(".chip").forEach(x => x.classList.toggle("active", x.dataset.cat === "__all" ? catFilter.size === 0 : catFilter.has(x.dataset.cat)));
+    render();
+  });
+  const l = document.getElementById("lvChips");
+  l.innerHTML = '<span class="chip" data-lv="__all">全部</span>'
+    + [1,2,3,4].map(n => `<span class="chip${lvFilter.has(String(n)) ? " active" : ""}" data-lv="${n}"><span class="star">${LVS[n]}</span></span>`).join(" ");
+  l.querySelectorAll(".chip").forEach(el => el.onclick = () => {
+    const k = el.dataset.lv;
+    k === "__all" ? lvFilter.clear() : (lvFilter.has(k) ? lvFilter.delete(k) : lvFilter.add(k));
+    l.querySelectorAll(".chip").forEach(x => x.classList.toggle("active", x.dataset.lv === "__all" ? lvFilter.size === 0 : lvFilter.has(x.dataset.lv)));
+    render();
+  });
+  document.getElementById("legend").innerHTML =
+    '图例：<span><i style="background:var(--signal)"></i>发生=消息公开</span>'
+    + '<span><i style="background:var(--land)"></i>落地=施行/终局</span>'
+    + '<span><i style="background:var(--policy)"></i>⚠=截止/关注日</span>'
+    + '<span><i style="background:var(--plan)"></i>⇢=自查观察点(推算)</span>'
+    + '<span>💧水位=当日最大金额</span>'
+    + Object.keys(CATS).map(k => `<span><i style="background:${CATS[k]}"></i>${k}</span>`).join("")
+    + '<span>级别：★&lt;10亿 ★★10~100亿 ★★★100~1000亿 ★★★★&gt;1000亿/全局</span>';
+}
+
+function rgba(hex, a){
+  const n = parseInt(hex.replace("#",""), 16);
+  return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`;
+}
+function isFestival(d, y, m){ return (m===0&&d===1)||(m===4&&d===1)||(m===9&&d===1)||(m===9&&d===2)||(m===9&&d===3)||(m===9&&d===4)||(m===9&&d===5)||(m===9&&d===6)||(m===9&&d===7); }
+
+/* 同格合并：AI层打上 key 的“同一事件”多源记录 → 合并成一枚chip（官方源优先做主chip） */
+const OFFICIAL_WORDS = /官方|官网|巨潮|税政司|东财/;
+function groupKeyed(items){
+  const out = [];
+  items.forEach(it => {
+    const g = it.ev.key && out.find(o => o.ev.key === it.ev.key && o.kind === it.kind);
+    if (g) g.dups.push(it); else out.push({ ...it, dups: [] });
+  });
+  out.forEach(g => {
+    if (!g.dups.length) return;
+    const isOff = x => OFFICIAL_WORDS.test((x.ev.sources || []).map(s => s.org || "").join(""));
+    const pri = [g, ...g.dups].find(isOff);
+    if (pri && pri !== g) {
+      const tmp = { ev: pri.ev, kind: pri.kind, wlabel: pri.wlabel, date: pri.date };
+      Object.assign(pri, { ev: g.ev, kind: g.kind, wlabel: g.wlabel, date: g.date });
+      Object.assign(g, tmp);
+    }
+  });
+  return out;
+}
+
+function renderCal(){
+  const y = cur.getFullYear(), m = cur.getMonth();
+  const first = new Date(y, m, 1).getDay();
+  const start = first === 0 ? -6 : 1 - first; // 周一为一周起点
+  const firstDow = new Date(y,m,1).getDay()===0?6:new Date(y,m,1).getDay()-1;
+  const days = new Date(y, m+1, 0).getDate();
+  const map = {};
+  HOVER = [];
+  filtered().forEach(e => {
+    if (e.signalDate !== e.landDate) (map[e.signalDate] = map[e.signalDate] || []).push({ ev: e, kind: "sig" });
+    if (e.landDate) (map[e.landDate] = map[e.landDate] || []).push({ ev: e, kind: "land" });
+    (e.watch || []).forEach(w => (map[w.date] = map[w.date] || []).push({ ev: e, kind: isPlan(w.label) ? "plan" : "watch", wlabel: w.label }));
+  });
+  const today = new Date().toDateString();
+  let html = `
+    <div class="cal-head">
+      <div class="month">${y} 年 ${m+1} 月</div>
+      <div class="nav">
+        <button onclick="cur=new Date(cur.getFullYear(),cur.getMonth()-1,1);render()">‹ 上月</button>
+        <span class="ym">${y} / ${String(m+1).padStart(2,"0")}</span>
+        <button onclick="cur=new Date(cur.getFullYear(),cur.getMonth()+1,1);render()">下月 ›</button>
+        <button onclick="cur=new Date();render()">今天</button>
+      </div>
+    </div>
+    <div class="grid">
+      ${"一二三四五六日".split("").map(d=>'<div class="dow">'+d+'</div>').join("")}`;
+  for (let i = firstDow; i >= 1; i--) {
+    const d = new Date(y, m, 1 - i);
+    html += '<div class="cell other"><div class="d">'+d.getDate()+'</div></div>';
+  }
+  for (let d = 1; d <= days; d++) {
+    const ds = `${y}-${String(m+1).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
+    const cls = ["cell"]; if (new Date(y, m, d).toDateString() === today) cls.push("today");
+    if (new Date(y, m, d).getDay() === 0 || new Date(y, m, d).getDay() === 6) cls.push("wknd");
+    // 格子水位：当天金额量级最大的事件
+    let water = null;
+    (map[ds] || []).forEach(it => {
+      const p = amountPct(it.ev);
+      if (p !== null && (water === null || p > water.pct)) water = { pct: p, cat: it.ev.category, name: it.ev.name, amt: it.ev.amount };
+    });
+    const waterHTML = water
+      ? `<i class="cellwater" style="height:${water.pct}%; background:${rgba(CATS[water.cat], .16)}; border-top:1.5px solid ${rgba(CATS[water.cat], .6)}" title="水位≈${water.pct.toFixed(0)}%（${water.amt}，${water.name}）"></i>`
+      : "";
+    let inner = "";
+    const items0 = (map[ds] || []).slice().sort((a, b) => (b.ev.level || 0) - (a.ev.level || 0));  // Q2 大额大事件置顶
+    const items = groupKeyed(items0);   // 同事件多源合并（7-24 财政部+电报 → 一枚）
+    items.slice(0, 9).forEach(it => {
+      const kindTxt = it.kind === "sig" ? "发" : it.kind === "land" ? "落" : it.kind === "plan" ? "⇢" : "⚠";
+      const shown = it.kind === "watch" ? (it.wlabel || it.ev.name) : it.ev.name;
+      const n = it.kind === "sig" ? null : daysLeft(ds);
+      const cd = cdBadge(it.kind, n);
+      const dup = it.dups && it.dups.length ? `<span class="dup">源+${it.dups.length}</span>` : "";
+      HOVER.push({ e: it.ev, kind: it.kind, date: ds, label: it.wlabel });
+      inner += `<div class="ev ${it.kind} ${it.ev.cand ? "cand" : ""}" data-hk="${HOVER.length-1}" style="border-left-color:${CATS[it.ev.category]}" onclick="showDetail('${it.ev.id}')">
+        <span class="k">${it.ev.cand ? "?" : kindTxt}</span>${LVS[it.ev.level]} ${shown.length>8?shown.slice(0,8)+"…":shown}${cd}${dup}</div>`;
+    });
+    if (items.length > 9) inner += `<div style="font-size:10px;color:var(--muted);padding-left:5px;cursor:pointer;text-decoration:underline dotted" onclick="showDayEvents('${ds}')">还有 ${items.length-9} 条…（点击查看）</div>`;
+    html += `<div class="${cls.join(" ")}">${waterHTML}<div class="d">${d}</div>${inner}</div>`;
+  }
+  const total = firstDow + days;
+  const rest = (7 - (total % 7)) % 7;
+  for (let i = 1; i <= rest; i++) html += '<div class="cell other"><div class="d">'+i+'</div></div>';
+  html += '</div>';
+  document.getElementById("main").innerHTML = html;
+  fitRows();
+}
+
+/* 行高自适应：每行高度 = max(该行内容最高格, 均摊的窗口富余空间)。
+   内容多 → 按内容撑高，绝不裁事件；内容少 → 把窗口富余高度均分给各行，整页适配窗口高度，底部不留大空白也不被裁掉。 */
+function fitRows(){
+  const grid = document.querySelector(".grid");
+  const cells = Array.from(document.querySelectorAll(".grid .cell"));
+  if (!cells.length) return;
+  const ROW = 7, groups = [];
+  cells.forEach((c, i) => { const r = Math.floor(i / ROW); (groups[r] = groups[r] || []).push(c); });
+  let sumContent = 0;
+  groups.forEach(list => {
+    let h = 120;   // 紧凑下限：稀疏日也不会太矮
+    list.forEach(c => { const ch = c.scrollHeight; if (ch > h) h = ch; });
+    list._h = h; sumContent += h;
+  });
+  // 窗口适配：富余高度均分给各行（减去行间距 6px）；内容超高时 extra=0，退回纯内容高度（页面可滚动，不裁事件）
+  const avail = window.innerHeight - grid.getBoundingClientRect().top - 20 - (groups.length - 1) * 6;
+  const extra = Math.max(0, avail - sumContent);
+  const share = groups.length ? Math.floor(extra / groups.length) : 0;
+  groups.forEach(list => {
+    const h = list._h + share;
+    list.forEach(c => c.style.minHeight = h + "px");
+  });
+}
+let _fitT = null;
+window.addEventListener("resize", () => { clearTimeout(_fitT); _fitT = setTimeout(() => { if (view === "cal") fitRows(); }, 120); });
+function renderList(){
+  const all = [];
+  filtered().forEach(e => {
+    if (e.signalDate !== e.landDate) all.push({ date: e.signalDate, kind: "sig", ev: e });
+    if (e.landDate) all.push({ date: e.landDate, kind: "land", ev: e });
+  });
+  all.sort((a,b) => b.date.localeCompare(a.date));
+  if (!all.length) { document.getElementById("main").innerHTML = '<div class="empty">暂无符合条件的事件</div>'; return; }
+  document.getElementById("main").innerHTML = all.map(it => {
+    const e = it.ev, [y,mo,d] = it.date.split("-");
+    const lbl = it.kind === "sig" ? "🔴 发生" : "🔵 落地";
+    const col = it.kind === "sig" ? "var(--signal)" : "var(--land)";
+    return `<div class="list-item" onclick="showDetail('${e.id}')">
+      <div class="date"><div class="big">${y}.${mo}.${d}</div><div class="lbl" style="color:${col}">${lbl}</div></div>
+      <div class="body">
+        <div class="title">${e.cand ? '<span class="tag cand" style="background:#98a0b3">候选</span>' : ""}${e.ai ? '<span class="tag" style="background:#5b8def">AI</span>' : ""}${tag(e)}${(e.tags || []).slice(0, 4).map(t => `<span class="tag" style="background:#8f9bc0">${t}</span>`).join("")}${e.name} <span class="star">${LVS[e.level]}</span></div>
+        <div class="meta">状态：${e.status} ｜ 金额：${e.amount || "—"} ｜ 板块：${e.sector || "—"} ｜ 源头：${(e.sources[0]||{}).name || "—"}${cdBadge(it.kind, it.kind === "sig" ? null : daysLeft(it.date))}</div>
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function render(){
+  view === "cal" ? renderCal() : renderList();
+  document.getElementById("viewBtn").textContent = view === "cal" ? "切换为时间线视图" : "切换为日历视图";
+  updateExtras(); renderProgress(); initTags();
+  saveFilters();   // 刷新后保持筛选状态
+}
+
+/* ---- 标签筛选（多选=或关系；标签由LLM语义判读打上）----
+   默认只展示出现频次最高的 TOP 个标签，其余折叠进「＋其他 N 项」胶囊，点击展开后再筛选。 */
+let tagMoreOpen = false;
+function initTags(){
+  const counts = {};
+  events.concat(cands).forEach(e => (e.tags || []).forEach(t => counts[t] = (counts[t] || 0) + 1));
+  const names = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  const box = document.getElementById("tagChips");
+  if (!names.length) { box.innerHTML = ""; return; }
+  const TOP = 5;
+  const top = names.slice(0, TOP);
+  const rest = names.slice(TOP);
+  const wrapId = "tagMoreWrap";
+  const chip = t => `<span class="tagchip${tagFilter.has(t) ? " active" : ""}" data-tag="${t}">${t} ${counts[t]}</span>`;
+  const bind = el => el.onclick = () => {
+    const t = el.dataset.tag;
+    tagFilter.has(t) ? tagFilter.delete(t) : tagFilter.add(t);
+    box.querySelectorAll(".tagchip[data-tag]").forEach(x => x.classList.toggle("active", tagFilter.has(x.dataset.tag)));
+    render();
+  };
+  let html = top.map(chip).join("");
+  if (rest.length) {
+    html += `<span class="tagchip more" id="tagMore">${tagMoreOpen ? "收起其他" : `＋其他 ${rest.length} 项`}</span>`
+          + `<span class="tagmore-wrap" id="${wrapId}" style="display:${tagMoreOpen ? "inline-flex" : "none"}">${rest.map(chip).join("")}</span>`;
+  }
+  box.innerHTML = html;
+  box.querySelectorAll(".tagchip[data-tag]").forEach(bind);
+  const more = document.getElementById("tagMore");
+  if (more) more.onclick = () => {
+    tagMoreOpen = !tagMoreOpen;
+    more.textContent = tagMoreOpen ? "收起其他" : `＋其他 ${rest.length} 项`;
+    document.getElementById(wrapId).style.display = tagMoreOpen ? "inline-flex" : "none";
+  };
+}
+
+/* ---- 判读进度面板：/api/progress ---- */
+function fetchProgress(){
+  return fetch("http://127.0.0.1:7610/api/progress").then(r => r.json()).then(p => { PROG = p; renderProgress(); })
+    .catch(() => { PROG = null; renderProgress(); });
+}
+function renderProgress(){
+  const box = document.getElementById("progressPanel");
+  if (!PROG) { box.style.display = "flex"; box.innerHTML = '<span class="seg">🧠 语义判读进度</span><span class="seg" style="color:#9aa3b6">雷达服务未连接 · 启动「事件雷达\\启动雷达.bat」后自动展示</span>'; return; }
+  const { total, judged, dropped, filtered = 0, pending, events: evN, pendingByDate = [], lastJudgeAt, lastFilterAt = "" } = PROG;
+  const done = judged + dropped + filtered;
+  const pct = total ? Math.round(done / total * 100) : 0;
+  const dm = Math.max(done, 1);
+  const maxP = Math.max(...pendingByDate.map(x => x.c), 1);
+  const pdays = pendingByDate.slice(0, 14).map(x => {
+    const h = Math.max(3, Math.round(x.c / maxP * 22));
+    return `<span class="pday" style="height:${h}px" title="${x.date} 待判 ${x.c} 条"><i>${x.date} 待判 ${x.c}</i></span>`;
+  }).join("");
+  box.style.display = "flex";
+  box.innerHTML =
+    `<span class="seg">🧠 语义判读进度</span>
+     <span class="seg">已过滤 <b style="color:#1f9e77">${filtered}</b></span>
+     <span class="seg">待判硬候选 <b style="color:#d5444a">${pending}</b></span>
+     <span class="seg">已判 <b>${judged}</b></span>
+     <span class="seg">丢弃 <b>${dropped}</b></span>
+     <span class="seg">事件 <b>${evN}</b></span>
+     <span class="pbar" title="已处理 ${done}/${total}（${pct}%）">
+       <i class="done" style="width:${Math.max(0.4, pct * (judged / dm))}%"></i>
+       <i class="drop" style="left:${pct * (judged / dm)}%; width:${pct * (dropped / dm)}%"></i>
+     </span>
+     <span class="seg" style="font-size:11px">电报 ${total} 条 · 已处理 ${pct}%（含已过滤）${lastFilterAt ? ` · 最近过滤 ${lastFilterAt.slice(0,16).replace("T"," ")}` : ""}${lastJudgeAt ? ` · 上次判读 ${lastJudgeAt.slice(0,16).replace("T"," ")}` : ""}</span>
+     <span class="pdays">${pdays}<span class="plbl">近14日待判硬候选</span></span>`;
+}
+
+function updateExtras(){
+  const y = cur.getFullYear(), m = cur.getMonth(), mm = String(m+1).padStart(2,"0");
+  // 最近关注胶囊：距今天最近的关键日（落地/关注，容忍已过3天）
+  const ups = [];
+  filtered().forEach(e => {
+    if (e.landDate) ups.push({ d: e.landDate, kind: "落地", name: e.name + " · 落地", id: e.id });
+    (e.watch || []).forEach(w => ups.push({ d: w.date, kind: "关注", name: w.label || e.name, id: e.id }));
+  });
+  const pillCands = ups.map(u => ({ u, n: daysLeft(u.d) })).filter(x => x.n >= -3)
+    .sort((a, b) => {                       // 未来优先（由近到远），全是过去时取最近过去的
+      const bothFut = a.n >= 0 && b.n >= 0, bothPast = a.n < 0 && b.n < 0;
+      if (bothFut) return a.n - b.n;
+      if (bothPast) return b.n - a.n;
+      return a.n >= 0 ? -1 : 1;
+    });
+  const pill = document.getElementById("upcomingPill");
+  if (pillCands.length) {
+    const f = pillCands[0];
+    const lbl = f.n === 0 ? "就是今天" : f.n > 0 ? "剩" + f.n + "天" : "已过" + (-f.n) + "天";
+    pill.style.visibility = "visible";
+    pill.innerHTML = `⏳ <b>${lbl}</b><span class="pn">${f.u.name}（${fmt(f.u.d)} ${f.u.kind}日）</span>`;
+    pill.onclick = () => showDetail(f.u.id);
+  } else pill.style.visibility = "hidden";
+  // 统计行 + 快捷键提示
+  const es = filtered();
+  const wait = es.filter(e => e.status === "待落地" || e.status === "关注中").length;
+  const monthKey = es.filter(e =>
+    (e.landDate && e.landDate.startsWith(`${y}-${mm}`)) ||
+    (e.watch || []).some(w => w.date.startsWith(`${y}-${mm}`))).length;
+  document.getElementById("statLine").innerHTML =
+    `📊 正式事件 <b>${es.filter(e => !e.cand).length}</b> ｜ ⍰ 待确认候选 <b>${cands.length}</b> ｜ ⏳ 待落地/关注中 <b>${wait}</b> ｜ 📅 ${y}/${mm} 关键日 <b>${monthKey}</b> 个 ｜ 快捷键　<kbd>←</kbd><kbd>→</kbd> 翻月 · <kbd>T</kbd> 今天 · <kbd>V</kbd> 切换视图`;
+}
+document.addEventListener("keydown", e => {
+  if (["INPUT","TEXTAREA","SELECT"].includes(document.activeElement.tagName)) return;
+  if (document.querySelector(".mask.open")) return;
+  if (e.key === "ArrowLeft") { cur = new Date(cur.getFullYear(), cur.getMonth()-1, 1); render(); }
+  else if (e.key === "ArrowRight") { cur = new Date(cur.getFullYear(), cur.getMonth()+1, 1); render(); }
+  else if (e.key === "t" || e.key === "T") { cur = new Date(); view = "cal"; render(); }
+  else if (e.key === "v" || e.key === "V") toggleView();
+});
+
+/* 悬停迷你卡片 */
+(function(){
+  const HC = document.getElementById("hoverCard");
+  const main = document.getElementById("main");
+  main.addEventListener("mouseover", ev => {
+    const c = ev.target.closest(".ev"); if (!c) return;
+    const h = HOVER[+c.dataset.hk]; if (!h) return;
+    const e = h.e, n = h.kind === "sig" ? null : daysLeft(h.date);
+    const dline = `${h.kind === "sig" ? "🔴 发生日" : h.kind === "land" ? "🔵 落地日(官方)" : h.kind === "plan" ? "⇢ 自查观察点(推算)" : "⚠ 关注/截止日"}：${fmt(h.date)}` +
+      (n !== null && n >= 0 && n <= 45 ? `<span style="color:#d5444a;font-weight:600">（剩${n}天）</span>` : "") +
+      ((h.kind === "watch" || h.kind === "plan") && n < 0 ? '<span style="color:var(--muted)">（已截止）</span>' : "");
+    HC.innerHTML = `<div class="hc-t">${tag(e)}<b>${e.name}</b> <span class="star">${LVS[e.level]}</span></div>
+      <div style="color:var(--muted)">${dline}${h.label ? `<div>⚠ ${h.label}</div>` : ""}</div>
+      <div>💰 金额：${jugHTML(e)}${e.amount || "—"}</div><div>🎯 板块：${e.sector || "—"}</div>
+      <div style="color:var(--muted)">📄 ${(e.sources[0] || {}).org || ""} ${(e.sources[0] || {}).name || "—"}</div>`;
+    HC.style.display = "block";
+    const r = c.getBoundingClientRect();
+    let x = r.left, y = r.bottom + 6;
+    if (x + HC.offsetWidth + 8 > innerWidth) x = innerWidth - HC.offsetWidth - 8;
+    if (y + HC.offsetHeight + 8 > innerHeight) y = r.top - HC.offsetHeight - 6;
+    HC.style.left = x + "px"; HC.style.top = y + "px";
+  });
+  main.addEventListener("mouseout", ev => {
+    const from = ev.target.closest(".ev");
+    const to = ev.relatedTarget && ev.relatedTarget.closest ? ev.relatedTarget.closest(".ev") : null;
+    if (from && from !== to) HC.style.display = "none";
+  });
+})();
+function toggleView(){ view = view === "cal" ? "list" : "cal"; render(); }
+
+/* 源头分组：信息源头(发现事件) / 外部源头(锁定金额与条款)。
+   role 字段由雷达生成；无 role 的旧数据按 组织名 推断（财联社=发现，其余=外部）。 */
+function srcHTML(e, kind){
+  const ss = (e.sources || []).filter(s => {
+    const r = s.role || (/财联社/.test(s.org || "") ? "info" : "ext");
+    return kind === "info" ? r === "info" : r !== "info";
+  });
+  if (!ss.length) {
+    if (kind === "ext") {
+      // Q6 金额待补的公司事件：给一个一键可达的巨潮公告检索出口
+      const comp = e.sector && !["全市场", "个股/行业", "—"].includes(e.sector) ? e.sector : "";
+      if (comp && /（未披露|待补|待锁定|待AI评估/.test(e.amount || "")) {
+        const q = encodeURIComponent(comp);
+        return `<a href="http://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=1&keyWord=${q}" target="_blank" style="font-size:12px">🔍 补锁金额：巨潮全文检索「${comp}」公告 ↗</a>`;
+      }
+    }
+    return '<span style="color:var(--muted)">—</span>';
+  }
+  return ss.map(s => `<div>📄 ${s.name}<div style="color:var(--muted)">${s.org}${kind === "ext" ? "（用于锁定金额/落地条款）" : ""}</div><a href="${s.url}" target="_blank">${s.url}</a></div>`).join("");
+}
+
+function esc(s){ return String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;"); }
+/* 【计划】开头 = 引擎按发生日+45/60/90天推算的自查观察点（非官方落地日） */
+function isPlan(label){ return /^【计划】/.test(label || ""); }
+function watchHTML(e){
+  const ws = e.watch || [];
+  if (!ws.length) return "—";
+  return ws.map(w => isPlan(w.label)
+    ? `<div class="wd"><span class="wdate" style="color:var(--plan)">⇢ ${fmt(w.date)}</span><span>${esc(w.label)} <span style="color:var(--muted)">（自查观察点·引擎推算，非官方）</span></span></div>`
+    : `<div class="wd"><span class="wdate">⚠ ${fmt(w.date)}</span><span>${esc(w.label)}</span></div>`).join("");
+}
+
+function showDayEvents(ds){
+  const items = [];
+  filtered().forEach(e => {
+    if (e.signalDate !== e.landDate && e.signalDate === ds) items.push({ ev: e, kind: "sig" });
+    if (e.landDate === ds) items.push({ ev: e, kind: "land" });
+    (e.watch || []).forEach(w => { if (w.date === ds) items.push({ ev: e, kind: isPlan(w.label) ? "plan" : "watch", wlabel: w.label }); });
+  });
+  items.sort((a, b) => (b.ev.level || 0) - (a.ev.level || 0));
+  const rows = groupKeyed(items).map(it => {
+    const e = it.ev;
+    const kindTxt = it.kind === "sig" ? "🔴 发生" : it.kind === "land" ? "🔵 落地" : it.kind === "plan" ? "⇢ 自查观察点" : "⚠ 关注";
+    const lbl = it.kind === "watch" ? (it.wlabel || e.name) : e.name;
+    const dup = it.dups && it.dups.length ? `<span style="font-size:8px;color:#fff;background:#8e96ab;border-radius:6px;padding:0 4px;margin-left:6px">源+${it.dups.length}</span>` : "";
+    return `<div style="display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line);cursor:pointer" onclick="showDetail('${e.id}')">
+      <span class="tag" style="background:${CATS[e.category]}">${e.category}</span>
+      <span class="star">${LVS[e.level]}</span>
+      <span style="flex:1;min-width:0;font-size:13px">${lbl}${dup}</span>
+      <span style="font-size:11px;color:var(--muted)">${kindTxt}</span>
+      <span style="font-size:11px;color:var(--muted)">💰 ${e.amount || "—"}</span>
+    </div>`;
+  }).join("");
+  const [y, mo, d] = ds.split("-");
+  document.getElementById("dayBody").innerHTML =
+    `<h2>${y} 年 ${+mo} 月 ${+d} 日 · 当天全部事件（${items.length} 条）</h2>
+     <div style="margin-top:8px">${rows || '<div class="empty">当天没有事件</div>'}</div>`;
+  document.getElementById("dayMask").classList.add("open");
+}
+
+function showDetail(id){
+  const e = events.find(x => x.id === id) || cands.find(x => x.id === id);
+  if (!e) return;
+  let n; // 倒计时计算用
+  const _occ = (e.timeline || []).find(x => (x.label || "").startsWith("【发生】"));
+  const signalTxt = _occ && /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$/.test(_occ.date || "") ? _occ.date : (e.signalDate || "");
+  const tl = (e.timeline || []).slice().sort((a,b)=>a.date.localeCompare(b.date)).map(n => {
+    const _m = /^(\d{4}-\d{2}-\d{2})(?: (\d{2}:\d{2}))?$/.exec(n.date || "");
+    const _d = _m ? _m[1] : (n.date || "");
+    const _t = (_m && _m[2]) ? `<span class="tl-time">${_m[2]}</span>` : "";
+    return `<div class="node ${/\u3010落地\u3011/.test(n.label) ? "land" : ""}">
+       <div class="dt">${fmt(_d)}${_t}${n.link ? `　<a href="${n.link}" target="_blank" style="color:var(--land);font-weight:400;font-size:12px">查看原文 ↗</a>` : ""}</div>
+       <div class="tx">${n.label}</div>
+     </div>`;
+  }).join("");
+  document.getElementById("detailBody").innerHTML = `
+    <h2>${e.cand ? '<span class="tag" style="background:#98a0b3">候选</span> ' : ""}${tag(e)} ${e.name} <span class="star">${LVS[e.level]}</span></h2>
+    <div style="margin-top:8px">${(e.tags || []).map(t => `<span class="tag" style="background:#8f9bc0">${t}</span>`).join("") || ""}</div>
+    <dl class="kv">
+      <dt>发生日期</dt><dd style="color:var(--signal);font-weight:600">${signalTxt.indexOf(" ") > 0 ? `<span class="tl-time" style="font-size:13px">${fmt(signalTxt.replace(/ \d{2}:\d{2}$/, ""))} ${signalTxt.slice(signalTxt.indexOf(" ")+1)}</span>` : `${fmt(signalTxt)}`}</dd>
+      <dt>落地日期</dt><dd style="color:var(--land);font-weight:600">${e.landDate || "未落地"}${e.landDate ? (n = daysLeft(e.landDate), n > 0 ? ` <span style="font-size:12px;color:#d5444a">（未来落地，剩 ${n} 天）</span>` : "") : ""}</dd>
+      <dt>具体时间</dt><dd style="color:var(--signal);font-weight:600">${e.sigTime ? `<span class="tl-time">${e.sigTime}</span> <span style="font-size:11px;color:var(--muted);font-weight:400">财联社电报发布</span>` : "—"}</dd>
+      <dt>关注日</dt><dd>${watchHTML(e)}</dd>
+      <dt>状态</dt><dd>${e.status}</dd>
+      <dt>等级</dt><dd>${LVS[e.level]}（${LS[e.level]}）${e.levelNote ? `<div style="color:var(--muted);font-size:12px">${e.levelNote}</div>` : ""}</dd>
+      <dt>涉及金额</dt><dd>${tankHTML(e)}<span style="vertical-align:middle">${e.amount || "—（未量化，画虚线空杯）"}</span></dd>
+      <dt>板块/个股</dt><dd>${e.sector || "—"}</dd>
+      <dt>信息源头</dt><dd>${srcHTML(e, "info")}</dd>
+      <dt>外部源头</dt><dd>${srcHTML(e, "ext")}</dd>
+      <dt>时间线</dt><dd><div class="tl">${tl}</div></dd>
+      <dt>备注</dt><dd>${e.notes ? `<div class="note">${esc(e.notes)}</div>` : "—"}</dd>
+    </dl>
+    ${e.cand ? `<div style="margin-top:14px; padding-top:10px; border-top:1px dashed var(--line); display:flex; gap:10px; justify-content:flex-end; align-items:center;">
+      <span style="color:var(--muted); font-size:12px">核实过源头和金额后？</span>
+      <button onclick="dropEvent('${e.id}')">✕ 丢弃</button>
+      <button class="primary" onclick="confirmEvent('${e.id}')">✓ 确认转正</button>
+    </div>` : ""}`;
+  document.getElementById("detailMask").classList.add("open");
+}
+function closeModal(id){ document.getElementById(id).classList.remove("open"); }
+
+function openAdd(){
+  ["f_name","f_sig","f_land","f_amount","f_sector","f_src","f_url","f_tl","f_watch","f_note"].forEach(i => document.getElementById(i).value = "");
+  document.getElementById("addMask").classList.add("open");
+}
+function saveEvent(){
+  const name = document.getElementById("f_name").value.trim();
+  const sig = document.getElementById("f_sig").value;
+  if (!name) return alert("请填写事件名称");
+  if (!sig) return alert("请填写发生日期");
+  const tl = document.getElementById("f_tl").value.split("\n").map(t => t.trim()).filter(Boolean).map(t => {
+    const [d, ...rest] = t.split("|"); return { date: d.trim(), label: rest.join("|").trim() };
+  });
+  const watch = document.getElementById("f_watch").value.split("\n").map(t => t.trim()).filter(Boolean).map(t => {
+    const [d, ...rest] = t.split("|"); return { date: d.trim(), label: rest.join("|").trim() };
+  });
+  const landVal = document.getElementById("f_land").value || null;
+  let st = document.getElementById("f_status").value;
+  // 落地日在未来 → 状态自动修正为"待落地"（未来不可能已落地）
+  if (landVal && daysLeft(landVal) > 0 && (st === "已落地" || st === "已失效/辟谣")) {
+    st = "待落地";
+    document.getElementById("f_status").value = st;
+  }
+  const e = {
+    id: "E" + String(events.length + 1).padStart(3, "0"),
+    name, category: document.getElementById("f_cat").value,
+    signalDate: sig, landDate: landVal,
+    status: st,
+    level: +document.getElementById("f_level").value,
+    amount: document.getElementById("f_amount").value,
+    sector: document.getElementById("f_sector").value,
+    sources: document.getElementById("f_src").value ? [{ name: document.getElementById("f_src").value, org: "", url: document.getElementById("f_url").value }] : [],
+    timeline: sig ? [{ date: sig, label: "【发生】" + (tl[0] && tl[0].date === sig ? tl[0].label : name) }].concat(tl.filter(t => t.date !== sig)) : tl,
+    watch: watch,
+    notes: document.getElementById("f_note").value
+  };
+  events.push(e); closeModal("addMask"); render(); persist({ action: "add" });
+}
+
+loadFilters();   // 先恢复筛选状态，再初始化筛选条
+initFilters();
+document.getElementById("autoChip").classList.toggle("active", AUTO);
+render(); initTags();
+fetchSnapshot();
+// 已改为纯手动触发：需要更新时点「⚡ 断点更新」，不再打开即自动扫描
+
+/* 落地日选择联动：选了未来日期自动把状态切到"待落地" */
+document.getElementById("f_land").addEventListener("change", function(){
+  if (!this.value) return;
+  const n = daysLeft(this.value);
+  const sel = document.getElementById("f_status");
+  if (n > 0 && (sel.value === "已落地" || sel.value === "已失效/辟谣")) {
+    sel.value = "待落地";
+  } else if (n <= 0 && sel.value === "待落地") {
+    sel.value = "已落地";
+  }
+});
+</script>
+</body>
+</html>
