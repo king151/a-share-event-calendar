@@ -242,14 +242,17 @@ def _within_ttl(key):
 
 
 def ensure_fetch():
-    """TTL内不重复抓源站；过期才拉。返回各通道新增数。"""
+    """TTL内不重复抓源站；过期才拉。返回各通道新增数。
+    注意：cls_hist 吸入的是本地存档文件（cls_backfill.jsonl），mtime 未变即零开销，
+    不受网络 TTL 限制——用户中途跑 backfill 后，下一次 scan 立刻可见。
+    """
     added = {}
     with LOCK:
         if not _within_ttl("cls_live"):
             added["cls_live"] = scan_cls_live()
             meta_set("last_fetch_cls_live", dt.datetime.now().isoformat(timespec="seconds"))
+        added["cls_hist"] = scan_cls_hist()
         if not _within_ttl("cls_hist"):
-            added["cls_hist"] = scan_cls_hist()
             meta_set("last_fetch_cls_hist", dt.datetime.now().isoformat(timespec="seconds"))
     for k, v in added.items():
         _LOG("[fetch] %s 新增 %d 条", k, v)
