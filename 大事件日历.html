@@ -34,6 +34,19 @@
   .cal-head .nav .ym{min-width:110px; text-align:center; font-size:13px;}
   .grid{display:grid; grid-template-columns:repeat(7,1fr); gap:6px;}
   .dow{text-align:center; color:var(--muted); font-size:11px; padding:2px 0; font-weight:600;}
+  /* ===== 竖排月历：一天一行，事件横向铺开（宽屏利用横长空间，事件多也不裁剪） ===== */
+  .vcal{display:flex; flex-direction:column; gap:4px;}
+  .vrow{position:relative; background:var(--card); border:1px solid var(--line); border-radius:8px; padding:4px 10px 5px 6px; overflow:hidden;}
+  .vrow.today{border-color:#e0552f; box-shadow:0 0 0 2px rgba(224,85,47,.15);}
+  .vrow.wknd{background:#fafbfd;}
+  .vrow.festival .vnum{color:#d5444a;}
+  .vrow .vh{display:flex; align-items:center; gap:8px; font-size:12px; color:var(--muted); margin-bottom:3px; min-height:18px;}
+  .vrow .vnum{font-weight:700; color:var(--ink); font-size:13px; min-width:20px; text-align:right;}
+  .vrow .vw{font-size:11px;}
+  .vrow .vwater{margin-left:auto; font-size:10px;}
+  .vchips{display:flex; flex-wrap:wrap; gap:4px; position:relative; z-index:2;}
+  .vchips .ev{margin-bottom:0; max-width:340px; white-space:nowrap;}
+  .vrow:empty, .vrow .vchips:empty{display:none;}
   .cell{background:var(--card); border:1px solid var(--line); border-radius:8px; min-height:100px; padding:5px; overflow:hidden; position:relative;}
   .cell.today{border-color:#e0552f; box-shadow:0 0 0 2px rgba(224,85,47,.15);}
   .cell.other{opacity:.45;}
@@ -43,18 +56,17 @@
   @media (max-width:900px){
     #legend, .cal-head .nav > span[style]{display:none !important;}
     main{padding:10px;}
-    .grid{gap:3px;}
-    .cell{min-height:88px; height:auto; max-height:190px;}
-    .ev{font-size:10px; padding:1px 4px 1px 3px; margin-bottom:2px;}
+    .vcal{gap:3px;}
+    .vrow{padding:3px 8px 4px 5px;}
+    .vchips .ev{font-size:10px; padding:1px 4px 1px 3px; margin-bottom:2px; max-width:260px;}
     .filters{padding:5px 10px;}
     .filters input[type=text]{width:130px;}
   }
   @media (max-width:560px){
     header{padding:8px 10px; gap:6px;}
     .chip{padding:2px 8px; font-size:11px;}
-    .cell{min-height:76px; max-height:170px;}
-    .ev{font-size:9.5px; gap:3px;}
-    .cell .d{font-size:11px;}
+    .vchips .ev{font-size:9.5px; gap:3px; max-width:190px;}
+    .vrow .vnum{font-size:12px;}
     button{padding:4px 8px; font-size:11.5px;}
   }
   .ev{display:flex; align-items:center; gap:5px; padding:2px 5px 2px 4px; margin-bottom:3px; border-radius:5px; font-size:11px; line-height:1.35; cursor:pointer; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; border-left:3px solid transparent;}
@@ -690,10 +702,8 @@ function renderCal(){
   // 日消化角标数据源：优先用最新 PROG（快照/进度接口都带 digestByDate）
   DIGEST = {};
   ((PROG && PROG.digestByDate) || []).forEach(x => { DIGEST[x.date] = x; });
-  const first = new Date(y, m, 1).getDay();
-  const start = first === 0 ? -6 : 1 - first; // 周一为一周起点
-  const firstDow = new Date(y,m,1).getDay()===0?6:new Date(y,m,1).getDay()-1;
   const days = new Date(y, m+1, 0).getDate();
+  // 事件占位：按日聚合（发生/落地/关注/自查），竖排一天一行，横向铺开
   const map = {};
   HOVER = [];
   filtered().forEach(e => {
@@ -702,6 +712,7 @@ function renderCal(){
     (e.watch || []).forEach(w => (map[w.date] = map[w.date] || []).push({ ev: e, kind: isPlan(w.label) ? "plan" : "watch", wlabel: w.label }));
   });
   const today = new Date().toDateString();
+  const wk = "日一二三四五六";
   let html = `
     <div class="cal-head">
       <div class="month">${y} 年 ${m+1} 月</div>
@@ -712,48 +723,44 @@ function renderCal(){
         <button onclick="cur=new Date();render()">今天</button>
       </div>
     </div>
-    <div class="grid">
-      ${"一二三四五六日".split("").map(d=>'<div class="dow">'+d+'</div>').join("")}`;
-  for (let i = firstDow; i >= 1; i--) {
-    const d = new Date(y, m, 1 - i);
-    html += '<div class="cell other"><div class="d">'+d.getDate()+'</div></div>';
-  }
+    <div class="vcal">`;
   for (let d = 1; d <= days; d++) {
     const ds = `${y}-${String(m+1).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
-    const cls = ["cell"]; if (new Date(y, m, d).toDateString() === today) cls.push("today");
-    if (new Date(y, m, d).getDay() === 0 || new Date(y, m, d).getDay() === 6) cls.push("wknd");
-    // 格子水位：当天金额量级最大的事件
+    const dowC = new Date(y, m, d).getDay();
+    const cls = ["vrow"];
+    if (new Date(y, m, d).toDateString() === today) cls.push("today");
+    if (dowC === 0 || dowC === 6) cls.push("wknd");
+    if (isFestival(d, y, m)) cls.push("festival");
+    // 当日水位：金额量级最大的事件
     let water = null;
     (map[ds] || []).forEach(it => {
       const p = amountPct(it.ev);
-      if (p !== null && (water === null || p > water.pct)) water = { pct: p, cat: it.ev.category, name: it.ev.name, amt: it.ev.amount };
+      if (p !== null && (water === null || p > water.pct)) water = { pct: p, cat: it.ev.category, amt: it.ev.amount };
     });
     const waterHTML = water
-      ? `<i class="cellwater" style="height:${water.pct}%; background:${rgba(CATS[water.cat], .16)}; border-top:1.5px solid ${rgba(CATS[water.cat], .6)}" title="水位≈${water.pct.toFixed(0)}%（${esc(water.amt)}，${esc(water.name)}）"></i>`
+      ? `<span class="vwater" style="color:${CATS[water.cat] || "#9aa3b6"}" title="当日最大金额：${esc(water.amt)}">💧水位 ${water.pct.toFixed(0)}%</span>`
       : "";
-    let inner = "";
-    const items0 = (map[ds] || []).slice().sort((a, b) => (b.ev.level || 0) - (a.ev.level || 0));  // Q2 大额大事件置顶
+    const items0 = (map[ds] || []).slice().sort((a, b) => (b.ev.level || 0) - (a.ev.level || 0));  // 大额大事件置顶
     const items = groupKeyed(items0);   // 同事件多源合并（7-24 财政部+电报 → 一枚）
-    items.slice(0, 9).forEach(it => {
+    let chips = "";
+    items.forEach(it => {
       const kindTxt = it.kind === "sig" ? "发" : it.kind === "land" ? "落" : it.kind === "plan" ? "⇢" : "⚠";
       const shownRaw = it.kind === "watch" ? (it.wlabel || it.ev.name) : it.ev.name;
-    const shown = esc(shownRaw.length > 8 ? shownRaw.slice(0, 8) + "…" : shownRaw);
+      const shown = esc(shownRaw.length > 26 ? shownRaw.slice(0, 26) + "…" : shownRaw);
       const n = it.kind === "sig" ? null : daysLeft(ds);
       const cd = cdBadge(it.kind, n);
       const dup = it.dups && it.dups.length ? `<span class="dup">源+${it.dups.length}</span>` : "";
       HOVER.push({ e: it.ev, kind: it.kind, date: ds, label: it.wlabel });
-      inner += `<div class="ev ${it.kind} ${it.ev.cand ? "cand" : "l" + (it.ev.level || 1)}" data-hk="${HOVER.length-1}" style="border-left-color:${CATS[it.ev.category]}" onclick="showDetail('${it.ev.id}')">
-        <span class="k">${it.ev.cand ? "?" : kindTxt}</span>${LVS[it.ev.level]} ${shown.length>8?shown.slice(0,8)+"…":shown}${cd}${dup}</div>`;
+      chips += `<div class="ev ${it.kind} ${it.ev.cand ? "cand" : "l" + (it.ev.level || 1)}" data-hk="${HOVER.length-1}" style="border-left-color:${CATS[it.ev.category]}" onclick="showDetail('${it.ev.id}')">
+        <span class="k">${it.ev.cand ? "?" : kindTxt}</span>${LVS[it.ev.level]} ${shown}${cd}${dup}</div>`;
     });
-    if (items.length > 9) inner += `<div style="font-size:10px;color:var(--muted);padding-left:5px;cursor:pointer;text-decoration:underline dotted" onclick="showDayEvents('${ds}')">还有 ${items.length-9} 条…（点击查看）</div>`;
-    html += `<div class="${cls.join(" ")}">${waterHTML}<div class="d">${d}</div>${digestBadge(ds)}${inner}</div>`;
+    html += `<div class="${cls.join(" ")}">
+      <div class="vh"><span class="vnum">${d}</span><span class="vw">${wk[dowC]}</span>${digestBadge(ds)}${waterHTML}</div>
+      ${items.length ? `<div class="vchips">${chips}</div>` : ""}
+    </div>`;
   }
-  const total = firstDow + days;
-  const rest = (7 - (total % 7)) % 7;
-  for (let i = 1; i <= rest; i++) html += '<div class="cell other"><div class="d">'+i+'</div></div>';
   html += '</div>';
   document.getElementById("main").innerHTML = html;
-  fitRows();
 }
 
 /* 行高自适应 v2：优先"内容撑高不裁事件"；当内容总高超出视口（桌面端需滚动才能看全）改为
