@@ -19,7 +19,12 @@ HTTP：
   GET /api/progress 判读进度
   GET /api/pending  待判电报（可加 ?date=YYYY-MM-DD&limit=N）
   GET /api/events   事件表（?tag=IPO&status=待落地&scope=all 过滤；默认仅正式日历watch）
+  GET /api/events/rss?limit=N      RSS 2.0 订阅（事件流，深链 #event=<id>）
+  GET /api/export/events.json      只读全量导出（meta+events，给外部引用/备份）
   GET /api/ping     存活检测
+
+对外分发（2026-10-27 优化报告 P0-5）：
+  RSS 供 RSS 阅读器/自媒体监控订阅；export JSON 供二次引用（口径：仅供研究参考，不构成投资建议）。
 """
 import json
 import hashlib
@@ -60,6 +65,8 @@ import akshare as ak
 
 DB = HERE / "radar.db"
 PORT = 7610
+# 对外分发：事件单页深链基础地址（Pages 站点，2026-10-27 实测在线）
+PAGE_URL = "https://king151.github.io/a-share-event-calendar/" + "大事件日历.html"
 TTL_HOURS = {"cls_live": 1, "cls_hist": 24}   # 抓取节制：源站友好，与判读无关
 HIST_FILE = HERE / "cls_backfill.jsonl"
 LOCK = threading.Lock()
@@ -508,6 +515,92 @@ def all_events(tag=None, status=None, scope="watch"):
     return [_event_row_to_api(r) for r in rows]
 
 
+def _xesc(t):
+    """XML 转义（/rss 专用）。"""
+    return (str(t or "").replace("&", "&amp;").replace("<", "&lt;")
+            .replace(">", "&gt;").replace('"', "&quot;"))
+
+
+def _rfc822(date_iso, hhmm="00:00"):
+    """YYYY-MM-DD(+HH:MM) → RFC822（东八区）。非法输入返回空。"""
+    try:
+        m = re.match(r"(\d{4}-\d{2}-\d{2})", str(date_iso or ""))
+        if not m:
+            return ""
+        h, mi = (hhmm.split(":") + ["0", "0"])[:2]
+        d = dt.datetime(int(m.group(1)[:4]), int(m.group(1)[5:7]), int(m.group(1)[8:10]),
+                        int(h or 0), int(mi or 0))
+        return d.strftime("%a, %d %b %Y %H:%M:%S") + " +0800"
+    except Exception:
+        return ""
+
+
+def event_summary_html(ev):
+    """事件 → RSS item 描述（纯文本摘要，XML 外层转义由调用方统一做）。"""
+    lines = []
+    if ev.get("category"):
+        lines.append("分类：" + ev["category"])
+    if ev.get("tags"):
+        lines.append("标签：" + "、".join(ev["tags"]))
+    if ev.get("amount"):
+        lines.append("金额：" + str(ev["amount"]))
+    if ev.get("signalDate"):
+        lines.append("披露：" + str(ev["signalDate"]))
+    if ev.get("sigTime"):
+        lines.append("首发于：" + str(ev["sigTime"]))
+    if ev.get("landDate"):
+        lines.append("落地日：" + str(ev["landDate"]))
+    lines.append("状态：" + str(ev.get("status") or "关注中"))
+    if ev.get("notes"):
+        notes = str(ev["notes"])
+        if len(notes) > 300:
+            notes = notes[:300] + "…"
+        lines.append("备注：" + notes)
+    lines.append("——数据仅供研究参考，不构成投资建议")
+    return "\n".join(lines)
+
+
+def rss_feed(events, feed_title=None, feed_desc=None):
+    """事件列表 → RSS 2.0 feed 文本。link 为事件单页深链（#event=<id>）。"""
+    items = []
+    for ev in events:
+        tags = ev.get("tags") or []
+        head = ("[" + "/".join(tags[:3]) + "] ") if tags else ""
+        ttl = _xesc("%s%s ｜%s" % (head, ev.get("name") or "(未命名)", ev.get("status") or "关注中"))
+        desc = _xesc(event_summary_html(ev))
+        eid = _xesc(ev.get("id") or ev.get("key") or "")
+        link = _xesc(PAGE_URL) + (_xesc("#event=") + eid if eid else "")
+        pub = _rfc822(ev.get("signalDate"), (ev.get("sigTime") or "").split(" ")[-1]
+                      if " " in (ev.get("sigTime") or "") else "00:00")
+        items.append(
+            "    <item>\n"
+            "      <title>%s</title>\n"
+            "      <link>%s</link>\n"
+            "      <guid isPermaLink=\"false\">ashare-event-%s</guid>\n"
+            "      <pubDate>%s</pubDate>\n"
+            "      <description>%s</description>\n"
+            "    </item>" % (ttl, link, eid, pub, desc))
+    return (
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+        "<rss version=\"2.0\">\n"
+        "  <channel>\n"
+        "    <title>%s</title>\n"
+        "    <link>%s</link>\n"
+        "    <description>%s</description>\n"
+        "    <language>zh-CN</language>\n"
+        "    <lastBuildDate>%s</lastBuildDate>\n"
+        "%s\n"
+        "  </channel>\n"
+        "</rss>" % (
+            _xesc(feed_title or "A股大事件日历 · 事件流（落地追踪）"),
+            _xesc(PAGE_URL),
+            _xesc(feed_desc or "财联社电报经判读建事件，只追\"说好的大事落地了吗\"。"
+                  "数据仅供研究参考，不构成投资建议。"),
+            _rfc822(dt.datetime.now().strftime("%Y-%m-%d"),
+                    dt.datetime.now().strftime("%H:%M")),
+            "\n".join(items)))
+
+
 
 
 
@@ -709,6 +802,27 @@ class Handler(BaseHTTPRequestHandler):
             elif path == "/api/events":
                 self._send(200, json.dumps({"events": all_events(q.get("tag"), q.get("status"), q.get("scope", "watch"))},
                                            ensure_ascii=False).encode("utf-8"))
+            elif path == "/api/events/rss":
+                try:
+                    limit = min(int(q.get("limit") or 200), 500)
+                except Exception:
+                    limit = 200
+                events = all_events(q.get("tag"), q.get("status"), q.get("scope", "watch"))[:limit]
+                xml = rss_feed(events)
+                self._send(200, xml.encode("utf-8"), "application/rss+xml; charset=utf-8")
+            elif path == "/api/export/events.json":
+                events = all_events(None, None, q.get("scope", "watch"))
+                body = {
+                    "meta": {
+                        "source": "A股大事件日历（开源）github.com/king151/a-share-event-calendar",
+                        "generatedAt": dt.datetime.now().isoformat(timespec="seconds"),
+                        "count": len(events),
+                        "disclaimer": "数据仅供研究参考，不构成投资建议。渠道：财联社电报 → LLM 语义判读 → 结构化事件（金额可查证/落地日须官方原文）",
+                        "license": "MIT",
+                    },
+                    "events": events,
+                }
+                self._send(200, json.dumps(body, ensure_ascii=False).encode("utf-8"))
             elif path == "/api/ping":
                 self._send(200, json.dumps({"ok": True, "port": PORT}).encode())
             else:
@@ -717,6 +831,8 @@ class Handler(BaseHTTPRequestHandler):
                        "GET /api/progress   判读进度\n"
                        "GET /api/pending    待判电报（?date=YYYY-MM-DD&limit=N）\n"
                        "GET /api/events     事件表（?tag=IPO&status=待落地）\n"
+                       "GET /api/events/rss RSS 订阅（?limit=N&tag=）\n"
+                       "GET /api/export/events.json  只读全量导出\n"
                        "GET /api/ping       存活检测").encode("utf-8")
                 self._send(200, msg, "text/plain; charset=utf-8")
         except Exception:

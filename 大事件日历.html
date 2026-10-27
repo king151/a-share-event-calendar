@@ -464,6 +464,34 @@ async function fetchSnapshot(){
     console.warn("拉取 data.json 快照失败（后端未连接？）：", err);
   }
   fetchProgress();
+  openFromHash();      // 分享深链：#event=<id> 直开事件详情（RSS/自媒体引用入口）
+}
+
+/* ---- 事件单页深链（2026-10-27 优化报告 P0-4）----
+   URL 形态：#event=<id>。打开即高亮：本地有该事件直接弹详情；
+   没有（Pages 首访客）依次回退：雷达 export → docs/demo.json，merge 后再开。 */
+async function openFromHash(){
+  if (!location.hash || location.hash.indexOf("#event=") !== 0) return;
+  const id = decodeURIComponent(location.hash.slice(7));
+  if (!id) return;
+  if (events.some(e => e.id === id) || cands.some(c => c.id === id)) { showDetail(id); return; }
+  const feeds = [API + "/api/export/events.json", "docs/demo.json"];
+  for (const url of feeds) {
+    try {
+      const r = await fetch(url);
+      if (!r.ok) continue;
+      const d = await r.json();
+      const add = Array.isArray(d) ? d : (d.events || []);
+      const known = new Set(_allEvents.map(e => e.id));
+      const fresh = add.filter(e => e.id && !known.has(e.id));
+      if (!fresh.length) continue;
+      _allEvents = fresh.concat(_allEvents);
+      events = evByMarket(_allEvents);
+      cacheLocal(); render(); initTags();
+      if (events.some(e => e.id === id) || cands.some(c => c.id === id)) { showDetail(id); return; }
+    } catch(e){}
+  }
+  alert("分享链接指向的事件不在当前数据里（id: " + id + "）。\n请启动本机雷达或点击顶栏「导入数据」获取最新全量数据。");
 }
 
 /* ---- 减少操作：证据链齐备的候选自动转正（信息+外部双源 且 落地日已知） ---- */
@@ -1163,8 +1191,14 @@ function showDetail(id){
       <button class="primary" onclick="confirmEvent('${e.id}')">✓ 确认转正</button>
     </div>` : ""}`;
   document.getElementById("detailMask").classList.add("open");
+  try { history.replaceState(null, "", "#event=" + encodeURIComponent(id)); } catch(e){}   // 打开详情即获得可分享 URL
 }
-function closeModal(id){ document.getElementById(id).classList.remove("open"); }
+function closeModal(id){
+  document.getElementById(id).classList.remove("open");
+  if (id === "detailMask" && location.hash.indexOf("#event=") === 0) {
+    try { history.replaceState(null, "", location.pathname + location.search); } catch(e){}   // 关详情清深链
+  }
+}
 
 function openAdd(){
   ["f_name","f_sig","f_land","f_amount","f_sector","f_src","f_url","f_tl","f_watch","f_note"].forEach(i => document.getElementById(i).value = "");

@@ -69,6 +69,29 @@ pip install akshare
 
 导入/导出/添加事件都在顶栏按钮，`data.json` 即是权威数据源，可直接放进你的同步盘带走。
 
+### 数据外发接口（RSS / JSON / MCP · 2026-10-27）
+三个只读出口，把"事件流"交给订阅者、自媒体和 Agent，全部不写库、不碰判读闭环：
+
+| 接口 | 形态 | 用途 |
+|---|---|---|
+| `GET /api/events/rss` | RSS 2.0（`?limit=N&tag=IPO`） | RSS 阅读器/自媒体监控订阅事件流；每条 item 深链 `#event=<id>` 直开事件详情 |
+| `GET /api/export/events.json` | JSON 全量（meta+events，222 条） | 二次引用、数据备份、报表拼接；含免责声明与 MIT 口径 |
+| MCP Server | `事件雷达/mcp_server.py`（stdio，零依赖） | Codex/Cursor/Claude 等 Agent 直接查事件——`query_events` / `get_event` / `judge_stats` / `month_view` 四工具 |
+
+MCP 注册示例（Claude Desktop 等宿主配置）：
+```json
+{
+  "mcpServers": {
+    "a-share-event-calendar": {
+      "command": "pythonw",
+      "args": ["F:/随心/事件雷达/mcp_server.py"]
+    }
+  }
+}
+```
+
+**事件单页深链**：日历页任何事件详情现在都有可分享 URL（`大事件日历.html#event=<id>`）；首页访客点开深链会自动回退（本机雷达 → docs/demo.json）合并数据再弹详情，分享链接永不断链。
+
 ## 开发日志
 
 决策、批次、返工与原因全部沉淀在 [大事件日历-优化计划.md](大事件日历-优化计划.md)——包括：消化率口径设计、fitRows 两段收缩方案、竖排实验两轮否决的结论、颜色分级体系、外壳一行化……踩过的坑都在，欢迎围观取材。
