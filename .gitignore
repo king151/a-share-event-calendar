@@ -1,28 +1,7 @@
-# 数据与运行时产物（可由脚本/db 重建，不入库）
-radar.db
-radar.db-shm
-radar.db-wal
-*.jsonl
-data.json
-data.json.bak*
-AI精选.js
-*.log
-__pycache__/
+# 仓库外内部文档（运营/推广策略，不对外发布）
+内部文档/
 
-# 截图与临时实验产物
-*.png
-_test_*
-_inline_*
-_ana_occ.py
-_inspect_db.py
-
-# 备份文件（git 本身就是备份）
-*.bak
-*.bak_*
-
-# README 截图例外
-!docs/
-!docs/
-!docs/screenshots/
-!docs/screenshots/*.png
-事件雷达/cls_state.json
+# 运行时产物（本机雷达数据与日志）
+事件雷达/radar.log
+事件雷达/mcp.log
+事件雷达/*.tmp
