@@ -206,24 +206,120 @@ def ingest_telegrams(items, source):
     return n_new
 
 
+def cls_page(last_time):
+    """财联社 roll 接口一页（rn=50，app 签名）。返回接口 JSON dict；失败抛异常。
+    实时追平与历史缺口补页共用（signature 算法与源站 web 端一致）。"""
+    from urllib.parse import urlencode
+    from akshare.request import make_request_with_retry_json
+    from akshare.utils.cons import headers
+    params = {"app": "CailianpressWeb", "category": "", "last_time": int(last_time),
+              "os": "web", "refresh_type": "1", "rn": "50", "sv": "8.4.6"}
+    params["sign"] = hashlib.md5(hashlib.sha1(urlencode(params).encode()).hexdigest().encode()).hexdigest()
+    return make_request_with_retry_json("https://www.cls.cn/v1/roll/get_roll_list",
+                                        params=params, max_retries=5, headers=headers)
+
+
 def scan_cls_live():
-    """财联社实时电报（最新一屏）→ 入库"""
+    """财联社实时电报 → 分页增量入库（替换 akshare 单屏 20 条，补全当天空洞）。
+    直接请求源接口 get_roll_list，用 last_time 游标 + rn=50 从最新往前翻页，
+    翻到追上库内最新时间戳为止；已入库条由 ingest_telegrams 的 hash 去重自动跳过。"""
+    import time as _time
+    RN, CLS_SLEEP, MAX_PAGES = 50, 1.5, 300
     try:
-        df = ak.stock_info_global_cls()
-        if df is None or df.empty:
-            return 0
-        items = []
-        for _, r in df.iterrows():
-            ti = str(r.get("标题") or "").strip()
-            c = str(r.get("内容") or "").strip()
-            try:
-                t = dt.datetime.strptime(f"{r.get('发布日期')} {r.get('发布时间')}", "%Y-%m-%d %H:%M:%S").timestamp()
-            except Exception:
-                t = dt.datetime.now().timestamp()
-            items.append({"t": t, "ti": ti, "c": c, "id": ""})
-        return ingest_telegrams(items, "cls_live")
+        conn = dbconn()
+        floor = conn.execute("SELECT COALESCE(MAX(ts),0) FROM telegrams").fetchone()[0] or 0
+        conn.close()
+
+        items, cursor, pages = [], int(_time.time()), 0
+        while pages < MAX_PAGES:
+            data = cls_page(cursor)
+            roll = (data.get("data") or {}).get("roll_data") or []
+            if not roll:
+                break
+            pages += 1
+            for it in roll:
+                ts = int(it.get("ctime") or 0)
+                if ts:
+                    items.append({"t": ts, "ti": str(it.get("title") or "").strip(),
+                                  "c": str(it.get("content") or "").strip(), "id": str(it.get("id") or "")})
+            oldest = min(int(r["ctime"]) for r in roll)
+            if oldest <= floor:
+                break
+            cursor = oldest - 1
+            _time.sleep(CLS_SLEEP)
+        n = ingest_telegrams(items, "cls_live")
+        _LOG("[cls_live] 分页 %d 页 → 新增 %d 条", pages, n)
+        return n
     except Exception:
         _ERR("[cls_live] 抓取失败: %s", traceback.format_exc())
+        return 0
+
+
+def find_gaps(days_back=45):
+    """完整性检查：相邻电报时间差超过高频阈值即报缺口（07-24 点 > 60 分钟；00-07 点 > 4 小时）。
+    返回 [(start_ts, end_ts), ...]。周末/节假日低频空窗也在此列，补页时会自然落空（0 新增）并被记录一次。"""
+    conn = dbconn()
+    cut = (dt.datetime.now() - dt.timedelta(days=days_back)).strftime("%Y-%m-%d")
+    rows = [r[0] for r in conn.execute("SELECT ts FROM telegrams WHERE date>=? ORDER BY ts", (cut,))]
+    conn.close()
+    gaps = []
+    for a, b in zip(rows[:-1], rows[1:]):
+        thr = 60 if 7 <= dt.datetime.fromtimestamp(b).hour < 24 else 240
+        if (b - a) > thr * 60:
+            gaps.append((a, b))
+    return gaps
+
+
+def fill_gaps(days_back=45, max_pages_per_gap=150):
+    """缺失补充：对 find_gaps() 发现的每个缺口，从缺口终点向起点定向翻页补采。
+    命中 finish 条件（追溯至缺口起点）或翻到源尽头即收；0 新增/源不够深都只记一次（gapfill_done 指纹）。
+    source 落 cls_gap 便于事后审计；补入条与其他来源同样 hash 去重、同样入库即预筛。"""
+    import time as _t
+    try:
+        done_raw = meta_get("gapfill_done", "[]")
+        try:
+            done = set(json.loads(done_raw))
+        except Exception:
+            done = set()
+        gaps = find_gaps(days_back)
+        total_added, touched = 0, 0
+        for a, b in gaps:
+            fp = str(a)
+            if fp in done:
+                continue
+            items, cursor, pages, reached = [], b, 0, False
+            while pages < max_pages_per_gap:
+                data = cls_page(cursor)
+                roll = (data.get("data") or {}).get("roll_data") or []
+                if not roll:
+                    break
+                pages += 1
+                for it in roll:
+                    ts = int(it.get("ctime") or 0)
+                    if ts and (a - 600) <= ts <= (b + 600):
+                        items.append({"t": ts, "ti": str(it.get("title") or "").strip(),
+                                      "c": str(it.get("content") or "").strip(), "id": str(it.get("id") or "")})
+                oldest = min(int(r["ctime"]) for r in roll)
+                if oldest <= a:
+                    reached = True
+                    break
+                cursor = oldest - 1
+                _t.sleep(1.2)
+            n = ingest_telegrams(items, "cls_gap") if items else 0
+            total_added += n
+            touched += 1
+            done.add(fp)
+            tag = "" if reached else "（翻到源尽头仍未达缺口起点：超出源保留深度，缺口留档）"
+            _LOG("[gapfill] %s → %s：翻 %d 页，补入 %d 条%s",
+                 dt.datetime.fromtimestamp(a).strftime("%m-%d %H:%M"),
+                 dt.datetime.fromtimestamp(b).strftime("%m-%d %H:%M"), pages, n, tag)
+        meta_set("gapfill_done", json.dumps(sorted(done)[-300:]))
+        meta_set("last_gapfill_at", dt.datetime.now().isoformat(timespec="seconds"))
+        if gaps:
+            _LOG("[gapfill] 本轮缺口 %d 个，动补 %d 个，累计 +条 %d", len(gaps), touched, total_added)
+        return total_added
+    except Exception:
+        _ERR("[gapfill] 补页失败: %s", traceback.format_exc())
         return 0
 
 
@@ -268,6 +364,7 @@ def ensure_fetch():
     """TTL内不重复抓源站；过期才拉。返回各通道新增数。
     注意：cls_hist 吸入的是本地存档文件（cls_backfill.jsonl），mtime 未变即零开销，
     不受网络 TTL 限制——用户中途跑 backfill 后，下一次 scan 立刻可见。
+    缺口体检+定向补页（gapfill）附在后面：6 小时一轮上限，常态零成本即可发现"漏过去的往日"并自动回填。
     """
     added = {}
     with LOCK:
@@ -277,6 +374,13 @@ def ensure_fetch():
         added["cls_hist"] = scan_cls_hist()
         if not _within_ttl("cls_hist"):
             meta_set("last_fetch_cls_hist", dt.datetime.now().isoformat(timespec="seconds"))
+        last_gf = meta_get("last_gapfill_at", "")
+        try:
+            gap_todo = not last_gf or (dt.datetime.now() - dt.datetime.fromisoformat(last_gf)) > dt.timedelta(hours=6)
+        except Exception:
+            gap_todo = True
+        if gap_todo:
+            added["gapfill"] = fill_gaps()
     for k, v in added.items():
         _LOG("[fetch] %s 新增 %d 条", k, v)
     return added
