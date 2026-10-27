@@ -76,7 +76,7 @@ pip install akshare
 |---|---|---|
 | `GET /api/events/rss` | RSS 2.0（`?limit=N&tag=IPO`） | RSS 阅读器/自媒体监控订阅事件流；每条 item 深链 `#event=<id>` 直开事件详情 |
 | `GET /api/export/events.json` | JSON 全量（meta+events，222 条） | 二次引用、数据备份、报表拼接；含免责声明与 MIT 口径 |
-| MCP Server | `事件雷达/mcp_server.py`（stdio，零依赖） | Codex/Cursor/Claude 等 Agent 直接查事件——`query_events` / `get_event` / `judge_stats` / `month_view` 四工具 |
+| MCP Server | `事件雷达/mcp_server.py`（stdio，零依赖） | Codex/Cursor/Claude 等 Agent 直接查事件——`query_events` / `get_event` / `judge_stats` / `month_view` 四工具。**零 pip 依赖**（协议与数据层手写实现）；从未运行过雷达时自动回退 `docs/demo.json` 示例事件并给出引导，跑过雷达后自动切全量实时数据 |
 
 MCP 注册示例（Claude Desktop 等宿主配置）：
 ```json
