@@ -1,6 +1,9 @@
 # 仓库外内部文档（运营/推广策略，不对外发布）
 内部文档/
 
+# 本机 OpenCode 配置（含机器专属 Python 路径）
+opencode.jsonc
+
 # 运行时产物（本机雷达数据与日志）
 事件雷达/radar.log
 事件雷达/mcp.log
