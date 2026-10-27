@@ -1,0 +1,2185 @@
+[
+ {
+  "id": 40720,
+  "is_event": true,
+  "event": {
+   "key": "SK海力士-股东回报计划-20261026",
+   "name": "SK海力士 据悉将宣布约50万亿~60万亿韩元股东回报计划（含约16万亿韩元特别股息）",
+   "category": "公司大事件",
+   "tags": [
+    "分红回购"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": null,
+   "amount": "50万亿~60万亿韩元（约合341亿~409亿美元）；另报道称其中约16万亿韩元特别股息",
+   "sector": "半导体存储",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "【影响】据报道拟以铠侠出售收益约80%派发近16万亿韩元特别股息"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "韩国媒体据内部人士：准备于10月28日宣布50万亿~60万亿韩元股东回报计划"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-28",
+     "label": "待官宣：SK海力士三季报发布会或宣布派息计划"
+    }
+   ],
+   "notes": "存储行情核心标的的超大额股东回报，官宣或带动全球存储链定价",
+   "market": ""
+  }
+ },
+ {
+  "id": 40722,
+  "is_event": true,
+  "event": {
+   "key": "Anthropic-纳斯达克IPO-20261026",
+   "name": "Anthropic 公开提交纳斯达克IPO申请（代码ANT），据悉计划11月16日当周挂牌",
+   "category": "公司大事件",
+   "tags": [
+    "IPO类",
+    "AI大厂"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "募资额未披露；最近一轮融资估值约9650亿美元",
+   "sector": "人工智能",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "据报道计划11月16日当周进行IPO"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "公开提交纳斯达克IPO申请（代码ANT），IPO文件披露算力扩张将持续消耗大量现金"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "券商跟进：未来基础设施支出承诺超6000亿美元"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-11-16",
+     "label": "待落地：拟IPO挂牌窗口（11月16日当周）"
+    }
+   ],
+   "notes": "当前全球AI资本锚点事件，挂牌日为全行业风险偏好观察点",
+   "market": ""
+  }
+ },
+ {
+  "id": 40728,
+  "is_event": false
+ },
+ {
+  "id": 40733,
+  "is_event": false
+ },
+ {
+  "id": 40741,
+  "is_event": true,
+  "event": {
+   "key": "DoorDash-收购Instacart-20261027",
+   "name": "DoorDash 据悉接近以约170亿美元收购 Instacart 母公司",
+   "category": "公司大事件",
+   "tags": [
+    "并购"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-27",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": 1214.0,
+   "amount": "约170亿美元（约合人民币1214亿元）",
+   "sector": "外卖/本地生活",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "label": "知情人士：就约170亿美元收购Maplebear深入谈判，最早本周宣布；谈判仍有破裂可能"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-30",
+     "label": "观察：交易或本周官宣"
+    }
+   ],
+   "notes": "美国本地生活平台超级并购",
+   "market": ""
+  }
+ },
+ {
+  "id": 40742,
+  "is_event": false
+ },
+ {
+  "id": 40755,
+  "is_event": false
+ },
+ {
+  "id": 40756,
+  "is_event": true,
+  "event": {
+   "key": "证监会-公募运作办法征求意见-20261027",
+   "name": "证监会就《公募证券投资基金运作管理办法（修订征求意见稿）》公开征求意见",
+   "category": "政策法规",
+   "tags": [
+    "机构监管"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-27",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "公募基金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "label": "报道称近日公开征求意见：降低FOF成立门槛、非FOF基金投资其他基金上限10%提至30%、基金投REITs按证券管理"
+    }
+   ],
+   "watch": [],
+   "notes": "公募资产配置框架结构性升级，影响长期资金配置行为",
+   "market": ""
+  }
+ },
+ {
+  "id": 40757,
+  "is_event": true,
+  "event": {
+   "key": "美欧日央行-10月议息-20261027",
+   "name": "美联储/欧央行/日央行本周先后公布利率决议",
+   "category": "政策法规",
+   "tags": [
+    "央行议息"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-27",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "宏观",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "label": "超级央行周开场（另有加拿大/新西兰央行开会），市场预计美欧日按兵不动"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-29",
+     "label": "美联储决议（北京时间凌晨）"
+    },
+    {
+     "date": "2026-10-30",
+     "label": "欧央行、日央行决议"
+    }
+   ],
+   "notes": "全球资产定价关键指引",
+   "market": ""
+  }
+ },
+ {
+  "id": 40773,
+  "is_event": true,
+  "event": {
+   "key": "博通-630亿美元AI算力融资-20261027",
+   "name": "博通联合美银/黑石/花旗/摩根士丹利设立630亿美元AI算力融资安排（SPV供XPU给Anthropic）",
+   "category": "公司大事件",
+   "tags": [
+    "债务融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-27",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 4500.0,
+   "amount": "约630亿美元（约合人民币4500亿元）",
+   "sector": "AI算力/芯片",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "label": "多家银行机构与博通共同设立总额630亿美元AI融资安排；博通为SPV优先债部分提供残值支持，2027年起供应XPU加速器租赁给Anthropic"
+    }
+   ],
+   "watch": [],
+   "notes": "AI算力供货融资化的标志性平台交易",
+   "market": ""
+  }
+ },
+ {
+  "id": 40783,
+  "is_event": true,
+  "event": {
+   "key": "美加-钢铁汽车关税协议-20261027",
+   "name": "美国与加拿大据悉协商放宽钢铁、汽车进口关税的协议",
+   "category": "政策法规",
+   "tags": [
+    "贸易政策"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-27",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "钢铁/汽车",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "label": "财联社：美、加据悉正致力于达成放宽对加钢铁和汽车进口关税的协议"
+    }
+   ],
+   "watch": [],
+   "notes": "关税松绑信号，若落地将降低两国供应链成本",
+   "market": ""
+  }
+ },
+ {
+  "id": 40785,
+  "is_event": false
+ },
+ {
+  "id": 40786,
+  "is_event": false
+ },
+ {
+  "id": 40789,
+  "is_event": false
+ },
+ {
+  "id": 40791,
+  "is_event": false
+ },
+ {
+  "id": 40797,
+  "is_event": false
+ },
+ {
+  "id": 40810,
+  "is_event": true,
+  "event": {
+   "key": "巴西-雷亚尔贬值-20261027",
+   "name": "巴西总统卢拉意外胜选，雷亚尔日内贬逾11%，全球糖/咖啡/大豆价格大跌",
+   "category": "行业事件",
+   "tags": [
+    "宏观"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-27",
+   "land_date": "2026-10-27",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "农产品/大宗商品",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "label": "卢拉意外胜选：雷亚尔一度贬11%；糖价跌逾5%（5月以来最大盘中跌幅）、咖啡—4.1%、大豆—2.3%"
+    }
+   ],
+   "watch": [],
+   "notes": "全球农产品定价中心重定位，出口链价格弹性",
+   "market": ""
+  }
+ },
+ {
+  "id": 40813,
+  "is_event": false
+ },
+ {
+  "id": 40824,
+  "is_event": false
+ },
+ {
+  "id": 40825,
+  "is_event": false
+ },
+ {
+  "id": 40829,
+  "is_event": false
+ },
+ {
+  "id": 40861,
+  "is_event": true,
+  "event": {
+   "key": "沙特阿美-100亿美元贷款-20261026",
+   "name": "沙特阿美据悉即将与全球银行签署100亿美元贷款协议",
+   "category": "公司大事件",
+   "tags": [
+    "债务融资"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": 714.0,
+   "amount": "约100亿美元（约合人民币714亿元）",
+   "sector": "石油公司",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "知情人士：即将与全球银行签署100亿美元贷款协议"
+    }
+   ],
+   "watch": [],
+   "notes": "顶级石油公司大额融资落地在即",
+   "market": ""
+  }
+ },
+ {
+  "id": 40878,
+  "is_event": true,
+  "event": {
+   "key": "Anthropic-纳斯达克IPO-20261026",
+   "name": "Anthropic 公开提交纳斯达克IPO申请（代码ANT），据悉计划11月16日当周挂牌",
+   "category": "公司大事件",
+   "tags": [
+    "IPO类",
+    "AI大厂"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "募资额未披露；最近一轮融资估值约9650亿美元",
+   "sector": "人工智能",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "据报道计划11月16日当周进行IPO"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "公开提交纳斯达克IPO申请（代码ANT），IPO文件披露算力扩张将持续消耗大量现金"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "券商跟进：未来基础设施支出承诺超6000亿美元"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-11-16",
+     "label": "待落地：拟IPO挂牌窗口（11月16日当周）"
+    }
+   ],
+   "notes": "当前全球AI资本锚点事件，挂牌日为全行业风险偏好观察点",
+   "market": ""
+  }
+ },
+ {
+  "id": 40879,
+  "is_event": true,
+  "event": {
+   "key": "Anthropic-纳斯达克IPO-20261026",
+   "name": "Anthropic 公开提交纳斯达克IPO申请（代码ANT），据悉计划11月16日当周挂牌",
+   "category": "公司大事件",
+   "tags": [
+    "IPO类",
+    "AI大厂"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "募资额未披露；最近一轮融资估值约9650亿美元",
+   "sector": "人工智能",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "据报道计划11月16日当周进行IPO"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "公开提交纳斯达克IPO申请（代码ANT），IPO文件披露算力扩张将持续消耗大量现金"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "券商跟进：未来基础设施支出承诺超6000亿美元"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-11-16",
+     "label": "待落地：拟IPO挂牌窗口（11月16日当周）"
+    }
+   ],
+   "notes": "当前全球AI资本锚点事件，挂牌日为全行业风险偏好观察点",
+   "market": ""
+  }
+ },
+ {
+  "id": 40890,
+  "is_event": true,
+  "event": {
+   "key": "Anthropic-纳斯达克IPO-20261026",
+   "name": "Anthropic 公开提交纳斯达克IPO申请（代码ANT），据悉计划11月16日当周挂牌",
+   "category": "公司大事件",
+   "tags": [
+    "IPO类",
+    "AI大厂"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "募资额未披露；最近一轮融资估值约9650亿美元",
+   "sector": "人工智能",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "据报道计划11月16日当周进行IPO"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "公开提交纳斯达克IPO申请（代码ANT），IPO文件披露算力扩张将持续消耗大量现金"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "券商跟进：未来基础设施支出承诺超6000亿美元"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-11-16",
+     "label": "待落地：拟IPO挂牌窗口（11月16日当周）"
+    }
+   ],
+   "notes": "当前全球AI资本锚点事件，挂牌日为全行业风险偏好观察点",
+   "market": ""
+  }
+ },
+ {
+  "id": 40899,
+  "is_event": true,
+  "event": {
+   "key": "SpaceX-400亿美元GPU债务融资-20261026",
+   "name": "SpaceX 完成400亿美元GPU设备债务融资（信贷交易定价最高至8.75%）",
+   "category": "公司大事件",
+   "tags": [
+    "债务融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-10-26",
+   "status": "已落地",
+   "amount_yi": 2856.0,
+   "amount": "约400亿美元（约合人民币2860亿元）",
+   "sector": "商业航天/AI算力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "阿波罗及合作伙伴与SpaceX签署约400亿美元GPU设备融资租赁协议，债券定价最高至8.75%"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "马斯克确认融资完成、资金用于采购GPU；标普随后表示维持其评级不变"
+    }
+   ],
+   "watch": [],
+   "notes": "AI算力史上最大民间债务融资之一；分化的债务环境开始精准检验无自有营收的AI资产",
+   "market": ""
+  }
+ },
+ {
+  "id": 40900,
+  "is_event": false
+ },
+ {
+  "id": 40903,
+  "is_event": false
+ },
+ {
+  "id": 40904,
+  "is_event": false
+ },
+ {
+  "id": 40906,
+  "is_event": true,
+  "event": {
+   "key": "新宙邦-高纯电子级溶剂项目-20261026",
+   "name": "新宙邦拟设合资公司投建年产15万吨高纯电子级溶剂项目（总投资不超5亿元）",
+   "category": "公司大事件",
+   "tags": [
+    "项目投资"
+   ],
+   "importance": "低",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 5.0,
+   "amount": "项目计划总投资不超过5亿元（分两期）",
+   "sector": "电子化学材料",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "公司公告：与广东宇新设立合资公司，在惠州产业园投建15万吨高纯电子级溶剂项目"
+    }
+   ],
+   "watch": [],
+   "notes": "电锂溶剂上游配套产能扩张",
+   "market": ""
+  }
+ },
+ {
+  "id": 40924,
+  "is_event": true,
+  "event": {
+   "key": "成都-现房销售实施意见-20261026",
+   "name": "成都三部门出台完善商品住房销售制度实施意见，推行现房销售定金制",
+   "category": "政策法规",
+   "tags": [
+    "房地产政策"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "房地产",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "成都市住建局等三部门发文：现房销售项目定金不超过房屋总价5%，开发商违约购房人有权解除定金合同"
+    }
+   ],
+   "watch": [],
+   "notes": "建房规〔2026〕3号（828新政）城市落地又一例",
+   "market": ""
+  }
+ },
+ {
+  "id": 40927,
+  "is_event": false
+ },
+ {
+  "id": 40928,
+  "is_event": false
+ },
+ {
+  "id": 40934,
+  "is_event": true,
+  "event": {
+   "key": "Apollo-投资MubadalaCapital-20261026",
+   "name": "阿波罗及合作伙伴将向 Mubadala Capital 投资50亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "股权投资"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 357.0,
+   "amount": "约50亿美元（约合人民币357亿元）",
+   "sector": "资产管理",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "财联社：阿波罗及合作伙伴将向Mubadala Capital投资50亿美元"
+    }
+   ],
+   "watch": [],
+   "notes": "海外头部资管大额股权投资",
+   "market": ""
+  }
+ },
+ {
+  "id": 40938,
+  "is_event": true,
+  "event": {
+   "key": "洛克希德马丁-收购UltraMaritime-20261026",
+   "name": "洛克希德·马丁完成34.5亿美元收购水下作战企业 Ultra Maritime",
+   "category": "公司大事件",
+   "tags": [
+    "并购"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-10-26",
+   "status": "已落地",
+   "amount_yi": 246.0,
+   "amount": "约34.5亿美元（约合人民币246亿元）",
+   "sector": "军工",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "官宣完成收购，标的专注水下作战与反潜战技术，并入旋翼与任务系统部门"
+    }
+   ],
+   "watch": [],
+   "notes": "军工重资产整合完成",
+   "market": ""
+  }
+ },
+ {
+  "id": 40973,
+  "is_event": true,
+  "event": {
+   "key": "苏州-现房销售实施意见-20261024",
+   "name": "苏州三部门印发实施意见：8月28日起新出让住宅用地项目优先现房销售",
+   "category": "政策法规",
+   "tags": [
+    "房地产政策"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-24",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "房地产",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "label": "苏州住建局等发文落实建房规〔2026〕3号：2026-08-28起新出让土地项目优先选择现房销售，现房定金原则上不超过总价3%"
+    }
+   ],
+   "watch": [],
+   "notes": "江苏首个'828新政'落地城市",
+   "market": ""
+  }
+ },
+ {
+  "id": 40979,
+  "is_event": true,
+  "event": {
+   "key": "美国对外投资限制拟议规则-20261023",
+   "name": "美财政部发布新版对外投资限制拟议规则并征求意见（针对对华投资歧视性扩大）",
+   "category": "政策法规",
+   "tags": [
+    "投资限制"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-23",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "外资/半导体",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "label": "美财政部发布新版对外投资限制拟议规则，征求公众评论"
+    },
+    {
+     "date": "2026-10-24",
+     "label": "商务部回应：典型泛化国家安全做法，坚决反对，保留采取相应措施的权利"
+    }
+   ],
+   "watch": [],
+   "notes": "对华投资限制加码进行中，科技投资通道观察点",
+   "market": ""
+  }
+ },
+ {
+  "id": 41011,
+  "is_event": true,
+  "event": {
+   "key": "台基股份-高功率半导体基地-20261026",
+   "name": "台基股份拟约3亿元投建新型高功率半导体器件研发及产业化基地",
+   "category": "公司大事件",
+   "tags": [
+    "项目投资"
+   ],
+   "importance": "低",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 3.0,
+   "amount": "计划总投资约3亿元",
+   "sector": "半导体封测",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "公司公告：与武汉临空港经开区管委会签署项目投资协议，扩充高端封测产能"
+    }
+   ],
+   "watch": [],
+   "notes": "高端封测产能扩充",
+   "market": ""
+  }
+ },
+ {
+  "id": 41017,
+  "is_event": true,
+  "event": {
+   "key": "圣邦股份-收购申矽凌微-20261026",
+   "name": "圣邦股份拟8.33亿元收购申矽凌微58.29%股份成控股股东",
+   "category": "公司大事件",
+   "tags": [
+    "并购"
+   ],
+   "importance": "低",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 8.33,
+   "amount": "约8.33亿元（自有资金/自筹/H股募集资金）",
+   "sector": "模拟芯片",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "公司公告：拟收购上海申矽凌微电子58.2878%股份，交易后成为控股股东；不构成关联交易及重大资产重组"
+    }
+   ],
+   "watch": [],
+   "notes": "模拟芯片放量对并购整合案（温度/湿度传感器标的）",
+   "market": ""
+  }
+ },
+ {
+  "id": 41023,
+  "is_event": true,
+  "event": {
+   "key": "Meta-350亿美元股权融资-20261026",
+   "name": "Meta 启动约350亿美元股票+优先股发行，指引2026年资本开支1350亿~1450亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "股权融资",
+    "AI大厂"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 2500.0,
+   "amount": "约350亿美元（约合人民币2500亿元）；另指引2026资本开支1350亿~1450亿美元",
+   "sector": "互联网头部/AI算力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "启动两项承销发行：约225亿美元A类普通股+约125亿美元优先股存托股份；指引2026资本开支1350亿~1450亿美元"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "英伟达、AMD、博通表示有意合计认购至多50亿美元"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "拟售规模最高950亿美元报道为发行+远期协议合计口径"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2027-03-31",
+     "label": "观察：C类股上市后拟推约600亿美元ATM增发计划"
+    }
+   ],
+   "notes": "全球AI资本开支最大单笔指引之一，股权融资开启AI大厂自付模式",
+   "market": ""
+  }
+ },
+ {
+  "id": 41024,
+  "is_event": true,
+  "event": {
+   "key": "Meta-350亿美元股权融资-20261026",
+   "name": "Meta 启动约350亿美元股票+优先股发行，指引2026年资本开支1350亿~1450亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "股权融资",
+    "AI大厂"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 2500.0,
+   "amount": "约350亿美元（约合人民币2500亿元）；另指引2026资本开支1350亿~1450亿美元",
+   "sector": "互联网头部/AI算力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "启动两项承销发行：约225亿美元A类普通股+约125亿美元优先股存托股份；指引2026资本开支1350亿~1450亿美元"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "英伟达、AMD、博通表示有意合计认购至多50亿美元"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "拟售规模最高950亿美元报道为发行+远期协议合计口径"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2027-03-31",
+     "label": "观察：C类股上市后拟推约600亿美元ATM增发计划"
+    }
+   ],
+   "notes": "全球AI资本开支最大单笔指引之一，股权融资开启AI大厂自付模式",
+   "market": ""
+  }
+ },
+ {
+  "id": 41042,
+  "is_event": true,
+  "event": {
+   "key": "Meta-350亿美元股权融资-20261026",
+   "name": "Meta 启动约350亿美元股票+优先股发行，指引2026年资本开支1350亿~1450亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "股权融资",
+    "AI大厂"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 2500.0,
+   "amount": "约350亿美元（约合人民币2500亿元）；另指引2026资本开支1350亿~1450亿美元",
+   "sector": "互联网头部/AI算力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "启动两项承销发行：约225亿美元A类普通股+约125亿美元优先股存托股份；指引2026资本开支1350亿~1450亿美元"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "英伟达、AMD、博通表示有意合计认购至多50亿美元"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "拟售规模最高950亿美元报道为发行+远期协议合计口径"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2027-03-31",
+     "label": "观察：C类股上市后拟推约600亿美元ATM增发计划"
+    }
+   ],
+   "notes": "全球AI资本开支最大单笔指引之一，股权融资开启AI大厂自付模式",
+   "market": ""
+  }
+ },
+ {
+  "id": 41043,
+  "is_event": true,
+  "event": {
+   "key": "Meta-350亿美元股权融资-20261026",
+   "name": "Meta 启动约350亿美元股票+优先股发行，指引2026年资本开支1350亿~1450亿美元",
+   "category": "公司大事件",
+   "tags": [
+    "股权融资",
+    "AI大厂"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 2500.0,
+   "amount": "约350亿美元（约合人民币2500亿元）；另指引2026资本开支1350亿~1450亿美元",
+   "sector": "互联网头部/AI算力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "启动两项承销发行：约225亿美元A类普通股+约125亿美元优先股存托股份；指引2026资本开支1350亿~1450亿美元"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "英伟达、AMD、博通表示有意合计认购至多50亿美元"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "拟售规模最高950亿美元报道为发行+远期协议合计口径"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2027-03-31",
+     "label": "观察：C类股上市后拟推约600亿美元ATM增发计划"
+    }
+   ],
+   "notes": "全球AI资本开支最大单笔指引之一，股权融资开启AI大厂自付模式",
+   "market": ""
+  }
+ },
+ {
+  "id": 41053,
+  "is_event": false
+ },
+ {
+  "id": 41063,
+  "is_event": false
+ },
+ {
+  "id": 41068,
+  "is_event": false
+ },
+ {
+  "id": 41098,
+  "is_event": false
+ },
+ {
+  "id": 41100,
+  "is_event": false
+ },
+ {
+  "id": 41104,
+  "is_event": false
+ },
+ {
+  "id": 41144,
+  "is_event": true,
+  "event": {
+   "key": "上海-卫星互联网行动方案-20261026",
+   "name": "上海六部门印发卫星互联网产业创新发展行动方案（2027-2030年）",
+   "category": "政策法规",
+   "tags": [
+    "产业规划"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "卫星互联网",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "上海经信委等六部门印发行动方案：加大网络部署、设产业发展基金、支持专精特新企业上市"
+    }
+   ],
+   "watch": [],
+   "notes": "地方卫星互联网产业全周期政策框架",
+   "market": ""
+  }
+ },
+ {
+  "id": 41154,
+  "is_event": false
+ },
+ {
+  "id": 41165,
+  "is_event": true,
+  "event": {
+   "key": "央行-债市非银大额赎回互换便利BNSF-20261026",
+   "name": "央行设立债市非银大额赎回互换便利（BNSF）：系统性流动性压力下支持理财子/公募借入央票回购融资",
+   "category": "政策法规",
+   "tags": [
+    "货币政策",
+    "债市"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-10-26",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "债券市场",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "央行决定设立BNSF：在资管机构面临群体性流动性风险、债市出现系统性压力的特定情景下，支持具有系统性影响的机构从央行借入央票购买被赎回产品流动资产"
+    }
+   ],
+   "watch": [],
+   "notes": "宏观审慎管理新工具，债市系统性风险的预防式防线",
+   "market": ""
+  }
+ },
+ {
+  "id": 41184,
+  "is_event": true,
+  "event": {
+   "key": "香港证监会-代币化基金VATP交易-20261026",
+   "name": "香港证监会批准首批合规公募代币化基金在持牌虚拟资产平台 7×24 二级市场交易（全球首创）",
+   "category": "政策法规",
+   "tags": [
+    "数字资产"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-10-26",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "数字资产/公募基金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "香港证监会发文：批准首批代币化货币市场基金在持牌VATP上全天候二级市场交易，同步列明公平定价/流动性/披露保障"
+    }
+   ],
+   "watch": [],
+   "notes": "公募与虚拟资产通道打通，全球资产管理监管里程碑",
+   "market": ""
+  }
+ },
+ {
+  "id": 41185,
+  "is_event": false
+ },
+ {
+  "id": 41199,
+  "is_event": false
+ },
+ {
+  "id": 41200,
+  "is_event": true,
+  "event": {
+   "key": "港交所-买卖盘价格限制收紧-20261026",
+   "name": "港交所：所有证券买卖盘价格限制门槛由9倍收紧为5倍（11月2日生效）",
+   "category": "政策法规",
+   "tags": [
+    "交易规则"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-11-02",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "港股交易规则",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "港交所公告：香港证监会批准规则修订，2026-11-02起生效"
+    }
+   ],
+   "watch": [],
+   "notes": "港股交易规则全市场收紧",
+   "market": ""
+  }
+ },
+ {
+  "id": 41211,
+  "is_event": false
+ },
+ {
+  "id": 41213,
+  "is_event": false
+ },
+ {
+  "id": 41224,
+  "is_event": true,
+  "event": {
+   "key": "商务部-商业秘密特别规定-20261026",
+   "name": "商务部就《保护中国商业秘密特别规定（征求意见稿）》公开征求意见",
+   "category": "政策法规",
+   "tags": [
+    "贸易法规"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "外贸/知识产权",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "商务部起草《保护中国商业秘密特别规定（征求意见稿）》向社会征求意见"
+    }
+   ],
+   "watch": [],
+   "notes": "对外贸易法配套，商业秘密跨境保护框架",
+   "market": ""
+  }
+ },
+ {
+  "id": 41229,
+  "is_event": false
+ },
+ {
+  "id": 41258,
+  "is_event": false
+ },
+ {
+  "id": 41267,
+  "is_event": false
+ },
+ {
+  "id": 41275,
+  "is_event": true,
+  "event": {
+   "key": "美国ITC-集装箱底盘双反日落复审-20261021",
+   "name": "美国ITC对中国集装箱拖车底盘双反日落复审作出肯定性产业损害终裁，现行措施继续",
+   "category": "行业事件",
+   "tags": [
+    "反倾销税"
+   ],
+   "importance": "低",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-21",
+   "land_date": "2026-10-21",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "出口链/拖车配件",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "label": "ITC投票裁定若取消现行措施，国内产业实质损害可能继续/再度发生，现行反倾销与反补贴措施继续有效"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "财联社刊发该终裁消息"
+    }
+   ],
+   "watch": [],
+   "notes": "对华拖车底盘出口限制延续",
+   "market": ""
+  }
+ },
+ {
+  "id": 41296,
+  "is_event": false
+ },
+ {
+  "id": 41300,
+  "is_event": false
+ },
+ {
+  "id": 41306,
+  "is_event": false
+ },
+ {
+  "id": 41326,
+  "is_event": false
+ },
+ {
+  "id": 41327,
+  "is_event": false
+ },
+ {
+  "id": 41338,
+  "is_event": false
+ },
+ {
+  "id": 41339,
+  "is_event": false
+ },
+ {
+  "id": 41340,
+  "is_event": true,
+  "event": {
+   "key": "欧盟-450亿欧元乌克兰贷款-20261026",
+   "name": "欧盟拟以预算担保设立450亿欧元乌克兰贷款计划（年内敲定）",
+   "category": "政策法规",
+   "tags": [
+    "财政"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": 3450.0,
+   "amount": "约450亿欧元（约合人民币3450亿元）",
+   "sector": "欧洲/主权财政",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "财联社：欧盟领导人寻求年底前敲定由欧盟预算担保的450亿欧元乌克兰贷款"
+    }
+   ],
+   "watch": [],
+   "notes": "欧洲财政腾的大额动向",
+   "market": ""
+  }
+ },
+ {
+  "id": 41341,
+  "is_event": false
+ },
+ {
+  "id": 41348,
+  "is_event": true,
+  "event": {
+   "key": "C-V2X-强标制定启动-20261026",
+   "name": "相关部门据说已启动车辆强制安装 C-V2X 强标制定工作（营运车辆先行）",
+   "category": "政策法规",
+   "tags": [
+    "行业标准"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "汽车电子/车联网",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "知情人士：强标制定工作组已成立，几十家单位参与；营运车辆此前已被要求安装，25个月过渡后全面强制"
+    }
+   ],
+   "watch": [],
+   "notes": "车联网产业链规模化的大杠杆，若落地即全车型强制安装",
+   "market": ""
+  }
+ },
+ {
+  "id": 41372,
+  "is_event": false
+ },
+ {
+  "id": 41379,
+  "is_event": false
+ },
+ {
+  "id": 41384,
+  "is_event": true,
+  "event": {
+   "key": "新三板-交易风险提示新规-20261026",
+   "name": "新三板股票交易风险提示新要求 11月2日起实施（逐笔/二次弹窗等四大调整）",
+   "category": "政策法规",
+   "tags": [
+    "交易规则"
+   ],
+   "importance": "低",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-11-02",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "新三板交易规则",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "股转公司要求11-02起实施：权限开通后60交易日内逐笔弹窗、买入环节两次风险提示、名单按股权集中度/流动性确定等"
+    }
+   ],
+   "watch": [],
+   "notes": "新三板交易保护稳健圈收窄",
+   "market": ""
+  }
+ },
+ {
+  "id": 41392,
+  "is_event": true,
+  "event": {
+   "key": "香港证监会-代币化基金VATP交易-20261026",
+   "name": "香港证监会批准首批合规公募代币化基金在持牌虚拟资产平台 7×24 二级市场交易（全球首创）",
+   "category": "政策法规",
+   "tags": [
+    "数字资产"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-10-26",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "数字资产/公募基金",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "香港证监会发文：批准首批代币化货币市场基金在持牌VATP上全天候二级市场交易，同步列明公平定价/流动性/披露保障"
+    }
+   ],
+   "watch": [],
+   "notes": "公募与虚拟资产通道打通，全球资产管理监管里程碑",
+   "market": ""
+  }
+ },
+ {
+  "id": 41394,
+  "is_event": true,
+  "event": {
+   "key": "20届5中全会-开幕-20261026",
+   "name": "二十届五中全会开幕，将讨论《关于持之以恒推进全面从严治党若干重大问题的决定》",
+   "category": "政策法规",
+   "tags": [
+    "宏观"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "宏观",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "上午在北京开始举行，总书记代表政治局作工作报告并就《决定（讨论稿）》作说明（新华社）"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-29",
+     "label": "观察：全会闭幕（公报发布）"
+    }
+   ],
+   "notes": "最高层级会议，闭幕公报为宏观/制度级方向信号",
+   "market": ""
+  }
+ },
+ {
+  "id": 41413,
+  "is_event": true,
+  "event": {
+   "key": "七部门-新型电池十五五规划-20261026",
+   "name": "工信部等七部门印发《新型电池产业发展'十五五'规划》：2030年全固态电池初步规模化",
+   "category": "政策法规",
+   "tags": [
+    "产业规划"
+   ],
+   "importance": "高",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-10-26",
+   "status": "已落地",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "电池/固态电池",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "财联社援引规划：到2030年产业规模稳步增长、新体系电池研发重大进展、全固态初步规模化、长寿命锂电池循环寿命15000次"
+    }
+   ],
+   "watch": [],
+   "notes": "固态电池产业化目标首次写入部委规划",
+   "market": ""
+  }
+ },
+ {
+  "id": 41427,
+  "is_event": false
+ },
+ {
+  "id": 41456,
+  "is_event": false
+ },
+ {
+  "id": 41468,
+  "is_event": false
+ },
+ {
+  "id": 41472,
+  "is_event": true,
+  "event": {
+   "key": "SpaceX-400亿美元GPU债务融资-20261026",
+   "name": "SpaceX 完成400亿美元GPU设备债务融资（信贷交易定价最高至8.75%）",
+   "category": "公司大事件",
+   "tags": [
+    "债务融资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-10-26",
+   "status": "已落地",
+   "amount_yi": 2856.0,
+   "amount": "约400亿美元（约合人民币2860亿元）",
+   "sector": "商业航天/AI算力",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "阿波罗及合作伙伴与SpaceX签署约400亿美元GPU设备融资租赁协议，债券定价最高至8.75%"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "马斯克确认融资完成、资金用于采购GPU；标普随后表示维持其评级不变"
+    }
+   ],
+   "watch": [],
+   "notes": "AI算力史上最大民间债务融资之一；分化的债务环境开始精准检验无自有营收的AI资产",
+   "market": ""
+  }
+ },
+ {
+  "id": 41498,
+  "is_event": false
+ },
+ {
+  "id": 41502,
+  "is_event": true,
+  "event": {
+   "key": "世茂集团-债务违约-20261026",
+   "name": "世茂集团：90.7亿美元离岸债务工具发生违约事件（清盘呈请60日未撤销触发）",
+   "category": "公司大事件",
+   "tags": [
+    "债券违约"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "2026-10-26",
+   "status": "已落地",
+   "amount_yi": 647.0,
+   "amount": "约90.7亿美元（约合人民币647亿元）",
+   "sector": "房地产",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "港交所公告：国通信托清盘呈请送达后连续60日内未被撤销/中止，90.7亿美元离岸债务工具自动即时到期须支付；公司拟极力反对"
+    }
+   ],
+   "watch": [],
+   "notes": "地产美元债风险闭环的又一标志性事件",
+   "market": ""
+  }
+ },
+ {
+  "id": 41516,
+  "is_event": true,
+  "event": {
+   "key": "SK海力士-股东回报计划-20261026",
+   "name": "SK海力士 据悉将宣布约50万亿~60万亿韩元股东回报计划（含约16万亿韩元特别股息）",
+   "category": "公司大事件",
+   "tags": [
+    "分红回购"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-26",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": null,
+   "amount": "50万亿~60万亿韩元（约合341亿~409亿美元）；另报道称其中约16万亿韩元特别股息",
+   "sector": "半导体存储",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-26",
+     "label": "【影响】据报道拟以铠侠出售收益约80%派发近16万亿韩元特别股息"
+    },
+    {
+     "date": "2026-10-27",
+     "label": "韩国媒体据内部人士：准备于10月28日宣布50万亿~60万亿韩元股东回报计划"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-28",
+     "label": "待官宣：SK海力士三季报发布会或宣布派息计划"
+    }
+   ],
+   "notes": "存储行情核心标的的超大额股东回报，官宣或带动全球存储链定价",
+   "market": ""
+  }
+ },
+ {
+  "id": 41523,
+  "is_event": false
+ },
+ {
+  "id": 41544,
+  "is_event": false
+ },
+ {
+  "id": 41551,
+  "is_event": true,
+  "event": {
+   "key": "软银-马来西亚500亿美元投资-20261025",
+   "name": "软银据悉计划在马来西亚投资500亿美元建设AI基础设施",
+   "category": "公司大事件",
+   "tags": [
+    "海外投资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-25",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": 3570.0,
+   "amount": "约500亿美元（约合人民币3570亿元）",
+   "sector": "AI基础设施",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "label": "马来西亚总理表示孙正义计划在马来西亚进行500亿美元科技投资"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "据报道软银计划在马来西亚投资500亿美元建设AI基础设施"
+    }
+   ],
+   "watch": [],
+   "notes": "跨国大额AI投资，落地细节待官宣",
+   "market": ""
+  }
+ },
+ {
+  "id": 41569,
+  "is_event": false
+ },
+ {
+  "id": 41572,
+  "is_event": false
+ },
+ {
+  "id": 41592,
+  "is_event": false
+ },
+ {
+  "id": 41595,
+  "is_event": false
+ },
+ {
+  "id": 41596,
+  "is_event": true,
+  "event": {
+   "key": "豫能控股-濮阳综合能源项目-20261025",
+   "name": "豫能控股子公司拟投建濮阳综合能源项目，动态总投资139.27亿元（2×1000MW煤电+1200MW风电）",
+   "category": "公司大事件",
+   "tags": [
+    "项目投资"
+   ],
+   "importance": "中",
+   "level": 3,
+   "scope": "watch",
+   "signal_date": "2026-10-25",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 139.27,
+   "amount": "煤电机组动态总投资84.39亿元+风电54.88亿元",
+   "sector": "电力/能源",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "label": "公司公告：子公司豫能（濮阳）智慧能源拟投资建设综合能源项目，实施后新增2000MW煤电、1200MW风电装机"
+    }
+   ],
+   "watch": [],
+   "notes": "公司向综合能源服务商转型的大额投资",
+   "market": ""
+  }
+ },
+ {
+  "id": 41597,
+  "is_event": true,
+  "event": {
+   "key": "科瑞思-拟购宏钢光电-20261025",
+   "name": "科瑞思拟发行股份及支付现金购买宏钢光电100%股份，10-26起复牌",
+   "category": "公司大事件",
+   "tags": [
+    "并购"
+   ],
+   "importance": "低",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-25",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "交易金额待披露（发行股份及支付现金）",
+   "sector": "激光器/光通信器件",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "label": "公司公告：拟购宏钢光电100%股份并募集配套资金；经申请股票10-26开市起复牌；标的主营封装壳体及高功率光纤激光器芯片热沉"
+    }
+   ],
+   "watch": [],
+   "notes": "小市值跨界并购，热沉材料是半导体散热热门赛道",
+   "market": ""
+  }
+ },
+ {
+  "id": 41604,
+  "is_event": true,
+  "event": {
+   "key": "三利谱-莆田产线项目-20261025",
+   "name": "三利谱拟约5亿元将深圳宽幅偏光片产线迁至莆田并技术升级（聚焦车载显示）",
+   "category": "公司大事件",
+   "tags": [
+    "项目投资"
+   ],
+   "importance": "低",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-25",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": 5.0,
+   "amount": "项目总投资约5亿元",
+   "sector": "偏光片/面板材料",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "label": "公司公告：与莆田市城厢区政府签订投资协议，深圳光明1490mm宽幅产线迁移升级，达产后年产值增5亿+"
+    }
+   ],
+   "watch": [],
+   "notes": "产能基地迁移与产品结构升级",
+   "market": ""
+  }
+ },
+ {
+  "id": 41615,
+  "is_event": true,
+  "event": {
+   "key": "高能环境-证券简称变更-20261025",
+   "name": "高能环境：证券简称10月29日起改为'高能时代'（资源循环业务占比87.55%，推进H股上市）",
+   "category": "公司大事件",
+   "tags": [
+    "更名",
+    "H股"
+   ],
+   "importance": "低",
+   "level": 1,
+   "scope": "watch",
+   "signal_date": "2026-10-25",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "",
+   "sector": "环保/资源循环利用",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "label": "公司公告：10-29起证券简称改为'高能时代'，代码603588不变；行业分类已变更为废弃资源综合利用业，已递交H股上市申请"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-29",
+     "label": "落地：证券简称变更生效"
+    }
+   ],
+   "notes": "业务结构根本性重塑信号",
+   "market": ""
+  }
+ },
+ {
+  "id": 41616,
+  "is_event": true,
+  "event": {
+   "key": "高争民爆-筹划矿业资产重组-20261025",
+   "name": "高争民爆停牌筹划发行股份购买西藏三家矿业公司股权（拟构成重大资产重组）",
+   "category": "公司大事件",
+   "tags": [
+    "并购"
+   ],
+   "importance": "中",
+   "level": 2,
+   "scope": "watch",
+   "signal_date": "2026-10-25",
+   "land_date": "",
+   "status": "进行中",
+   "amount_yi": null,
+   "amount": "金额以停牌期内披露方案为准",
+   "sector": "矿业/民爆",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "label": "公司公告：拟收购西藏紫隆矿业51%、紫源铜业51%及晟源矿业100%股权并募集配套资金，构成重大资产重组及关联交易；10-26起停牌"
+    }
+   ],
+   "watch": [
+    {
+     "date": "2026-10-31",
+     "label": "观察：不超过5个交易日内披露方案并申请复牌"
+    }
+   ],
+   "notes": "西藏矿业资源资产化的集团级整合（民爆×有色联动）",
+   "market": ""
+  }
+ },
+ {
+  "id": 41617,
+  "is_event": true,
+  "event": {
+   "key": "软银-马来西亚500亿美元投资-20261025",
+   "name": "软银据悉计划在马来西亚投资500亿美元建设AI基础设施",
+   "category": "公司大事件",
+   "tags": [
+    "海外投资"
+   ],
+   "importance": "高",
+   "level": 4,
+   "scope": "watch",
+   "signal_date": "2026-10-25",
+   "land_date": "",
+   "status": "待关注",
+   "amount_yi": 3570.0,
+   "amount": "约500亿美元（约合人民币3570亿元）",
+   "sector": "AI基础设施",
+   "sources": [
+    {
+     "name": "财联社电报",
+     "org": "财联社",
+     "url": "",
+     "role": "info"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "label": "马来西亚总理表示孙正义计划在马来西亚进行500亿美元科技投资"
+    },
+    {
+     "date": "2026-10-26",
+     "label": "据报道软银计划在马来西亚投资500亿美元建设AI基础设施"
+    }
+   ],
+   "watch": [],
+   "notes": "跨国大额AI投资，落地细节待官宣",
+   "market": ""
+  }
+ },
+ {
+  "id": 41625,
+  "is_event": false
+ }
+]
